@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/SPLTraceabilityPlayground.iml" filepath="$PROJECT_DIR$/.idea/SPLTraceabilityPlayground.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/SPLTrac.iml" filepath="$PROJECT_DIR$/.idea/SPLTrac.iml" />
     </modules>
   </component>
 </project>
