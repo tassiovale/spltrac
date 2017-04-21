@@ -13,22 +13,22 @@ class ClassicVectorModel:
         similarities = {}
 
         for document in self.pre_processor.get_documents():
-            sum_weights = 0.0
-            document_norm = 0.0
+            sum_query_document_weights = 0.0
+            pre_vector_norm = 0.0
 
             for (term, index_by_term) in self.pre_processor.get_inverted_index().items():
                 if document in index_by_term:
-                    document_norm += numpy.square(index_by_term[document].weight)
+                    pre_vector_norm += numpy.square(index_by_term[document].weight)
                 if term in features:
                     index_by_term = self.pre_processor.get_inverted_index()[term]
                     if document in index_by_term:
                         term_document_ocurrences = self.pre_processor.get_term_document_frequency(term)
                         idf = numpy.math.log((self.pre_processor.get_num_files() / term_document_ocurrences), 2)
-                        tf = index_by_term[document].weight
-                        sum_weights += tf * idf
+                        tf = 1 + numpy.math.log(index_by_term[document].frequency, 2)
+                        sum_query_document_weights += tf * idf
 
-            if document_norm != 0:
-                similarities[document] = sum_weights / numpy.sqrt(document_norm)
+            if pre_vector_norm != 0:
+                similarities[document] = sum_query_document_weights / numpy.sqrt(pre_vector_norm)
             else:
                 similarities[document] = 0
 
@@ -42,6 +42,6 @@ class ClassicVectorModel:
                 for (document, similarity) in query_similarities.items():
                     print(repr(document).ljust(50), repr(str(similarity)).ljust(10))
             except KeyError:
-                print('WARNING: feature not traced')
+                print('WARNING: feature *' + feature_name + '* not traced')
         else:
             print('ERROR: *' + feature_name + '* is a stopword')

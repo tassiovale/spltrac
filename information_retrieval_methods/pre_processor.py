@@ -31,7 +31,7 @@ class SPLProjectPreProcessor:
         elif language == 'java':
             self.count_term_document_frequency(project, '.java')
 
-        stop_word_file = open('files/stopwords_' + language + '.dat', "r")
+        stop_word_file = open('../files/stopwords_' + language + '.dat', "r")
         self.stop_words = [line.strip() for line in stop_word_file]
         stop_word_file.close()
 
