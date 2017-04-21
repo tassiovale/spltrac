@@ -15,6 +15,7 @@ class SPLProjectPreProcessor:
         self.stop_words = []
         self.inverted_index = {}
         self.index_terms = set()
+        self.documents = set()
         self.generate_index(project, language)
 
     def generate_index(self, project, language):
@@ -42,6 +43,7 @@ class SPLProjectPreProcessor:
         """
         for file_name in glob.iglob(project + '/**/*' + file_extension, recursive=True):
             self.num_files += 1
+            self.documents.add(file_name)
 
             # reading file
             source_file = open(file_name, 'r')
@@ -82,3 +84,6 @@ class SPLProjectPreProcessor:
 
     def get_index_terms(self):
         return self.index_terms
+
+    def get_documents(self):
+        return self.documents

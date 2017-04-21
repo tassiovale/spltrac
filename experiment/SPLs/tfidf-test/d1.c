@@ -1,2 +1,2 @@
-To do is to be.
-To be is to do.
+To dos is to be.
+To be is to dos.

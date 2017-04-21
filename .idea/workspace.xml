@@ -2,31 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="beb1f368-61e7-4ea0-b5cc-680ebde3c137" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/experiment/files/config_file_backup.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features_extraction/extractor.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/information_retrieval_methods/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/information_retrieval_methods/algebraic/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/information_retrieval_methods/algebraic/classic_vector_runner.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/information_retrieval_methods/algebraic/neural_networks.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/information_retrieval_methods/algebraic/neural_networks_runner.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/information_retrieval_methods/pre_processor.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/information_retrieval_methods/probabilistic/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/information_retrieval_methods/probabilistic/bm25.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/information_retrieval_methods/probabilistic/runner.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/information_retrieval_methods/set_theoretic/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/information_retrieval_methods/set_theoretic/extended_boolean.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/information_retrieval_methods/set_theoretic/runner.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/information_retrieval_methods/term_weigthing/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/information_retrieval_methods/term_weigthing/runner.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/ir_method_runner.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/information_retrieval_methods/tfidf/runner.py" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/information_retrieval_methods/tfidf/__init__.py" afterPath="$PROJECT_DIR$/evaluation/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/information_retrieval_methods/tfidf/tfidf.py" afterPath="$PROJECT_DIR$/information_retrieval_methods/term_weigthing/tfidf.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/information_retrieval_methods/vectormodel/__init__.py" afterPath="$PROJECT_DIR$/features_extraction/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/information_retrieval_methods/vectormodel/vectormodel.py" afterPath="$PROJECT_DIR$/information_retrieval_methods/algebraic/classic_vector.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiment/files/config_file.dat" afterPath="$PROJECT_DIR$/experiment/files/config_file.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiment/SPLs/tfidf-test/d1.c" afterPath="$PROJECT_DIR$/experiment/SPLs/tfidf-test/d1.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiment/SPLs/tfidf-test/d3.c" afterPath="$PROJECT_DIR$/experiment/SPLs/tfidf-test/d3.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiment/SPLs/tfidf-test/d4.c" afterPath="$PROJECT_DIR$/experiment/SPLs/tfidf-test/d4.c" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiment/main.py" afterPath="$PROJECT_DIR$/experiment/main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features_extraction/extractor.py" afterPath="$PROJECT_DIR$/features_extraction/extractor.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/information_retrieval_methods/algebraic/classic_vector.py" afterPath="$PROJECT_DIR$/information_retrieval_methods/algebraic/classic_vector.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/information_retrieval_methods/algebraic/classic_vector_runner.py" afterPath="$PROJECT_DIR$/information_retrieval_methods/algebraic/classic_vector_runner.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/information_retrieval_methods/pre_processor.py" afterPath="$PROJECT_DIR$/information_retrieval_methods/pre_processor.py" />
     </list>
     <ignored path="SPLTraceabilityPlayground.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,11 +30,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="tfidf.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tfidf.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/information_retrieval_methods/term_weigthing/tfidf.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="300">
+              <caret line="20" column="87" lean-forward="true" selection-start-line="20" selection-start-column="87" selection-end-line="20" selection-end-column="87" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="classic_vector.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/information_retrieval_methods/algebraic/classic_vector.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" column="80" lean-forward="true" selection-start-line="30" selection-start-column="80" selection-end-line="30" selection-end-column="80" />
               <folding />
             </state>
           </provider>
@@ -60,51 +54,7 @@
         <entry file="file://$PROJECT_DIR$/features_extraction/extractor.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="20" column="39" lean-forward="false" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="runner.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/information_retrieval_methods/term_weigthing/runner.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="58" lean-forward="false" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pre_processor.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/information_retrieval_methods/pre_processor.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="67" column="61" lean-forward="true" selection-start-line="64" selection-start-column="20" selection-end-line="67" selection-end-column="61" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/experiment/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="39" column="58" lean-forward="false" selection-start-line="39" selection-start-column="58" selection-end-line="39" selection-end-column="58" />
-              <folding>
-                <element signature="e#0#78#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="classic_vector.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/information_retrieval_methods/algebraic/classic_vector.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -113,9 +63,21 @@
       <file leaf-file-name="classic_vector_runner.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/information_retrieval_methods/algebraic/classic_vector_runner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="62" lean-forward="false" selection-start-line="0" selection-start-column="62" selection-end-line="0" selection-end-column="62" />
+            <state relative-caret-position="360">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/experiment/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="780">
+              <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#78#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -164,10 +126,7 @@
         <option value="$PROJECT_DIR$/experiment/files/stopwords_java.dat" />
         <option value="$PROJECT_DIR$/information_retrieval_methods/tfidf/corpus_generator.py" />
         <option value="$PROJECT_DIR$/information_retrieval_methods/vectormodel/vectormodel.py" />
-        <option value="$PROJECT_DIR$/experiment/SPLs/tfidf-test/d1.c" />
         <option value="$PROJECT_DIR$/experiment/SPLs/tfidf-test/d2.c" />
-        <option value="$PROJECT_DIR$/experiment/SPLs/tfidf-test/d3.c" />
-        <option value="$PROJECT_DIR$/experiment/SPLs/tfidf-test/d4.c" />
         <option value="$PROJECT_DIR$/information_retrieval_methods/tfidf/runner.py" />
         <option value="$PROJECT_DIR$/experiment/ir_method_runner.py" />
         <option value="$PROJECT_DIR$/information_retrieval_methods/tfidf/tfidf.py" />
@@ -183,21 +142,25 @@
         <option value="$PROJECT_DIR$/information_retrieval_methods/ir_method_runner.py" />
         <option value="$PROJECT_DIR$/features_extraction/feature_extractor.py" />
         <option value="$PROJECT_DIR$/information_retrieval_methods/term_weigthing/tfidf_runner.py" />
-        <option value="$PROJECT_DIR$/information_retrieval_methods/pre_processor.py" />
         <option value="$PROJECT_DIR$/experiment/files/config_file.dat" />
-        <option value="$PROJECT_DIR$/information_retrieval_methods/algebraic/classic_vector_runner.py" />
-        <option value="$PROJECT_DIR$/experiment/main.py" />
-        <option value="$PROJECT_DIR$/features_extraction/extractor.py" />
-        <option value="$PROJECT_DIR$/information_retrieval_methods/algebraic/classic_vector.py" />
         <option value="$PROJECT_DIR$/information_retrieval_methods/term_weigthing/runner.py" />
         <option value="$PROJECT_DIR$/information_retrieval_methods/term_weigthing/tfidf.py" />
+        <option value="$PROJECT_DIR$/experiment/main.py" />
+        <option value="$PROJECT_DIR$/information_retrieval_methods/pre_processor.py" />
+        <option value="$PROJECT_DIR$/information_retrieval_methods/algebraic/classic_vector_runner.py" />
+        <option value="$PROJECT_DIR$/experiment/SPLs/tfidf-test/d1.c" />
+        <option value="$PROJECT_DIR$/experiment/SPLs/tfidf-test/d3.c" />
+        <option value="$PROJECT_DIR$/experiment/SPLs/tfidf-test/d4.c" />
+        <option value="$PROJECT_DIR$/features_extraction/extractor.py" />
+        <option value="$PROJECT_DIR$/information_retrieval_methods/algebraic/classic_vector.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="1280" />
     <option name="y" value="23" />
-    <option name="width" value="1276" />
-    <option name="height" value="777" />
+    <option name="width" value="1916" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -355,6 +318,46 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="files" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SPLTrac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spltrac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="experiment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SPLs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tfidf-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SPLTrac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spltrac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="experiment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SPLs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -652,6 +655,14 @@
       <option name="presentableId" value="Default" />
       <updated>1469120245011</updated>
     </task>
+    <task id="LOCAL-00001" summary="Updating TF-IDF implementation&#10;Modularization of preprocessor, feature extractor and algorithms codes">
+      <created>1492567084301</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1492567084301</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -663,16 +674,16 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1276" height="777" extended-state="6" />
+    <frame x="1280" y="23" width="1916" height="1057" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3346395" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22286013" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909605" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32692307" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6299435" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44534412" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -716,9 +727,13 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Updating TF-IDF implementation&#10;Modularization of preprocessor, feature extractor and algorithms codes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating TF-IDF implementation&#10;Modularization of preprocessor, feature extractor and algorithms codes" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -807,34 +822,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/learning/examples/examples.py" />
     <entry file="file://$PROJECT_DIR$/information_retrieval_methods/tfidf/corpus_generator.py" />
-    <entry file="file://$PROJECT_DIR$/experiment/SPLs/tfidf-test/d1.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="15" lean-forward="false" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/experiment/SPLs/tfidf-test/d2.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="15" lean-forward="false" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/experiment/SPLs/tfidf-test/d3.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="15" lean-forward="false" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/experiment/SPLs/tfidf-test/d4.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/information_retrieval_methods/probabilistic/bm25.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -915,28 +902,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/information_retrieval_methods/algebraic/classic_vector_runner.py">
+    <entry file="file://$PROJECT_DIR$/information_retrieval_methods/term_weigthing/runner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="62" lean-forward="false" selection-start-line="0" selection-start-column="62" selection-end-line="0" selection-end-column="62" />
+        <state relative-caret-position="345">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/experiment/main.py">
+    <entry file="file://$PROJECT_DIR$/information_retrieval_methods/pre_processor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="39" column="58" lean-forward="false" selection-start-line="39" selection-start-column="58" selection-end-line="39" selection-end-column="58" />
+        <state relative-caret-position="263">
+          <caret line="56" column="35" lean-forward="true" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
           <folding>
-            <element signature="e#0#78#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiment/SPLs/tfidf-test/d1.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiment/SPLs/tfidf-test/d2.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="15" lean-forward="false" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiment/SPLs/tfidf-test/d4.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiment/SPLs/tfidf-test/d3.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/information_retrieval_methods/term_weigthing/tfidf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="87" lean-forward="true" selection-start-line="20" selection-start-column="87" selection-end-line="20" selection-end-column="87" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/information_retrieval_methods/algebraic/classic_vector.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        <state relative-caret-position="450">
+          <caret line="30" column="80" lean-forward="true" selection-start-line="30" selection-start-column="80" selection-end-line="30" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/information_retrieval_methods/algebraic/classic_vector_runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -944,34 +979,18 @@
     <entry file="file://$PROJECT_DIR$/features_extraction/extractor.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="20" column="39" lean-forward="false" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/information_retrieval_methods/term_weigthing/runner.py">
+    <entry file="file://$PROJECT_DIR$/experiment/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="58" lean-forward="false" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/information_retrieval_methods/pre_processor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="67" column="61" lean-forward="true" selection-start-line="64" selection-start-column="20" selection-end-line="67" selection-end-column="61" />
+        <state relative-caret-position="780">
+          <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#78#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/information_retrieval_methods/term_weigthing/tfidf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>

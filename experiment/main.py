@@ -2,6 +2,7 @@ from information_retrieval_methods.pre_processor import SPLProjectPreProcessor
 from features_extraction.extractor import FeatureExtractor
 from information_retrieval_methods.term_weigthing.tfidf import calculate_weights
 from information_retrieval_methods.term_weigthing.runner import TfIdfRunner
+from information_retrieval_methods.algebraic.classic_vector_runner import ClassicVectorRunner
 
 
 def get_projects_dictionary(config_file_name='files/config_file.dat'):
@@ -41,6 +42,8 @@ for (project, language) in get_projects_dictionary():
     tfidf.run()
 
     # Algebraic - classic vector model
+    classic_vector = ClassicVectorRunner(pre_processor, features_dictionary)
+    classic_vector.run()
 
     # Algebraic - neural networks model
 
