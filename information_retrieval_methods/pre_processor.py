@@ -15,7 +15,7 @@ class SPLProjectPreProcessor:
         self.stop_words = []
         self.inverted_index = {}
         self.index_terms = set()
-        self.documents = set()
+        self.documents = {}
         self.generate_index(project, language)
 
     def generate_index(self, project, language):
@@ -26,16 +26,16 @@ class SPLProjectPreProcessor:
         """
 
         if language == 'c':
-            self.count_term_document_frequency(project, '.c')
-            self.count_term_document_frequency(project, '.h')
+            self.analyze_term_document_frequency(project, '.c')
+            self.analyze_term_document_frequency(project, '.h')
         elif language == 'java':
-            self.count_term_document_frequency(project, '.java')
+            self.analyze_term_document_frequency(project, '.java')
 
         stop_word_file = open('../files/stopwords_' + language + '.dat', "r")
         self.stop_words = [line.strip() for line in stop_word_file]
         stop_word_file.close()
 
-    def count_term_document_frequency(self, project, file_extension):
+    def analyze_term_document_frequency(self, project, file_extension):
         """This method builds the inverted index for terms and related documents.
 
            It is responsible for creating the data structure to store term-document data
@@ -43,7 +43,6 @@ class SPLProjectPreProcessor:
         """
         for file_name in glob.iglob(project + '/**/*' + file_extension, recursive=True):
             self.num_files += 1
-            self.documents.add(file_name)
 
             # reading file
             source_file = open(file_name, 'r')
@@ -52,6 +51,7 @@ class SPLProjectPreProcessor:
 
             tokenizer = RegexpTokenizer(r'[\w\']+')  # get tokens, removing punctuation and other single characters
             tokens = tokenizer.tokenize(file_content.lower())  # get tokens in lower case
+            self.documents[file_name] = len(tokens)
 
             # counting frequencies for a specific file
             file_counter = Counter(tokens)
@@ -69,7 +69,7 @@ class SPLProjectPreProcessor:
                     except KeyError:
                         self.inverted_index[term] = aux_index
 
-    def get_term_document_frequency(self, term):
+    def get_docs_per_term(self, term):
         doc_term_dictionary = self.inverted_index[term]
         return len(doc_term_dictionary.keys())
 
@@ -87,3 +87,6 @@ class SPLProjectPreProcessor:
 
     def get_documents(self):
         return self.documents
+
+    def get_document_length(self, file_name):
+        return self.documents[file_name]

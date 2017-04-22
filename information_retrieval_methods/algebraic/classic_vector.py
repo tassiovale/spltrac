@@ -1,47 +1,54 @@
 import numpy
 
-class ClassicVectorModel:
+def classic_vector_run(features_dictionary, pre_processor):
+    """Executes the term weighting calculation.
 
-    def __init__(self, features_dictionary, pre_processor):
+       Body.
+    """
 
-        self.features_dictionary = features_dictionary
-        self.pre_processor = pre_processor
+    print('--------------------------------------------')
+    print('            CLASSIC VECTOR MODEL')
+    print('--------------------------------------------')
 
-    def calculate_similarities(self, feature_name):
+    for feature_name in features_dictionary.keys():
+        query_similarities = calculate_similarities(features_dictionary, pre_processor, feature_name)
+        print(print_similarity_results(pre_processor, feature_name, query_similarities))
 
-        features = self.features_dictionary[feature_name]
-        similarities = {}
+def calculate_similarities(features_dictionary, pre_processor, feature_name):
 
-        for document in self.pre_processor.get_documents():
-            sum_query_document_weights = 0.0
-            pre_vector_norm = 0.0
+    features = features_dictionary[feature_name]
+    similarities = {}
 
-            for (term, index_by_term) in self.pre_processor.get_inverted_index().items():
+    for document in pre_processor.get_documents().keys():
+        sum_query_document_weights = 0.0
+        pre_vector_norm = 0.0
+
+        for (term, index_by_term) in pre_processor.get_inverted_index().items():
+            if document in index_by_term:
+                pre_vector_norm += numpy.square(index_by_term[document].weight)
+            if term in features:
+                index_by_term = pre_processor.get_inverted_index()[term]
                 if document in index_by_term:
-                    pre_vector_norm += numpy.square(index_by_term[document].weight)
-                if term in features:
-                    index_by_term = self.pre_processor.get_inverted_index()[term]
-                    if document in index_by_term:
-                        term_document_ocurrences = self.pre_processor.get_term_document_frequency(term)
-                        idf = numpy.math.log((self.pre_processor.get_num_files() / term_document_ocurrences), 2)
-                        tf = 1 + numpy.math.log(index_by_term[document].frequency, 2)
-                        sum_query_document_weights += tf * idf
+                    term_document_ocurrences = pre_processor.get_docs_per_term(term)
+                    idf = numpy.math.log((pre_processor.get_num_files() / term_document_ocurrences), 2)
+                    tf = 1 + numpy.math.log(index_by_term[document].frequency, 2)
+                    sum_query_document_weights += tf * idf
 
-            if pre_vector_norm != 0:
-                similarities[document] = sum_query_document_weights / numpy.sqrt(pre_vector_norm)
-            else:
-                similarities[document] = 0
-
-        return similarities
-
-    def print_similarity_results(self, feature_name, query_similarities):
-        if feature_name not in self.pre_processor.get_stop_words():
-            try:
-                print('\n' + repr('FEATURE: ' + feature_name).ljust(10))
-                print(repr('DOCUMENT').ljust(50), repr('IDF').ljust(10))
-                for (document, similarity) in query_similarities.items():
-                    print(repr(document).ljust(50), repr(str(similarity)).ljust(10))
-            except KeyError:
-                print('WARNING: feature *' + feature_name + '* not traced')
+        if pre_vector_norm != 0:
+            similarities[document] = sum_query_document_weights / numpy.sqrt(pre_vector_norm)
         else:
-            print('ERROR: *' + feature_name + '* is a stopword')
+            similarities[document] = 0
+
+    return similarities
+
+def print_similarity_results(pre_processor, feature_name, query_similarities):
+    if feature_name not in pre_processor.get_stop_words():
+        try:
+            print('\n' + repr('FEATURE: ' + feature_name).ljust(10))
+            print(repr('DOCUMENT').ljust(50), repr('IDF').ljust(10))
+            for (document, similarity) in query_similarities.items():
+                print(repr(document).ljust(50), repr(str(similarity)).ljust(10))
+        except KeyError:
+            print('WARNING: feature *' + feature_name + '* not traced')
+    else:
+        print('ERROR: *' + feature_name + '* is a stopword')

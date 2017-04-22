@@ -1,9 +1,9 @@
 from information_retrieval_methods.pre_processor import SPLProjectPreProcessor
 from features_extraction.extractor import FeatureExtractor
-from information_retrieval_methods.term_weigthing.tfidf import calculate_weights
-from information_retrieval_methods.term_weigthing.runner import TfIdfRunner
-from information_retrieval_methods.algebraic.classic_vector_runner import ClassicVectorRunner
-from information_retrieval_methods.set_theoretic.runner import ExtendedBooleanRunner
+from information_retrieval_methods.term_weigthing.tfidf import *
+from information_retrieval_methods.algebraic.classic_vector import classic_vector_run
+from information_retrieval_methods.set_theoretic.extended_boolean import extended_boolean_run
+from information_retrieval_methods.probabilistic.bm25 import bm25_run
 
 
 def get_projects_dictionary(config_file_name='../files/config_file.dat'):
@@ -39,18 +39,15 @@ for (project, language) in get_projects_dictionary():
     features_dictionary = feature_extractor.get_features_dictionary()
 
     # Term weighting algorithm
-    tfidf = TfIdfRunner(pre_processor, features_dictionary)
-    tfidf.run()
+    tfidf_run(features_dictionary, pre_processor)
 
     # Algebraic - classic vector model
-    classic_vector = ClassicVectorRunner(pre_processor, features_dictionary)
-    classic_vector.run()
+    classic_vector_run(features_dictionary, pre_processor)
 
     # Algebraic - neural networks model
 
     # Set theoretic - extended boolean model
-    extended_boolean = ExtendedBooleanRunner(pre_processor, features_dictionary)
-    extended_boolean.run()
+    extended_boolean_run(features_dictionary, pre_processor)
 
     # Probabilistic - BM25 model
-
+    bm25_run(features_dictionary, pre_processor)

@@ -5,6 +5,17 @@ import numpy
 # One of the recommended tf-idf weighting schemes
 # (1 + log fi,j) ∗ log N / ni
 
+def tfidf_run(features_dictionary, pre_processor):
+    """Executes the term weighting calculation.
+
+       Body.
+    """
+
+    print('--------------------------------------------')
+    print('              TERM WEIGHTING')
+    print('--------------------------------------------')
+
+    print(print_tfidf_results(features_dictionary, pre_processor))
 
 def calculate_weights(pre_processor):
     """Calculate the TF-IDF for the specified term.
@@ -14,7 +25,7 @@ def calculate_weights(pre_processor):
      """
 
     for (term, documents_dictionary) in pre_processor.get_inverted_index().items():
-        term_document_ocurrences = pre_processor.get_term_document_frequency(term)
+        term_document_ocurrences = pre_processor.get_docs_per_term(term)
 
         for document_data in documents_dictionary.values():
             tfidf_weight = (1 + numpy.math.log(document_data.frequency, 2)) \
