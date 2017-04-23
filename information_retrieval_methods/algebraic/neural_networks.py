@@ -7,13 +7,13 @@ def neural_network_run(features_dictionary, pre_processor):
        Body.
     """
 
-    print('--------------------------------------------')
-    print('               NEURAL NETWORK')
-    print('--------------------------------------------')
+    # print('--------------------------------------------')
+    # print('               NEURAL NETWORK')
+    # print('--------------------------------------------')
 
     for feature_name in features_dictionary.keys():
         neural_network = calculate_activation_levels(features_dictionary, pre_processor, feature_name)
-        print(print_similarity_results(pre_processor, feature_name, neural_network))
+        # print(print_similarity_results(pre_processor, feature_name, neural_network))
 
 
 def calculate_activation_levels(features_dictionary, pre_processor, feature_name):

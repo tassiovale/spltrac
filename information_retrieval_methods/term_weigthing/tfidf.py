@@ -12,11 +12,13 @@ def tfidf_run(features_dictionary, pre_processor):
        Body.
     """
 
-    print('--------------------------------------------')
-    print('              TERM WEIGHTING')
-    print('--------------------------------------------')
+    # print('--------------------------------------------')
+    # print('              TERM WEIGHTING')
+    # print('--------------------------------------------')
 
-    print(print_tfidf_results(features_dictionary, pre_processor))
+    # print(print_tfidf_results(features_dictionary, pre_processor))
+    pass
+
 
 def calculate_ifidf_weights(pre_processor):
     """Calculate the TF-IDF for the specified term.

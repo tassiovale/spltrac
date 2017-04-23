@@ -7,13 +7,13 @@ def classic_vector_run(features_dictionary, pre_processor):
        Body.
     """
 
-    print('--------------------------------------------')
-    print('            CLASSIC VECTOR MODEL')
-    print('--------------------------------------------')
+    # print('--------------------------------------------')
+    # print('            CLASSIC VECTOR MODEL')
+    # print('--------------------------------------------')
 
     for feature_name in features_dictionary.keys():
         query_similarities = calculate_similarities(features_dictionary, pre_processor, feature_name)
-        print(print_similarity_results(pre_processor, feature_name, query_similarities))
+        # print(print_similarity_results(pre_processor, feature_name, query_similarities))
 
 
 def calculate_similarities(features_dictionary, pre_processor, feature_name):

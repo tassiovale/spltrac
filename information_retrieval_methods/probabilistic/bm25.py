@@ -7,9 +7,9 @@ def bm25_run(features_dictionary, pre_processor):
        Body.
     """
 
-    print('--------------------------------------------')
-    print('                   BM25')
-    print('--------------------------------------------')
+    # print('--------------------------------------------')
+    # print('                   BM25')
+    # print('--------------------------------------------')
 
     # reading k1 and b constant values
     bm25_constants_file = open('../files/bm25_constants.dat', "r")
@@ -19,7 +19,7 @@ def bm25_run(features_dictionary, pre_processor):
 
     for feature_name in features_dictionary.keys():
         query_similarities = calculate_similarities(features_dictionary, pre_processor, feature_name, k1_const, b_const)
-        print(print_similarity_results(pre_processor, feature_name, query_similarities))
+        # print(print_similarity_results(pre_processor, feature_name, query_similarities))
 
 
 def calculate_similarities(features_dictionary, pre_processor, feature_name, k1_const, b_const):
@@ -27,7 +27,6 @@ def calculate_similarities(features_dictionary, pre_processor, feature_name, k1_
     features = features_dictionary[feature_name]
     weights = {}
     similarities = {}
-
 
     avg_document_length = get_avg_document_len(pre_processor)
 

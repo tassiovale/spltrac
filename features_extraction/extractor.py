@@ -30,10 +30,11 @@ class FeatureExtractor:
         elif self.method == 'hyperj':
             self.extract_hyper_j_features()
         else:  # features for the test project called Test-project
-            self.features_dictionary['to'] = ['to', 'dos']
-            self.features_dictionary['da'] = ['da', 'da1', 'da2', 'da3']
+            self.features_dictionary['to'] = ('to',)
+            self.features_dictionary['da'] = ('da',)
 
-        print(self.project + ' - ' + str(self.features_dictionary))
+        self.extract_thesaurus()
+        # print(self.project + ' - ' + str(self.features_dictionary))
 
     def extract_feature_house_features(self):
         exp_files_list = glob.glob(self.project + '/**/*.exp', recursive=True)
@@ -53,12 +54,12 @@ class FeatureExtractor:
             for line in model_m_file:
                 elements = line.split(' ')
                 if ':' in line and elements[0]:
-                    self.features_dictionary[elements[0]] = [elements[0]]
+                    self.features_dictionary[elements[0]] = (elements[0],)
                 for element in elements:
                     if '[' in element:
                         feature = element.replace('[', '')
                         feature = feature.replace(']', '')
-                        self.features_dictionary[feature] = [feature]
+                        self.features_dictionary[feature] = (feature,)
 
     def extract_ahead_features(self):
         self.read_model_xml()
@@ -72,13 +73,13 @@ class FeatureExtractor:
             for folder_name in os.walk(feature_folder_list[0]):
                 if folder_name:
                     feature_name = folder_name[0].split('/')[-1]
-                    self.features_dictionary[feature_name] = [feature_name]
+                    self.features_dictionary[feature_name] = (feature_name,)
 
     def read_features_plain_list_file(self, file_name):
         features_file = open(file_name, "r")
         for feature in [line.strip() for line in features_file]:
             if feature:
-                self.features_dictionary[feature] = [feature]
+                self.features_dictionary[feature] = (feature,)
         features_file.close()
 
     def read_model_xml(self):
@@ -95,7 +96,22 @@ class FeatureExtractor:
         full_list = feature_list + and_list + or_list + alt_list
         for element in full_list:
             feature = element.attributes['name'].value
-            self.features_dictionary[feature] = [feature]
+            self.features_dictionary[feature] = (feature,)
+
+    def extract_thesaurus(self):
+        try:
+            thesaurus_file = open(self.project + '/thesaurus.dat', "r")
+            for line in thesaurus_file:
+                terms = line.strip().split(':')
+                if terms:
+                    key_feature = terms[0]
+                    synonyms = terms[-1].split(',')
+                    for feature in synonyms:
+                        if key_feature in self.features_dictionary:
+                            self.features_dictionary[key_feature] += (feature,)
+            thesaurus_file.close()
+        except FileNotFoundError:
+            print('No thesaurus available')
 
     def get_features_dictionary(self):
         return self.features_dictionary
