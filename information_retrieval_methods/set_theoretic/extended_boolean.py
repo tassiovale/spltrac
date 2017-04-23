@@ -1,5 +1,6 @@
 import numpy
 
+
 def extended_boolean_run(features_dictionary, pre_processor):
     """Executes the term weighting calculation.
 
@@ -14,13 +15,13 @@ def extended_boolean_run(features_dictionary, pre_processor):
         query_similarities = calculate_similarities(features_dictionary, pre_processor, feature_name)
         print(print_similarity_results(pre_processor, feature_name, query_similarities))
 
+
 def calculate_similarities(features_dictionary, pre_processor, feature_name):
 
     features = features_dictionary[feature_name]
-    weights = {}
     similarities = {}
 
-    #reading p-norm value
+    # reading p-norm value
     p_norm_file = open('../files/p_norm_value.dat', "r")
     p_norm = int(p_norm_file.readline())
     p_norm_file.close()
@@ -30,13 +31,12 @@ def calculate_similarities(features_dictionary, pre_processor, feature_name):
         maximum_idf = get_maximum_idf(pre_processor)
 
         for (term, index_by_term) in pre_processor.get_inverted_index().items():
-            if term in features:
-                if document in index_by_term:
-                    maximum_tf = get_maximum_tf(pre_processor, document, features)
-                    document_weight = (1 + numpy.math.log(index_by_term[document].frequency, 2)) / maximum_tf
-                    document_term_frequency = pre_processor.get_docs_per_term(term)
-                    query_weight = numpy.math.log((pre_processor.get_num_files() / document_term_frequency), 2) / maximum_idf
-                    sum_query_document_weights += numpy.power(document_weight, p_norm) * numpy.power(query_weight, p_norm)
+            if term in features and document in index_by_term:
+                maximum_tf = get_maximum_tf(pre_processor, document, features)
+                document_weight = (1 + numpy.math.log(index_by_term[document].frequency, 2)) / maximum_tf
+                document_term_frequency = pre_processor.get_docs_per_term(term)
+                query_weight = numpy.math.log((pre_processor.get_num_files() / document_term_frequency), 2) / maximum_idf
+                sum_query_document_weights += numpy.power(document_weight, p_norm) * numpy.power(query_weight, p_norm)
 
         if len(features) != 0:
             similarities[document] = numpy.power(sum_query_document_weights / len(features), 1 / p_norm)
@@ -44,6 +44,7 @@ def calculate_similarities(features_dictionary, pre_processor, feature_name):
             similarities[document] = 0
 
     return similarities
+
 
 def get_maximum_tf(pre_processor, document, features):
     maximum_tf = 0.0
@@ -54,6 +55,7 @@ def get_maximum_tf(pre_processor, document, features):
                 maximum_tf = tf
     return maximum_tf
 
+
 def get_maximum_idf(pre_processor):
     maximum_idf = 0.0
     for (term, index_by_term) in pre_processor.get_inverted_index().items():
@@ -62,6 +64,7 @@ def get_maximum_idf(pre_processor):
         if maximum_idf < idf:
             maximum_idf = idf
     return maximum_idf
+
 
 def print_similarity_results(pre_processor, feature_name, query_similarities):
     if feature_name not in pre_processor.get_stop_words():

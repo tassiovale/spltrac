@@ -1,5 +1,6 @@
 import numpy
 
+
 def bm25_run(features_dictionary, pre_processor):
     """Executes the term weighting calculation.
 
@@ -33,13 +34,13 @@ def calculate_similarities(features_dictionary, pre_processor, feature_name, k1_
     for document in pre_processor.get_documents().keys():
         similarity_value = 0.0
         for (term, index_by_term) in pre_processor.get_inverted_index().items():
-            if term in features:
-                if document in index_by_term:
-                    document_term_frequency = index_by_term[document].frequency
-                    bm25_num = (k1_const + 1) * document_term_frequency
-                    bm25_den = k1_const * ((1 - b_const) + b_const * (pre_processor.get_document_length(document) / avg_document_length)) + document_term_frequency
-                    bm25_value = bm25_num / bm25_den
-                    similarity_value += bm25_value *  numpy.math.log((pre_processor.get_num_files()) / (pre_processor.get_docs_per_term(term)), 2)
+            if term in features and document in index_by_term:
+                document_term_frequency = index_by_term[document].frequency
+                bm25_num = (k1_const + 1) * document_term_frequency
+                bm25_den = k1_const * ((1 - b_const) + b_const * (pre_processor.get_document_length(document) / avg_document_length)) + document_term_frequency
+                bm25_value = bm25_num / bm25_den
+                similarity_value += bm25_value * numpy.math.log(pre_processor.get_num_files() / pre_processor.get_docs_per_term(term), 2)
+                # similarity_value += bm25_value * numpy.math.log((pre_processor.get_num_files() - pre_processor.get_docs_per_term(term) + 0.5) / (pre_processor.get_docs_per_term(term) + 0.5), 2)
         similarities[document] = similarity_value
 
     return similarities

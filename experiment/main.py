@@ -4,6 +4,7 @@ from information_retrieval_methods.term_weigthing.tfidf import *
 from information_retrieval_methods.algebraic.classic_vector import classic_vector_run
 from information_retrieval_methods.set_theoretic.extended_boolean import extended_boolean_run
 from information_retrieval_methods.probabilistic.bm25 import bm25_run
+from information_retrieval_methods.algebraic.neural_networks import neural_network_run
 
 
 def get_projects_dictionary(config_file_name='../files/config_file.dat'):
@@ -45,6 +46,7 @@ for (project, language) in get_projects_dictionary():
     classic_vector_run(features_dictionary, pre_processor)
 
     # Algebraic - neural networks model
+    neural_network_run(features_dictionary, pre_processor)
 
     # Set theoretic - extended boolean model
     extended_boolean_run(features_dictionary, pre_processor)
