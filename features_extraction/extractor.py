@@ -54,12 +54,12 @@ class FeatureExtractor:
             for line in model_m_file:
                 elements = line.split(' ')
                 if ':' in line and elements[0]:
-                    self.features_dictionary[elements[0]] = (elements[0],)
+                    self.features_dictionary[elements[0].lower()] = (elements[0].lower(),)
                 for element in elements:
                     if '[' in element:
                         feature = element.replace('[', '')
                         feature = feature.replace(']', '')
-                        self.features_dictionary[feature] = (feature,)
+                        self.features_dictionary[feature.lower()] = (feature.lower(),)
 
     def extract_ahead_features(self):
         self.read_model_xml()
@@ -73,13 +73,13 @@ class FeatureExtractor:
             for folder_name in os.walk(feature_folder_list[0]):
                 if folder_name:
                     feature_name = folder_name[0].split('/')[-1]
-                    self.features_dictionary[feature_name] = (feature_name,)
+                    self.features_dictionary[feature_name.lower()] = (feature_name.lower(),)
 
     def read_features_plain_list_file(self, file_name):
         features_file = open(file_name, "r")
         for feature in [line.strip() for line in features_file]:
             if feature:
-                self.features_dictionary[feature] = (feature,)
+                self.features_dictionary[feature.lower()] = (feature.lower(),)
         features_file.close()
 
     def read_model_xml(self):
@@ -96,7 +96,7 @@ class FeatureExtractor:
         full_list = feature_list + and_list + or_list + alt_list
         for element in full_list:
             feature = element.attributes['name'].value
-            self.features_dictionary[feature] = (feature,)
+            self.features_dictionary[feature.lower()] = (feature.lower(),)
 
     def extract_thesaurus(self):
         try:
@@ -108,7 +108,7 @@ class FeatureExtractor:
                     synonyms = terms[-1].split(',')
                     for feature in synonyms:
                         if key_feature in self.features_dictionary:
-                            self.features_dictionary[key_feature] += (feature,)
+                            self.features_dictionary[key_feature.lower()] += (feature.lower(),)
             thesaurus_file.close()
         except FileNotFoundError:
             print('No thesaurus available')

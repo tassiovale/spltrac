@@ -52,6 +52,7 @@ class SPLProjectPreProcessor:
         """
         for file_name in glob.iglob(project + '/**/*' + file_extension, recursive=True):
             self.num_files += 1
+            document = file_name.split('/')[-1]
 
             # reading file
             try:
@@ -65,7 +66,7 @@ class SPLProjectPreProcessor:
 
             tokenizer = RegexpTokenizer(r'[\w\']+')  # get tokens, removing punctuation and other single characters
             tokens = tokenizer.tokenize(file_content.lower())  # get tokens in lower case
-            self.documents[file_name] = len(tokens)
+            self.documents[document] = len(tokens)
 
             # counting frequencies for a specific file
             file_counter = Counter(tokens)
@@ -77,7 +78,7 @@ class SPLProjectPreProcessor:
                     document_data_by_term = DocumentDataByTerm()
                     document_data_by_term.frequency = frequency
                     document_data_by_term.weight = 0
-                    aux_index[file_name] = document_data_by_term
+                    aux_index[document] = document_data_by_term
                     try:
                         self.inverted_index[term].update(aux_index)
                     except KeyError:
@@ -102,5 +103,5 @@ class SPLProjectPreProcessor:
     def get_documents(self):
         return self.documents
 
-    def get_document_length(self, file_name):
-        return self.documents[file_name]
+    def get_document_length(self, document):
+        return self.documents[document]

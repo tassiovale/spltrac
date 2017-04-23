@@ -5,6 +5,7 @@ from information_retrieval_methods.algebraic.classic_vector import classic_vecto
 from information_retrieval_methods.set_theoretic.extended_boolean import extended_boolean_run
 from information_retrieval_methods.probabilistic.bm25 import bm25_run
 from information_retrieval_methods.algebraic.neural_networks import neural_network_run
+from evaluation.oracle import TraceabilityOracle
 
 # START READING THE PROJECTS METADATA
 config_file_name='../files/config_file.dat'
@@ -50,6 +51,9 @@ for line in config_file:
     # Probabilistic - BM25 model
     print('Step 3.5: running BM25 algorithm...')
     bm25_run(features_dictionary, pre_processor)
+
+    project_oracle = TraceabilityOracle(project)
+    project_oracle.extract_true_traces()
 
     print('DONE\n\n')
 

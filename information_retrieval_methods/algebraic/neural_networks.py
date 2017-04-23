@@ -45,8 +45,15 @@ def calculate_activation_levels(features_dictionary, pre_processor, feature_name
                 idf = numpy.math.log((pre_processor.get_num_files() / term_document_ocurrences), 2)
                 tf = 1 + numpy.math.log(index_by_term[document].frequency, 2)
 
-                wiq = idf / sum_query_weights
-                wij = tf / sum_document_term_weights[document]
+                if sum_query_weights != 0:
+                    wiq = idf / sum_query_weights
+                else:
+                    wiq = 0
+
+                if sum_document_term_weights[document] != 0:
+                    wij = tf / sum_document_term_weights[document]
+                else:
+                    wij = 0
 
                 neural_network.add_node(term_node_object, wiq)
                 neural_network.add_node(document, 0.0)
