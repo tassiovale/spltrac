@@ -2,13 +2,191 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="beb1f368-61e7-4ea0-b5cc-680ebde3c137" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/information_retrieval_methods/algebraic/neural_networks_runner.py" afterPath="$PROJECT_DIR$/files/neural_network_iterations.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/stopwords_cpp.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/stopwords_cs.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/stopwords_haskell.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/stopwords_python.dat" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/bin/DrawPanel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/bin/Entity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/bin/Environment.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/bin/Gui.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/bin/LoadSave.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/bin/PowerUp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/bin/Profile.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/bin/Proj.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/bin/Schuss.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/bin/Snd.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/bin/TankInfo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/configs/TankWar.config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/FigurenBearbeitet/BootBlau.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/FigurenBearbeitet/BootBlauKlein.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/FigurenBearbeitet/BootBlauMittel.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/FigurenBearbeitet/BootRot.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/FigurenBearbeitet/BootRotKlein.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/FigurenBearbeitet/BootRotMittel.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/FigurenBearbeitet/SchlauchbootGelb.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/FigurenBearbeitet/SchlauchbootGruen.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/Haus_vonOben.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/Haus_vonOben_b.GIF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/HindernisseBearbeitet/BaumGross.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/HindernisseBearbeitet/BaumHell.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/HindernisseBearbeitet/BaumHellDick.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/HindernisseBearbeitet/BaumKlein.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/HindernisseBearbeitet/BaumKlein_b.GIF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/HindernisseBearbeitet/BaumStamm.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/HindernisseBearbeitet/BaumStammGross.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/HindernisseBearbeitet/BaumStamm_b.GIF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/HindernisseBearbeitet/MauerDunkelrot.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/HindernisseBearbeitet/MauerDunkelrot_b.GIF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/HindernisseBearbeitet/MauerGrauKurz.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/HindernisseBearbeitet/MauerGrauKurzDick.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/HindernisseBearbeitet/MauerGrauKurzDick_b.GIF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/HindernisseBearbeitet/MauerGrauKurz_b.GIF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/HindernisseBearbeitet/MauerGrauLang.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/HindernisseBearbeitet/MauerGrauLangDick.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/HindernisseBearbeitet/MauerGrauLangDick_b.GIF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/HindernisseBearbeitet/MauerRot.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/HindernisseBearbeitet/MauerRot_b.GIF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/HindernisseBearbeitet/Pfuetze1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/HindernisseBearbeitet/PfuetzeGross.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/HindernisseBearbeitet/PfuetzeKlein.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/HindernisseBearbeitet/PfuetzeMittel.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/HindernisseBearbeitet/_b.GIF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/PowerUpsBearbeitet/PowerUpBlume.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/PowerUpsBearbeitet/PowerUpBlumeBlau.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/PowerUpsBearbeitet/PowerUpCopy.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/PowerUpsBearbeitet/PowerUpFeuer.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/PowerUpsBearbeitet/PowerUpGluehbirneRund.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/PowerUpsBearbeitet/PowerUpGruen.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/PowerUpsBearbeitet/PowerUpHerz.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/PowerUpsBearbeitet/PowerUpKreis.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/PowerUpsBearbeitet/PowerUpKuh.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/PowerUpsBearbeitet/PowerUpLightbulb.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/PowerUpsBearbeitet/PowerUpOctagonal.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/PowerUpsBearbeitet/PowerUpPilz.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/PowerUpsBearbeitet/PowerUpPumpkinPie.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/PowerUpsBearbeitet/PowerUpRing.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/PowerUpsBearbeitet/PowerUpRingOval.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/PowerUpsBearbeitet/PowerUpRingOvalKlein.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/PowerUpsBearbeitet/PowerUpRingeZwei.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/PowerUpsBearbeitet/PowerUpSchwamm.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/PowerUpsBearbeitet/PowerUpSpiral.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/PowerUpsBearbeitet/PowerUpSternOval.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/PowerUpsBearbeitet/PowerUpSternOvalKlein.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/PowerUpsBearbeitet/PowerUpSternRing.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/Tank_Black.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/Tank_Red.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/Tier1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/Tier1gelb.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/Tier1rot.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/Tier2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/Tier2blau.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/Tier2gruen.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/aa31.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/bearbeitet/Blumen/BlumeBlauKlein.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/bearbeitet/Blumen/BlumeGaense.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/bearbeitet/Blumen/BlumeLilaKlein.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/bearbeitet/Blumen/BlumeOrangeKlein.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/bearbeitet/Blumen/BlumeRot.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/bearbeitet/Blumen/BlumeRotKlein.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/bearbeitet/Blumen/BlumenBunt.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/bearbeitet/Blumen/BlumenBuntKlein.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/bearbeitet/Blumen/BlumenstraussKlein.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/bearbeitet/Explosion/Explosion-ms3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/bearbeitet/Explosion/ExplosionComic.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/bearbeitet/Explosion/ExplosionFeuer.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/bearbeitet/Explosion/ExplosionStern.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/bearbeitet/Raketen/RaketeBraun.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/bearbeitet/Raketen/RaketeGrau.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/bearbeitet/Raketen/RaketeWeiss.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/bearbeitet/Raketen/Rakete_14.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/bearbeitet/Raketen/rakete-4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/bearbeitet/Seifenblasen/SeifenblaseGrau.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/bearbeitet/Seifenblasen/SeifenblasenBunt.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/bearbeitet/Smiley/SmileyBlau.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/bearbeitet/Smiley/SmileyZunge.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/bearbeitet/tiere/Kaefer.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/bearbeitet/tiere/Schmetterling.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/bearbeitet/tiere/Schmetterlinge.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/explo1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/explo2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/mauer_hoch.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/mauer_hoch_b.GIF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/nino.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/imgs/portal.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/model.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/sounds/beep_1.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/sounds/beep_2.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/sounds/beep_3.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/sounds/bells.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/sounds/bleep_1.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/sounds/buzzer.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/sounds/cash_register.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/sounds/cork.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/sounds/drip.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/sounds/game_win.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/sounds/gorod.mid" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/sounds/horn.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/sounds/laser_trill.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/sounds/police_siren.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/sounds/siren_1.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/sounds/siren_2.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/sounds/yes.au" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/src/DrawPanel.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/src/Entity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/src/Environment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/src/Gui.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/src/LoadSave.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/src/PowerUp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/src/Profile.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/src/Proj.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/src/Schuss.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/src/Snd.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/src/TankInfo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/TankWar-Antenna/tfidf_corpus.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/elevator/features.exp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/elevator/features/base/Elevator.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/elevator/features/base/Elevator.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/elevator/features/base/Floor.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/elevator/features/base/Floor.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/elevator/features/base/Person.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/elevator/features/base/Person.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/elevator/features/base/Specification1.spec" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/elevator/features/base/Specification2.spec" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/elevator/features/base/Specification3.spec" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/elevator/features/base/Test.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/elevator/features/base/Test.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/elevator/features/base/UnitTests.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/elevator/features/base/featureselect.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/elevator/features/base/featureselect.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/elevator/features/empty/Elevator.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/elevator/features/empty/Specification8.spec" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/elevator/features/empty/Specification9.spec" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/elevator/features/executivefloor/Elevator.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/elevator/features/executivefloor/Elevator.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/elevator/features/executivefloor/Specification14.spec" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/elevator/features/model.cnf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/elevator/features/overloaded/Elevator.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/elevator/features/overloaded/Elevator.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/elevator/features/overloaded/Specification10.spec" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/elevator/features/overloaded/Specification11.spec" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/elevator/features/twothirdsfull/Elevator.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/elevator/features/twothirdsfull/Specification13.spec" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/elevator/features/weight/Elevator.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/elevator/features/weight/Elevator.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/elevator/tfidf_corpus.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/tfidf-test/d1.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/tfidf-test/d2.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/tfidf-test/d3.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/SPLs/tfidf-test/d4.c" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiment/main.py" afterPath="$PROJECT_DIR$/experiment/main.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/information_retrieval_methods/algebraic/classic_vector.py" afterPath="$PROJECT_DIR$/information_retrieval_methods/algebraic/classic_vector.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/information_retrieval_methods/algebraic/neural_networks.py" afterPath="$PROJECT_DIR$/information_retrieval_methods/algebraic/neural_networks.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/information_retrieval_methods/probabilistic/bm25.py" afterPath="$PROJECT_DIR$/information_retrieval_methods/probabilistic/bm25.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/information_retrieval_methods/set_theoretic/extended_boolean.py" afterPath="$PROJECT_DIR$/information_retrieval_methods/set_theoretic/extended_boolean.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features_extraction/extractor.py" afterPath="$PROJECT_DIR$/features_extraction/extractor.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/files/config_file.dat" afterPath="$PROJECT_DIR$/files/config_file.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/files/config_file_backup.dat" afterPath="$PROJECT_DIR$/files/config_file_backup.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/information_retrieval_methods/pre_processor.py" afterPath="$PROJECT_DIR$/information_retrieval_methods/pre_processor.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/information_retrieval_methods/term_weigthing/tfidf.py" afterPath="$PROJECT_DIR$/information_retrieval_methods/term_weigthing/tfidf.py" />
     </list>
     <ignored path="SPLTraceabilityPlayground.iws" />
@@ -29,32 +207,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="neural_networks.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/information_retrieval_methods/algebraic/neural_networks.py">
+      <file leaf-file-name="config_file.dat" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/files/config_file.dat">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="58" column="37" lean-forward="false" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="37" />
+            <state relative-caret-position="90">
+              <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="neural_network_iterations.dat" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/files/neural_network_iterations.dat">
+      <file leaf-file-name="codecs.py" pinned="false" current-in-tab="false">
+        <entry file="file:///Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/codecs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="2" lean-forward="true" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+            <state relative-caret-position="151">
+              <caret line="320" column="0" lean-forward="false" selection-start-line="320" selection-start-column="0" selection-end-line="320" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="extended_boolean.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/information_retrieval_methods/set_theoretic/extended_boolean.py">
+      <file leaf-file-name="pre_processor.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/information_retrieval_methods/pre_processor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="26" column="23" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="26" selection-end-column="23" />
-              <folding />
+            <state relative-caret-position="226">
+              <caret line="63" column="12" lean-forward="false" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -62,10 +242,22 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/experiment/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="48" column="57" lean-forward="false" selection-start-line="48" selection-start-column="57" selection-end-line="48" selection-end-column="57" />
+            <state relative-caret-position="660">
+              <caret line="44" column="5" lean-forward="false" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
               <folding>
                 <element signature="e#0#78#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="extractor.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/features_extraction/extractor.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="62" lean-forward="true" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="62" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -99,12 +291,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/learning/import_examples.py" />
-        <option value="$PROJECT_DIR$/learning/examples/import_examples.py" />
-        <option value="$PROJECT_DIR$/learning/functions/function_examples.py" />
-        <option value="$PROJECT_DIR$/information_retrieval_methods/tfidf/tfidf_experiment.py" />
-        <option value="$PROJECT_DIR$/information_retrieval_methods/tfidf/config_file_location.dat" />
-        <option value="$PROJECT_DIR$/information_retrieval_methods/experiment/main.py" />
         <option value="$PROJECT_DIR$/SPLs/config_file.dat" />
         <option value="$PROJECT_DIR$/information_retrieval_methods/experiment/config_file_location.dat" />
         <option value="$PROJECT_DIR$/learning/examples/examples.py" />
@@ -134,22 +320,28 @@
         <option value="$PROJECT_DIR$/experiment/files/config_file.dat" />
         <option value="$PROJECT_DIR$/experiment/SPLs/tfidf-test/d3.c" />
         <option value="$PROJECT_DIR$/experiment/SPLs/tfidf-test/d4.c" />
-        <option value="$PROJECT_DIR$/features_extraction/extractor.py" />
         <option value="$PROJECT_DIR$/files/p_norm_value.dat" />
         <option value="$PROJECT_DIR$/files/bm25_values.dat" />
         <option value="$PROJECT_DIR$/information_retrieval_methods/set_theoretic/runner.py" />
         <option value="$PROJECT_DIR$/information_retrieval_methods/probabilistic/runner.py" />
         <option value="$PROJECT_DIR$/information_retrieval_methods/term_weigthing/runner.py" />
         <option value="$PROJECT_DIR$/information_retrieval_methods/algebraic/classic_vector_runner.py" />
-        <option value="$PROJECT_DIR$/information_retrieval_methods/pre_processor.py" />
         <option value="$PROJECT_DIR$/experiment/SPLs/tfidf-test/d1.c" />
-        <option value="$PROJECT_DIR$/information_retrieval_methods/term_weigthing/tfidf.py" />
-        <option value="$PROJECT_DIR$/experiment/main.py" />
         <option value="$PROJECT_DIR$/information_retrieval_methods/probabilistic/bm25.py" />
         <option value="$PROJECT_DIR$/information_retrieval_methods/algebraic/classic_vector.py" />
         <option value="$PROJECT_DIR$/information_retrieval_methods/set_theoretic/extended_boolean.py" />
         <option value="$PROJECT_DIR$/files/neural_network_iterations.dat" />
         <option value="$PROJECT_DIR$/information_retrieval_methods/algebraic/neural_networks.py" />
+        <option value="$PROJECT_DIR$/files/stopwords_cpp.dat" />
+        <option value="$PROJECT_DIR$/files/stopwords_cs.dat" />
+        <option value="$PROJECT_DIR$/files/stopwords_haskell.dat" />
+        <option value="$PROJECT_DIR$/files/stopwords_python.dat" />
+        <option value="$PROJECT_DIR$/information_retrieval_methods/term_weigthing/tfidf.py" />
+        <option value="$PROJECT_DIR$/files/config_file_backup.dat" />
+        <option value="$PROJECT_DIR$/experiment/main.py" />
+        <option value="$PROJECT_DIR$/files/config_file.dat" />
+        <option value="$PROJECT_DIR$/information_retrieval_methods/pre_processor.py" />
+        <option value="$PROJECT_DIR$/features_extraction/extractor.py" />
       </list>
     </option>
   </component>
@@ -323,47 +515,39 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="experiment" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SPLs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tfidf-test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SPLTrac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spltrac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="experiment" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SPLs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SPLTrac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spltrac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="evaluation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SPLTrac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spltrac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SPLs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SPLTrac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spltrac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SPLs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test_project" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -675,7 +859,14 @@
       <option name="project" value="LOCAL" />
       <updated>1492825185020</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Uploading neural networks implementation (confirm this is OK)">
+      <created>1492919723354</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1492919723354</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -690,15 +881,15 @@
     <frame x="0" y="23" width="1276" height="777" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3346395" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3346395" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909605" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32692307" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32627118" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51129943" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909605" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.71327686" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909605" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39979756" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -745,7 +936,8 @@
     <MESSAGE value="TF-IDF implementation OK&#10;Classic vector model OK" />
     <MESSAGE value="extended boolean model OK" />
     <MESSAGE value="BM25 OK" />
-    <option name="LAST_COMMIT_MESSAGE" value="BM25 OK" />
+    <MESSAGE value="Uploading neural networks implementation (confirm this is OK)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Uploading neural networks implementation (confirm this is OK)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -754,12 +946,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/learning/exercises/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/learning/examples/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/learning/exercises/ex4.py" />
-    <entry file="file://$PROJECT_DIR$/learning/exercises/ex5.py" />
-    <entry file="file://$PROJECT_DIR$/learning/exercises/ex6.py" />
-    <entry file="file://$PROJECT_DIR$/learning/functions/function_examples.py" />
     <entry file="file://$PROJECT_DIR$/experiment/SPLs/elevator/features/base/Test.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -801,13 +987,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="2" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/files/stopwords_c.dat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="6" lean-forward="false" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -859,22 +1038,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/files/config_file_backup.dat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/files/config_file.dat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/files/p_norm_value.dat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -899,14 +1062,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features_extraction/extractor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/information_retrieval_methods/algebraic/classic_vector_runner.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -919,14 +1074,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="84" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="25" selection-end-column="84" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/information_retrieval_methods/pre_processor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="90" column="27" lean-forward="false" selection-start-line="90" selection-start-column="8" selection-end-line="90" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -963,14 +1110,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/information_retrieval_methods/term_weigthing/tfidf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/files/bm25_constants.dat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -987,16 +1126,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/experiment/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="48" column="57" lean-forward="false" selection-start-line="48" selection-start-column="57" selection-end-line="48" selection-end-column="57" />
-          <folding>
-            <element signature="e#0#78#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/information_retrieval_methods/algebraic/classic_vector.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1008,7 +1137,7 @@
     <entry file="file://$PROJECT_DIR$/information_retrieval_methods/set_theoretic/extended_boolean.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="26" column="23" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="26" selection-end-column="23" />
+          <caret line="26" column="23" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="26" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -1016,16 +1145,126 @@
     <entry file="file://$PROJECT_DIR$/files/neural_network_iterations.dat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="2" lean-forward="true" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+          <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/stopwords_c.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="6" lean-forward="false" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/stopwords_cpp.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1245">
+          <caret line="83" column="6" lean-forward="true" selection-start-line="83" selection-start-column="6" selection-end-line="83" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/stopwords_cs.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/stopwords_haskell.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="3" lean-forward="false" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/stopwords_python.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="14" lean-forward="true" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SPLs/Test_project/d2.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/information_retrieval_methods/term_weigthing/tfidf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="12" lean-forward="false" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiment/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="5" lean-forward="false" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="320" column="0" lean-forward="false" selection-start-line="320" selection-start-column="0" selection-end-line="320" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/config_file_backup.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/information_retrieval_methods/pre_processor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="63" column="12" lean-forward="false" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/information_retrieval_methods/algebraic/neural_networks.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="58" column="37" lean-forward="false" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="37" />
+        <state relative-caret-position="1245">
+          <caret line="83" column="9" lean-forward="false" selection-start-line="83" selection-start-column="9" selection-end-line="83" selection-end-column="9" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/config_file.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features_extraction/extractor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="62" lean-forward="true" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

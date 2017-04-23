@@ -18,7 +18,7 @@ def tfidf_run(features_dictionary, pre_processor):
 
     print(print_tfidf_results(features_dictionary, pre_processor))
 
-def calculate_weights(pre_processor):
+def calculate_ifidf_weights(pre_processor):
     """Calculate the TF-IDF for the specified term.
 
         This is computed by taking the logarithm of

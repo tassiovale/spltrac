@@ -1,2 +1,25 @@
-SPLs/
-tfidf-test c
+../SPLs/
+Test_project c none
+Arithmetic_Expression_Evaluator haskell cide
+BankAccountv2 java featurehouse
+BattleOfTanks java antenna
+Chat_HyperJ java hyperj
+DesktopSearcher java ahead
+Elevator_C c featurehouse
+Elevator_Java java featurehouse
+Email_JML java featurehouse
+EmailSystem_C c featurehouse
+EmailSystem_Java c featurehouse
+FAME_DBMS cpp cide
+Graph_Product_Line java featurehouse
+Lampiro java cide
+MinePump_C c featurehouse
+MinePump_Java java featurehouse
+Mobile_Media java cide
+Mobile_RSS_Reader java cide
+NetBot cs featurehouse
+Prevayler java cide
+Prop4J java featurehouse
+Pynche python cide
+TankWar java ahead
+Vistex java featurehouse

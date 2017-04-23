@@ -12,7 +12,7 @@ class SPLProjectPreProcessor:
     def __init__(self, project, language):
 
         self.num_files = 0
-        self.stop_words = []
+        self.stop_words = set()
         self.inverted_index = {}
         self.index_terms = set()
         self.documents = {}
@@ -30,9 +30,18 @@ class SPLProjectPreProcessor:
             self.analyze_term_document_frequency(project, '.h')
         elif language == 'java':
             self.analyze_term_document_frequency(project, '.java')
+        elif language == 'cpp':
+            self.analyze_term_document_frequency(project, '.cpp')
+            self.analyze_term_document_frequency(project, '.h')
+        elif language == 'cs':
+            self.analyze_term_document_frequency(project, '.java')
+        elif language == 'python':
+            self.analyze_term_document_frequency(project, '.py')
+        elif language == 'haskell':
+            self.analyze_term_document_frequency(project, '.hs')
 
         stop_word_file = open('../files/stopwords_' + language + '.dat', "r")
-        self.stop_words = [line.strip() for line in stop_word_file]
+        self.stop_words = set([line.strip() for line in stop_word_file])
         stop_word_file.close()
 
     def analyze_term_document_frequency(self, project, file_extension):
@@ -45,8 +54,13 @@ class SPLProjectPreProcessor:
             self.num_files += 1
 
             # reading file
-            source_file = open(file_name, 'r')
-            file_content = source_file.read()
+            try:
+                source_file = open(file_name, 'r')
+                file_content = source_file.read()
+                source_file.close()
+            except UnicodeDecodeError:
+                source_file = open(file_name, 'r', encoding="ISO-8859-1")
+                file_content = source_file.read()
             source_file.close()
 
             tokenizer = RegexpTokenizer(r'[\w\']+')  # get tokens, removing punctuation and other single characters
