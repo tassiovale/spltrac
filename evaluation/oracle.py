@@ -1,3 +1,5 @@
+
+
 class TraceabilityOracle:
     """Title.
 
@@ -21,7 +23,7 @@ class TraceabilityOracle:
                     key_feature = terms[0]
                     synonyms = terms[-1].split(',')
                     for document in synonyms:
-                        document = self.project + document
+                        document = self.project + '/' + document
                         if key_feature in self.true_traces:
                             self.true_traces[key_feature] += (document,)
                         else:
@@ -31,5 +33,4 @@ class TraceabilityOracle:
         except FileNotFoundError:
             print('No oracle available')
 
-    def get_true_traces(self):
         return self.true_traces

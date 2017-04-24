@@ -3,7 +3,6 @@ from collections import Counter
 import glob
 import json
 
-# remove symbols from terms
 
 class DocumentDataByTerm:  # Objects from this class stores the frequency and weight of a term-document pair
     pass
@@ -34,11 +33,12 @@ class SPLProjectPreProcessor:
             self.analyze_term_document_frequency(project, '.h')
         elif language == 'java':
             self.analyze_term_document_frequency(project, '.java')
+            self.analyze_term_document_frequency(project, '.jak')
         elif language == 'cpp':
             self.analyze_term_document_frequency(project, '.cpp')
             self.analyze_term_document_frequency(project, '.h')
         elif language == 'cs':
-            self.analyze_term_document_frequency(project, '.java')
+            self.analyze_term_document_frequency(project, '.cs')
         elif language == 'python':
             self.analyze_term_document_frequency(project, '.py')
         elif language == 'haskell':

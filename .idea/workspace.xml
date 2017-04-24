@@ -2,28 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="beb1f368-61e7-4ea0-b5cc-680ebde3c137" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPLs/Arithmetic_Expression_Evaluator/thesaurus.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPLs/BankAccountv2/thesaurus.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPLs/BankAccountv2/traceability_oracle.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPLs/DesktopSearcher/thesaurus.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPLs/DesktopSearcher/traceability_oracle.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SPLs/Test_project/traceability_oracle.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/evaluation/metrics.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/thresholds.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/SPLs/Test_project/traces_oracle.dat" afterPath="$PROJECT_DIR$/SPLs/Arithmetic_Expression_Evaluator/traceability_oracle.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/files/config_file.dat" afterPath="$PROJECT_DIR$/files/spl_projects.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/files/config_file_backup.dat" afterPath="$PROJECT_DIR$/files/spl_projects_backup.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/information_retrieval_methods/term_weigthing/__init__.py" afterPath="$PROJECT_DIR$/evaluation/evaluator.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/information_retrieval_methods/term_weigthing/tfidf.py" afterPath="$PROJECT_DIR$/information_retrieval_methods/tfidf.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SPLs/DesktopSearcher/thesaurus.dat" afterPath="$PROJECT_DIR$/SPLs/DesktopSearcher/thesaurus.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SPLs/DesktopSearcher/traceability_oracle.dat" afterPath="$PROJECT_DIR$/SPLs/DesktopSearcher/traceability_oracle.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/evaluation/evaluator.py" afterPath="$PROJECT_DIR$/evaluation/evaluator.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/evaluation/metrics.py" afterPath="$PROJECT_DIR$/evaluation/metrics.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/evaluation/oracle.py" afterPath="$PROJECT_DIR$/evaluation/oracle.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiment/main.py" afterPath="$PROJECT_DIR$/experiment/main.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features_extraction/extractor.py" afterPath="$PROJECT_DIR$/features_extraction/extractor.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/information_retrieval_methods/algebraic/classic_vector.py" afterPath="$PROJECT_DIR$/information_retrieval_methods/algebraic/classic_vector.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/information_retrieval_methods/algebraic/neural_networks.py" afterPath="$PROJECT_DIR$/information_retrieval_methods/algebraic/neural_networks.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/files/spl_projects.dat" afterPath="$PROJECT_DIR$/files/spl_projects.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/files/spl_projects_backup.dat" afterPath="$PROJECT_DIR$/files/spl_projects_backup.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/information_retrieval_methods/pre_processor.py" afterPath="$PROJECT_DIR$/information_retrieval_methods/pre_processor.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/information_retrieval_methods/probabilistic/bm25.py" afterPath="$PROJECT_DIR$/information_retrieval_methods/probabilistic/bm25.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/information_retrieval_methods/set_theoretic/extended_boolean.py" afterPath="$PROJECT_DIR$/information_retrieval_methods/set_theoretic/extended_boolean.py" />
     </list>
     <ignored path="SPLTraceabilityPlayground.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,21 +32,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="model.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SPLs/DesktopSearcher/DesktopSearcher-AHEAD/model.xml">
+      <file leaf-file-name="metrics.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/evaluation/metrics.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="27" lean-forward="false" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="traceability_oracle.dat" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SPLs/DesktopSearcher/traceability_oracle.dat">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+            <state relative-caret-position="545">
+              <caret line="63" column="10" lean-forward="false" selection-start-line="63" selection-start-column="10" selection-end-line="63" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -66,10 +45,32 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/experiment/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="795">
-              <caret line="53" column="6" lean-forward="false" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="6" />
+            <state relative-caret-position="455">
+              <caret line="66" column="49" lean-forward="false" selection-start-line="66" selection-start-column="49" selection-end-line="66" selection-end-column="49" />
               <folding>
                 <element signature="e#0#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="evaluator.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/evaluation/evaluator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="extractor.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features_extraction/extractor.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="35" column="32" lean-forward="true" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -111,6 +112,7 @@
       <find>linux</find>
       <find>|</find>
       <find>16</find>
+      <find>print</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -122,10 +124,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/information_retrieval_methods/bm25/bm25.py" />
-        <option value="$PROJECT_DIR$/information_retrieval_methods/extendedboolean/extended_boolean.py" />
-        <option value="$PROJECT_DIR$/information_retrieval_methods/neural_networks/neural_networks.py" />
-        <option value="$PROJECT_DIR$/information_retrieval_methods/set_theoretic/extended_boolean_runner.py" />
         <option value="$PROJECT_DIR$/information_retrieval_methods/probabilistic/bm25_runner.py" />
         <option value="$PROJECT_DIR$/information_retrieval_methods/algebraic/neural_networks_runner.py" />
         <option value="$PROJECT_DIR$/information_retrieval_methods/indexer.py" />
@@ -158,21 +156,25 @@
         <option value="$PROJECT_DIR$/information_retrieval_methods/tfidf.py" />
         <option value="$PROJECT_DIR$/features_extraction/evaluator.py" />
         <option value="$PROJECT_DIR$/features_extraction/metrics.py" />
-        <option value="$PROJECT_DIR$/evaluation/oracle.py" />
         <option value="$PROJECT_DIR$/SPLs/Test_project/thesaurus.json" />
         <option value="$PROJECT_DIR$/SPLs/Arithmetic_Expression_Evaluator/thesaurus.dat" />
         <option value="$PROJECT_DIR$/SPLs/Arithmetic_Expression_Evaluator/traceability_oracle.dat" />
         <option value="$PROJECT_DIR$/SPLs/BankAccountv2/traceability_oracle.dat" />
         <option value="$PROJECT_DIR$/SPLs/BankAccountv2/thesaurus.dat" />
-        <option value="$PROJECT_DIR$/information_retrieval_methods/pre_processor.py" />
-        <option value="$PROJECT_DIR$/SPLs/DesktopSearcher/thesaurus.dat" />
         <option value="$PROJECT_DIR$/information_retrieval_methods/algebraic/classic_vector.py" />
         <option value="$PROJECT_DIR$/information_retrieval_methods/algebraic/neural_networks.py" />
         <option value="$PROJECT_DIR$/information_retrieval_methods/probabilistic/bm25.py" />
         <option value="$PROJECT_DIR$/information_retrieval_methods/set_theoretic/extended_boolean.py" />
-        <option value="$PROJECT_DIR$/features_extraction/extractor.py" />
+        <option value="$PROJECT_DIR$/information_retrieval_methods/pre_processor.py" />
         <option value="$PROJECT_DIR$/SPLs/DesktopSearcher/traceability_oracle.dat" />
+        <option value="$PROJECT_DIR$/SPLs/DesktopSearcher/thesaurus.dat" />
+        <option value="$PROJECT_DIR$/files/spl_projects_backup.dat" />
+        <option value="$PROJECT_DIR$/files/spl_projects.dat" />
+        <option value="$PROJECT_DIR$/features_extraction/extractor.py" />
         <option value="$PROJECT_DIR$/experiment/main.py" />
+        <option value="$PROJECT_DIR$/evaluation/oracle.py" />
+        <option value="$PROJECT_DIR$/evaluation/metrics.py" />
+        <option value="$PROJECT_DIR$/evaluation/evaluator.py" />
       </list>
     </option>
   </component>
@@ -360,7 +362,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DesktopSearcher" />
+              <option name="myItemId" value="Mobile_Media" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SPLTrac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spltrac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SPLs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lampiro" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -381,10 +401,6 @@
               <option name="myItemId" value="DesktopSearcher" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DesktopSearcher-AHEAD" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -401,10 +417,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="DesktopSearcher" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DesktopSearcher-AHEAD" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -426,7 +438,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="BankAccountv2" />
+              <option name="myItemId" value="Arithmetic_Expression_Evaluator" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -442,11 +454,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/SPLs/DesktopSearcher" />
       <recent name="$PROJECT_DIR$/evaluation" />
       <recent name="$PROJECT_DIR$/information_retrieval_methods" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/information_retrieval_methods/algebraic" />
-      <recent name="$PROJECT_DIR$/experiment/files" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/SPLs/DesktopSearcher" />
@@ -768,7 +780,14 @@
       <option name="project" value="LOCAL" />
       <updated>1492989996261</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="fixes in the extractor&#10;fixes in the oracle reader&#10;fixes in the methods (procedure on how to get traces)&#10;providing thesaurus for three projects">
+      <created>1493048887302</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1493048887302</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -823,7 +842,8 @@
     <MESSAGE value="Feature extractor for: FeatureHouse, CIDE, Antenna, AHEAD and HyperJ OK" />
     <MESSAGE value="Thesaurus reader OK" />
     <MESSAGE value="Oracle reader OK" />
-    <option name="LAST_COMMIT_MESSAGE" value="Oracle reader OK" />
+    <MESSAGE value="fixes in the extractor&#10;fixes in the oracle reader&#10;fixes in the methods (procedure on how to get traces)&#10;providing thesaurus for three projects" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixes in the extractor&#10;fixes in the oracle reader&#10;fixes in the methods (procedure on how to get traces)&#10;providing thesaurus for three projects" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -832,102 +852,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SPLs/Arithmetic_Expression_Evaluator/thesaurus.dat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SPLs/Arithmetic_Expression_Evaluator/CLI.hs.color">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="992" lean-forward="false" selection-start-line="1" selection-start-column="990" selection-end-line="1" selection-end-column="992" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/evaluation/metrics.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/information_retrieval_methods/tfidf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="45" lean-forward="false" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SPLs/BankAccountv2/BankAccountTests/model.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="51" lean-forward="false" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SPLs/BankAccountv2/BankAccountTP/model.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="46" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SPLs/BankAccountv2/traceability_oracle.dat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="118" lean-forward="false" selection-start-line="7" selection-start-column="118" selection-end-line="7" selection-end-column="118" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SPLs/BankAccountv2/BankAccountTP/features/BankAccount/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SPLs/BankAccountv2/BankAccountTP/features/BankAccount/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SPLs/BankAccountv2/BankAccountTests/features/BankAccount/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SPLs/BankAccountv2/BankAccountTests/features/BankAccount/AccountTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SPLs/BankAccountv2/BankAccountTests/features/BankAccount/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SPLs/BankAccountv2/BankAccountTP/features/CreditWorthiness/Account.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1144,14 +1068,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SPLs/BankAccountv2/thesaurus.dat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/xml/dom/minidom.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="58">
@@ -1164,14 +1080,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="32" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="19" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/information_retrieval_methods/pre_processor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1425">
-          <caret line="98" column="29" lean-forward="true" selection-start-line="98" selection-start-column="29" selection-end-line="98" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -1200,25 +1108,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features_extraction/extractor.py">
+    <entry file="file://$PROJECT_DIR$/SPLs/DesktopSearcher/features/Base/ContentHandler.jak">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="36" column="8" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/information_retrieval_methods/pre_processor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="42" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SPLs/DesktopSearcher/thesaurus.dat">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        <state relative-caret-position="0">
+          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SPLs/DesktopSearcher/DesktopSearcher-AHEAD/model.xml">
+    <entry file="file://$PROJECT_DIR$/files/spl_projects.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="31" lean-forward="false" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SPLs/DesktopSearcher/model.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="27" lean-forward="false" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
@@ -1226,10 +1150,84 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/SPLs/Arithmetic_Expression_Evaluator/thesaurus.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SPLs/Arithmetic_Expression_Evaluator/traceability_oracle.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SPLs/BankAccountv2/thesaurus.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SPLs/Mobile_Media/build.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SPLs/Lampiro/model.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SPLs/Mobile_Media/model.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/spl_projects_backup.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SPLs/Arithmetic_Expression_Evaluator/model.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features_extraction/extractor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="35" column="32" lean-forward="true" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/experiment/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="53" column="6" lean-forward="false" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="6" />
+        <state relative-caret-position="455">
+          <caret line="66" column="49" lean-forward="false" selection-start-line="66" selection-start-column="49" selection-end-line="66" selection-end-column="49" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
           </folding>
@@ -1238,8 +1236,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SPLs/DesktopSearcher/traceability_oracle.dat">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evaluation/metrics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="63" column="10" lean-forward="false" selection-start-line="63" selection-start-column="10" selection-end-line="63" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evaluation/oracle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="54" lean-forward="false" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evaluation/evaluator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -6,12 +6,15 @@ from information_retrieval_methods.pre_processor import SPLProjectPreProcessor
 from information_retrieval_methods.probabilistic.bm25 import *
 from information_retrieval_methods.set_theoretic.extended_boolean import *
 from information_retrieval_methods.tfidf import *
+from evaluation.evaluator import ProjectEvaluationResult
 
 # START READING THE PROJECTS METADATA
 config_file_name='../files/spl_projects.dat'
 
 config_file = open(config_file_name, 'r')
 projects_base_path = config_file.readline()
+
+project_results = []
 
 for line in config_file:
     (project, language, method) = line.split()
@@ -48,14 +51,25 @@ for line in config_file:
     print('Step 3.4: running BM25 algorithm...')
     bm25_traces = bm25_run(features_dictionary, pre_processor)
 
-    project_oracle = TraceabilityOracle(project)
-    project_oracle.extract_true_traces()
-
     # print('classic_vector ' + str(classic_vector_traces))
     # print('neural_network ' + str(neural_network_traces))
     # print('extended_boolean ' + str(extended_boolean_traces))
     # print('bm25 ' + str(bm25_traces))
 
+    print('Step 4: collecting results...')
+    project_oracle = TraceabilityOracle(project)
+    true_traces = project_oracle.extract_true_traces()
+    result = ProjectEvaluationResult(project, true_traces)
+
+    result.add_method_results('Classic vector model', classic_vector_traces)
+    result.add_method_results('Neural networks', neural_network_traces)
+    result.add_method_results('Extended boolean', extended_boolean_traces)
+    result.add_method_results('BM25', bm25_traces)
+
+    project_results.append(result)
     print('DONE\n\n')
 
 config_file.close()
+
+# consolidating results
+

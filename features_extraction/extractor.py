@@ -34,7 +34,7 @@ class FeatureExtractor:
             self.features_dictionary['da'] = ('da',)
 
         self.extract_thesaurus()
-        print(self.features_dictionary)
+        print('Extracted features: ' + str(self.features_dictionary))
 
     def extract_feature_house_features(self):
         exp_files_list = glob.glob(self.project + '/**/*.exp', recursive=True)
@@ -53,12 +53,14 @@ class FeatureExtractor:
             model_m_file = open(model_m_list[0], "r")
             for line in model_m_file:
                 elements = line.split(' ')
-                if ':' in line and elements[0]:
+                if ':' in line and elements[0] and '_' not in elements[0]:
                     self.features_dictionary[elements[0].lower()] = (elements[0].lower(),)
+                elif '|' in line and len(elements) == 2:
+                    feature = elements[-1].strip()
+                    self.features_dictionary[feature.lower()] = (feature.lower(),)
                 for element in elements:
                     if '[' in element:
-                        feature = element.replace('[', '')
-                        feature = feature.replace(']', '')
+                        feature = element.replace('[', '').replace(']', '')
                         self.features_dictionary[feature.lower()] = (feature.lower(),)
 
     def extract_ahead_features(self):
@@ -98,7 +100,7 @@ class FeatureExtractor:
             if 'abstract' not in element.attributes:
                 feature = element.attributes['name'].value
                 self.features_dictionary[feature.lower()] = (feature.lower(),)
-        print(self.features_dictionary)
+        # print(self.features_dictionary)
 
     def extract_thesaurus(self):
         try:
