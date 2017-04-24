@@ -10,10 +10,16 @@ def neural_network_run(features_dictionary, pre_processor):
     # print('--------------------------------------------')
     # print('               NEURAL NETWORK')
     # print('--------------------------------------------')
-
+    traces = {}
     for feature_name in features_dictionary.keys():
         neural_network = calculate_activation_levels(features_dictionary, pre_processor, feature_name)
+        temp_traces = get_neural_network_traces(neural_network, pre_processor, feature_name)
+        if traces:
+            traces.update(temp_traces)
+        else:
+            traces = temp_traces
         # print(print_similarity_results(pre_processor, feature_name, neural_network))
+    return traces
 
 
 def calculate_activation_levels(features_dictionary, pre_processor, feature_name):
@@ -76,6 +82,19 @@ def calculate_activation_levels(features_dictionary, pre_processor, feature_name
                             document_node.update_activation_level(term_node.get_activation_level() * edge_weight)
 
     return neural_network
+
+
+def get_neural_network_traces(neural_network, pre_processor, feature_name):
+    traces = {}
+    threshold = pre_processor.get_method_threshold('neural_network')
+    for document in pre_processor.get_documents().keys():
+        document_node = neural_network.get_node(document)
+        if document_node is not None and document_node.get_activation_level() > threshold:
+            if feature_name in traces:
+                traces[feature_name] += (document,)
+            else:
+                traces[feature_name] = (document,)
+    return traces
 
 
 def print_similarity_results(pre_processor, feature_name, neural_network):

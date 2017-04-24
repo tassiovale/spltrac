@@ -34,7 +34,7 @@ class FeatureExtractor:
             self.features_dictionary['da'] = ('da',)
 
         self.extract_thesaurus()
-        # print(self.project + ' - ' + str(self.features_dictionary))
+        print(self.features_dictionary)
 
     def extract_feature_house_features(self):
         exp_files_list = glob.glob(self.project + '/**/*.exp', recursive=True)
@@ -95,8 +95,10 @@ class FeatureExtractor:
         alt_list = document.getElementsByTagName('alt')
         full_list = feature_list + and_list + or_list + alt_list
         for element in full_list:
-            feature = element.attributes['name'].value
-            self.features_dictionary[feature.lower()] = (feature.lower(),)
+            if 'abstract' not in element.attributes:
+                feature = element.attributes['name'].value
+                self.features_dictionary[feature.lower()] = (feature.lower(),)
+        print(self.features_dictionary)
 
     def extract_thesaurus(self):
         try:

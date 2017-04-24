@@ -10,10 +10,16 @@ def classic_vector_run(features_dictionary, pre_processor):
     # print('--------------------------------------------')
     # print('            CLASSIC VECTOR MODEL')
     # print('--------------------------------------------')
-
+    traces = {}
     for feature_name in features_dictionary.keys():
-        query_similarities = calculate_similarities(features_dictionary, pre_processor, feature_name)
+        similarities = calculate_similarities(features_dictionary, pre_processor, feature_name)
+        temp_traces = get_classic_vector_traces(similarities, pre_processor, feature_name)
+        if traces:
+            traces.update(temp_traces)
+        else:
+            traces = temp_traces
         # print(print_similarity_results(pre_processor, feature_name, query_similarities))
+    return traces
 
 
 def calculate_similarities(features_dictionary, pre_processor, feature_name):
@@ -41,6 +47,18 @@ def calculate_similarities(features_dictionary, pre_processor, feature_name):
             similarities[document] = 0
 
     return similarities
+
+
+def get_classic_vector_traces(similarities, pre_processor, feature_name):
+    traces = {}
+    threshold = pre_processor.get_method_threshold('classic_vector')
+    for (document, value) in similarities.items():
+        if value > threshold:
+            if feature_name in traces:
+                traces[feature_name] += (document,)
+            else:
+                traces[feature_name] = (document,)
+    return traces
 
 
 def print_similarity_results(pre_processor, feature_name, query_similarities):

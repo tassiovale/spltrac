@@ -17,9 +17,16 @@ def bm25_run(features_dictionary, pre_processor):
     b_const = float(bm25_constants_file.readline())
     bm25_constants_file.close()
 
+    traces = {}
     for feature_name in features_dictionary.keys():
-        query_similarities = calculate_similarities(features_dictionary, pre_processor, feature_name, k1_const, b_const)
+        similarities = calculate_similarities(features_dictionary, pre_processor, feature_name, k1_const, b_const)
+        temp_traces = get_bm25_traces(similarities, pre_processor, feature_name)
+        if traces:
+            traces.update(temp_traces)
+        else:
+            traces = temp_traces
         # print(print_similarity_results(pre_processor, feature_name, query_similarities))
+    return traces
 
 
 def calculate_similarities(features_dictionary, pre_processor, feature_name, k1_const, b_const):
@@ -43,6 +50,18 @@ def calculate_similarities(features_dictionary, pre_processor, feature_name, k1_
         similarities[document] = similarity_value
 
     return similarities
+
+
+def get_bm25_traces(similarities, pre_processor, feature_name):
+    traces = {}
+    threshold = pre_processor.get_method_threshold('bm25')
+    for (document, value) in similarities.items():
+        if value > threshold:
+            if feature_name in traces:
+                traces[feature_name] += (document,)
+            else:
+                traces[feature_name] = (document,)
+    return traces
 
 
 def get_avg_document_len(pre_processor):

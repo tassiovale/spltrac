@@ -1,7 +1,9 @@
 from nltk.tokenize import RegexpTokenizer
 from collections import Counter
 import glob
+import json
 
+# remove symbols from terms
 
 class DocumentDataByTerm:  # Objects from this class stores the frequency and weight of a term-document pair
     pass
@@ -17,6 +19,8 @@ class SPLProjectPreProcessor:
         self.index_terms = set()
         self.documents = {}
         self.generate_index(project, language)
+        self.thresholds = {}
+        self.load_json_thresholds()
 
     def generate_index(self, project, language):
         """It builds the index for the SPL project files (documents).
@@ -52,7 +56,6 @@ class SPLProjectPreProcessor:
         """
         for file_name in glob.iglob(project + '/**/*' + file_extension, recursive=True):
             self.num_files += 1
-            document = file_name.split('/')[-1]
 
             # reading file
             try:
@@ -66,7 +69,8 @@ class SPLProjectPreProcessor:
 
             tokenizer = RegexpTokenizer(r'[\w\']+')  # get tokens, removing punctuation and other single characters
             tokens = tokenizer.tokenize(file_content.lower())  # get tokens in lower case
-            self.documents[document] = len(tokens)
+            self.documents[file_name] = len(tokens)
+            # print(tokens)
 
             # counting frequencies for a specific file
             file_counter = Counter(tokens)
@@ -78,7 +82,7 @@ class SPLProjectPreProcessor:
                     document_data_by_term = DocumentDataByTerm()
                     document_data_by_term.frequency = frequency
                     document_data_by_term.weight = 0
-                    aux_index[document] = document_data_by_term
+                    aux_index[file_name] = document_data_by_term
                     try:
                         self.inverted_index[term].update(aux_index)
                     except KeyError:
@@ -105,3 +109,10 @@ class SPLProjectPreProcessor:
 
     def get_document_length(self, document):
         return self.documents[document]
+
+    def load_json_thresholds(self):
+        with open('../files/thresholds.json') as data_file:
+            self.thresholds = json.load(data_file)
+
+    def get_method_threshold(self, method):
+        return self.thresholds[method]

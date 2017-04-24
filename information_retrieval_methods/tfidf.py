@@ -6,21 +6,7 @@ import numpy
 # (1 + log fi,j) ∗ log N / ni
 
 
-def tfidf_run(features_dictionary, pre_processor):
-    """Executes the term weighting calculation.
-
-       Body.
-    """
-
-    # print('--------------------------------------------')
-    # print('              TERM WEIGHTING')
-    # print('--------------------------------------------')
-
-    # print(print_tfidf_results(features_dictionary, pre_processor))
-    pass
-
-
-def calculate_ifidf_weights(pre_processor):
+def calculate_tfidf_weights(pre_processor):
     """Calculate the TF-IDF for the specified term.
 
         This is computed by taking the logarithm of
@@ -34,6 +20,8 @@ def calculate_ifidf_weights(pre_processor):
             tfidf_weight = (1 + numpy.math.log(document_data.frequency, 2)) \
                                   * numpy.math.log((pre_processor.get_num_files() / term_document_ocurrences), 2)
             document_data.weight = tfidf_weight
+
+    return pre_processor.get_inverted_index()
 
 
 def print_tfidf_results(features_dictionary, pre_processor):
