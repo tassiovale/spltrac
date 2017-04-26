@@ -1,25 +1,25 @@
 ../product_line_projects/
-Test_project c none
-Arithmetic_Expression_Evaluator haskell cide
-BankAccountv2 java featurehouse
-BattleOfTanks java antenna
-Chat_HyperJ java hyperj
-DesktopSearcher java ahead
-Elevator_C c featurehouse
-Elevator_Java java featurehouse
-Email_JML java featurehouse
-EmailSystem_C c featurehouse
-EmailSystem_Java c featurehouse
-FAME_DBMS cpp cide
-Graph_Product_Line java featurehouse
-Lampiro java cide
-MinePump_C c featurehouse
-MinePump_Java java featurehouse
-Mobile_Media java cide
-Mobile_RSS_Reader java cide
-NetBot cs featurehouse
-Prevayler java cide
-Prop4J java featurehouse
-Pynche python cide
-TankWar java ahead
-Vistex java featurehouse
+Test_project c none 0
+Arithmetic_Expression_Evaluator haskell cide 460
+BankAccountv2 java featurehouse 95
+BattleOfTanks java antenna 1975
+Chat_HyperJ java hyperj 758
+DesktopSearcher java ahead 3779
+Elevator_C c featurehouse 877
+Elevator_Java java featurehouse 1046
+Email_JML java featurehouse 1233
+EmailSystem_C c featurehouse 258
+EmailSystem_Java c featurehouse 1233
+FAME_DBMS cpp cide 5000
+Graph_Product_Line java featurehouse 1350
+Lampiro java cide 45000
+MinePump_C c featurehouse 279
+MinePump_Java java featurehouse 580
+Mobile_Media java cide 5700
+Mobile_RSS_Reader java cide 20000
+NetBot cs featurehouse 1579
+Prevayler java cide 80000
+Prop4J java featurehouse 2051
+Pynche python cide 2400
+TankWar java ahead 5578
+Vistex java featurehouse 2405

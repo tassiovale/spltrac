@@ -1,10 +1,6 @@
 
 
 class TraceabilityOracle:
-    """Title.
-
-        Body.
-    """
 
     def __init__(self, project):
         """Title.

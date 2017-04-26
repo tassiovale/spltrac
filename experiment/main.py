@@ -17,7 +17,7 @@ projects_base_path = config_file.readline()
 evaluation_results = EvaluationResults()
 
 for line in config_file:
-    (project, language, method) = line.split()
+    (project, language, method, loc) = line.split()
     path = projects_base_path.replace('\n', '')  # it removes the newline character ('\n') from the path
     project = path + project
 
@@ -59,7 +59,7 @@ for line in config_file:
     print('Step 4: collecting results...')
     project_oracle = TraceabilityOracle(project)
     true_traces = project_oracle.extract_true_traces()
-    evaluation_results.add_project_input_data(project, true_traces)
+    evaluation_results.add_project_input_data(project, language, loc, true_traces)
 
     evaluation_results.add_method_results(project, 'Classic vector model', classic_vector_traces)
     evaluation_results.add_method_results(project, 'Neural networks', neural_network_traces)

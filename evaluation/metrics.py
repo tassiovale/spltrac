@@ -16,8 +16,8 @@ class ProjectMethodMetricsResult:
         self.precision = 0.0
         self.recall_per_feature = {}
         self.recall = 0.0
-        self.calculate_metric_results()
         self.f_measure = 0.0
+        self.calculate_metric_results()
 
     def calculate_metric_results(self):
         acum_precision = 0.0
@@ -54,7 +54,7 @@ class ProjectMethodMetricsResult:
                 # print('Recall: ' + str(self.recall_per_feature[feature]) + ' (R&A=' + str(
                 #    len(intersection_set)) + ' R=' + str(len(self.true_traces[feature])) + ')')
 
-        if n != 0 :
+        if n != 0:
             self.precision = acum_precision / n
             self.recall = acum_recall / n
         else:
@@ -65,7 +65,6 @@ class ProjectMethodMetricsResult:
             self.f_measure = 2 / ((1 / self.recall) + (1 / self.precision))
         else:
             self.f_measure = 0
-
 
         # print('\nOverall method results')
         # print('Precision: ' + str(self.precision))
