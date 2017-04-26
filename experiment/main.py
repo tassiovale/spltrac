@@ -6,7 +6,7 @@ from information_retrieval_methods.pre_processor import SPLProjectPreProcessor
 from information_retrieval_methods.probabilistic.bm25 import *
 from information_retrieval_methods.set_theoretic.extended_boolean import *
 from information_retrieval_methods.tfidf import *
-from evaluation.evaluator import ProjectEvaluationResult
+from evaluation.evaluator import EvaluationResults
 
 # START READING THE PROJECTS METADATA
 config_file_name='../files/spl_projects.dat'
@@ -14,7 +14,7 @@ config_file_name='../files/spl_projects.dat'
 config_file = open(config_file_name, 'r')
 projects_base_path = config_file.readline()
 
-project_results = []
+evaluation_results = EvaluationResults()
 
 for line in config_file:
     (project, language, method) = line.split()
@@ -59,17 +59,20 @@ for line in config_file:
     print('Step 4: collecting results...')
     project_oracle = TraceabilityOracle(project)
     true_traces = project_oracle.extract_true_traces()
-    result = ProjectEvaluationResult(project, true_traces)
+    evaluation_results.add_project_input_data(project, true_traces)
 
-    result.add_method_results('Classic vector model', classic_vector_traces)
-    result.add_method_results('Neural networks', neural_network_traces)
-    result.add_method_results('Extended boolean', extended_boolean_traces)
-    result.add_method_results('BM25', bm25_traces)
+    evaluation_results.add_method_results(project, 'Classic vector model', classic_vector_traces)
+    evaluation_results.add_method_results(project, 'Neural networks', neural_network_traces)
+    evaluation_results.add_method_results(project, 'Extended boolean', extended_boolean_traces)
+    evaluation_results.add_method_results(project, 'BM25', bm25_traces)
 
-    project_results.append(result)
-    print('DONE\n\n')
+# consolidating results
+print('Step 5: consolidating project results...')
+evaluation_results.consolidate_results()
+
+print('Step 6: generating output charts...')
+evaluation_results.export_results()
 
 config_file.close()
 
-# consolidating results
-
+print('DONE\n\n')
