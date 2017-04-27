@@ -22,18 +22,18 @@ for line in config_file:
     project = path + project
 
     # EXECUTION OF THE INFORMATION RETRIEVAL ALGORITHMS
-    print('Project: ' + project)
+    print('\nProject: ' + project)
     print('Language: ' + language.upper())
     print('Variability realization method: ' + method.upper())
 
-    print('Step 1: processing project...')
-    pre_processor = SPLProjectPreProcessor(project, language)
-    inverted_index = calculate_tfidf_weights(pre_processor)  # calculating weight through TF-IDF for each feature
-
-    print('Step 2: extracting features...')
+    print('Step 1: extracting features...')
     feature_extractor = FeatureExtractor(project, method)
     feature_extractor.analyze_project()
     features_dictionary = feature_extractor.get_features_dictionary()
+
+    print('Step 2: processing project...')
+    pre_processor = SPLProjectPreProcessor(project, language, features_dictionary)
+    inverted_index = calculate_tfidf_weights(pre_processor)  # calculating weight through TF-IDF for each feature
 
     # Algebraic - classic vector model
     print('Step 3.1: running classic vector model algorithm...')

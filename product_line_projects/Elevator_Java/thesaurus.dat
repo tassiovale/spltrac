@@ -1,0 +1,5 @@
+base:select_features,select_helpers,person,floor,setup
+empty:isempty
+overloaded:maximumweight
+twothirdsfull:2/3
+weight:getweight

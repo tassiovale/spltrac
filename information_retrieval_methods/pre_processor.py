@@ -10,7 +10,9 @@ class DocumentDataByTerm:  # Objects from this class stores the frequency and we
 
 class SPLProjectPreProcessor:
 
-    def __init__(self, project, language):
+    def __init__(self, project, language, features_dictionary):
+
+        self.features_dictionary = features_dictionary
 
         self.num_files = 0
         self.stop_words = set()
@@ -18,6 +20,7 @@ class SPLProjectPreProcessor:
         self.index_terms = set()
         self.documents = {}
         self.generate_index(project, language)
+
         self.thresholds = {}
         self.load_json_thresholds()
 
@@ -87,6 +90,27 @@ class SPLProjectPreProcessor:
                         self.inverted_index[term].update(aux_index)
                     except KeyError:
                         self.inverted_index[term] = aux_index
+
+            for (key, features_tuple) in self.features_dictionary.items():
+                for feature in features_tuple:
+                    feature_frequency = 0
+                    if feature not in file_counter.most_common():
+                        for token in tokens:
+                            if feature in token:
+                                feature_frequency += 1
+                        if feature_frequency > 0:
+                            aux_index = {}
+                            document_data_by_term = DocumentDataByTerm()
+                            document_data_by_term.frequency = feature_frequency
+                            document_data_by_term.weight = 0
+                            aux_index[file_name] = document_data_by_term
+                            try:
+                                self.inverted_index[feature].update(aux_index)
+                            except KeyError:
+                                self.inverted_index[feature] = aux_index
+
+
+
 
     def get_docs_per_term(self, term):
         doc_term_dictionary = self.inverted_index[term]

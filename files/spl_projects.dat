@@ -1,4 +1,8 @@
 ../product_line_projects/
-Test_project c none 0
 Arithmetic_Expression_Evaluator haskell cide 460
 BankAccountv2 java featurehouse 95
+BattleOfTanks java antenna 1975
+Chat_HyperJ java hyperj 758
+DesktopSearcher java ahead 3779
+Elevator_C c featurehouse 877
+Elevator_Java java featurehouse 1046

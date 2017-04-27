@@ -1,0 +1,8 @@
+base:emailclient/Base/Client.c,emailclient/Base/Client.h,emailclient/Base/ClientLib.c,emailclient/Base/ClientLib.h,emailclient/Base/Email.c,emailclient/Base/Email.h,emailclient/Base/EmailLib.c,emailclient/Base/EmailLib.h,emailclient/Base/featureselect.c,emailclient/Base/featureselect.h,emailclient/Base/Test.c,emailclient/Base/Test.h,emailclient/Base/Util.c,emailclient/Base/Util.h
+keys:emailclient/Keys/Client.c,emailclient/Keys/Client.h,emailclient/Keys/Test.c,emailclient/Keys/Test.h
+encrypt:emailclient/Encrypt/Client.c,emailclient/Encrypt/Client.h,emailclient/Encrypt/Email.c,emailclient/Encrypt/Email.h
+autoresponder:emailclient/AutoResponder/Client.c,emailclient/AutoResponder/Client.h,emailclient/AutoResponder/Test.c,emailclient/AutoResponder/Test.h
+addressbook:emailclient/AddressBook/Client.c,emailclient/AddressBook/Client.h,emailclient/AddressBook/Test.c,emailclient/AddressBook/Test.h
+sign:emailclient/Sign/Client.c,emailclient/Sign/Client.h,emailclient/Sign/Email.c,emailclient/Sign/Email.h
+forward:emailclient/Forward/Client.c,emailclient/Forward/Client.h,emailclient/Forward/Test.c,emailclient/Forward/Test.h
+decrypt:emailclient/Decrypt/Client.c,emailclient/Decrypt/Client.h
