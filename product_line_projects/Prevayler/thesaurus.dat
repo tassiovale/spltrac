@@ -1,5 +1,1 @@
-monitor:
-replication:
-snapshot:
-censor:
-gzip:
+replication:network

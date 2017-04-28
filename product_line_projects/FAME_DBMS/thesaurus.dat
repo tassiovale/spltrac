@@ -1,4 +1,4 @@
-win:
-write:
-nutos:
-testing:
+win:windows
+write:sprintf
+nutos:nut
+testing:test
