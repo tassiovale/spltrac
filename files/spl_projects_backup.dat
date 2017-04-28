@@ -7,9 +7,9 @@ Chat_HyperJ java hyperj 758
 DesktopSearcher java ahead 3779
 Elevator_C c featurehouse 877
 Elevator_Java java featurehouse 1046
-Email_JML java featurehouse 1233
 EmailSystem_C c featurehouse 258
-EmailSystem_Java c featurehouse 1233
+EmailSystem_Java java featurehouse 1233
+Email_JML java featurehouse 1233
 FAME_DBMS cpp cide 5000
 Graph_Product_Line java featurehouse 1350
 Lampiro java cide 45000
@@ -21,5 +21,3 @@ NetBot cs featurehouse 1579
 Prevayler java cide 80000
 Prop4J java featurehouse 2051
 Pynche python cide 2400
-TankWar java ahead 5578
-Vistex java featurehouse 2405

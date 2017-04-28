@@ -1,6 +1,5 @@
-base:features/base/Actions.java,features/base/JUnit_Scenario_Tests.java,features/base/PL_Interface.java,features/base/PL_Interface_impl.java,features/base/ElevatorSystem/Elevator.java,features/base/ElevatorSystem/Environment.java,features/base/ElevatorSystem/EvilPerson.java,features/base/ElevatorSystem/Floor.java,features/base/ElevatorSystem/Person.java,features/base/TestSpecifications/SpecificationException.java,features/base/TestSpecifications/SpecificationManager.java
 empty:features/empty/ElevatorSystem/Elevator.java,features/empty/ElevatorSystem/Environment.java
-executivefloor:features/executivefloor/ElevatorSystem/Elevator.java
+executivefloor:features/executivefloor/Specifications/Specification_ExecutiveFloor.aj,features/executivefloor/ElevatorSystem/Elevator.java
 overloaded:features/overloaded/ElevatorSystem/Elevator.java
 twothirdsfull:features/twothirdsfull/ElevatorSystem/Elevator.java
-weight:features/weight/ElevatorSystem/Elevator.java
+weight:features/weight/Specifications/Specification_Overloaded.aj,features/weight/Specifications/Specification_TwoThirdsFull.aj,features/weight/ElevatorSystem/Elevator.java

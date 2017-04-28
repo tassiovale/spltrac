@@ -1,4 +1,3 @@
-base:features/Base/ContentHandler.jak,features/Base/Indexer.jak,features/Base/IndexerException.jak,features/Base/MrPinkMain.jak,features/Base/OptionStorage.jak,features/Base/OptionWindow.jak
 commandline:features/Commandline/Commandline.jak,features/Commandline/Indexer.jak,features/Commandline/MrPinkMain.jak
 gui:features/GUI/ButtonListener.jak,features/GUI/MainFrame.jak,features/GUI/MrPinkMain.jak
 gui_preferences:features/Gui_Preferences/ButtonListener.jak,features/Gui_Preferences/MainFrame.jak

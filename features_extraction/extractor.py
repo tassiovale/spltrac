@@ -34,6 +34,11 @@ class FeatureExtractor:
             self.features_dictionary['da'] = ('da',)
 
         self.extract_thesaurus()
+
+        # removing base features (if available)
+        if 'base' in self.features_dictionary:
+            del self.features_dictionary['base']
+
         print('Extracted features: ' + str(self.features_dictionary))
 
     def extract_feature_house_features(self):
@@ -48,20 +53,12 @@ class FeatureExtractor:
                 self.read_model_xml()
 
     def extract_cide_features(self):
-        model_m_list = glob.glob(self.project + '/model.m', recursive=True)
-        if model_m_list:
-            model_m_file = open(model_m_list[0], "r")
-            for line in model_m_file:
-                elements = line.split(' ')
-                if ':' in line and elements[0] and '_' not in elements[0]:
-                    self.features_dictionary[elements[0].lower()] = (elements[0].lower(),)
-                elif '|' in line and len(elements) == 2:
-                    feature = elements[-1].strip()
-                    self.features_dictionary[feature.lower()] = (feature.lower(),)
-                for element in elements:
-                    if '[' in element:
-                        feature = element.replace('[', '').replace(']', '')
-                        self.features_dictionary[feature.lower()] = (feature.lower(),)
+        document = minidom.parse(self.project + '/model.colors')
+        feature_list = document.getElementsByTagName('featureattr')
+        for element in feature_list:
+            if 'name' in element.attributes and 'id' in element.attributes:
+                feature_name = element.attributes['name'].value
+                self.features_dictionary[feature_name.lower()] = (feature_name.lower(),)
 
     def extract_ahead_features(self):
         self.read_model_xml()

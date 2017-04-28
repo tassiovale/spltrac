@@ -1,4 +1,3 @@
-base:features/base/Elevator.c,features/base/Elevator.h,features/base/featureselect.c,features/base/featureselect.h,features/base/Floor.c,features/base/Floor.h,features/base/Person.c,features/base/Person.h,features/base/Test.c,features/base/Test.h,features/base/UnitTests.c
 empty:features/empty/Elevator.c
 executivefloor:features/executivefloor/Elevator.c,features/executivefloor/Elevator.h
 overloaded:features/overloaded/Elevator.c,features/overloaded/Elevator.h

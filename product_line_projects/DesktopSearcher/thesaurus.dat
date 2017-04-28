@@ -1,4 +1,3 @@
-base:basis,index,indexer
 commandline:prompt,cmd
 html:html-datei
 index_history:index_history_selector,his_indexer

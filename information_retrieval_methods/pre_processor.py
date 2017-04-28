@@ -37,6 +37,7 @@ class SPLProjectPreProcessor:
         elif language == 'java':
             self.analyze_term_document_frequency(project, '.java')
             self.analyze_term_document_frequency(project, '.jak')
+            self.analyze_term_document_frequency(project, '.aj')
         elif language == 'cpp':
             self.analyze_term_document_frequency(project, '.cpp')
             self.analyze_term_document_frequency(project, '.h')

@@ -1,0 +1,17 @@
+x_notglider:
+ui:
+bludeno:
+compression:
+send_debug1:
+not_plain_socket:
+x_notui:
+motorola:
+x_notcompression:
+x_not_bludeno:
+x_nottls:
+timing:
+screensaver:
+tls:
+x_nottiming:
+glider:
+x_notbxmpp:

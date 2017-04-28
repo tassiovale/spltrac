@@ -2,24 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="beb1f368-61e7-4ea0-b5cc-680ebde3c137" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product_line_projects/BattleOfTanks/thesaurus.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product_line_projects/BattleOfTanks/traceability_oracle.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product_line_projects/Chat_HyperJ/thesaurus.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product_line_projects/Chat_HyperJ/traceability_oracle.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product_line_projects/Elevator_C/thesaurus.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product_line_projects/Elevator_C/traceability_oracle.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product_line_projects/Elevator_Java/thesaurus.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product_line_projects/Elevator_Java/traceability_oracle.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product_line_projects/EmailSystem_C/thesaurus.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product_line_projects/EmailSystem_C/traceability_oracle.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features_extraction/cide_true_traces_extractor.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product_line_projects/EmailSystem_Java/thesaurus.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product_line_projects/EmailSystem_Java/traceability_oracle.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product_line_projects/Email_JML/thesaurus.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product_line_projects/Email_JML/traceability_oracle.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product_line_projects/FAME_DBMS/thesaurus.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product_line_projects/FAME_DBMS/traceability_oracle.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product_line_projects/Graph_Product_Line/thesaurus.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product_line_projects/Graph_Product_Line/traceability_oracle.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product_line_projects/Lampiro/thesaurus.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product_line_projects/Lampiro/traceability_oracle.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product_line_projects/MinePump_C/thesaurus.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product_line_projects/MinePump_C/traceability_oracle.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product_line_projects/MinePump_Java/thesaurus.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product_line_projects/MinePump_Java/traceability_oracle.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product_line_projects/Mobile_Media/thesaurus.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product_line_projects/Mobile_Media/traceability_oracle.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product_line_projects/Mobile_RSS_Reader/thesaurus.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product_line_projects/Mobile_RSS_Reader/traceability_oracle.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product_line_projects/NetBot/thesaurus.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product_line_projects/NetBot/traceability_oracle.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product_line_projects/Prevayler/thesaurus.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product_line_projects/Prevayler/traceability_oracle.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product_line_projects/Prop4J/thesaurus.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product_line_projects/Prop4J/traceability_oracle.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product_line_projects/Pynche/thesaurus.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product_line_projects/Pynche/traceability_oracle.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/evaluation/metrics.py" afterPath="$PROJECT_DIR$/evaluation/metrics.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiment/main.py" afterPath="$PROJECT_DIR$/experiment/main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/evaluation/oracle.py" afterPath="$PROJECT_DIR$/evaluation/oracle.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features_extraction/extractor.py" afterPath="$PROJECT_DIR$/features_extraction/extractor.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/files/spl_projects.dat" afterPath="$PROJECT_DIR$/files/spl_projects.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/files/thresholds.json" afterPath="$PROJECT_DIR$/files/thresholds.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/files/spl_projects_backup.dat" afterPath="$PROJECT_DIR$/files/spl_projects_backup.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/information_retrieval_methods/pre_processor.py" afterPath="$PROJECT_DIR$/information_retrieval_methods/pre_processor.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product_line_projects/DesktopSearcher/thesaurus.dat" afterPath="$PROJECT_DIR$/product_line_projects/DesktopSearcher/thesaurus.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product_line_projects/DesktopSearcher/traceability_oracle.dat" afterPath="$PROJECT_DIR$/product_line_projects/DesktopSearcher/traceability_oracle.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product_line_projects/Elevator_C/thesaurus.dat" afterPath="$PROJECT_DIR$/product_line_projects/Elevator_C/thesaurus.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product_line_projects/Elevator_C/traceability_oracle.dat" afterPath="$PROJECT_DIR$/product_line_projects/Elevator_C/traceability_oracle.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product_line_projects/Elevator_Java/thesaurus.dat" afterPath="$PROJECT_DIR$/product_line_projects/Elevator_Java/thesaurus.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product_line_projects/Elevator_Java/traceability_oracle.dat" afterPath="$PROJECT_DIR$/product_line_projects/Elevator_Java/traceability_oracle.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product_line_projects/EmailSystem_C/thesaurus.dat" afterPath="$PROJECT_DIR$/product_line_projects/EmailSystem_C/thesaurus.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product_line_projects/EmailSystem_C/traceability_oracle.dat" afterPath="$PROJECT_DIR$/product_line_projects/EmailSystem_C/traceability_oracle.dat" />
     </list>
     <ignored path="SPLTraceabilityPlayground.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,30 +61,7 @@
     <favorites_list name="SPLTraceabilityPlayground" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="tfidf.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/information_retrieval_methods/tfidf.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="34" lean-forward="true" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pre_processor.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/information_retrieval_methods/pre_processor.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
-              <caret line="103" column="79" lean-forward="false" selection-start-line="103" selection-start-column="79" selection-end-line="103" selection-end-column="79" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -72,20 +72,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>self.features_dictionary</find>
-      <find>self.features_dict</find>
-      <find>ar</find>
-      <find>novar</find>
-      <find>var</find>
-      <find>ite</find>
-      <find>lambda</find>
-      <find>lazy</find>
-      <find>lam</find>
-      <find>strict</find>
-      <find>error</find>
-      <find>vars</find>
-      <find>static</find>
-      <find>bool</find>
       <find>windows</find>
       <find>15</find>
       <find>linux</find>
@@ -93,7 +79,6 @@
       <find>16</find>
       <find>print</find>
       <find>//#if</find>
-      <find />
       <find>normal</find>
       <find>his</find>
       <find>directo</find>
@@ -102,9 +87,26 @@
       <find>tree</find>
       <find>view</find>
       <find>base</find>
+      <find>&quot;/&gt;</find>
+      <find />
+      <find>edge</find>
+      <find>nei</find>
+      <find>without</find>
+      <find>trans</find>
+      <find>mst</find>
+      <find>bfs</find>
+      <find>dfs</find>
+      <find>:</find>
+      <find>hand</find>
+      <find>menu</find>
+      <find>hard</find>
+      <find>0,0</find>
+      <find>cide</find>
     </findStrings>
     <replaceStrings>
       <replace />
+      <replace>:</replace>
+      <replace>:features/</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -113,57 +115,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/information_retrieval_methods/algebraic/classic_vector_runner.py" />
-        <option value="$PROJECT_DIR$/experiment/SPLs/tfidf-test/d1.c" />
-        <option value="$PROJECT_DIR$/files/neural_network_iterations.dat" />
-        <option value="$PROJECT_DIR$/files/stopwords_cpp.dat" />
-        <option value="$PROJECT_DIR$/files/stopwords_cs.dat" />
-        <option value="$PROJECT_DIR$/files/stopwords_haskell.dat" />
-        <option value="$PROJECT_DIR$/files/stopwords_python.dat" />
-        <option value="$PROJECT_DIR$/files/config_file_backup.dat" />
-        <option value="$PROJECT_DIR$/files/config_file.dat" />
-        <option value="$PROJECT_DIR$/SPLs/Test_project/thesaurus.dat" />
-        <option value="$PROJECT_DIR$/SPLs/Test_project/oracle.dat" />
-        <option value="$PROJECT_DIR$/files/thresholds.dat" />
-        <option value="$PROJECT_DIR$/information_retrieval_methods/term_weigthing/tfidf.py" />
-        <option value="$PROJECT_DIR$/information_retrieval_methods/tfidf.py" />
-        <option value="$PROJECT_DIR$/features_extraction/evaluator.py" />
-        <option value="$PROJECT_DIR$/features_extraction/metrics.py" />
-        <option value="$PROJECT_DIR$/SPLs/Test_project/thesaurus.json" />
-        <option value="$PROJECT_DIR$/SPLs/Arithmetic_Expression_Evaluator/thesaurus.dat" />
-        <option value="$PROJECT_DIR$/SPLs/Arithmetic_Expression_Evaluator/traceability_oracle.dat" />
-        <option value="$PROJECT_DIR$/SPLs/BankAccountv2/traceability_oracle.dat" />
-        <option value="$PROJECT_DIR$/SPLs/BankAccountv2/thesaurus.dat" />
-        <option value="$PROJECT_DIR$/information_retrieval_methods/algebraic/classic_vector.py" />
-        <option value="$PROJECT_DIR$/information_retrieval_methods/algebraic/neural_networks.py" />
-        <option value="$PROJECT_DIR$/information_retrieval_methods/probabilistic/bm25.py" />
-        <option value="$PROJECT_DIR$/information_retrieval_methods/set_theoretic/extended_boolean.py" />
-        <option value="$PROJECT_DIR$/SPLs/DesktopSearcher/traceability_oracle.dat" />
-        <option value="$PROJECT_DIR$/SPLs/DesktopSearcher/thesaurus.dat" />
-        <option value="$PROJECT_DIR$/features_extraction/extractor.py" />
-        <option value="$PROJECT_DIR$/results/script_template.R" />
-        <option value="$PROJECT_DIR$/experiment/results/script_template.R" />
-        <option value="$PROJECT_DIR$/evaluation/oracle.py" />
-        <option value="$PROJECT_DIR$/files/spl_projects_backup.dat" />
-        <option value="$PROJECT_DIR$/evaluation/evaluator.py" />
-        <option value="$PROJECT_DIR$/evaluation/metrics.py" />
-        <option value="$PROJECT_DIR$/product_line_projects/BattleOfTanks/traceability_oracle.dat" />
         <option value="$PROJECT_DIR$/product_line_projects/BattleOfTanks/thesaurus.dat" />
         <option value="$PROJECT_DIR$/product_line_projects/Chat_HyperJ/traceability_oracle.dat" />
         <option value="$PROJECT_DIR$/product_line_projects/Chat_HyperJ/thesaurus.dat" />
-        <option value="$PROJECT_DIR$/product_line_projects/DesktopSearcher/traceability_oracle.dat" />
+        <option value="$PROJECT_DIR$/experiment/main.py" />
+        <option value="$PROJECT_DIR$/files/thresholds.json" />
+        <option value="$PROJECT_DIR$/product_line_projects/EmailSystem_C/features.exp" />
+        <option value="$PROJECT_DIR$/information_retrieval_methods/pre_processor.py" />
+        <option value="$PROJECT_DIR$/product_line_projects/FAME_DBMS/traceability_oracle.dat" />
+        <option value="$PROJECT_DIR$/product_line_projects/Lampiro/traceability_oracle.dat" />
+        <option value="$PROJECT_DIR$/product_line_projects/Mobile_Media/traceability_oracle.dat" />
+        <option value="$PROJECT_DIR$/product_line_projects/Mobile_RSS_Reader/traceability_oracle.dat" />
+        <option value="$PROJECT_DIR$/product_line_projects/Prevayler/traceability_oracle.dat" />
+        <option value="$PROJECT_DIR$/product_line_projects/Pynche/traceability_oracle.dat" />
+        <option value="$PROJECT_DIR$/evaluation/oracle.py" />
+        <option value="$PROJECT_DIR$/product_line_projects/Graph_Product_Line/thesaurus.dat" />
         <option value="$PROJECT_DIR$/product_line_projects/DesktopSearcher/thesaurus.dat" />
-        <option value="$PROJECT_DIR$/product_line_projects/Elevator_C/traceability_oracle.dat" />
         <option value="$PROJECT_DIR$/product_line_projects/Elevator_C/thesaurus.dat" />
+        <option value="$PROJECT_DIR$/product_line_projects/DesktopSearcher/traceability_oracle.dat" />
+        <option value="$PROJECT_DIR$/product_line_projects/Elevator_C/traceability_oracle.dat" />
         <option value="$PROJECT_DIR$/product_line_projects/Elevator_Java/traceability_oracle.dat" />
         <option value="$PROJECT_DIR$/product_line_projects/Elevator_Java/thesaurus.dat" />
-        <option value="$PROJECT_DIR$/files/spl_projects.dat" />
-        <option value="$PROJECT_DIR$/product_line_projects/EmailSystem_C/features.exp" />
-        <option value="$PROJECT_DIR$/product_line_projects/EmailSystem_C/traceability_oracle.dat" />
         <option value="$PROJECT_DIR$/product_line_projects/EmailSystem_C/thesaurus.dat" />
-        <option value="$PROJECT_DIR$/experiment/main.py" />
-        <option value="$PROJECT_DIR$/information_retrieval_methods/pre_processor.py" />
-        <option value="$PROJECT_DIR$/files/thresholds.json" />
+        <option value="$PROJECT_DIR$/product_line_projects/EmailSystem_C/traceability_oracle.dat" />
+        <option value="$PROJECT_DIR$/product_line_projects/EmailSystem_Java/thesaurus.dat" />
+        <option value="$PROJECT_DIR$/product_line_projects/EmailSystem_Java/traceability_oracle.dat" />
+        <option value="$PROJECT_DIR$/product_line_projects/Email_JML/thesaurus.dat" />
+        <option value="$PROJECT_DIR$/product_line_projects/Email_JML/traceability_oracle.dat" />
+        <option value="$PROJECT_DIR$/product_line_projects/Graph_Product_Line/traceability_oracle.dat" />
+        <option value="$PROJECT_DIR$/product_line_projects/MinePump_C/traceability_oracle.dat" />
+        <option value="$PROJECT_DIR$/product_line_projects/MinePump_C/thesaurus.dat" />
+        <option value="$PROJECT_DIR$/product_line_projects/MinePump_Java/traceability_oracle.dat" />
+        <option value="$PROJECT_DIR$/product_line_projects/NetBot/traceability_oracle.dat" />
+        <option value="$PROJECT_DIR$/product_line_projects/NetBot/thesaurus.dat" />
+        <option value="$PROJECT_DIR$/product_line_projects/Prop4J/traceability_oracle.dat" />
+        <option value="$PROJECT_DIR$/product_line_projects/Prop4J/thesaurus.dat" />
+        <option value="$PROJECT_DIR$/product_line_projects/TankWar/traceability_oracle.dat" />
+        <option value="$PROJECT_DIR$/product_line_projects/TankWar/thesaurus.dat" />
+        <option value="$PROJECT_DIR$/files/spl_projects.dat" />
+        <option value="$PROJECT_DIR$/files/spl_projects_backup.dat" />
+        <option value="$PROJECT_DIR$/product_line_projects/Pynche/model.colors" />
+        <option value="$PROJECT_DIR$/product_line_projects/Pynche/Main.py.color" />
+        <option value="$PROJECT_DIR$/product_line_projects/Pynche/.dircolors" />
+        <option value="$PROJECT_DIR$/features_extraction/cide_extractor.py" />
+        <option value="$PROJECT_DIR$/features_extraction/extractor.py" />
+        <option value="$PROJECT_DIR$/features_extraction/cide_true_traces_extractor.py" />
+        <option value="$PROJECT_DIR$/product_line_projects/FAME_DBMS/thesaurus.dat" />
+        <option value="$PROJECT_DIR$/product_line_projects/Lampiro/thesaurus.dat" />
+        <option value="$PROJECT_DIR$/product_line_projects/Prevayler/thesaurus.dat" />
+        <option value="$PROJECT_DIR$/product_line_projects/Pynche/thesaurus.dat" />
+        <option value="$PROJECT_DIR$/product_line_projects/Mobile_Media/thesaurus.dat" />
+        <option value="$PROJECT_DIR$/product_line_projects/Mobile_RSS_Reader/thesaurus.dat" />
       </list>
     </option>
   </component>
@@ -228,7 +230,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="EmailSystem_C" />
+              <option name="myItemId" value="Pynche" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -246,11 +248,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="EmailSystem_C" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="emailclient" />
+              <option name="myItemId" value="Prevayler" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -268,15 +266,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="EmailSystem_C" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="emailclient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AddressBook" />
+              <option name="myItemId" value="Mobile_RSS_Reader" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -290,7 +280,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="information_retrieval_methods" />
+              <option name="myItemId" value="product_line_projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mobile_Media" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -304,29 +298,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="information_retrieval_methods" />
+              <option name="myItemId" value="product_line_projects" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="set_theoretic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SPLTrac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spltrac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="information_retrieval_methods" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="probabilistic" />
+              <option name="myItemId" value="Lampiro" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -340,25 +316,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="information_retrieval_methods" />
+              <option name="myItemId" value="product_line_projects" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="algebraic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SPLTrac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spltrac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="files" />
+              <option name="myItemId" value="FAME_DBMS" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -373,34 +335,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="features_extraction" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SPLTrac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spltrac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="experiment" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SPLTrac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spltrac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="evaluation" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -423,14 +357,14 @@
       <recent name="$PROJECT_DIR$/evaluation" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/product_line_projects/EmailSystem_C" />
-      <recent name="$PROJECT_DIR$/product_line_projects/Elevator_Java" />
-      <recent name="$PROJECT_DIR$/product_line_projects/Elevator_C" />
-      <recent name="$PROJECT_DIR$/product_line_projects/Chat_HyperJ" />
-      <recent name="$PROJECT_DIR$/product_line_projects/BattleOfTanks" />
+      <recent name="$PROJECT_DIR$/product_line_projects/TankWar" />
+      <recent name="$PROJECT_DIR$/product_line_projects/Prop4J" />
+      <recent name="$PROJECT_DIR$/product_line_projects/NetBot" />
+      <recent name="$PROJECT_DIR$/product_line_projects/MinePump_Java" />
+      <recent name="$PROJECT_DIR$/product_line_projects/MinePump_C" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.cide_extractor">
     <configuration default="false" name="corpus_generator" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -444,23 +378,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="SPLTraceabilityPlayground" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/information_retrieval_methods/tfidf/corpus_generator.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="ir_method_runner" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/experiment" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="SPLTraceabilityPlayground" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/information_retrieval_methods/ir_method_runner.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -517,6 +434,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="SPLTrac" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/experiment/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="cide_extractor" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/features_extraction" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="SPLTrac" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/features_extraction/cide_true_traces_extractor.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -657,18 +591,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.corpus_generator" />
-      <item index="1" class="java.lang.String" itemvalue="Python.ir_method_runner" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in examples" />
-      <item index="3" class="java.lang.String" itemvalue="Python.vectormodel" />
-      <item index="4" class="java.lang.String" itemvalue="Python.main" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in examples" />
+      <item index="2" class="java.lang.String" itemvalue="Python.vectormodel" />
+      <item index="3" class="java.lang.String" itemvalue="Python.main" />
+      <item index="4" class="java.lang.String" itemvalue="Python.cide_extractor" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.main" />
-        <item index="1" class="java.lang.String" itemvalue="Python.vectormodel" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in examples" />
-        <item index="3" class="java.lang.String" itemvalue="Python.corpus_generator" />
-        <item index="4" class="java.lang.String" itemvalue="Python.ir_method_runner" />
+        <item index="0" class="java.lang.String" itemvalue="Python.cide_extractor" />
+        <item index="1" class="java.lang.String" itemvalue="Python.main" />
+        <item index="2" class="java.lang.String" itemvalue="Python.vectormodel" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in examples" />
+        <item index="4" class="java.lang.String" itemvalue="Python.corpus_generator" />
       </list>
     </recent_temporary>
   </component>
@@ -770,7 +704,14 @@
       <option name="project" value="LOCAL" />
       <updated>1493240424528</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="improvements in the preprocessor OK&#10;testing IR method thresholds OK&#10;uploading thesaurus and oracle for some projects OK">
+      <created>1493305792556</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1493305792557</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -785,13 +726,13 @@
     <frame x="1280" y="23" width="1916" height="1057" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2223382" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22216359" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909605" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32591093" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909605" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28441295" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28434506" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909605" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -829,7 +770,8 @@
     <MESSAGE value="implementation of the first proposal for evaluation metrics (precision, recall and f-measure)" />
     <MESSAGE value="implementation of the first proposal for evaluation metrics (precision, recall and f-measure) OK&#10;exporting R script files to generate charts OK" />
     <MESSAGE value="fixing f_measure value in the csv file" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixing f_measure value in the csv file" />
+    <MESSAGE value="improvements in the preprocessor OK&#10;testing IR method thresholds OK&#10;uploading thesaurus and oracle for some projects OK" />
+    <option name="LAST_COMMIT_MESSAGE" value="improvements in the preprocessor OK&#10;testing IR method thresholds OK&#10;uploading thesaurus and oracle for some projects OK" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -838,79 +780,55 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/product_line_projects/Elevator_C/features/base/Elevator.c">
+    <entry file="file://$PROJECT_DIR$/product_line_projects/TankWar/features/Handy/Maler.jak">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2280">
-          <caret line="218" column="55" lean-forward="false" selection-start-line="218" selection-start-column="51" selection-end-line="218" selection-end-column="55" />
+        <state relative-caret-position="154">
+          <caret line="106" column="35" lean-forward="true" selection-start-line="106" selection-start-column="35" selection-end-line="106" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/product_line_projects/Elevator_C/features/base/Person.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product_line_projects/Elevator_C/features/base/Test.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="152" column="16" lean-forward="false" selection-start-line="152" selection-start-column="2" selection-end-line="152" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product_line_projects/Elevator_C/features/base/Test.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product_line_projects/Elevator_C/features/base/UnitTests.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product_line_projects/Elevator_C/features/twothirdsfull/Elevator.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="48" lean-forward="true" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product_line_projects/Elevator_C/features/weight/Elevator.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product_line_projects/Elevator_C/features/weight/Elevator.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product_line_projects/Elevator_Java/traceability_oracle.dat">
+    <entry file="file://$PROJECT_DIR$/product_line_projects/TankWar/features/Handy/Menu.jak">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="51" lean-forward="false" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/product_line_projects/Elevator_Java/features/base/ElevatorSystem/Elevator.java">
+    <entry file="file://$PROJECT_DIR$/product_line_projects/TankWar/features/Handy/Option.jak">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-71">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product_line_projects/TankWar/thesaurus.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product_line_projects/TankWar/features/Hard/Tank.jak">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product_line_projects/Vistex/features/Ersetzen/Ersetzen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1770">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product_line_projects/EmailSystem_Java/allFeatures.exp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -918,7 +836,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/product_line_projects/Elevator_Java/features/base/ElevatorSystem/Environment.java">
+    <entry file="file://$PROJECT_DIR$/experiment/results/2017-04-27_22h19m_output.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="45" column="32" lean-forward="false" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiment/results/2017-04-27_22h24m_output.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="25" column="10" lean-forward="false" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product_line_projects/EmailSystem_Java/traceability_oracle.dat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -926,7 +860,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/product_line_projects/Elevator_Java/features/base/ElevatorSystem/EvilPerson.java">
+    <entry file="file://$PROJECT_DIR$/product_line_projects/EmailSystem_Java/thesaurus.dat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -934,7 +868,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/product_line_projects/Elevator_Java/features/base/ElevatorSystem/Floor.java">
+    <entry file="file://$PROJECT_DIR$/product_line_projects/FAME_DBMS/model.m">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -942,188 +876,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/product_line_projects/Elevator_Java/features/base/ElevatorSystem/Person.java">
+    <entry file="file://$PROJECT_DIR$/product_line_projects/Lampiro/model.m">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product_line_projects/Elevator_C/thesaurus.dat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product_line_projects/Elevator_Java/features/base/TestSpecifications/SpecificationException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product_line_projects/Elevator_Java/features/base/Actions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product_line_projects/Elevator_Java/features/base/JUnit_Scenario_Tests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-345">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product_line_projects/Elevator_Java/features/base/PL_Interface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product_line_projects/Elevator_Java/features/base/PL_Interface_impl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3806">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product_line_projects/Elevator_Java/features/empty/ElevatorSystem/Elevator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product_line_projects/Elevator_Java/features/empty/ElevatorSystem/Environment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product_line_projects/Elevator_Java/thesaurus.dat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product_line_projects/Elevator_Java/features/twothirdsfull/ElevatorSystem/Elevator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/files/spl_projects.dat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="36" lean-forward="false" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/files/spl_projects_backup.dat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product_line_projects/EmailSystem_C/emailclient/model.cnf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product_line_projects/EmailSystem_C/features.exp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product_line_projects/EmailSystem_C/traceability_oracle.dat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="65" lean-forward="false" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product_line_projects/EmailSystem_C/emailclient/AddressBook/Test.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product_line_projects/EmailSystem_C/emailclient/AddressBook/Test.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product_line_projects/EmailSystem_C/emailclient/AddressBook/Client.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product_line_projects/EmailSystem_C/emailclient/AddressBook/Client.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product_line_projects/EmailSystem_C/thesaurus.dat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/experiment/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="34" column="81" lean-forward="false" selection-start-line="34" selection-start-column="81" selection-end-line="34" selection-end-column="81" />
-          <folding>
-            <element signature="e#0#48#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features_extraction/extractor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1136,33 +892,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/evaluation/oracle.py">
+    <entry file="file://$PROJECT_DIR$/information_retrieval_methods/pre_processor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/evaluation/evaluator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="-15">
+          <caret line="6" column="54" lean-forward="false" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
           <folding>
-            <element signature="e#0#57#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/information_retrieval_methods/tfidf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="34" lean-forward="true" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/experiment/results/2017-04-27_11h59m_output.csv">
+    <entry file="file://$PROJECT_DIR$/product_line_projects/Pynche/model.m">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1170,7 +910,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/experiment/results/2017-04-27_12h02m_output.csv">
+    <entry file="file://$PROJECT_DIR$/product_line_projects/FAME_DBMS/.colors">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1178,63 +918,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/experiment/results/2017-04-27_12h07m_output.csv">
+    <entry file="file://$PROJECT_DIR$/product_line_projects/FAME_DBMS/.cproject">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-825">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product_line_projects/FAME_DBMS/Main.cpp.color">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product_line_projects/FAME_DBMS/model.colors">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product_line_projects/Pynche/.dircolors">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product_line_projects/FAME_DBMS/Main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/spl_projects.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evaluation/oracle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="75" lean-forward="false" selection-start-line="25" selection-start-column="27" selection-end-line="28" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/xml/dom/expatbuilder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="206" column="0" lean-forward="false" selection-start-line="206" selection-start-column="0" selection-end-line="206" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product_line_projects/Prevayler/org/prevayler/demos/demo2/MainReplica.color">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/spl_projects_backup.dat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+          <caret line="22" column="6" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/experiment/results/2017-04-27_12h05m_output.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/information_retrieval_methods/set_theoretic/extended_boolean.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-705">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/files/thresholds.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/information_retrieval_methods/probabilistic/bm25.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-615">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/information_retrieval_methods/algebraic/classic_vector.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-521">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/information_retrieval_methods/algebraic/neural_networks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1155">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/experiment/results/2017-04-27_12h00m_output.csv">
+    <entry file="file://$PROJECT_DIR$/product_line_projects/Prevayler/org/prevayler/implementation/PrevaylerImpl.java.java.java.color">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1242,12 +1006,188 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/information_retrieval_methods/pre_processor.py">
+    <entry file="file://$PROJECT_DIR$/product_line_projects/Pynche/model.colors">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="103" column="79" lean-forward="false" selection-start-line="103" selection-start-column="79" selection-end-line="103" selection-end-column="79" />
+        <state relative-caret-position="30">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product_line_projects/Pynche/Main.py.color">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product_line_projects/Prevayler/model.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product_line_projects/NetBot/thesaurus.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product_line_projects/Prevayler/traceability_oracle.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="7" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product_line_projects/Pynche/TypeinViewer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product_line_projects/Pynche/traceability_oracle.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features_extraction/extractor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="80" column="42" lean-forward="false" selection-start-line="80" selection-start-column="42" selection-end-line="80" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product_line_projects/Lampiro/traceability_oracle.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product_line_projects/FAME_DBMS/traceability_oracle.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product_line_projects/FAME_DBMS/initial_thesaurus.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product_line_projects/FAME_DBMS/thesaurus.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product_line_projects/Lampiro/initial_thesaurus.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product_line_projects/Lampiro/thesaurus.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="11" lean-forward="false" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product_line_projects/Prevayler/initial_thesaurus.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product_line_projects/Prevayler/thesaurus.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product_line_projects/Pynche/initial_thesaurus.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product_line_projects/Pynche/thesaurus.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product_line_projects/Mobile_Media/initial_thesaurus.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product_line_projects/Mobile_RSS_Reader/initial_thesaurus.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="11" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product_line_projects/Mobile_RSS_Reader/thesaurus.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="11" lean-forward="true" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product_line_projects/Mobile_Media/thesaurus.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features_extraction/cide_true_traces_extractor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="67" lean-forward="false" selection-start-line="36" selection-start-column="67" selection-end-line="36" selection-end-column="67" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#27#0" expanded="true" />
           </folding>
         </state>
       </provider>
