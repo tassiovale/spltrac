@@ -18,7 +18,7 @@ class EvaluationResults:
         project_result.language = language
         project_result.loc = loc
         project_result.true_traces = true_traces
-        # print('True traces: ' + str(self.true_traces))
+        # print('True traces: ' + str(true_traces))
         project_result.method_results = {}
         self.project_results[project] = project_result
 
@@ -26,9 +26,6 @@ class EvaluationResults:
         # print('\nMethod traces - ' + method_name + ': ' + str(method_traces))
         method_result = ProjectMethodMetricsResult(self.project_results[project].true_traces, method_traces, performance)
         self.project_results[project].method_results[method_name] = method_result
-
-    def consolidate_results(self):
-        pass
 
     def export_results(self):
         date_time_str = datetime.datetime.now().strftime('%Y-%m-%d_%Hh%Mm')

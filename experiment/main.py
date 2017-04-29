@@ -77,9 +77,6 @@ for line in config_file:
 
 # consolidating results
 print('Step 5: consolidating project results...')
-evaluation_results.consolidate_results()
-
-print('Step 6: generating output charts...')
 evaluation_results.export_results()
 
 config_file.close()

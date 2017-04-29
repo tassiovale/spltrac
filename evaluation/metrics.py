@@ -6,6 +6,7 @@ class ProjectMethodMetricsResult:
         self.true_traces = true_traces
         self.method_traces = method_traces
         self.performance = performance
+
         self.precision_per_feature = {}
         self.precision = 0.0
         self.recall_per_feature = {}

@@ -39,7 +39,7 @@ class FeatureExtractor:
         if 'base' in self.features_dictionary:
             del self.features_dictionary['base']
 
-        print('Extracted features: ' + str(self.features_dictionary))
+        # print('Extracted features: ' + str(self.features_dictionary))
 
     def extract_feature_house_features(self):
         exp_files_list = glob.glob(self.project + '/**/*.exp', recursive=True)

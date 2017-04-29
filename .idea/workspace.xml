@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="beb1f368-61e7-4ea0-b5cc-680ebde3c137" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/experiment/results/script_template_fmeasure.R" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/experiment/results/script_template_performanceavg.R" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/experiment/results/script_template_precision.R" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/experiment/results/script_template_recall.R" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/experiment/results/script_template_variances.R" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/evaluation/evaluator.py" afterPath="$PROJECT_DIR$/evaluation/evaluator.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/evaluation/metrics.py" afterPath="$PROJECT_DIR$/evaluation/metrics.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiment/main.py" afterPath="$PROJECT_DIR$/experiment/main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiment/results/script_template_variances.R" afterPath="$PROJECT_DIR$/experiment/results/script_template_variances.R" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features_extraction/extractor.py" afterPath="$PROJECT_DIR$/features_extraction/extractor.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/files/spl_projects_backup.dat" afterPath="$PROJECT_DIR$/files/spl_projects_backup.dat" />
     </list>
     <ignored path="SPLTraceabilityPlayground.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,8 +38,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>mid</find>
-      <find>compat</find>
       <find>nocomp</find>
       <find>midp</find>
       <find>jsr</find>
@@ -68,6 +66,8 @@
       <find>about</find>
       <find>strip</find>
       <find>help</find>
+      <find>0,0</find>
+      <find>lru</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -81,8 +81,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/product_line_projects/Elevator_Java/traceability_oracle.dat" />
-        <option value="$PROJECT_DIR$/product_line_projects/Elevator_Java/thesaurus.dat" />
         <option value="$PROJECT_DIR$/product_line_projects/EmailSystem_C/thesaurus.dat" />
         <option value="$PROJECT_DIR$/product_line_projects/EmailSystem_C/traceability_oracle.dat" />
         <option value="$PROJECT_DIR$/product_line_projects/EmailSystem_Java/thesaurus.dat" />
@@ -103,10 +101,7 @@
         <option value="$PROJECT_DIR$/product_line_projects/Pynche/Main.py.color" />
         <option value="$PROJECT_DIR$/product_line_projects/Pynche/.dircolors" />
         <option value="$PROJECT_DIR$/features_extraction/cide_extractor.py" />
-        <option value="$PROJECT_DIR$/features_extraction/extractor.py" />
         <option value="$PROJECT_DIR$/features_extraction/cide_true_traces_extractor.py" />
-        <option value="$PROJECT_DIR$/files/spl_projects_backup.dat" />
-        <option value="$PROJECT_DIR$/files/spl_projects.dat" />
         <option value="$PROJECT_DIR$/product_line_projects/FAME_DBMS/thesaurus.dat" />
         <option value="$PROJECT_DIR$/product_line_projects/Lampiro/thesaurus.dat" />
         <option value="$PROJECT_DIR$/product_line_projects/Mobile_Media/thesaurus.dat" />
@@ -115,30 +110,36 @@
         <option value="$PROJECT_DIR$/product_line_projects/Prevayler/thesaurus.dat" />
         <option value="$PROJECT_DIR$/product_line_projects/Pynche/thesaurus.dat" />
         <option value="$PROJECT_DIR$/product_line_projects/Pynche/Main.py" />
-        <option value="$PROJECT_DIR$/experiment/main.py" />
-        <option value="$PROJECT_DIR$/evaluation/metrics.py" />
         <option value="$PROJECT_DIR$/experiment/results/script_template.R" />
-        <option value="$PROJECT_DIR$/files/thresholds.json" />
         <option value="$PROJECT_DIR$/experiment/results/script_template_precisionrecall.R" />
         <option value="$PROJECT_DIR$/experiment/results/script_template_performanceavg.R" />
         <option value="$PROJECT_DIR$/experiment/results/script_template_precision.R" />
         <option value="$PROJECT_DIR$/experiment/results/script_template_recall.R" />
         <option value="$PROJECT_DIR$/experiment/results/script_template_fmeasure.R" />
         <option value="$PROJECT_DIR$/experiment/results/script_template_anova.R" />
-        <option value="$PROJECT_DIR$/evaluation/evaluator.py" />
         <option value="$PROJECT_DIR$/experiment/results_2017-04-29/2017-04-29_17h11m_fmeasure_script.R" />
         <option value="$PROJECT_DIR$/experiment/results_2017-04-29/2017-04-29_17h11m_performanceavg_script.R" />
         <option value="$PROJECT_DIR$/experiment/results_2017-04-29/2017-04-29_17h11m_precision_script.R" />
         <option value="$PROJECT_DIR$/experiment/results_2017-04-29/2017-04-29_17h11m_precisionrecall_script.R" />
         <option value="$PROJECT_DIR$/experiment/results_2017-04-29/2017-04-29_17h11m_recall_script.R" />
         <option value="$PROJECT_DIR$/experiment/results_2017-04-29/2017-04-29_17h11m_variances_script.R" />
+        <option value="$PROJECT_DIR$/experiment/results/script_template_variances.R" />
+        <option value="$PROJECT_DIR$/files/spl_projects_backup.dat" />
+        <option value="$PROJECT_DIR$/evaluation/evaluator.py" />
+        <option value="$PROJECT_DIR$/files/thresholds.json" />
+        <option value="$PROJECT_DIR$/information_retrieval_methods/algebraic/classic_vector.py" />
+        <option value="$PROJECT_DIR$/experiment/main.py" />
+        <option value="$PROJECT_DIR$/features_extraction/extractor.py" />
+        <option value="$PROJECT_DIR$/evaluation/metrics.py" />
+        <option value="$PROJECT_DIR$/files/spl_projects.dat" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="1280" />
     <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="777" />
+    <option name="width" value="1916" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -179,7 +180,53 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="information_retrieval_methods" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SPLTrac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spltrac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="information_retrieval_methods" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algebraic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SPLTrac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spltrac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="files" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SPLTrac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spltrac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="features_extraction" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -639,7 +686,14 @@
       <option name="project" value="LOCAL" />
       <updated>1493411002750</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="consolidating statistical results OK">
+      <created>1493497509992</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1493497509992</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -660,16 +714,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="777" extended-state="6" />
+    <frame x="1280" y="23" width="1916" height="1057" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25893566" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31556728" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909605" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3258786" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909605" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2837633" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28328007" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909605" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -711,7 +765,8 @@
     <MESSAGE value="providing true traces for the CIDE projects (implementing cide_true_traces_extractor.py)" />
     <MESSAGE value="updating spl_projects file with all projects" />
     <MESSAGE value="adjusting method thresholds" />
-    <option name="LAST_COMMIT_MESSAGE" value="adjusting method thresholds" />
+    <MESSAGE value="consolidating statistical results OK" />
+    <option name="LAST_COMMIT_MESSAGE" value="consolidating statistical results OK" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -720,54 +775,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/product_line_projects/Mobile_Media/traceability_oracle.dat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="67" lean-forward="false" selection-start-line="19" selection-start-column="67" selection-end-line="19" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product_line_projects/Mobile_Media/src/lancs/mobilemedia/core/ui/MainUIMidlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-391">
-          <caret line="137" column="27" lean-forward="false" selection-start-line="137" selection-start-column="24" selection-end-line="137" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product_line_projects/Mobile_Media/thesaurus.dat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product_line_projects/Mobile_RSS_Reader/src/cz/cacek/ebook/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="669">
-          <caret line="59" column="17" lean-forward="false" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product_line_projects/Mobile_RSS_Reader/src/com/substanceofcode/testlcdui/Form.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="163" column="17" lean-forward="false" selection-start-line="163" selection-start-column="14" selection-end-line="163" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product_line_projects/Mobile_RSS_Reader/src/com/substanceofcode/rssreader/businessentities/RssItunesFeed.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="386" column="22" lean-forward="false" selection-start-line="386" selection-start-column="18" selection-end-line="386" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/product_line_projects/Mobile_RSS_Reader/src/com/substanceofcode/utils/Settings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
@@ -984,14 +991,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/evaluation/metrics.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="38" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/experiment/results/2017-04-28_17h04m_output.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="404">
@@ -1005,24 +1004,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/files/thresholds.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/experiment/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="809">
-          <caret line="75" column="88" lean-forward="false" selection-start-line="75" selection-start-column="88" selection-end-line="75" selection-end-column="88" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1066,29 +1047,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/experiment/results/script_template_variances.R">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="55" column="1" lean-forward="false" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/experiment/results_2017-04-29/2017-04-29_17h11m_fmeasure_script.R">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="81" lean-forward="true" selection-start-line="4" selection-start-column="70" selection-end-line="4" selection-end-column="81" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/evaluation/evaluator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#57#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1129,6 +1092,100 @@
         <state relative-caret-position="60">
           <caret line="4" column="82" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="82" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiment/results/script_template_variances.R">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="72" column="1" lean-forward="false" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/stopwords_c.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/thresholds.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="25" lean-forward="false" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/information_retrieval_methods/algebraic/classic_vector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiment/results_2017-04-29/2017-04-29_17h11m_output.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="63" column="3" lean-forward="false" selection-start-line="63" selection-start-column="3" selection-end-line="63" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features_extraction/extractor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="10" lean-forward="false" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evaluation/evaluator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="26" column="36" lean-forward="false" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evaluation/metrics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="38" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/spl_projects_backup.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="23" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="22" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/spl_projects.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiment/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-285">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
