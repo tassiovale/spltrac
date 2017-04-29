@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="beb1f368-61e7-4ea0-b5cc-680ebde3c137" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/experiment/results/script_template_fmeasure.R" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/experiment/results/script_template_performanceavg.R" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/experiment/results/script_template_precision.R" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/experiment/results/script_template_recall.R" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/experiment/results/script_template_variances.R" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/evaluation/evaluator.py" afterPath="$PROJECT_DIR$/evaluation/evaluator.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/evaluation/metrics.py" afterPath="$PROJECT_DIR$/evaluation/metrics.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiment/main.py" afterPath="$PROJECT_DIR$/experiment/main.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/files/thresholds.json" afterPath="$PROJECT_DIR$/files/thresholds.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product_line_projects/FAME_DBMS/thesaurus.dat" afterPath="$PROJECT_DIR$/product_line_projects/FAME_DBMS/thesaurus.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product_line_projects/Lampiro/thesaurus.dat" afterPath="$PROJECT_DIR$/product_line_projects/Lampiro/thesaurus.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product_line_projects/Mobile_Media/thesaurus.dat" afterPath="$PROJECT_DIR$/product_line_projects/Mobile_Media/thesaurus.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product_line_projects/Mobile_RSS_Reader/thesaurus.dat" afterPath="$PROJECT_DIR$/product_line_projects/Mobile_RSS_Reader/thesaurus.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product_line_projects/Prevayler/thesaurus.dat" afterPath="$PROJECT_DIR$/product_line_projects/Prevayler/thesaurus.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product_line_projects/Pynche/thesaurus.dat" afterPath="$PROJECT_DIR$/product_line_projects/Pynche/thesaurus.dat" />
     </list>
     <ignored path="SPLTraceabilityPlayground.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,42 +27,7 @@
     <favorites_list name="SPLTraceabilityPlayground" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/experiment/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="809">
-              <caret line="75" column="88" lean-forward="false" selection-start-line="75" selection-start-column="88" selection-end-line="75" selection-end-column="88" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="evaluator.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/evaluation/evaluator.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="47" column="114" lean-forward="false" selection-start-line="47" selection-start-column="114" selection-end-line="47" selection-end-column="114" />
-              <folding>
-                <element signature="e#0#57#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="script_template_precisionrecall.R" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/experiment/results/script_template_precisionrecall.R">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -120,18 +81,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/product_line_projects/FAME_DBMS/traceability_oracle.dat" />
-        <option value="$PROJECT_DIR$/product_line_projects/Lampiro/traceability_oracle.dat" />
-        <option value="$PROJECT_DIR$/product_line_projects/Mobile_Media/traceability_oracle.dat" />
-        <option value="$PROJECT_DIR$/product_line_projects/Mobile_RSS_Reader/traceability_oracle.dat" />
-        <option value="$PROJECT_DIR$/product_line_projects/Prevayler/traceability_oracle.dat" />
-        <option value="$PROJECT_DIR$/product_line_projects/Pynche/traceability_oracle.dat" />
-        <option value="$PROJECT_DIR$/evaluation/oracle.py" />
-        <option value="$PROJECT_DIR$/product_line_projects/Graph_Product_Line/thesaurus.dat" />
-        <option value="$PROJECT_DIR$/product_line_projects/DesktopSearcher/thesaurus.dat" />
-        <option value="$PROJECT_DIR$/product_line_projects/Elevator_C/thesaurus.dat" />
-        <option value="$PROJECT_DIR$/product_line_projects/DesktopSearcher/traceability_oracle.dat" />
-        <option value="$PROJECT_DIR$/product_line_projects/Elevator_C/traceability_oracle.dat" />
         <option value="$PROJECT_DIR$/product_line_projects/Elevator_Java/traceability_oracle.dat" />
         <option value="$PROJECT_DIR$/product_line_projects/Elevator_Java/thesaurus.dat" />
         <option value="$PROJECT_DIR$/product_line_projects/EmailSystem_C/thesaurus.dat" />
@@ -170,7 +119,19 @@
         <option value="$PROJECT_DIR$/evaluation/metrics.py" />
         <option value="$PROJECT_DIR$/experiment/results/script_template.R" />
         <option value="$PROJECT_DIR$/files/thresholds.json" />
+        <option value="$PROJECT_DIR$/experiment/results/script_template_precisionrecall.R" />
+        <option value="$PROJECT_DIR$/experiment/results/script_template_performanceavg.R" />
+        <option value="$PROJECT_DIR$/experiment/results/script_template_precision.R" />
+        <option value="$PROJECT_DIR$/experiment/results/script_template_recall.R" />
+        <option value="$PROJECT_DIR$/experiment/results/script_template_fmeasure.R" />
+        <option value="$PROJECT_DIR$/experiment/results/script_template_anova.R" />
         <option value="$PROJECT_DIR$/evaluation/evaluator.py" />
+        <option value="$PROJECT_DIR$/experiment/results_2017-04-29/2017-04-29_17h11m_fmeasure_script.R" />
+        <option value="$PROJECT_DIR$/experiment/results_2017-04-29/2017-04-29_17h11m_performanceavg_script.R" />
+        <option value="$PROJECT_DIR$/experiment/results_2017-04-29/2017-04-29_17h11m_precision_script.R" />
+        <option value="$PROJECT_DIR$/experiment/results_2017-04-29/2017-04-29_17h11m_precisionrecall_script.R" />
+        <option value="$PROJECT_DIR$/experiment/results_2017-04-29/2017-04-29_17h11m_recall_script.R" />
+        <option value="$PROJECT_DIR$/experiment/results_2017-04-29/2017-04-29_17h11m_variances_script.R" />
       </list>
     </option>
   </component>
@@ -250,6 +211,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="results_2017-04-29" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SPLTrac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spltrac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="experiment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="results" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -277,19 +256,19 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/product_line_projects/BankAccountv2" />
-      <recent name="$PROJECT_DIR$/experiment/results" />
-      <recent name="$PROJECT_DIR$/experiment" />
-      <recent name="$PROJECT_DIR$/SPLs/DesktopSearcher" />
-      <recent name="$PROJECT_DIR$/evaluation" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/experiment/results" />
       <recent name="$PROJECT_DIR$/product_line_projects/TankWar" />
       <recent name="$PROJECT_DIR$/product_line_projects/Prop4J" />
       <recent name="$PROJECT_DIR$/product_line_projects/NetBot" />
       <recent name="$PROJECT_DIR$/product_line_projects/MinePump_Java" />
-      <recent name="$PROJECT_DIR$/product_line_projects/MinePump_C" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/experiment/results_2017-04-29" />
+      <recent name="$PROJECT_DIR$/product_line_projects/BankAccountv2" />
+      <recent name="$PROJECT_DIR$/experiment/results" />
+      <recent name="$PROJECT_DIR$/experiment" />
+      <recent name="$PROJECT_DIR$/SPLs/DesktopSearcher" />
     </key>
   </component>
   <component name="RunManager" selected="Python.main">
@@ -653,7 +632,14 @@
       <option name="project" value="LOCAL" />
       <updated>1493392708397</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="adjusting method thresholds">
+      <created>1493411002750</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1493411002750</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -677,13 +663,13 @@
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33439237" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25893566" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909605" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3258786" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909605" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28434506" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2837633" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909605" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -724,7 +710,8 @@
     <MESSAGE value="improvements in the preprocessor OK&#10;testing IR method thresholds OK&#10;uploading thesaurus and oracle for some projects OK" />
     <MESSAGE value="providing true traces for the CIDE projects (implementing cide_true_traces_extractor.py)" />
     <MESSAGE value="updating spl_projects file with all projects" />
-    <option name="LAST_COMMIT_MESSAGE" value="updating spl_projects file with all projects" />
+    <MESSAGE value="adjusting method thresholds" />
+    <option name="LAST_COMMIT_MESSAGE" value="adjusting method thresholds" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -733,92 +720,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/product_line_projects/Lampiro/src/it/yup/transport/BaseChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="116" column="33" lean-forward="false" selection-start-line="116" selection-start-column="31" selection-end-line="116" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product_line_projects/Lampiro/src/it/yup/transport/SocketChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="23" column="12" lean-forward="false" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product_line_projects/Mobile_Media/src/lancs/mobilemedia/core/ui/datamodel/MediaData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="43" column="12" lean-forward="true" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product_line_projects/Mobile_Media/src/lancs/mobilemedia/core/ui/screens/AddMediaToAlbum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="584">
-          <caret line="71" column="37" lean-forward="false" selection-start-line="71" selection-start-column="34" selection-end-line="71" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product_line_projects/Mobile_Media/src/lancs/mobilemedia/core/ui/screens/PlayVideoScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-931">
-          <caret line="12" column="36" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product_line_projects/Mobile_Media/src/lancs/mobilemedia/core/ui/controller/AlbumController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="25" column="23" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product_line_projects/Mobile_Media/src/lancs/mobilemedia/core/ui/controller/BaseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="614">
-          <caret line="104" column="48" lean-forward="false" selection-start-line="104" selection-start-column="43" selection-end-line="104" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product_line_projects/Mobile_Media/src/lancs/mobilemedia/core/ui/screens/AlbumListScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="115" lean-forward="false" selection-start-line="20" selection-start-column="110" selection-end-line="20" selection-end-column="115" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product_line_projects/Mobile_Media/src/lancs/mobilemedia/core/ui/controller/MediaController.java.color">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="1" column="873" lean-forward="false" selection-start-line="1" selection-start-column="873" selection-end-line="1" selection-end-column="873" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product_line_projects/Mobile_Media/src/lancs/mobilemedia/core/ui/controller/MediaController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4245">
-          <caret line="469" column="31" lean-forward="false" selection-start-line="469" selection-start-column="26" selection-end-line="469" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product_line_projects/Mobile_Media/src/lancs/mobilemedia/core/ui/screens/MediaListScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1005">
-          <caret line="67" column="40" lean-forward="true" selection-start-line="67" selection-start-column="32" selection-end-line="67" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/product_line_projects/Mobile_Media/traceability_oracle.dat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1125,21 +1026,109 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/experiment/results/script_template_performanceavg.R">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="36" lean-forward="false" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/experiment/results/script_template_precisionrecall.R">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+        <state relative-caret-position="210">
+          <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiment/results/script_template_fmeasure.R">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiment/results/script_template_recall.R">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiment/results/script_template_precision.R">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiment/results/script_template_variances.R">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="55" column="1" lean-forward="false" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiment/results_2017-04-29/2017-04-29_17h11m_fmeasure_script.R">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="81" lean-forward="true" selection-start-line="4" selection-start-column="70" selection-end-line="4" selection-end-column="81" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/evaluation/evaluator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="47" column="114" lean-forward="false" selection-start-line="47" selection-start-column="114" selection-end-line="47" selection-end-column="114" />
+        <state relative-caret-position="720">
+          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding>
             <element signature="e#0#57#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiment/results_2017-04-29/2017-04-29_17h11m_precision_script.R">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="81" lean-forward="false" selection-start-line="4" selection-start-column="81" selection-end-line="4" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiment/results_2017-04-29/2017-04-29_17h11m_precisionrecall_script.R">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="81" lean-forward="false" selection-start-line="4" selection-start-column="81" selection-end-line="4" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiment/results_2017-04-29/2017-04-29_17h11m_recall_script.R">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="81" lean-forward="false" selection-start-line="4" selection-start-column="81" selection-end-line="4" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiment/results_2017-04-29/2017-04-29_17h11m_variances_script.R">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="81" lean-forward="false" selection-start-line="1" selection-start-column="81" selection-end-line="1" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiment/results_2017-04-29/2017-04-29_17h11m_performanceavg_script.R">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="82" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="82" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -40,14 +40,22 @@ class EvaluationResults:
                 for (method, method_result) in project_result.method_results.items():
                     output_data_writer.writerow([project.split('/')[-1], project_result.language, project_result.loc, len(project_result.true_traces.keys()), method, method_result.recall, method_result.precision, method_result.f_measure, method_result.performance])
 
-            with open("results/script_template_precisionrecall.R", "r") as template_script_file:
-                script_data = template_script_file.read()
-                # print(script_data)
-                script_data = script_data.replace('<directory>', os.getcwd() + '/results/')
-                script_data = script_data.replace('<output_file_name>', output_file_str)
-                script_data = script_data.replace('<pdf_image_file_name>', date_time_str + '_precisionrecall_chart')
+            self.write_r_file(output_file_str, date_time_str, 'precisionrecall')
+            self.write_r_file(output_file_str, date_time_str, 'performanceavg')
+            self.write_r_file(output_file_str, date_time_str, 'fmeasure')
+            self.write_r_file(output_file_str, date_time_str, 'precision')
+            self.write_r_file(output_file_str, date_time_str, 'recall')
+            self.write_r_file(output_file_str, date_time_str, 'variances')
 
-                resulting_script_file = open('../experiment/results/' + date_time_str + '_precisionrecall_script.R', "w")
-                resulting_script_file.write(script_data)
-                resulting_script_file.close()
+    def write_r_file(self, output_file_str, date_time_str, file_type):
+        with open('results/script_template_' + file_type + '.R', 'r') as template_script_file:
+            script_data = template_script_file.read()
+            # print(script_data)
+            script_data = script_data.replace('<directory>', os.getcwd() + '/results/')
+            script_data = script_data.replace('<output_file_name>', output_file_str)
+            script_data = script_data.replace('<pdf_image_file_name>', date_time_str + '_' + file_type + '_chart')
+
+            resulting_script_file = open('../experiment/results/' + date_time_str + '_' + file_type + '_script.R', "w")
+            resulting_script_file.write(script_data)
+            resulting_script_file.close()
 
