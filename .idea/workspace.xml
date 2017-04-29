@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="beb1f368-61e7-4ea0-b5cc-680ebde3c137" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/experiment/results_2017-04-29/2017-04-29_18h33m_fmeasure_chart.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/experiment/results_2017-04-29/2017-04-29_18h33m_performanceavg_chart.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/experiment/results_2017-04-29/2017-04-29_18h33m_precision_chart.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/experiment/results_2017-04-29/2017-04-29_18h33m_precisionrecall_chart.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/experiment/results_2017-04-29/2017-04-29_18h33m_recall_chart.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/experiment/results_2017-04-29/2017-04-29_17h11m_output-recall.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/experiment/results_2017-04-29/2017-04-29_18h33m_output.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/experiment/results_2017-04-29/2017-04-29_18h33m_recall-tStudent_results.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/experiment/results_2017-04-29/2017-04-29_18h33m_variances_results.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiment/main.py" afterPath="$PROJECT_DIR$/experiment/main.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/information_retrieval_methods/probabilistic/bm25.py" afterPath="$PROJECT_DIR$/information_retrieval_methods/probabilistic/bm25.py" />
     </list>
     <ignored path="SPLTraceabilityPlayground.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -754,7 +760,14 @@
       <option name="project" value="LOCAL" />
       <updated>1493499966890</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="uploading the statistical method results with updated performance values for the classic vector model algorithm">
+      <created>1493502410965</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1493502410965</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -828,7 +841,8 @@
     <MESSAGE value="adjusting method thresholds" />
     <MESSAGE value="consolidating statistical results OK" />
     <MESSAGE value="uploading the first statistical method results" />
-    <option name="LAST_COMMIT_MESSAGE" value="uploading the first statistical method results" />
+    <MESSAGE value="uploading the statistical method results with updated performance values for the classic vector model algorithm" />
+    <option name="LAST_COMMIT_MESSAGE" value="uploading the statistical method results with updated performance values for the classic vector model algorithm" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
