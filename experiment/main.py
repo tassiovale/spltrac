@@ -34,11 +34,11 @@ for line in config_file:
 
     print('Step 2: processing project...')
     pre_processor = SPLProjectPreProcessor(project, language, features_dictionary)
-    inverted_index = calculate_tfidf_weights(pre_processor)  # calculating weight through TF-IDF for each feature
 
     # Algebraic - classic vector model
     print('Step 3.1: running classic vector model algorithm...')
     classic_vector_performance = time.time()
+    calculate_tfidf_weights(pre_processor) # calculating weight through TF-IDF for each feature
     classic_vector_traces = classic_vector_run(features_dictionary, pre_processor)
     classic_vector_performance = time.time() - classic_vector_performance
 

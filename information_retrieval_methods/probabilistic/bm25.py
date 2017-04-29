@@ -32,7 +32,6 @@ def bm25_run(features_dictionary, pre_processor):
 def calculate_similarities(features_dictionary, pre_processor, feature_name, k1_const, b_const):
 
     features = features_dictionary[feature_name]
-    weights = {}
     similarities = {}
 
     avg_document_length = get_avg_document_len(pre_processor)
