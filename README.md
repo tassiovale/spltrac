@@ -3,7 +3,7 @@
 ## About
 SPLTrac is a SPL Traceability Experimental Suite written in Python that applies four well-known information retrieval methods (classic vector, extended boolean, neural networks and BM25) into the recovery of SPL features from the projects source code.
 
-![Suite steps](blob/master/steps.png)
+![Suite steps](steps.png)
 
 ## Project structure
 
