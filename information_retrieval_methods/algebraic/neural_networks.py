@@ -1,11 +1,15 @@
 import numpy
 
+"""SPLTrac: SPL Traceability Experimental Suite
+
+Author: Tassio Vale
+Website: www.tassiovale.com
+Contact: tassio.vale@ufrb.edu.br
+"""
+
 
 def neural_network_run(features_dictionary, pre_processor):
-    """Executes the term weighting calculation.
-
-       Body.
-    """
+    """It runs the neural networks algorithm and generating the resulting feature-to-code traces."""
 
     # print('--------------------------------------------')
     # print('               NEURAL NETWORK')
@@ -23,6 +27,7 @@ def neural_network_run(features_dictionary, pre_processor):
 
 
 def calculate_activation_levels(features_dictionary, pre_processor, feature_name):
+    """This method calculates the similarity of relevant documents for a given feature (and related synonyms)."""
 
     features = features_dictionary[feature_name]
     neural_network = Graph()
@@ -85,6 +90,7 @@ def calculate_activation_levels(features_dictionary, pre_processor, feature_name
 
 
 def get_neural_network_traces(neural_network, pre_processor, feature_name):
+    """It generated the traced documents for each feature."""
     traces = {}
     threshold = pre_processor.get_method_threshold('neural_network')
     for document in pre_processor.get_documents().keys():
@@ -98,6 +104,7 @@ def get_neural_network_traces(neural_network, pre_processor, feature_name):
 
 
 def print_similarity_results(pre_processor, feature_name, neural_network):
+    """Method used for tests to check the similarity value of documents to the respective features."""
     if feature_name not in pre_processor.get_stop_words():
         print('\n' + repr('FEATURE: ' + feature_name).ljust(10))
         print(repr('DOCUMENT').ljust(50), repr('IDF').ljust(10))
@@ -112,6 +119,8 @@ def print_similarity_results(pre_processor, feature_name, neural_network):
 
 
 class Node:
+    """Graph node implementation for the neural network."""
+
     def __init__(self, node_id, act_level=0.0):
         self.id = node_id
         self.activation_level = act_level
@@ -143,6 +152,8 @@ class Node:
 
 
 class Graph:
+    """Graph implementation for the neural network."""
+
     def __init__(self):
         self.node_dict = {}
         self.num_nodes = 0

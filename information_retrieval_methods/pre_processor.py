@@ -3,12 +3,26 @@ from collections import Counter
 import glob
 import json
 
+"""SPLTrac: SPL Traceability Experimental Suite
 
-class DocumentDataByTerm:  # Objects from this class stores the frequency and weight of a term-document pair
+Author: Tassio Vale
+Website: www.tassiovale.com
+Contact: tassio.vale@ufrb.edu.br
+"""
+
+
+class DocumentDataByTerm:
+    """Objects from this class stores the frequency and weight of a term-document element"""
     pass
 
 
 class SPLProjectPreProcessor:
+    """This class performs the pre-processing step of the SPL projects.
+    
+    It identifies the valid source code files for analysis, extracts the terms of the document (removing terms such as
+    reserved words of the language), and count the terms frequency per file, storing it in a proper data structure.
+    It also provides methods with faster response time to support the IR methods regarding specific project data.
+    """
 
     def __init__(self, project, language, features_dictionary):
 
@@ -27,8 +41,8 @@ class SPLProjectPreProcessor:
     def generate_index(self, project, language):
         """It builds the index for the SPL project files (documents).
 
-           The method identifies all valid files to be processed and requests the
-           processing of all term frequencies per document.
+        The method identifies all valid files to be processed (considering the programming language)
+        and requests the processing of all term frequencies per document.
         """
 
         if language == 'c':

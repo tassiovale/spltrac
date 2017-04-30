@@ -2,20 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="beb1f368-61e7-4ea0-b5cc-680ebde3c137" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/experiment/results_2017-04-30/2017-04-30_10h04m_variances_results.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/experiment/results_2017-04-30/2017-04-30_10h04m_variances_script.R" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results/2017-04-29_17h11m_output-recall.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results_2017-04-29/2017-04-29_18h33m_fmeasure_chart.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results_2017-04-29/2017-04-29_18h33m_output.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results_2017-04-29/2017-04-29_18h33m_performanceavg_chart.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results_2017-04-29/2017-04-29_18h33m_precision_chart.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results_2017-04-29/2017-04-29_18h33m_precisionrecall_chart.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results_2017-04-29/2017-04-29_18h33m_recall_chart.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results_2017-04-29/2017-04-29_18h33m_variances_results.txt" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/experiment/results_2017-04-29/2017-04-29_18h33m_recall-tStudent_results.txt" afterPath="$PROJECT_DIR$/experiment/results_2017-04-30/2017-04-29_18h33m_recall-tStudent_results.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/experiment/results_2017-04-30/2017-04-30_11h20m_fmeasure_chart.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/experiment/results_2017-04-30/2017-04-30_11h20m_performanceavg_chart.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/experiment/results_2017-04-30/2017-04-30_11h20m_precision_chart.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/experiment/results_2017-04-30/2017-04-30_11h20m_precisionrecall_chart.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/experiment/results_2017-04-30/2017-04-30_11h20m_recall_chart.pdf" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results_2017-04-29/2017-04-29_17h11m_output-recall.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results_2017-04-30/2017-04-29_18h33m_recall-tStudent_results.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results_2017-04-30/2017-04-30_10h04m_variances_script.R" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/files/thresholds.json" afterPath="$PROJECT_DIR$/files/thresholds.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/evaluation/evaluator.py" afterPath="$PROJECT_DIR$/evaluation/evaluator.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/evaluation/metrics.py" afterPath="$PROJECT_DIR$/evaluation/metrics.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/evaluation/oracle.py" afterPath="$PROJECT_DIR$/evaluation/oracle.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiment/main.py" afterPath="$PROJECT_DIR$/experiment/main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiment/results/script_template_variances.R" afterPath="$PROJECT_DIR$/experiment/results/script_template_variances.R" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiment/results_2017-04-30/2017-04-30_10h04m_variances_results.txt" afterPath="$PROJECT_DIR$/experiment/results_2017-04-30/2017-04-30_10h04m_variances_results.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features_extraction/cide_true_traces_extractor.py" afterPath="$PROJECT_DIR$/features_extraction/cide_true_traces_extractor.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features_extraction/extractor.py" afterPath="$PROJECT_DIR$/features_extraction/extractor.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/information_retrieval_methods/algebraic/classic_vector.py" afterPath="$PROJECT_DIR$/information_retrieval_methods/algebraic/classic_vector.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/information_retrieval_methods/algebraic/neural_networks.py" afterPath="$PROJECT_DIR$/information_retrieval_methods/algebraic/neural_networks.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/information_retrieval_methods/pre_processor.py" afterPath="$PROJECT_DIR$/information_retrieval_methods/pre_processor.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/information_retrieval_methods/probabilistic/bm25.py" afterPath="$PROJECT_DIR$/information_retrieval_methods/probabilistic/bm25.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/information_retrieval_methods/set_theoretic/extended_boolean.py" afterPath="$PROJECT_DIR$/information_retrieval_methods/set_theoretic/extended_boolean.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/information_retrieval_methods/tfidf.py" afterPath="$PROJECT_DIR$/information_retrieval_methods/tfidf.py" />
     </list>
     <ignored path="SPLTraceabilityPlayground.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,60 +43,7 @@
     <favorites_list name="SPLTraceabilityPlayground" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/experiment/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="54" column="77" lean-forward="false" selection-start-line="54" selection-start-column="77" selection-end-line="54" selection-end-column="77" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="classic_vector.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/information_retrieval_methods/algebraic/classic_vector.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="20" column="30" lean-forward="false" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="thresholds.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/files/thresholds.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="evaluator.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/evaluation/evaluator.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="48" lean-forward="false" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
-              <folding>
-                <element signature="e#0#57#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -141,12 +97,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/product_line_projects/Graph_Product_Line/traceability_oracle.dat" />
-        <option value="$PROJECT_DIR$/product_line_projects/MinePump_C/traceability_oracle.dat" />
-        <option value="$PROJECT_DIR$/product_line_projects/MinePump_C/thesaurus.dat" />
-        <option value="$PROJECT_DIR$/product_line_projects/MinePump_Java/traceability_oracle.dat" />
-        <option value="$PROJECT_DIR$/product_line_projects/NetBot/traceability_oracle.dat" />
-        <option value="$PROJECT_DIR$/product_line_projects/NetBot/thesaurus.dat" />
         <option value="$PROJECT_DIR$/product_line_projects/Prop4J/traceability_oracle.dat" />
         <option value="$PROJECT_DIR$/product_line_projects/Prop4J/thesaurus.dat" />
         <option value="$PROJECT_DIR$/product_line_projects/TankWar/traceability_oracle.dat" />
@@ -155,7 +105,6 @@
         <option value="$PROJECT_DIR$/product_line_projects/Pynche/Main.py.color" />
         <option value="$PROJECT_DIR$/product_line_projects/Pynche/.dircolors" />
         <option value="$PROJECT_DIR$/features_extraction/cide_extractor.py" />
-        <option value="$PROJECT_DIR$/features_extraction/cide_true_traces_extractor.py" />
         <option value="$PROJECT_DIR$/product_line_projects/FAME_DBMS/thesaurus.dat" />
         <option value="$PROJECT_DIR$/product_line_projects/Lampiro/thesaurus.dat" />
         <option value="$PROJECT_DIR$/product_line_projects/Mobile_Media/thesaurus.dat" />
@@ -177,21 +126,28 @@
         <option value="$PROJECT_DIR$/experiment/results_2017-04-29/2017-04-29_17h11m_precisionrecall_script.R" />
         <option value="$PROJECT_DIR$/experiment/results_2017-04-29/2017-04-29_17h11m_recall_script.R" />
         <option value="$PROJECT_DIR$/experiment/results_2017-04-29/2017-04-29_17h11m_variances_script.R" />
-        <option value="$PROJECT_DIR$/experiment/results/script_template_variances.R" />
         <option value="$PROJECT_DIR$/files/spl_projects_backup.dat" />
-        <option value="$PROJECT_DIR$/evaluation/evaluator.py" />
-        <option value="$PROJECT_DIR$/features_extraction/extractor.py" />
-        <option value="$PROJECT_DIR$/evaluation/metrics.py" />
         <option value="$PROJECT_DIR$/files/spl_projects.dat" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/information_retrieval_methods/probabilistic/bm25.py" />
-        <option value="$PROJECT_DIR$/experiment/main.py" />
-        <option value="$PROJECT_DIR$/information_retrieval_methods/algebraic/classic_vector.py" />
         <option value="$PROJECT_DIR$/files/thresholds.json" />
         <option value="$PROJECT_DIR$/experiment/results_2017-04-30/2017-04-29_18h33m_variances_results.txt" />
         <option value="$PROJECT_DIR$/experiment/results/2017-04-30_10h04m_variances_script.R" />
-        <option value="$PROJECT_DIR$/experiment/results_2017-04-30/2017-04-30_10h04m_variances_results.txt" />
         <option value="$PROJECT_DIR$/experiment/results_2017-04-30/2017-04-30_10h04m_variances_script.R" />
+        <option value="$PROJECT_DIR$/experiment/main.py" />
+        <option value="$PROJECT_DIR$/evaluation/evaluator.py" />
+        <option value="$PROJECT_DIR$/features_extraction/cide_true_traces_extractor.py" />
+        <option value="$PROJECT_DIR$/features_extraction/extractor.py" />
+        <option value="$PROJECT_DIR$/information_retrieval_methods/algebraic/classic_vector.py" />
+        <option value="$PROJECT_DIR$/information_retrieval_methods/probabilistic/bm25.py" />
+        <option value="$PROJECT_DIR$/information_retrieval_methods/algebraic/neural_networks.py" />
+        <option value="$PROJECT_DIR$/information_retrieval_methods/set_theoretic/extended_boolean.py" />
+        <option value="$PROJECT_DIR$/experiment/results/script_template_variances.R" />
+        <option value="$PROJECT_DIR$/experiment/results/2017-04-30_11h20m_variances_script.R" />
+        <option value="$PROJECT_DIR$/experiment/results_2017-04-30/2017-04-30_10h04m_variances_results.txt" />
+        <option value="$PROJECT_DIR$/information_retrieval_methods/tfidf.py" />
+        <option value="$PROJECT_DIR$/evaluation/metrics.py" />
+        <option value="$PROJECT_DIR$/evaluation/oracle.py" />
+        <option value="$PROJECT_DIR$/information_retrieval_methods/pre_processor.py" />
       </list>
     </option>
   </component>
@@ -820,7 +776,14 @@
       <option name="project" value="LOCAL" />
       <updated>1493502486840</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="updating classic vector algorithm (removing pnorm vector calculation) OK&#10;updating statistical results">
+      <created>1493558239615</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1493558239615</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -895,7 +858,8 @@
     <MESSAGE value="consolidating statistical results OK" />
     <MESSAGE value="uploading the first statistical method results" />
     <MESSAGE value="uploading the statistical method results with updated performance values for the classic vector model algorithm" />
-    <option name="LAST_COMMIT_MESSAGE" value="uploading the statistical method results with updated performance values for the classic vector model algorithm" />
+    <MESSAGE value="updating classic vector algorithm (removing pnorm vector calculation) OK&#10;updating statistical results" />
+    <option name="LAST_COMMIT_MESSAGE" value="updating classic vector algorithm (removing pnorm vector calculation) OK&#10;updating statistical results" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -904,27 +868,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/product_line_projects/Prevayler/org/prevayler/foundation/network/StubbornNetwork.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product_line_projects/Prevayler/org/prevayler/foundation/network/NetworkReceiverFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product_line_projects/Prevayler/org/prevayler/foundation/network/NetworkServerObjectReceiverImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/product_line_projects/Prevayler/org/prevayler/implementation/snapshot/NullSnapshotManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1072,13 +1015,6 @@
     <entry file="file://$PROJECT_DIR$/experiment/results_2017-04-29/2017-04-29_17h11m_recall_script.R" />
     <entry file="file://$PROJECT_DIR$/experiment/results_2017-04-29/2017-04-29_17h11m_variances_script.R" />
     <entry file="file://$PROJECT_DIR$/experiment/results_2017-04-29/2017-04-29_17h11m_performanceavg_script.R" />
-    <entry file="file://$PROJECT_DIR$/experiment/results/script_template_variances.R">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="72" column="1" lean-forward="false" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/files/stopwords_c.dat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1087,20 +1023,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/experiment/results_2017-04-29/2017-04-29_17h11m_output.csv" />
-    <entry file="file://$PROJECT_DIR$/features_extraction/extractor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="10" lean-forward="false" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/evaluation/metrics.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="38" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/files/spl_projects_backup.dat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -1112,75 +1034,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/information_retrieval_methods/pre_processor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/information_retrieval_methods/algebraic/neural_networks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="31" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/information_retrieval_methods/tfidf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/information_retrieval_methods/probabilistic/bm25.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/information_retrieval_methods/set_theoretic/extended_boolean.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/experiment/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="54" column="77" lean-forward="false" selection-start-line="54" selection-start-column="77" selection-end-line="54" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/information_retrieval_methods/algebraic/classic_vector.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="20" column="30" lean-forward="false" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/evaluation/evaluator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="48" lean-forward="false" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#57#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1200,27 +1053,157 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/files/thresholds.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiment/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="3" lean-forward="false" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features_extraction/cide_true_traces_extractor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="39" lean-forward="true" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features_extraction/extractor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="116" column="104" lean-forward="false" selection-start-line="116" selection-start-column="104" selection-end-line="116" selection-end-column="104" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evaluation/evaluator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="10" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/information_retrieval_methods/algebraic/neural_networks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2180">
+          <caret line="154" column="12" lean-forward="false" selection-start-line="154" selection-start-column="12" selection-end-line="154" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/information_retrieval_methods/probabilistic/bm25.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="67" column="50" lean-forward="true" selection-start-line="67" selection-start-column="50" selection-end-line="67" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/information_retrieval_methods/set_theoretic/extended_boolean.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1545">
+          <caret line="103" column="24" lean-forward="true" selection-start-line="103" selection-start-column="24" selection-end-line="103" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/experiment/results_2017-04-30/2017-04-30_10h04m_variances_script.R">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="81" lean-forward="false" selection-start-line="1" selection-start-column="81" selection-end-line="1" selection-end-column="81" />
+        <state relative-caret-position="840">
+          <caret line="56" column="20" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="56" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiment/results/2017-04-30_11h20m_variances_script.R">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="56" column="20" lean-forward="false" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/experiment/results_2017-04-30/2017-04-30_10h04m_variances_results.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2235">
-          <caret line="149" column="80" lean-forward="false" selection-start-line="149" selection-start-column="80" selection-end-line="149" selection-end-column="80" />
+        <state relative-caret-position="375">
+          <caret line="133" column="0" lean-forward="true" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/files/thresholds.json">
+    <entry file="file://$PROJECT_DIR$/experiment/results/script_template_variances.R">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        <state relative-caret-position="840">
+          <caret line="56" column="20" lean-forward="false" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/information_retrieval_methods/tfidf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="102" lean-forward="false" selection-start-line="29" selection-start-column="102" selection-end-line="29" selection-end-column="102" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/information_retrieval_methods/algebraic/classic_vector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="75" column="58" lean-forward="true" selection-start-line="75" selection-start-column="58" selection-end-line="75" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evaluation/metrics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="66" lean-forward="false" selection-start-line="26" selection-start-column="66" selection-end-line="26" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evaluation/oracle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="18" column="77" lean-forward="false" selection-start-line="18" selection-start-column="77" selection-end-line="18" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/information_retrieval_methods/pre_processor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="54" lean-forward="false" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

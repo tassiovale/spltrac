@@ -1,11 +1,15 @@
 import numpy
 
+"""SPLTrac: SPL Traceability Experimental Suite
+
+Author: Tassio Vale
+Website: www.tassiovale.com
+Contact: tassio.vale@ufrb.edu.br
+"""
+
 
 def classic_vector_run(features_dictionary, pre_processor):
-    """Executes the term weighting calculation.
-
-       Body.
-    """
+    """It runs the classic vector algorithm and generating the resulting feature-to-code traces."""
 
     # print('--------------------------------------------')
     # print('            CLASSIC VECTOR MODEL')
@@ -23,6 +27,7 @@ def classic_vector_run(features_dictionary, pre_processor):
 
 
 def calculate_similarities(features_dictionary, pre_processor, feature_name):
+    """This method calculates the similarity of every document for a given feature (and related synonyms)."""
 
     features = features_dictionary[feature_name]
     similarities = {}
@@ -54,6 +59,7 @@ def calculate_similarities(features_dictionary, pre_processor, feature_name):
 
 
 def get_classic_vector_traces(similarities, pre_processor, feature_name):
+    """It generated the traced documents for each feature."""
     traces = {}
     threshold = pre_processor.get_method_threshold('classic_vector')
     for (document, value) in similarities.items():
@@ -66,6 +72,7 @@ def get_classic_vector_traces(similarities, pre_processor, feature_name):
 
 
 def print_similarity_results(pre_processor, feature_name, query_similarities):
+    """Method used for tests to check the similarity value of documents to the respective features."""
     if feature_name not in pre_processor.get_stop_words():
         try:
             print('\n' + repr('FEATURE: ' + feature_name).ljust(10))

@@ -1,11 +1,15 @@
 import numpy
 
+"""SPLTrac: SPL Traceability Experimental Suite
+
+Author: Tassio Vale
+Website: www.tassiovale.com
+Contact: tassio.vale@ufrb.edu.br
+"""
+
 
 def extended_boolean_run(features_dictionary, pre_processor):
-    """Executes the term weighting calculation.
-
-       Body.
-    """
+    """It runs the extended boolean algorithm and generating the resulting feature-to-code traces."""
 
     # print('--------------------------------------------')
     # print('             EXTENDED BOOLEAN')
@@ -23,6 +27,7 @@ def extended_boolean_run(features_dictionary, pre_processor):
 
 
 def calculate_similarities(features_dictionary, pre_processor, feature_name):
+    """This method calculates the similarity of every document for a given feature (and related synonyms)."""
 
     features = features_dictionary[feature_name]
     similarities = {}
@@ -32,13 +37,14 @@ def calculate_similarities(features_dictionary, pre_processor, feature_name):
     p_norm = int(p_norm_file.readline())
     p_norm_file.close()
 
+    maximum_idf = get_maximum_idf(pre_processor)
+
     for document in pre_processor.get_documents().keys():
         sum_query_document_weights = 0.0
-        maximum_idf = get_maximum_idf(pre_processor)
+        maximum_tf = get_maximum_tf(pre_processor, document, features)
 
         for (term, index_by_term) in pre_processor.get_inverted_index().items():
             if term in features and document in index_by_term:
-                maximum_tf = get_maximum_tf(pre_processor, document, features)
                 document_weight = (1 + numpy.math.log(index_by_term[document].frequency, 2)) / maximum_tf
                 document_term_frequency = pre_processor.get_docs_per_term(term)
                 query_weight = numpy.math.log((pre_processor.get_num_files() / document_term_frequency), 2) / maximum_idf
@@ -53,6 +59,7 @@ def calculate_similarities(features_dictionary, pre_processor, feature_name):
 
 
 def get_extended_boolean_traces(similarities, pre_processor, feature_name):
+    """It generated the traced documents for each feature."""
     traces = {}
     threshold = pre_processor.get_method_threshold('extended_boolean')
     for (document, value) in similarities.items():
@@ -65,6 +72,7 @@ def get_extended_boolean_traces(similarities, pre_processor, feature_name):
 
 
 def get_maximum_tf(pre_processor, document, features):
+    """This method identifies the maximum TF value for a given document."""
     maximum_tf = 0.0
     for (term, index_by_term) in pre_processor.get_inverted_index().items():
         if term in features and document in index_by_term:
@@ -75,6 +83,7 @@ def get_maximum_tf(pre_processor, document, features):
 
 
 def get_maximum_idf(pre_processor):
+    """This method identifies the maximum IDF value for the project."""
     maximum_idf = 0.0
     for (term, index_by_term) in pre_processor.get_inverted_index().items():
         number_of_documents_for_a_term = len(index_by_term.keys())
@@ -85,6 +94,7 @@ def get_maximum_idf(pre_processor):
 
 
 def print_similarity_results(pre_processor, feature_name, query_similarities):
+    """Method used for tests to check the similarity value of documents to the respective features."""
     if feature_name not in pre_processor.get_stop_words():
         try:
             print('\n' + repr('FEATURE: ' + feature_name).ljust(10))

@@ -1,7 +1,7 @@
 [1] "ANOVA - F-MEASURE"
             Df Sum Sq Mean Sq F value Pr(>F)
-method       3 0.0181 0.00603   0.189  0.903
-Residuals   80 2.5479 0.03185
+method       3 0.0181 0.00603   0.187  0.905
+Residuals   80 2.5719 0.03215
 
 
 [1] "Pairwise t-Student:"
@@ -26,20 +26,20 @@ Fit: aov(formula = fmeasure ~ method, data = data)
 
 $method
                                                diff        lwr       upr     p adj
-Classic vector model-BM25             -0.0050043398 -0.1495119 0.1395032 0.9997289
-Extended boolean-BM25                  0.0316703001 -0.1128372 0.1761778 0.9392634
-Neural networks-BM25                  -0.0007681231 -0.1452757 0.1437394 0.9999990
-Extended boolean-Classic vector model  0.0366746400 -0.1078329 0.1811822 0.9095867
-Neural networks-Classic vector model   0.0042362167 -0.1402713 0.1487437 0.9998354
-Neural networks-Extended boolean      -0.0324384232 -0.1769460 0.1120691 0.9351340
+Classic vector model-BM25             -0.0050043398 -0.1501928 0.1401841 0.9997327
+Extended boolean-BM25                  0.0316703001 -0.1135182 0.1768588 0.9400441
+Neural networks-BM25                  -0.0007652193 -0.1459537 0.1444233 0.9999990
+Extended boolean-Classic vector model  0.0366746400 -0.1085138 0.1818631 0.9107149
+Neural networks-Classic vector model   0.0042391206 -0.1409494 0.1494276 0.9998374
+Neural networks-Extended boolean      -0.0324355194 -0.1776240 0.1127530 0.9359799
 
 
 
 
 [1] "ANOVA - PRECISION"
             Df Sum Sq Mean Sq F value Pr(>F)
-method       3  0.050 0.01672   0.323  0.809
-Residuals   80  4.141 0.05177
+method       3  0.050 0.01674   0.322  0.809
+Residuals   80  4.154 0.05193
 
 
 [1] "Pairwise t-Student:"
@@ -64,20 +64,20 @@ Fit: aov(formula = precision ~ method, data = data)
 
 $method
                                               diff        lwr       upr     p adj
-Classic vector model-BM25             -0.005537024 -0.1897712 0.1786972 0.9998226
-Extended boolean-BM25                  0.055750345 -0.1284839 0.2399845 0.8569687
-Neural networks-BM25                   0.005732452 -0.1785017 0.1899667 0.9998032
-Extended boolean-Classic vector model  0.061287369 -0.1229468 0.2455216 0.8188521
-Neural networks-Classic vector model   0.011269476 -0.1729647 0.1955037 0.9985160
-Neural networks-Extended boolean      -0.050017893 -0.2342521 0.1342163 0.8919218
+Classic vector model-BM25             -0.005537024 -0.1900568 0.1789827 0.9998235
+Extended boolean-BM25                  0.055750345 -0.1287694 0.2402701 0.8575301
+Neural networks-BM25                   0.005574036 -0.1789457 0.1900938 0.9998199
+Extended boolean-Classic vector model  0.061287369 -0.1232324 0.2458071 0.8195382
+Neural networks-Classic vector model   0.011111060 -0.1734087 0.1956308 0.9985839
+Neural networks-Extended boolean      -0.050176309 -0.2346961 0.1343435 0.8914634
 
 
 
 
 [1] "ANOVA - RECALL"
             Df Sum Sq Mean Sq F value Pr(>F)
-method       3 0.1038 0.03459   1.653  0.184
-Residuals   80 1.6747 0.02093
+method       3 0.1036 0.03454   1.651  0.184
+Residuals   80 1.6740 0.02092
 
 
 [1] "Pairwise t-Student:"
@@ -89,7 +89,7 @@ data:  data$recall and data$method
                      BM25 Classic vector model Extended boolean
 Classic vector model 1.00 -                    -
 Extended boolean     0.38 0.35                 -
-Neural networks      1.00 1.00                 0.76
+Neural networks      1.00 1.00                 0.77
 
 P value adjustment method: bonferroni
 
@@ -101,23 +101,21 @@ P value adjustment method: bonferroni
 Fit: aov(formula = recall ~ method, data = data)
 
 $method
-                                              diff        lwr        upr     p adj
-Classic vector model-BM25              0.001803752 -0.1153523 0.11895979 0.9999761
-Extended boolean-BM25                 -0.084212878 -0.2013689 0.03294316 0.2422126
-Neural networks-BM25                  -0.015328541 -0.1324846 0.10182749 0.9859857
-Extended boolean-Classic vector model -0.086016630 -0.2031727 0.03113940 0.2253040
-Neural networks-Classic vector model  -0.017132292 -0.1342883 0.10002374 0.9806529
-Neural networks-Extended boolean       0.068884337 -0.0482717 0.18604037 0.4171637
+                                              diff         lwr        upr     p adj
+Classic vector model-BM25              0.001803752 -0.11532789 0.11893540 0.9999761
+Extended boolean-BM25                 -0.084212878 -0.20134452 0.03291877 0.2420443
+Neural networks-BM25                  -0.015729300 -0.13286094 0.10140234 0.9848847
+Extended boolean-Classic vector model -0.086016630 -0.20314827 0.03111501 0.2251402
+Neural networks-Classic vector model  -0.017533052 -0.13466470 0.09959859 0.9793061
+Neural networks-Extended boolean       0.068483578 -0.04864807 0.18561522 0.4222070
 
 
 
 
 [1] "ANOVA - PERFORMANCE"
             Df Sum Sq Mean Sq F value Pr(>F)
-method       3   87.8   29.28   2.278 0.0859 .
-Residuals   80 1028.5   12.86
----
-Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+method       3   1.89  0.6299   0.393  0.758
+Residuals   80 128.17  1.6021
 
 
 [1] "Pairwise t-Student:"
@@ -127,9 +125,9 @@ Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 data:  data$performance and data$method
 
                      BM25 Classic vector model Extended boolean
-Classic vector model 1.00 -                    -
-Extended boolean     0.18 0.19                 -
-Neural networks      1.00 1.00                 0.32
+Classic vector model 1    -                    -
+Extended boolean     1    1                    -
+Neural networks      1    1                    1
 
 P value adjustment method: bonferroni
 
@@ -141,10 +139,10 @@ P value adjustment method: bonferroni
 Fit: aov(formula = performance ~ method, data = data)
 
 $method
-                                             diff        lwr       upr     p adj
-Classic vector model-BM25              0.01550609 -2.8878729 2.9188851 0.9999990
-Extended boolean-BM25                  2.44421162 -0.4591674 5.3475906 0.1296073
-Neural networks-BM25                   0.27143950 -2.6319395 3.1748185 0.9947720
-Extended boolean-Classic vector model  2.42870553 -0.4746735 5.3320845 0.1334641
-Neural networks-Classic vector model   0.25593341 -2.6474456 3.1593124 0.9956064
-Neural networks-Extended boolean      -2.17277212 -5.0761511 0.7306069 0.2104842
+                                              diff        lwr       upr     p adj
+Classic vector model-BM25             -0.005502485 -1.0304207 1.0194157 0.9999990
+Extended boolean-BM25                  0.309995833 -0.7149224 1.3349140 0.8571447
+Neural networks-BM25                   0.283180089 -0.7417381 1.3080983 0.8868434
+Extended boolean-Classic vector model  0.315498318 -0.7094199 1.3404165 0.8506392
+Neural networks-Classic vector model   0.288682574 -0.7362356 1.3136008 0.8810283
+Neural networks-Extended boolean      -0.026815744 -1.0517339 0.9981024 0.9998829

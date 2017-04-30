@@ -9,6 +9,13 @@ from information_retrieval_methods.set_theoretic.extended_boolean import *
 from information_retrieval_methods.tfidf import *
 from evaluation.evaluator import EvaluationResults
 
+"""SPLTrac: SPL Traceability Experimental Suite
+
+Author: Tassio Vale
+Website: www.tassiovale.com
+Contact: tassio.vale@ufrb.edu.br
+"""
+
 # START READING THE PROJECTS METADATA
 config_file_name='../files/spl_projects.dat'
 

@@ -1,16 +1,22 @@
+"""SPLTrac: SPL Traceability Experimental Suite
+
+Author: Tassio Vale
+Website: www.tassiovale.com
+Contact: tassio.vale@ufrb.edu.br
+"""
 
 
 class TraceabilityOracle:
+    """The provided SPL projects already have the mapped feature-to-code traces.
+    This class is provides data structure and algorithm to extract such traces called 'true traces'.
+    """
 
     def __init__(self, project):
-        """Title.
-
-           Body.
-        """
         self.project = project
         self.true_traces = {}
 
     def extract_true_traces(self):
+        """It extracts the true traces from the traceability_oracle.dat file."""
         try:
             oracle_file = open(self.project + '/traceability_oracle.dat', "r")
             for line in oracle_file:

@@ -1,11 +1,15 @@
 import numpy
 
+"""SPLTrac: SPL Traceability Experimental Suite
+
+Author: Tassio Vale
+Website: www.tassiovale.com
+Contact: tassio.vale@ufrb.edu.br
+"""
+
 
 def bm25_run(features_dictionary, pre_processor):
-    """Executes the term weighting calculation.
-
-       Body.
-    """
+    """It runs the extended boolean algorithm and generating the resulting feature-to-code traces."""
 
     # print('--------------------------------------------')
     # print('                   BM25')
@@ -30,6 +34,7 @@ def bm25_run(features_dictionary, pre_processor):
 
 
 def calculate_similarities(features_dictionary, pre_processor, feature_name, k1_const, b_const):
+    """This method calculates the similarity of every document for a given feature (and related synonyms)."""
 
     features = features_dictionary[feature_name]
     similarities = {}
@@ -52,6 +57,7 @@ def calculate_similarities(features_dictionary, pre_processor, feature_name, k1_
 
 
 def get_bm25_traces(similarities, pre_processor, feature_name):
+    """It generated the traced documents for each feature."""
     traces = {}
     threshold = pre_processor.get_method_threshold('bm25')
     for (document, value) in similarities.items():
@@ -64,6 +70,7 @@ def get_bm25_traces(similarities, pre_processor, feature_name):
 
 
 def get_avg_document_len(pre_processor):
+    """It calculates the average document size considering the number of terms."""
     acum = 0
     for (doc, length) in pre_processor.get_documents().items():
         acum += length
@@ -74,6 +81,7 @@ def get_avg_document_len(pre_processor):
 
 
 def print_similarity_results(pre_processor, feature_name, query_similarities):
+    """Method used for tests to check the similarity value of documents to the respective features."""
     if feature_name not in pre_processor.get_stop_words():
         try:
             print('\n' + repr('FEATURE: ' + feature_name).ljust(10))

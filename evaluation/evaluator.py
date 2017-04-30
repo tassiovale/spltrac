@@ -3,17 +3,32 @@ import datetime
 import csv
 import os
 
+"""SPLTrac: SPL Traceability Experimental Suite
+
+Author: Tassio Vale
+Website: www.tassiovale.com
+Contact: tassio.vale@ufrb.edu.br
+"""
+
 
 class ProjectResults:
+    """This data structure organizes the IR method results per project storing the following data:
+    project language, project LOC, feature-to-code true traces, and dictionary of results per IR method
+    """
     pass
 
 
 class EvaluationResults:
+    """This class consolidates all IR methods results of all analyzed projects and exports it to a CSV file.
+    In addition, it creates R scripts ready to provide statistic results regarding the following metrics:
+    recall, precision, F-measure and performance. 
+    """
 
     def __init__(self, ):
         self.project_results = {}
 
     def add_project_input_data(self, project, language, loc, true_traces):
+        """It includes the project information to the project results dictionary."""
         project_result = ProjectResults()
         project_result.language = language
         project_result.loc = loc
@@ -23,11 +38,13 @@ class EvaluationResults:
         self.project_results[project] = project_result
 
     def add_method_results(self, project, method_name, method_traces, performance):
+        """It adds the results of a specific IR method to a given project."""
         # print('\nMethod traces - ' + method_name + ': ' + str(method_traces))
         method_result = ProjectMethodMetricsResult(self.project_results[project].true_traces, method_traces, performance)
         self.project_results[project].method_results[method_name] = method_result
 
     def export_results(self):
+        """This method generates the CSV and R script files."""
         date_time_str = datetime.datetime.now().strftime('%Y-%m-%d_%Hh%Mm')
         output_file_str = date_time_str + '_output.csv'
         with open('results/' + output_file_str, 'w') as csv_file:
@@ -45,6 +62,7 @@ class EvaluationResults:
             self.write_r_file(output_file_str, date_time_str, 'variances')
 
     def write_r_file(self, output_file_str, date_time_str, file_type):
+        """Method which replaces the strings from a template script, putting the correct data."""
         with open('results/script_template_' + file_type + '.R', 'r') as template_script_file:
             script_data = template_script_file.read()
             # print(script_data)

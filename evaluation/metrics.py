@@ -1,6 +1,15 @@
+"""SPLTrac: SPL Traceability Experimental Suite
+
+Author: Tassio Vale
+Website: www.tassiovale.com
+Contact: tassio.vale@ufrb.edu.br
+"""
 
 
 class ProjectMethodMetricsResult:
+    """This class provides data structure and algorithm for calculation of precision, recall, F-measure and
+    performance metrics for a given project.
+    """
 
     def __init__(self, true_traces, method_traces, performance):
         self.true_traces = true_traces
@@ -15,6 +24,8 @@ class ProjectMethodMetricsResult:
         self.calculate_metric_results()
 
     def calculate_metric_results(self):
+        """It performs the calculation of metrics for the project."""
+
         acum_precision = 0.0
         acum_recall = 0.0
         n = 0

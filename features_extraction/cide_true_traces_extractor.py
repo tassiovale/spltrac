@@ -1,6 +1,15 @@
 from xml.dom import minidom
 import glob
 
+"""SPLTrac: SPL Traceability Experimental Suite
+
+Author: Tassio Vale
+Website: www.tassiovale.com
+Contact: tassio.vale@ufrb.edu.br
+
+This script was implemented to automatically extract the feature-to-code traces within CIDE projects.
+"""
+
 features_dictionary = {}
 base_path = '../product_line_projects/'
 projects = ['FAME_DBMS', 'Lampiro', 'Mobile_Media', 'Mobile_RSS_Reader', 'Prevayler', 'Pynche']

@@ -1,17 +1,19 @@
 import numpy
 
-# Foundations of the most popular term weighting scheme in IR
-# tf-idf method with log normalization and inverse frequency
-# One of the recommended tf-idf weighting schemes
-# (1 + log fi,j) ∗ log N / ni
+"""SPLTrac: SPL Traceability Experimental Suite
+
+Author: Tassio Vale
+Website: www.tassiovale.com
+Contact: tassio.vale@ufrb.edu.br
+"""
 
 
 def calculate_tfidf_weights(pre_processor):
-    """Calculate the TF-IDF for the specified term.
-
-        This is computed by taking the logarithm of
-        (number of documents in corpus) divided by (number of documents containing this term).
-     """
+    """Calculate the TF-IDF for all the features (and related synonyms).
+    
+    Foundations of the most popular term weighting scheme in IR tf-idf method with log normalization 
+    and inverse frequency. The tf-idf weighting scheme used is (1 + log fi,j) ∗ log N / ni
+    """
 
     for (term, documents_dictionary) in pre_processor.get_inverted_index().items():
         term_document_ocurrences = pre_processor.get_docs_per_term(term)
@@ -25,6 +27,7 @@ def calculate_tfidf_weights(pre_processor):
 
 
 def print_tfidf_results(features_dictionary, pre_processor):
+    """Method used for tests to check the similarity value of documents to the respective features."""
     inverted_index = pre_processor.get_inverted_index()
     for feature_name in features_dictionary.keys():
         if feature_name not in pre_processor.get_stop_words():
