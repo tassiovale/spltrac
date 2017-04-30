@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="beb1f368-61e7-4ea0-b5cc-680ebde3c137" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results_2017-04-30/2017-04-30_11h20m_fmeasure_chart.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results_2017-04-30/2017-04-30_11h20m_performanceavg_chart.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results_2017-04-30/2017-04-30_11h20m_precision_chart.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results_2017-04-30/2017-04-30_11h20m_precisionrecall_chart.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results_2017-04-30/2017-04-30_11h20m_recall_chart.pdf" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/evaluation/metrics.py" afterPath="$PROJECT_DIR$/evaluation/metrics.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiment/results_2017-04-30/2017-04-30_10h04m_variances_results.txt" afterPath="$PROJECT_DIR$/experiment/results_2017-04-30/2017-04-30_10h04m_variances_results.txt" />
     </list>
     <ignored path="SPLTraceabilityPlayground.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,8 +33,8 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="526">
+              <caret line="42" column="346" lean-forward="false" selection-start-line="42" selection-start-column="346" selection-end-line="42" selection-end-column="346" />
               <folding />
             </state>
           </provider>
@@ -117,7 +125,6 @@
         <option value="$PROJECT_DIR$/experiment/results_2017-04-29/2017-04-29_17h11m_variances_script.R" />
         <option value="$PROJECT_DIR$/files/spl_projects_backup.dat" />
         <option value="$PROJECT_DIR$/files/spl_projects.dat" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/files/thresholds.json" />
         <option value="$PROJECT_DIR$/experiment/results_2017-04-30/2017-04-29_18h33m_variances_results.txt" />
         <option value="$PROJECT_DIR$/experiment/results/2017-04-30_10h04m_variances_script.R" />
@@ -132,11 +139,12 @@
         <option value="$PROJECT_DIR$/information_retrieval_methods/set_theoretic/extended_boolean.py" />
         <option value="$PROJECT_DIR$/experiment/results/script_template_variances.R" />
         <option value="$PROJECT_DIR$/experiment/results/2017-04-30_11h20m_variances_script.R" />
-        <option value="$PROJECT_DIR$/experiment/results_2017-04-30/2017-04-30_10h04m_variances_results.txt" />
         <option value="$PROJECT_DIR$/information_retrieval_methods/tfidf.py" />
-        <option value="$PROJECT_DIR$/evaluation/metrics.py" />
         <option value="$PROJECT_DIR$/evaluation/oracle.py" />
         <option value="$PROJECT_DIR$/information_retrieval_methods/pre_processor.py" />
+        <option value="$PROJECT_DIR$/evaluation/metrics.py" />
+        <option value="$PROJECT_DIR$/experiment/results_2017-04-30/2017-04-30_10h04m_variances_results.txt" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -174,6 +182,56 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SPLTrac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spltrac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="experiment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SPLTrac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spltrac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="experiment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="results_2017-04-30" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SPLTrac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spltrac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="experiment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="results" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -184,8 +242,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/experiment/results_2017-04-30" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/experiment/results" />
       <recent name="$PROJECT_DIR$/experiment/results_2017-04-29" />
       <recent name="$PROJECT_DIR$/product_line_projects/BankAccountv2" />
@@ -618,7 +676,49 @@
       <option name="project" value="LOCAL" />
       <updated>1493563251662</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="adding steps PNG image">
+      <created>1493582255695</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1493582255695</updated>
+    </task>
+    <task id="LOCAL-00024" summary="updating readme to insert PNG image">
+      <created>1493582395330</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1493582395330</updated>
+    </task>
+    <task id="LOCAL-00025" summary="adding steps.png">
+      <created>1493582468948</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1493582468948</updated>
+    </task>
+    <task id="LOCAL-00026" summary="updating readme">
+      <created>1493582503444</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1493582503445</updated>
+    </task>
+    <task id="LOCAL-00027" summary="updating steps.png">
+      <created>1493582586536</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1493582586536</updated>
+    </task>
+    <task id="LOCAL-00028" summary="updating steps.png">
+      <created>1493582698144</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1493582698144</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -674,7 +774,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Updating TF-IDF implementation&#10;Modularization of preprocessor, feature extractor and algorithms codes" />
     <MESSAGE value="TF-IDF implementation OK&#10;Classic vector model OK" />
     <MESSAGE value="extended boolean model OK" />
     <MESSAGE value="BM25 OK" />
@@ -695,7 +794,12 @@
     <MESSAGE value="uploading the statistical method results with updated performance values for the classic vector model algorithm" />
     <MESSAGE value="updating classic vector algorithm (removing pnorm vector calculation) OK&#10;updating statistical results" />
     <MESSAGE value="documenting project (adding class and function comments)&#10;updating statistical results" />
-    <option name="LAST_COMMIT_MESSAGE" value="documenting project (adding class and function comments)&#10;updating statistical results" />
+    <MESSAGE value="adding steps PNG image" />
+    <MESSAGE value="updating readme to insert PNG image" />
+    <MESSAGE value="adding steps.png" />
+    <MESSAGE value="updating readme" />
+    <MESSAGE value="updating steps.png" />
+    <option name="LAST_COMMIT_MESSAGE" value="updating steps.png" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -704,13 +808,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/product_line_projects/Prevayler/org/prevayler/implementation/snapshot/NullSnapshotManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="45" lean-forward="false" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/product_line_projects/Prevayler/org/prevayler/implementation/PrevaylerImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -902,7 +999,7 @@
         <state relative-caret-position="240">
           <caret line="16" column="3" lean-forward="false" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -912,27 +1009,7 @@
         <state relative-caret-position="195">
           <caret line="13" column="39" lean-forward="true" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
           <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features_extraction/extractor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="116" column="104" lean-forward="false" selection-start-line="116" selection-start-column="104" selection-end-line="116" selection-end-column="104" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/evaluation/evaluator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="10" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#57#0" expanded="true" />
+            <element signature="e#0#27#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -977,14 +1054,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/experiment/results_2017-04-30/2017-04-30_10h04m_variances_results.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="133" column="0" lean-forward="true" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/experiment/results/script_template_variances.R">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
@@ -1009,14 +1078,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/evaluation/metrics.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="66" lean-forward="false" selection-start-line="26" selection-start-column="66" selection-end-line="26" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/evaluation/oracle.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -1030,15 +1091,52 @@
         <state relative-caret-position="345">
           <caret line="23" column="54" lean-forward="false" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/steps.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features_extraction/extractor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1474">
+          <caret line="116" column="104" lean-forward="false" selection-start-line="116" selection-start-column="104" selection-end-line="116" selection-end-column="104" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiment/results_2017-04-30/2017-04-30_10h04m_variances_results.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="147" column="79" lean-forward="false" selection-start-line="147" selection-start-column="79" selection-end-line="147" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evaluation/metrics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-548">
+          <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evaluation/evaluator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="10" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="526">
+          <caret line="42" column="346" lean-forward="false" selection-start-line="42" selection-start-column="346" selection-end-line="42" selection-end-column="346" />
           <folding />
         </state>
       </provider>

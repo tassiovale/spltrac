@@ -7,8 +7,8 @@ Contact: tassio.vale@ufrb.edu.br
 
 
 class ProjectMethodMetricsResult:
-    """This class provides data structure and algorithm for calculation of precision, recall, F-measure and
-    performance metrics for a given project.
+    """This class provides data structure and algorithm for calculation of precision, recall, F-measure
+    (F1 measure - harmonic mean) and performance metrics for a given project.
     """
 
     def __init__(self, true_traces, method_traces, performance):
@@ -68,7 +68,7 @@ class ProjectMethodMetricsResult:
             self.recall = 0
 
         if self.recall != 0 and self.precision != 0:
-            self.f_measure = 2 / ((1 / self.recall) + (1 / self.precision))
+            self.f_measure = (2 * self.precision * self.recall) / (self.precision + self.recall)
         else:
             self.f_measure = 0
 
