@@ -36,7 +36,7 @@ To execute the SPLTrac suite, just locate the `experiment` folder in the termina
 python main.py
 ```
 
-This project was developed using [SPL2Go](PyCharm Community Edition 2017.1.2) running under the Python 2.7.10 version.
+This project was developed using [PyCharm Community Edition 2017.1.2](https://www.jetbrains.com/pycharm/) running under the [Python 2.7.10](https://www.python.org/) version.
 
 ### Run statistical scripts
 
