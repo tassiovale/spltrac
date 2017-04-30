@@ -29,20 +29,24 @@ def calculate_similarities(features_dictionary, pre_processor, feature_name):
 
     for document in pre_processor.get_documents().keys():
         sum_query_document_weights = 0.0
-        pre_vector_norm = 0.0
+        # pre_vector_norm = 0.0
+        sum_tf = 0.0
+        sum_idf = 0.0
 
         for (term, index_by_term) in pre_processor.get_inverted_index().items():
-            if document in index_by_term:
-                pre_vector_norm += numpy.square(index_by_term[document].weight)
+            # if document in index_by_term:
+                # pre_vector_norm += numpy.square(index_by_term[document].weight)
             if term in features and document in index_by_term:
                 index_by_term = pre_processor.get_inverted_index()[term]
                 term_document_ocurrences = pre_processor.get_docs_per_term(term)
                 idf = numpy.math.log((pre_processor.get_num_files() / term_document_ocurrences), 2)
+                sum_idf += numpy.square(idf)
                 tf = 1 + numpy.math.log(index_by_term[document].frequency, 2)
+                sum_tf += numpy.square(tf)
                 sum_query_document_weights += tf * idf
 
-        if pre_vector_norm != 0:
-            similarities[document] = sum_query_document_weights / numpy.sqrt(pre_vector_norm)
+        if sum_tf != 0 and sum_idf != 0:
+            similarities[document] = sum_query_document_weights / (numpy.sqrt(sum_idf) * numpy.sqrt(sum_tf))
         else:
             similarities[document] = 0
 
