@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="beb1f368-61e7-4ea0-b5cc-680ebde3c137" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiment/results/script_template_variances.R" afterPath="$PROJECT_DIR$/experiment/results/script_template_variances.R" />
     </list>
     <ignored path="SPLTraceabilityPlayground.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -22,63 +22,7 @@
     <favorites_list name="SPLTraceabilityPlayground" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/experiment/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="82" column="42" lean-forward="true" selection-start-line="82" selection-start-column="42" selection-end-line="82" selection-end-column="42" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="script_template_variances.R" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/experiment/results/script_template_variances.R">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="56" column="20" lean-forward="false" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2017-05-03_13h53m_precision_results.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/experiment/results_v1.1/2017-05-03_13h53m_precision_results.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="51" column="23" lean-forward="false" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2017-05-03_13h53m_fmeasure_results.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/experiment/results_v1.1/2017-05-03_13h53m_fmeasure_results.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="42">
-                <caret line="3" column="279" lean-forward="false" selection-start-line="3" selection-start-column="279" selection-end-line="3" selection-end-column="279" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -132,7 +76,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/features_extraction/cide_extractor.py" />
         <option value="$PROJECT_DIR$/product_line_projects/FAME_DBMS/thesaurus.dat" />
         <option value="$PROJECT_DIR$/product_line_projects/Lampiro/thesaurus.dat" />
         <option value="$PROJECT_DIR$/product_line_projects/Mobile_Media/thesaurus.dat" />
@@ -164,7 +107,6 @@
         <option value="$PROJECT_DIR$/features_extraction/extractor.py" />
         <option value="$PROJECT_DIR$/information_retrieval_methods/probabilistic/bm25.py" />
         <option value="$PROJECT_DIR$/information_retrieval_methods/algebraic/neural_networks.py" />
-        <option value="$PROJECT_DIR$/experiment/results/script_template_variances.R" />
         <option value="$PROJECT_DIR$/experiment/results/2017-04-30_11h20m_variances_script.R" />
         <option value="$PROJECT_DIR$/information_retrieval_methods/tfidf.py" />
         <option value="$PROJECT_DIR$/evaluation/oracle.py" />
@@ -183,6 +125,8 @@
         <option value="$PROJECT_DIR$/experiment/results_v1.0/2017-05-03_13h53m_fmeasure_results.txt" />
         <option value="$PROJECT_DIR$/experiment/results_v1.0/2017-05-03_13h53m_precision_results.txt" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/experiment/results_v1.1/2017-05-03_13h53m_variances_results.txt" />
+        <option value="$PROJECT_DIR$/experiment/results/script_template_variances.R" />
       </list>
     </option>
   </component>
@@ -230,6 +174,42 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="experiment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SPLTrac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spltrac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="experiment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="results_v1.1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SPLTrac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spltrac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="experiment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="results" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -755,7 +735,14 @@
       <option name="project" value="LOCAL" />
       <updated>1493832269041</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="fixing readme">
+      <created>1493832317748</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1493832317748</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -778,7 +765,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1276" height="777" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32270917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32270917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32776934" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32473445" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -842,7 +829,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Thesaurus reader OK" />
     <MESSAGE value="Oracle reader OK" />
     <MESSAGE value="fixes in the extractor&#10;fixes in the oracle reader&#10;fixes in the methods (procedure on how to get traces)&#10;providing thesaurus for three projects" />
     <MESSAGE value="implementation of the first proposal for evaluation metrics (precision, recall and f-measure)" />
@@ -867,7 +853,8 @@
     <MESSAGE value="fixing readme file" />
     <MESSAGE value="deleting r-icon" />
     <MESSAGE value="adding Latent Semantic Indexing algorithm&#10;consolidating new statistical results" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding Latent Semantic Indexing algorithm&#10;consolidating new statistical results" />
+    <MESSAGE value="fixing readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixing readme" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1124,32 +1111,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/experiment/results_v1.1/2017-05-03_13h53m_variances_results.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/experiment/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="82" column="42" lean-forward="true" selection-start-line="82" selection-start-column="42" selection-end-line="82" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/experiment/results/script_template_variances.R">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="56" column="20" lean-forward="false" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/experiment/results_v1.0/2017-05-03_13h53m_latent_semantic_index_tests.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1188,6 +1149,32 @@
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiment/results_v1.1/2017-05-03_13h53m_variances_results.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2565">
+          <caret line="171" column="89" lean-forward="false" selection-start-line="171" selection-start-column="89" selection-end-line="171" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiment/results/script_template_variances.R">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="51" column="84" lean-forward="false" selection-start-line="51" selection-start-column="84" selection-end-line="51" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiment/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="82" column="42" lean-forward="true" selection-start-line="82" selection-start-column="42" selection-end-line="82" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
