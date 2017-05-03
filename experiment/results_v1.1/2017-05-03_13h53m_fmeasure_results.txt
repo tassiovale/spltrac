@@ -1,0 +1,52 @@
+[1] "Student's t test - F-MEASURE"
+[1] "Latent semantic indexing < Classic vector model"
+
+	Paired t-test
+
+data:  data_lsi$fmeasure and data_classic_vector$fmeasure
+t = -7.8048, df = 20, p-value = 8.518e-08
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+       -Inf -0.2170234
+sample estimates:
+mean of the differences
+             -0.2785854
+
+[1] "Latent semantic indexing < Neural networks"
+
+	Paired t-test
+
+data:  data_lsi$fmeasure and data_neural_network$fmeasure
+t = -3.916, df = 20, p-value = 0.0004281
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+       -Inf -0.1383577
+sample estimates:
+mean of the differences
+              -0.247257
+
+[1] "Latent semantic indexing < Extended boolean"
+
+	Paired t-test
+
+data:  data_lsi$fmeasure and data_extended_boolean$fmeasure
+t = -4.1654, df = 20, p-value = 0.0002389
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+       -Inf -0.1551857
+sample estimates:
+mean of the differences
+             -0.2648472
+
+[1] "Latent semantic indexing < BM25"
+
+	Paired t-test
+
+data:  data_lsi$fmeasure and data_bm25$fmeasure
+t = -4.11, df = 20, p-value = 0.000272
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+       -Inf -0.1497543
+sample estimates:
+mean of the differences
+             -0.2580368

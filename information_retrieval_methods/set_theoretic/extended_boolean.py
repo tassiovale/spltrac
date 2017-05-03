@@ -41,17 +41,18 @@ def calculate_similarities(features_dictionary, pre_processor, feature_name):
 
     for document in pre_processor.get_documents().keys():
         sum_query_document_weights = 0.0
-        maximum_tf = get_maximum_tf(pre_processor, document, features)
+        maximum_frequency = get_maximum_frequency(pre_processor, document, features)
 
         for (term, index_by_term) in pre_processor.get_inverted_index().items():
             if term in features and document in index_by_term:
-                document_weight = (1 + numpy.math.log(index_by_term[document].frequency, 2)) / maximum_tf
+                document_weight = index_by_term[document].frequency / maximum_frequency
                 document_term_frequency = pre_processor.get_docs_per_term(term)
                 query_weight = numpy.math.log((pre_processor.get_num_files() / document_term_frequency), 2) / maximum_idf
                 sum_query_document_weights += numpy.power(document_weight, p_norm) * numpy.power(query_weight, p_norm)
 
-        if len(features) != 0:
-            similarities[document] = numpy.power(sum_query_document_weights / len(features), 1 / p_norm)
+        numerator = sum_query_document_weights / len(features)
+        if len(features) != 0 and p_norm != 0 and numerator > 0:
+            similarities[document] = numpy.power(numerator, 1 / p_norm)
         else:
             similarities[document] = 0
 
@@ -71,15 +72,15 @@ def get_extended_boolean_traces(similarities, pre_processor, feature_name):
     return traces
 
 
-def get_maximum_tf(pre_processor, document, features):
+def get_maximum_frequency(pre_processor, document, features):
     """This method identifies the maximum TF value for a given document."""
-    maximum_tf = 0.0
+    maximum_frequency = 0.0
     for (term, index_by_term) in pre_processor.get_inverted_index().items():
         if term in features and document in index_by_term:
-            tf = 1 + numpy.math.log(index_by_term[document].frequency, 2)
-            if maximum_tf < tf:
-                maximum_tf = tf
-    return maximum_tf
+            frequency = index_by_term[document].frequency
+            if maximum_frequency < frequency:
+                maximum_frequency = frequency
+    return maximum_frequency
 
 
 def get_maximum_idf(pre_processor):

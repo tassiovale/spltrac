@@ -1,0 +1,52 @@
+[1] "Student's t test - PRECISION"
+[1] "Latent semantic indexing < Classic vector model"
+
+	Paired t-test
+
+data:  data_lsi$precision and data_classic_vector$precision
+t = -7.1898, df = 20, p-value = 2.911e-07
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+       -Inf -0.1980934
+sample estimates:
+mean of the differences
+             -0.2606089
+
+[1] "Latent semantic indexing < Neural networks"
+
+	Paired t-test
+
+data:  data_lsi$precision and data_neural_network$precision
+t = -3.2819, df = 20, p-value = 0.001864
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+       -Inf -0.1046989
+sample estimates:
+mean of the differences
+             -0.2206601
+
+[1] "Latent semantic indexing < Extended boolean"
+
+	Paired t-test
+
+data:  data_lsi$precision and data_extended_boolean$precision
+t = -3.5578, df = 20, p-value = 0.0009862
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+       -Inf -0.1234994
+sample estimates:
+mean of the differences
+             -0.2396984
+
+[1] "Latent semantic indexing < BM25"
+
+	Paired t-test
+
+data:  data_lsi$precision and data_bm25$precision
+t = -3.4711, df = 20, p-value = 0.001206
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+       -Inf -0.1174122
+sample estimates:
+mean of the differences
+              -0.233368
