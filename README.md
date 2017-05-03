@@ -1,7 +1,7 @@
 # SPLTrac - SPL Traceability Experimental Suite
 
 ## About
-SPLTrac is a SPL Traceability Experimental Suite written in Python that applies well-known information retrieval methods ([classic vector model](https://en.wikipedia.org/wiki/Vector_space_model), [latent semantic indexing](https://en.wikipedia.org/wiki/Latent_semantic_analysis) [neural networks](http://dl.acm.org/citation.cfm?doid=122860.122880), [extended boolean model](https://en.wikipedia.org/wiki/Extended_Boolean_model), and [BM25](https://en.wikipedia.org/wiki/Okapi_BM25)) into the recovery of SPL features from the projects source code.
+SPLTrac is a SPL Traceability Experimental Suite written in Python that applies well-known information retrieval methods ([classic vector model](https://en.wikipedia.org/wiki/Vector_space_model), [latent semantic indexing](https://en.wikipedia.org/wiki/Latent_semantic_analysis), [neural networks](http://dl.acm.org/citation.cfm?doid=122860.122880), [extended boolean model](https://en.wikipedia.org/wiki/Extended_Boolean_model), and [BM25](https://en.wikipedia.org/wiki/Okapi_BM25)) into the recovery of SPL features from the projects source code.
 
 ![Suite steps](steps.png)
 
