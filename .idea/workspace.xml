@@ -1,21 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="beb1f368-61e7-4ea0-b5cc-680ebde3c137" name="Default" comment="updating statistical results and R script with pairwise t test applying the hochberg correction">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results_v1.1/2017-05-03_13h53m_fmeasure_results.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results_v1.1/2017-05-03_13h53m_precision_results.txt" afterPath="" />
+    <list default="true" id="beb1f368-61e7-4ea0-b5cc-680ebde3c137" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/evaluation/evaluator.py" afterPath="$PROJECT_DIR$/evaluation/evaluator.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/evaluation/metrics.py" afterPath="$PROJECT_DIR$/evaluation/metrics.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiment/main.py" afterPath="$PROJECT_DIR$/experiment/main.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/files/thresholds.json" afterPath="$PROJECT_DIR$/files/thresholds.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/information_retrieval_methods/algebraic/classic_vector.py" afterPath="$PROJECT_DIR$/information_retrieval_methods/algebraic/classic_vector.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/information_retrieval_methods/algebraic/latent_semantic_indexing.py" afterPath="$PROJECT_DIR$/information_retrieval_methods/algebraic/latent_semantic_indexing.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/information_retrieval_methods/algebraic/neural_networks.py" afterPath="$PROJECT_DIR$/information_retrieval_methods/algebraic/neural_networks.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/information_retrieval_methods/pre_processor.py" afterPath="$PROJECT_DIR$/information_retrieval_methods/pre_processor.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/information_retrieval_methods/probabilistic/bm25.py" afterPath="$PROJECT_DIR$/information_retrieval_methods/probabilistic/bm25.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/information_retrieval_methods/set_theoretic/extended_boolean.py" afterPath="$PROJECT_DIR$/information_retrieval_methods/set_theoretic/extended_boolean.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/information_retrieval_methods/tfidf.py" afterPath="$PROJECT_DIR$/information_retrieval_methods/tfidf.py" />
     </list>
     <ignored path="SPLTraceabilityPlayground.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -822,7 +809,14 @@
       <option name="project" value="LOCAL" />
       <updated>1493853187933</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="updating statistical results">
+      <created>1493909321891</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1493909321891</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -909,7 +903,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fixes in the extractor&#10;fixes in the oracle reader&#10;fixes in the methods (procedure on how to get traces)&#10;providing thesaurus for three projects" />
     <MESSAGE value="implementation of the first proposal for evaluation metrics (precision, recall and f-measure)" />
     <MESSAGE value="implementation of the first proposal for evaluation metrics (precision, recall and f-measure) OK&#10;exporting R script files to generate charts OK" />
     <MESSAGE value="fixing f_measure value in the csv file" />
@@ -934,7 +927,8 @@
     <MESSAGE value="adding Latent Semantic Indexing algorithm&#10;consolidating new statistical results" />
     <MESSAGE value="fixing readme" />
     <MESSAGE value="updating statistical results and R script with pairwise t test applying the hochberg correction" />
-    <option name="LAST_COMMIT_MESSAGE" value="updating statistical results and R script with pairwise t test applying the hochberg correction" />
+    <MESSAGE value="updating statistical results" />
+    <option name="LAST_COMMIT_MESSAGE" value="updating statistical results" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
