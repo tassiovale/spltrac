@@ -27,7 +27,7 @@ def classic_vector_run(features_dictionary, pre_processor):
 
 
 def calculate_similarities(features_dictionary, pre_processor, feature_name):
-    """This method calculates the similarity of every document for a given feature (and related synonyms)."""
+    """This variability_impl_technology calculates the similarity of every document for a given feature (and related synonyms)."""
 
     features = features_dictionary[feature_name]
     similarities = {}

@@ -12,8 +12,8 @@ Contact: tassio.vale@ufrb.edu.br
 
 
 class ProjectResults:
-    """This data structure organizes the IR method results per project storing the following data:
-    project language, project LOC, feature-to-code true traces, and dictionary of results per IR method
+    """This data structure organizes the IR variability_impl_technology results per project storing the following data:
+    project language, project LOC, feature-to-code true traces, and dictionary of results per IR variability_impl_technology
     """
     pass
 
@@ -27,9 +27,10 @@ class EvaluationResults:
     def __init__(self, ):
         self.project_results = {}
 
-    def add_project_input_data(self, project, language, loc, true_traces):
+    def add_project_input_data(self, project, variability_impl_technology, language, loc, true_traces):
         """It includes the project information to the project results dictionary."""
         project_result = ProjectResults()
+        project_result.variability_impl_technology = variability_impl_technology
         project_result.language = language
         project_result.loc = loc
         project_result.true_traces = true_traces
@@ -38,21 +39,21 @@ class EvaluationResults:
         self.project_results[project] = project_result
 
     def add_method_results(self, project, method_name, method_traces, performance):
-        """It adds the results of a specific IR method to a given project."""
+        """It adds the results of a specific IR variability_impl_technology to a given project."""
         # print('\nMethod traces - ' + method_name + ': ' + str(method_traces))
         method_result = ProjectMethodMetricsResult(self.project_results[project].true_traces, method_traces, performance)
         self.project_results[project].method_results[method_name] = method_result
 
     def export_results(self):
-        """This method generates the CSV and R script files."""
+        """This variability_impl_technology generates the CSV and R script files."""
         date_time_str = datetime.datetime.now().strftime('%Y-%m-%d_%Hh%Mm')
         output_file_str = date_time_str + '_output.csv'
         with open('results/' + output_file_str, 'w') as csv_file:
             output_data_writer = csv.writer(csv_file, quoting=csv.QUOTE_MINIMAL)
-            output_data_writer.writerow(['project', 'language', 'loc', 'features', 'method', 'recall', 'precision', 'fmeasure', 'performance'])
+            output_data_writer.writerow(['project', 'language', 'loc', 'features', 'variability_impl_technology', 'method', 'recall', 'precision', 'fmeasure', 'performance'])
             for (project, project_result) in self.project_results.items():
                 for (method, method_result) in project_result.method_results.items():
-                    output_data_writer.writerow([project.split('/')[-1], project_result.language, project_result.loc, len(project_result.true_traces.keys()), method, method_result.recall, method_result.precision, method_result.f_measure, method_result.performance])
+                    output_data_writer.writerow([project.split('/')[-1], project_result.language, project_result.loc, len(project_result.true_traces.keys()), project_result.variability_impl_technology, method, method_result.recall, method_result.precision, method_result.f_measure, method_result.performance])
 
             self.write_r_file(output_file_str, date_time_str, 'precisionrecall')
             self.write_r_file(output_file_str, date_time_str, 'performanceavg')

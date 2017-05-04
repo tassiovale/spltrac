@@ -1,6 +1,6 @@
 {
     "classic_vector": 0.4,
-    "latent_semantic_indexing": 0.3,
+    "latent_semantic_indexing": 0.2,
     "neural_network": 0.05,
     "bm25": 0.5,
     "extended_boolean": 0.1

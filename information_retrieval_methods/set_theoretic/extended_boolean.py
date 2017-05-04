@@ -27,7 +27,7 @@ def extended_boolean_run(features_dictionary, pre_processor):
 
 
 def calculate_similarities(features_dictionary, pre_processor, feature_name):
-    """This method calculates the similarity of every document for a given feature (and related synonyms)."""
+    """This variability_impl_technology calculates the similarity of every document for a given feature (and related synonyms)."""
 
     features = features_dictionary[feature_name]
     similarities = {}
@@ -73,7 +73,7 @@ def get_extended_boolean_traces(similarities, pre_processor, feature_name):
 
 
 def get_maximum_frequency(pre_processor, document, features):
-    """This method identifies the maximum TF value for a given document."""
+    """This variability_impl_technology identifies the maximum TF value for a given document."""
     maximum_frequency = 0.0
     for (term, index_by_term) in pre_processor.get_inverted_index().items():
         if term in features and document in index_by_term:
@@ -84,7 +84,7 @@ def get_maximum_frequency(pre_processor, document, features):
 
 
 def get_maximum_idf(pre_processor):
-    """This method identifies the maximum IDF value for the project."""
+    """This variability_impl_technology identifies the maximum IDF value for the project."""
     maximum_idf = 0.0
     for (term, index_by_term) in pre_processor.get_inverted_index().items():
         number_of_documents_for_a_term = len(index_by_term.keys())

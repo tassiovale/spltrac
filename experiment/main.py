@@ -25,17 +25,17 @@ projects_base_path = config_file.readline()
 evaluation_results = EvaluationResults()
 
 for line in config_file:
-    (project, language, method, loc) = line.split()
+    (project, language, variability_impl_technology, loc) = line.split()
     path = projects_base_path.replace('\n', '')  # it removes the newline character ('\n') from the path
     project = path + project
 
     # EXECUTION OF THE INFORMATION RETRIEVAL ALGORITHMS
     print('\nProject: ' + project)
     print('Language: ' + language.upper())
-    print('Variability realization method: ' + method.upper())
+    print('Variability realization variability_impl_technology: ' + variability_impl_technology.upper())
 
     print('Step 1: extracting features...')
-    feature_extractor = FeatureExtractor(project, method)
+    feature_extractor = FeatureExtractor(project, variability_impl_technology)
     feature_extractor.analyze_project()
     features_dictionary = feature_extractor.get_features_dictionary()
 
@@ -80,7 +80,7 @@ for line in config_file:
     print('Step 4: collecting results...')
     project_oracle = TraceabilityOracle(project)
     true_traces = project_oracle.extract_true_traces()
-    evaluation_results.add_project_input_data(project, language, loc, true_traces)
+    evaluation_results.add_project_input_data(project, variability_impl_technology, language, loc, true_traces)
 
     evaluation_results.add_method_results(project, 'Classic vector model', classic_vector_traces, classic_vector_performance)
     evaluation_results.add_method_results(project, 'Latent semantic indexing', lsi_traces, lsi_performance)

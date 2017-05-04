@@ -41,7 +41,7 @@ class SPLProjectPreProcessor:
     def generate_index(self, project, language):
         """It builds the index for the SPL project files (documents).
 
-        The method identifies all valid files to be processed (considering the programming language)
+        The variability_impl_technology identifies all valid files to be processed (considering the programming language)
         and requests the processing of all term frequencies per document.
         """
 
@@ -67,7 +67,7 @@ class SPLProjectPreProcessor:
         stop_word_file.close()
 
     def analyze_term_document_frequency(self, project, file_extension):
-        """This method builds the inverted index for terms and related documents.
+        """This variability_impl_technology builds the inverted index for terms and related documents.
 
            It is responsible for creating the data structure to store term-document data
            and count the frequencies of terms per document.

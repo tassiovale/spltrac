@@ -72,7 +72,7 @@ class ProjectMethodMetricsResult:
         else:
             self.f_measure = 0
 
-        # print('\nOverall method results')
+        # print('\nOverall variability_impl_technology results')
         # print('Precision: ' + str(self.precision))
         # print('Recall: ' + str(self.recall))
         # print('F-measure: ' + str(self.f_measure))

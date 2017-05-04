@@ -11,7 +11,7 @@ Contact: tassio.vale@ufrb.edu.br
 def calculate_tfidf_weights(pre_processor):
     """Calculate the TF-IDF for all the features (and related synonyms).
     
-    Foundations of the most popular term weighting scheme in IR tf-idf method with log normalization 
+    Foundations of the most popular term weighting scheme in IR tf-idf variability_impl_technology with log normalization 
     and inverse frequency. The tf-idf weighting scheme used is (1 + log fi,j) ∗ log N / ni
     """
 

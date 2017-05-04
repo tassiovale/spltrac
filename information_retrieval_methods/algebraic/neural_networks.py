@@ -27,7 +27,7 @@ def neural_network_run(features_dictionary, pre_processor):
 
 
 def calculate_activation_levels(features_dictionary, pre_processor, feature_name):
-    """This method calculates the similarity of relevant documents for a given feature (and related synonyms)."""
+    """This variability_impl_technology calculates the similarity of relevant documents for a given feature (and related synonyms)."""
 
     features = features_dictionary[feature_name]
     neural_network = Graph()
