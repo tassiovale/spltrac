@@ -1,0 +1,184 @@
+F-MEASURE TESTS
+
+Applying the Shapiro-Wilk normality test
+
+	Shapiro-Wilk normality test
+
+data:  data$fmeasure
+W = 0.97689, p-value = 0.06327
+
+The sample has NOT a normal distribution!
+
+1) Kruskal Wallis test one-way ANOVA by ranks:
+
+	Kruskal-Wallis rank sum test
+
+data:  data$fmeasure by data$method
+Kruskal-Wallis chi-squared = 25.982, df = 4, p-value = 3.192e-05
+
+
+
+
+PRECISION TESTS
+
+Applying the Shapiro-Wilk normality test
+
+	Shapiro-Wilk normality test
+
+data:  data$precision
+W = 0.93658, p-value = 8.054e-05
+
+The sample has a normal distribution!
+
+
+1) ANOVA:
+             Df Sum Sq Mean Sq F value  Pr(>F)   
+method        4  0.915 0.22878   4.769 0.00146 **
+Residuals   100  4.797 0.04797                   
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+
+2) Pairwise t-Student:
+
+	Pairwise comparisons using t tests with pooled SD 
+
+data:  data$precision and data$method 
+
+                         BM25   Classic vector model Extended boolean Latent semantic indexing
+Classic vector model     0.9255 -                    -                -                       
+Extended boolean         0.9255 0.9255               -                -                       
+Latent semantic indexing 0.0095 0.0031               0.0079           -                       
+Neural networks          0.9255 0.9255               0.9255           0.0138                  
+
+P value adjustment method: hochberg 
+
+
+3) Tukey's Honest Significance Test:
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = precision ~ method, data = data)
+
+$method
+                                                      diff         lwr         upr     p adj
+Classic vector model-BM25                      0.027241987 -0.16053586  0.21501984 0.9943610
+Extended boolean-BM25                          0.006335515 -0.18144234  0.19411337 0.9999822
+Latent semantic indexing-BM25                 -0.225625198 -0.41340305 -0.03784735 0.0102032
+Neural networks-BM25                          -0.010794167 -0.19857202  0.17698368 0.9998515
+Extended boolean-Classic vector model         -0.020906472 -0.20868432  0.16687138 0.9979803
+Latent semantic indexing-Classic vector model -0.252867185 -0.44064504 -0.06508933 0.0027718
+Neural networks-Classic vector model          -0.038036155 -0.22581401  0.14974170 0.9800841
+Latent semantic indexing-Extended boolean     -0.231960713 -0.41973856 -0.04418286 0.0076196
+Neural networks-Extended boolean              -0.017129683 -0.20490753  0.17064817 0.9990758
+Neural networks-Latent semantic indexing       0.214831030  0.02705318  0.40260888 0.0165060
+
+
+
+
+RECALL TESTS
+
+Applying the Shapiro-Wilk normality test
+
+	Shapiro-Wilk normality test
+
+data:  data$recall
+W = 0.65041, p-value = 1.865e-14
+
+The sample has a normal distribution!
+
+
+1) ANOVA:
+             Df Sum Sq Mean Sq F value Pr(>F)
+method        4  0.086 0.02138   0.561  0.691
+Residuals   100  3.811 0.03811               
+
+
+2) Pairwise t-Student:
+
+	Pairwise comparisons using t tests with pooled SD 
+
+data:  data$recall and data$method 
+
+                         BM25 Classic vector model Extended boolean Latent semantic indexing
+Classic vector model     0.91 -                    -                -                       
+Extended boolean         0.91 0.91                 -                -                       
+Latent semantic indexing 0.91 0.91                 0.91             -                       
+Neural networks          0.91 0.91                 0.91             0.91                    
+
+P value adjustment method: hochberg 
+
+
+3) Tukey's Honest Significance Test:
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = recall ~ method, data = data)
+
+$method
+                                                      diff        lwr        upr     p adj
+Classic vector model-BM25                      0.038966547 -0.1283982 0.20633132 0.9668605
+Extended boolean-BM25                         -0.006486038 -0.1738508 0.16087874 0.9999691
+Latent semantic indexing-BM25                  0.058023890 -0.1093409 0.22538867 0.8709275
+Neural networks-BM25                          -0.016002017 -0.1833668 0.15136276 0.9988882
+Extended boolean-Classic vector model         -0.045452584 -0.2128174 0.12191219 0.9428044
+Latent semantic indexing-Classic vector model  0.019057343 -0.1483074 0.18642212 0.9977950
+Neural networks-Classic vector model          -0.054968563 -0.2223333 0.11239621 0.8915045
+Latent semantic indexing-Extended boolean      0.064509928 -0.1028548 0.23187471 0.8210166
+Neural networks-Extended boolean              -0.009515979 -0.1768808 0.15784880 0.9998579
+Neural networks-Latent semantic indexing      -0.074025907 -0.2413907 0.09333887 0.7346431
+
+
+
+
+PERFORMANCE TESTS
+
+Applying the Shapiro-Wilk normality test
+
+	Shapiro-Wilk normality test
+
+data:  data$performance
+W = 0.14124, p-value < 2.2e-16
+
+The sample has a normal distribution!
+
+
+1) ANOVA:
+             Df Sum Sq Mean Sq F value Pr(>F)
+method        4   4481  1120.3   1.964  0.106
+Residuals   100  57029   570.3               
+
+
+2) Pairwise t-Student:
+
+	Pairwise comparisons using t tests with pooled SD 
+
+data:  data$performance and data$method 
+
+                         BM25 Classic vector model Extended boolean Latent semantic indexing
+Classic vector model     1.00 -                    -                -                       
+Extended boolean         1.00 1.00                 -                -                       
+Latent semantic indexing 0.23 0.23                 0.23             -                       
+Neural networks          1.00 1.00                 1.00             0.23                    
+
+P value adjustment method: hochberg 
+
+
+3) Tukey's Honest Significance Test:
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = performance ~ method, data = data)
+
+$method
+                                                      diff        lwr       upr     p adj
+Classic vector model-BM25                      -0.02364718 -20.498197 20.450903 1.0000000
+Extended boolean-BM25                           0.41096374 -20.063586 20.885514 0.9999978
+Latent semantic indexing-BM25                  16.56492189  -3.909628 37.039472 0.1710171
+Neural networks-BM25                            0.58588320 -19.888667 21.060433 0.9999908
+Extended boolean-Classic vector model           0.43461092 -20.039939 20.909161 0.9999972
+Latent semantic indexing-Classic vector model  16.58856907  -3.885981 37.063119 0.1699018
+Neural networks-Classic vector model            0.60953038 -19.865020 21.084080 0.9999892
+Latent semantic indexing-Extended boolean      16.15395815  -4.320592 36.628508 0.1912611
+Neural networks-Extended boolean                0.17491946 -20.299630 20.649469 0.9999999
+Neural networks-Latent semantic indexing      -15.97903869 -36.453589  4.495511 0.2003766
