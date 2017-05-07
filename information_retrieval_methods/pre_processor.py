@@ -45,6 +45,10 @@ class SPLProjectPreProcessor:
         and requests the processing of all term frequencies per document.
         """
 
+        stop_word_file = open('../files/stopwords_' + language + '.dat', "r")
+        self.stop_words = set([line.strip() for line in stop_word_file])
+        stop_word_file.close()
+
         if language == 'c':
             self.analyze_term_document_frequency(project, '.c')
             self.analyze_term_document_frequency(project, '.h')
@@ -61,10 +65,6 @@ class SPLProjectPreProcessor:
             self.analyze_term_document_frequency(project, '.py')
         elif language == 'haskell':
             self.analyze_term_document_frequency(project, '.hs')
-
-        stop_word_file = open('../files/stopwords_' + language + '.dat', "r")
-        self.stop_words = set([line.strip() for line in stop_word_file])
-        stop_word_file.close()
 
     def analyze_term_document_frequency(self, project, file_extension):
         """This variability_impl_technology builds the inverted index for terms and related documents.
@@ -95,7 +95,7 @@ class SPLProjectPreProcessor:
 
             for (term, frequency) in file_counter.most_common():
                 self.index_terms.add(term)
-                if frequency > 0:
+                if frequency > 0 and term not in self.stop_words:
                     aux_index = {}
                     document_data_by_term = DocumentDataByTerm()
                     document_data_by_term.frequency = frequency
@@ -109,7 +109,7 @@ class SPLProjectPreProcessor:
             for (key, features_tuple) in self.features_dictionary.items():
                 for feature in features_tuple:
                     feature_frequency = 0
-                    if feature not in file_counter.most_common():
+                    if feature not in file_counter.most_common() and feature not in self.stop_words:
                         for token in tokens:
                             if feature in token:
                                 feature_frequency += 1

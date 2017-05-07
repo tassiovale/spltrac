@@ -14,4 +14,4 @@ chart <- ggplot(data=data, aes(x=method, y=precision, fill=method)) +
     labs(x="IR method", y="Precision") +
     scale_fill_discrete(guide=FALSE)
 
-ggsave(paste("<pdf_image_file_name>", '.pdf', sep=""), chart)
+ggsave("<pdf_image_file_name>.eps")
