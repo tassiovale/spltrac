@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="beb1f368-61e7-4ea0-b5cc-680ebde3c137" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/steps.png" afterPath="$PROJECT_DIR$/steps.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiment/results/script_template_fmeasure.R" afterPath="$PROJECT_DIR$/experiment/results/script_template_fmeasure.R" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiment/results/script_template_performanceavg.R" afterPath="$PROJECT_DIR$/experiment/results/script_template_performanceavg.R" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiment/results/script_template_precision.R" afterPath="$PROJECT_DIR$/experiment/results/script_template_precision.R" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiment/results/script_template_recall.R" afterPath="$PROJECT_DIR$/experiment/results/script_template_recall.R" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiment/results/script_template_variances.R" afterPath="$PROJECT_DIR$/experiment/results/script_template_variances.R" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/information_retrieval_methods/pre_processor.py" afterPath="$PROJECT_DIR$/information_retrieval_methods/pre_processor.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="SPLTraceabilityPlayground.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,7 +22,21 @@
     <favorites_list name="SPLTraceabilityPlayground" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="210">
+                <caret line="14" column="79" lean-forward="false" selection-start-line="14" selection-start-column="79" selection-end-line="14" selection-end-column="79" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -121,7 +129,6 @@
         <option value="$PROJECT_DIR$/experiment/results_v1.0/2017-05-03_13h53m_latent_semantic_index_tests.txt" />
         <option value="$PROJECT_DIR$/experiment/results_v1.0/2017-05-03_13h53m_fmeasure_results.txt" />
         <option value="$PROJECT_DIR$/experiment/results_v1.0/2017-05-03_13h53m_precision_results.txt" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/experiment/results_v1.1/2017-05-03_13h53m_variances_results.txt" />
         <option value="$PROJECT_DIR$/experiment/main.py" />
         <option value="$PROJECT_DIR$/evaluation/evaluator.py" />
@@ -133,6 +140,7 @@
         <option value="$PROJECT_DIR$/experiment/results/script_template_recall.R" />
         <option value="$PROJECT_DIR$/experiment/results/script_template_variances.R" />
         <option value="$PROJECT_DIR$/experiment/results/script_template_performanceavg.R" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -733,7 +741,14 @@
       <option name="project" value="LOCAL" />
       <updated>1493909475076</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="updating statistical results&#10;adding latent semantic indexing model">
+      <created>1494167596461</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1494167596461</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -756,7 +771,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1276" height="777" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32270917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32270917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32776934" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32473445" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -820,7 +835,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="implementation of the first proposal for evaluation metrics (precision, recall and f-measure)" />
     <MESSAGE value="implementation of the first proposal for evaluation metrics (precision, recall and f-measure) OK&#10;exporting R script files to generate charts OK" />
     <MESSAGE value="fixing f_measure value in the csv file" />
     <MESSAGE value="improvements in the preprocessor OK&#10;testing IR method thresholds OK&#10;uploading thesaurus and oracle for some projects OK" />
@@ -845,7 +859,8 @@
     <MESSAGE value="fixing readme" />
     <MESSAGE value="updating statistical results and R script with pairwise t test applying the hochberg correction" />
     <MESSAGE value="updating statistical results" />
-    <option name="LAST_COMMIT_MESSAGE" value="updating statistical results" />
+    <MESSAGE value="updating statistical results&#10;adding latent semantic indexing model" />
+    <option name="LAST_COMMIT_MESSAGE" value="updating statistical results&#10;adding latent semantic indexing model" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1039,23 +1054,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="40" column="15" lean-forward="true" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="42">
-            <caret line="3" column="279" lean-forward="false" selection-start-line="3" selection-start-column="279" selection-end-line="3" selection-end-column="279" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/experiment/results_v1.1/2017-05-03_13h53m_variances_results.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2565">
@@ -1175,6 +1173,23 @@
         <state relative-caret-position="195">
           <caret line="13" column="40" lean-forward="false" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="40" column="15" lean-forward="true" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="210">
+            <caret line="14" column="79" lean-forward="false" selection-start-line="14" selection-start-column="79" selection-end-line="14" selection-end-column="79" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

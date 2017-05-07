@@ -12,7 +12,7 @@ The first step of the experiment is to obtain the SPL project features to establ
 After getting features and synonyms, the pre-processing module extracts the valid source code files, and collects its terms, term frequencies and source code file names. All information is used to support the IR algorithms.
 
 ### IR methods processing
-SPLTrac runs the implement IR methods (classic vector, extended boolean, neural networks and BM25), extracting feature-to-code traces that will be analyzed later to check retrieval quality of the method. Currently, there are five implemented algorithms. However, it can be easily extended to incorporate more proposals and get advantage of the feature extraction, pre-processing and retrieval evaluation features provided by SPLTrac.
+SPLTrac runs the implement IR methods (classic vector, latent semantic indexing, extended boolean, neural networks and BM25), extracting feature-to-code traces that will be analyzed later to check retrieval quality of the method. Currently, there are five implemented algorithms. However, it can be easily extended to incorporate more proposals and get advantage of the feature extraction, pre-processing and retrieval evaluation features provided by SPLTrac.
 
 ### Results consolidation
 This module measures the IR methods according to their [precision, recall, F-measure (aka F1 measure)](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)) and performance (in terms of processing time). Then, it generates six scripts that can be executed in the [R statistical computing](https://www.r-project.org/) tool to obtain statistical analysis results and charts related to each method.
