@@ -1,3 +1,8 @@
+import sys
+import os.path
+
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+
 import time
 from evaluation.oracle import TraceabilityOracle
 from features_extraction.extractor import FeatureExtractor
@@ -17,9 +22,11 @@ Contact: tassio.vale@ufrb.edu.br
 """
 
 # START READING THE PROJECTS METADATA
-config_file_name='../files/spl_projects.dat'
+projects_config_path = '../files/projects_spl.dat'
+with open('../files/projects_config.dat', 'r') as projects_config_file:
+    projects_config_path = projects_config_file.read()
 
-config_file = open(config_file_name, 'r')
+config_file = open(projects_config_path, 'r')
 projects_base_path = config_file.readline()
 
 evaluation_results = EvaluationResults()
@@ -32,7 +39,7 @@ for line in config_file:
     # EXECUTION OF THE INFORMATION RETRIEVAL ALGORITHMS
     print('\nProject: ' + project)
     print('Language: ' + language.upper())
-    print('Variability realization variability_impl_technology: ' + variability_impl_technology.upper())
+    print('Variability realization technology: ' + variability_impl_technology.upper())
 
     print('Step 1: extracting features...')
     feature_extractor = FeatureExtractor(project, variability_impl_technology)
@@ -40,7 +47,11 @@ for line in config_file:
     features_dictionary = feature_extractor.get_features_dictionary()
 
     print('Step 2: processing project...')
-    pre_processor = SPLProjectPreProcessor(project, language, features_dictionary)
+    # Preprocessor and CIDE projects are the ones which implement ifdef conditional compilation directives
+    remove_ifdefs = False
+    if variability_impl_technology == 'preprocessor' or variability_impl_technology == 'cide':
+        remove_ifdefs = True
+    pre_processor = SPLProjectPreProcessor(project, language, features_dictionary, remove_ifdefs)
 
     # Algebraic - classic vector model
     print('Step 3.1: running classic vector model algorithm...')
@@ -49,10 +60,10 @@ for line in config_file:
     classic_vector_performance = time.time() - classic_vector_performance
 
     # Algebraic - classic vector model
-    print('Step 3.2: running latent semantic index algorithm...')
-    lsi_performance = time.time()
-    lsi_traces = latent_semantic_indexing_run(features_dictionary, pre_processor)
-    lsi_performance = time.time() - lsi_performance
+    # print('Step 3.2: running latent semantic index algorithm...')
+    # lsi_performance = time.time()
+    # lsi_traces = latent_semantic_indexing_run(features_dictionary, pre_processor)
+    # lsi_performance = time.time() - lsi_performance
 
     # Algebraic - neural networks model
     print('Step 3.3: running neural networks algorithm...')
@@ -83,7 +94,7 @@ for line in config_file:
     evaluation_results.add_project_input_data(project, variability_impl_technology, language, loc, true_traces)
 
     evaluation_results.add_method_results(project, 'Classic vector model', classic_vector_traces, classic_vector_performance)
-    evaluation_results.add_method_results(project, 'Latent semantic indexing', lsi_traces, lsi_performance)
+    # evaluation_results.add_method_results(project, 'Latent semantic indexing', lsi_traces, lsi_performance)
     evaluation_results.add_method_results(project, 'Neural networks', neural_network_traces, neural_network_performance)
     evaluation_results.add_method_results(project, 'Extended boolean', extended_boolean_traces, extended_boolean_performance)
     evaluation_results.add_method_results(project, 'BM25', bm25_traces, bm25_performance)

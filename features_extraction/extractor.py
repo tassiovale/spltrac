@@ -16,10 +16,6 @@ class FeatureExtractor:
     """
 
     def __init__(self, project, method):
-        """Title.
-
-           Body.
-        """
         self.project = project
         self.method = method
         self.features_dictionary = {}
@@ -35,9 +31,11 @@ class FeatureExtractor:
             self.extract_ahead_features()
         elif self.method == 'hyperj':
             self.extract_hyper_j_features()
-        else:  # features for the test project called Test-project
-            self.features_dictionary['to'] = ('to',)
-            self.features_dictionary['da'] = ('da',)
+        else:
+            self.extract_preprocessor_features()
+        # else:  # features for the test project called Test-project
+            # self.features_dictionary['to'] = ('to',)
+            # self.features_dictionary['da'] = ('da',)
 
         self.extract_thesaurus()
 
@@ -84,6 +82,21 @@ class FeatureExtractor:
                 if folder_name:
                     feature_name = folder_name[0].split('/')[-1]
                     self.features_dictionary[feature_name.lower()] = (feature_name.lower(),)
+
+    def extract_preprocessor_features(self):
+        """Identifies features from thesaurus of preprocessor projects.
+            The features were extracted using the CPPStats tool (https://github.com/clhunsen/cppstats).
+        """
+        try:
+            thesaurus_file = open(self.project + '/thesaurus.dat', "r")
+            for line in thesaurus_file:
+                terms = line.strip().split(':')
+                if terms:
+                    key_feature = terms[0]
+                    self.features_dictionary[key_feature.lower()] = (key_feature.lower(),)
+            thesaurus_file.close()
+        except FileNotFoundError:
+            print('No thesaurus available')
 
     def read_features_plain_list_file(self, file_name):
         """Method used for FeatureHouse projects to support reading .exp files."""

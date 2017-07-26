@@ -1,0 +1,14 @@
+File
+#ifdef MACRO
+test
+
+cherokee-1.2.103 c preprocessor 61182
+emacs-25.2 c preprocessor 50294
+gnuplot-4.4.2 c preprocessor 79123
+irssi-1.0.3 c preprocessor 55138
+lighttpd-1.4.35 c preprocessor 40035
+openvpn-2.4.3 c preprocessor 79189
+privoxy-3.0.26 c preprocessor 30687
+sendmail-8.15.2 c preprocessor 93613
+xfig-3.2.6 c preprocessor 73143
+xterm-3.3.0 c preprocessor 71817

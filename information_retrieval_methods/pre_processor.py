@@ -24,9 +24,10 @@ class SPLProjectPreProcessor:
     It also provides methods with faster response time to support the IR methods regarding specific project data.
     """
 
-    def __init__(self, project, language, features_dictionary):
+    def __init__(self, project, language, features_dictionary, remove_ifdefs):
 
         self.features_dictionary = features_dictionary
+        self.remove_ifdefs = remove_ifdefs
 
         self.num_files = 0
         self.stop_words = set()
@@ -85,6 +86,14 @@ class SPLProjectPreProcessor:
                 file_content = source_file.read()
             source_file.close()
 
+            if self.remove_ifdefs:
+                # removing ifdef directives, if available
+                lines = file_content.splitlines()
+                for line in lines:
+                    if '#if' in line:
+                        lines.remove(line)
+                file_content = '\n'.join(lines)
+
             tokenizer = RegexpTokenizer(r'[\w\']+')  # get tokens, removing punctuation and other single characters
             tokens = tokenizer.tokenize(file_content.lower())  # get tokens in lower case
             self.documents[file_name] = len(tokens)
@@ -123,8 +132,6 @@ class SPLProjectPreProcessor:
                                 self.inverted_index[feature].update(aux_index)
                             except KeyError:
                                 self.inverted_index[feature] = aux_index
-
-
 
 
     def get_docs_per_term(self, term):

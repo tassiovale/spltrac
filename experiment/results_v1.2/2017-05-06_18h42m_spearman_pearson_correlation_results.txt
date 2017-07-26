@@ -1,0 +1,149 @@
+==== NORMALITY TESTS ====
+
+
+	Shapiro-Wilk normality test
+
+data:  data$loc
+W = 0.45799, p-value < 2.2e-16
+
+
+	Shapiro-Wilk normality test
+
+data:  data$features
+W = 0.43771, p-value < 2.2e-16
+
+
+	Shapiro-Wilk normality test
+
+data:  data$precision
+W = 0.93658, p-value = 8.054e-05
+
+
+	Shapiro-Wilk normality test
+
+data:  data$recall
+W = 0.65041, p-value = 1.865e-14
+
+
+	Shapiro-Wilk normality test
+
+data:  data$performance
+W = 0.14124, p-value < 2.2e-16
+
+
+	Shapiro-Wilk normality test
+
+data:  data$fmeasure
+W = 0.97689, p-value = 0.06327
+
+
+
+==== CORRELATION TESTS ====
+
+Pearson - LOC x precision
+
+	Pearson's product-moment correlation
+
+data:  data$loc and data$precision
+t = 2.1266, df = 103, p-value = 0.03584
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ 0.01397403 0.38174919
+sample estimates:
+    cor 
+0.20509 
+
+
+Pearson - N. features x precision
+
+	Pearson's product-moment correlation
+
+data:  data$features and data$precision
+t = 3.784, df = 103, p-value = 0.0002594
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ 0.1690100 0.5070702
+sample estimates:
+      cor 
+0.3493583 
+
+
+Pearson - LOC x recall
+
+	Pearson's product-moment correlation
+
+data:  data$loc and data$recall
+t = 2.5242, df = 103, p-value = 0.01312
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ 0.05210589 0.41387968
+sample estimates:
+      cor 
+0.2413607 
+
+
+Pearson - N. features x recall
+
+	Pearson's product-moment correlation
+
+data:  data$features and data$recall
+t = 0.64978, df = 103, p-value = 0.5173
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ -0.1293552  0.2524676
+sample estimates:
+       cor 
+0.06389417 
+
+
+Pearson - LOC x time behavior
+
+	Pearson's product-moment correlation
+
+data:  data$loc and data$performance
+t = 2.497, df = 103, p-value = 0.01411
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ 0.0495185 0.4117276
+sample estimates:
+      cor 
+0.2389162 
+
+
+Pearson - N. features x time behavior
+
+	Pearson's product-moment correlation
+
+data:  data$features and data$performance
+t = 0.19552, df = 103, p-value = 0.8454
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ -0.1730421  0.2101514
+sample estimates:
+       cor 
+0.01926195 
+
+
+
+Spearman - LOC x F-measure
+
+	Spearman's rank correlation rho
+
+data:  data$loc and data$fmeasure
+S = 184450, p-value = 0.6566
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+0.04389805 
+
+
+Spearman - N. features x F-measure
+
+	Spearman's rank correlation rho
+
+data:  data$features and data$fmeasure
+S = 206100, p-value = 0.4888
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+        rho 
+-0.06829645 
