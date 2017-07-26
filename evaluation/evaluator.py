@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from evaluation.metrics import ProjectMethodMetricsResult
 import datetime
 import csv

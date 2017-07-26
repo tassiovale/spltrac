@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from nltk.tokenize import RegexpTokenizer
 from collections import Counter
 import glob

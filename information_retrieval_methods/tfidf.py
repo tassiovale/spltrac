@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import numpy
 
 """SPLTrac: SPL Traceability Experimental Suite

@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import scipy
 from information_retrieval_methods.tfidf import *
 from information_retrieval_methods.pre_processor import DocumentDataByTerm

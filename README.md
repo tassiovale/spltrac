@@ -33,6 +33,11 @@ This module measures the IR methods according to their [precision, recall, F-mea
 To execute the SPLTrac suite, just locate the `experiment` folder in the terminal, and run the following command:
 
 ```
+Firstly, install the python dependencies through pip:
+- pip install scipy
+- pip install nltk
+
+Then, run the main file:
 python main.py
 ```
 

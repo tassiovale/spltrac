@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """SPLTrac: SPL Traceability Experimental Suite
 
 Author: Tassio Vale
