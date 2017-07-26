@@ -2,23 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="beb1f368-61e7-4ea0-b5cc-680ebde3c137" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results_v1.2/2017-05-06_18h42m_spearman_pearson_correlation_results copy.txt" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/experiment/projects_multiprocessing.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results/2017-07-15_10h37m_fmeasure_script.R" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results/2017-07-15_10h37m_output.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results/2017-07-15_10h37m_performanceavg_script.R" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results/2017-07-15_10h37m_precision_script.R" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results/2017-07-15_10h37m_precisionrecall_script.R" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results/2017-07-15_10h37m_recall_script.R" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results/2017-07-15_10h37m_variances_script.R" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results/2017-07-16_21h32m_fmeasure_script.R" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results/2017-07-16_21h32m_output.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results/2017-07-16_21h32m_performanceavg_script.R" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results/2017-07-16_21h32m_precision_script.R" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results/2017-07-16_21h32m_precisionrecall_script.R" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results/2017-07-16_21h32m_recall_script.R" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results/2017-07-16_21h32m_variances_script.R" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/evaluation/evaluator.py" afterPath="$PROJECT_DIR$/evaluation/evaluator.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/evaluation/metrics.py" afterPath="$PROJECT_DIR$/evaluation/metrics.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/evaluation/oracle.py" afterPath="$PROJECT_DIR$/evaluation/oracle.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiment/main.py" afterPath="$PROJECT_DIR$/experiment/main.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features_extraction/cide_true_traces_extractor.py" afterPath="$PROJECT_DIR$/features_extraction/cide_true_traces_extractor.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features_extraction/cppstats_extractor.py" afterPath="$PROJECT_DIR$/features_extraction/cppstats_extractor.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features_extraction/extractor.py" afterPath="$PROJECT_DIR$/features_extraction/extractor.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/information_retrieval_methods/algebraic/classic_vector.py" afterPath="$PROJECT_DIR$/information_retrieval_methods/algebraic/classic_vector.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/information_retrieval_methods/algebraic/latent_semantic_indexing.py" afterPath="$PROJECT_DIR$/information_retrieval_methods/algebraic/latent_semantic_indexing.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/information_retrieval_methods/algebraic/neural_networks.py" afterPath="$PROJECT_DIR$/information_retrieval_methods/algebraic/neural_networks.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/information_retrieval_methods/pre_processor.py" afterPath="$PROJECT_DIR$/information_retrieval_methods/pre_processor.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/information_retrieval_methods/probabilistic/bm25.py" afterPath="$PROJECT_DIR$/information_retrieval_methods/probabilistic/bm25.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/information_retrieval_methods/set_theoretic/extended_boolean.py" afterPath="$PROJECT_DIR$/information_retrieval_methods/set_theoretic/extended_boolean.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/information_retrieval_methods/tfidf.py" afterPath="$PROJECT_DIR$/information_retrieval_methods/tfidf.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/files/projects_config.dat" afterPath="$PROJECT_DIR$/files/projects_config.dat" />
     </list>
     <ignored path="SPLTraceabilityPlayground.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,12 +40,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/experiment/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="30" column="43" lean-forward="false" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
-              <folding />
+            <state relative-caret-position="378">
+              <caret line="37" column="16" lean-forward="true" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+              <folding>
+                <element signature="e#24#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="projects_multiprocessing.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/experiment/projects_multiprocessing.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="41" column="36" lean-forward="false" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
+              <folding>
+                <element signature="e#24#35#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -52,21 +68,11 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="398">
-                <caret line="37" column="18" lean-forward="false" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
+              <first_editor relative-caret-position="338">
+                <caret line="46" column="18" lean-forward="false" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
                 <folding />
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="projects_config.dat" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/files/projects_config.dat">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -125,8 +131,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/experiment/results/script_template_anova.R" />
-        <option value="$PROJECT_DIR$/experiment/results_2017-04-29/2017-04-29_17h11m_fmeasure_script.R" />
         <option value="$PROJECT_DIR$/experiment/results_2017-04-29/2017-04-29_17h11m_performanceavg_script.R" />
         <option value="$PROJECT_DIR$/experiment/results_2017-04-29/2017-04-29_17h11m_precision_script.R" />
         <option value="$PROJECT_DIR$/experiment/results_2017-04-29/2017-04-29_17h11m_precisionrecall_script.R" />
@@ -156,7 +160,6 @@
         <option value="$PROJECT_DIR$/files/projects_preprocessor.dat" />
         <option value="$PROJECT_DIR$/files/projects.dat" />
         <option value="$PROJECT_DIR$/files/projects_spl.dat" />
-        <option value="$PROJECT_DIR$/files/projects_config.dat" />
         <option value="$PROJECT_DIR$/files/ifdef_test.txt" />
         <option value="$PROJECT_DIR$/files/projects_test.dat" />
         <option value="$PROJECT_DIR$/experiment/results/2017-07-16_21h32m_output.csv" />
@@ -175,6 +178,9 @@
         <option value="$PROJECT_DIR$/information_retrieval_methods/pre_processor.py" />
         <option value="$PROJECT_DIR$/information_retrieval_methods/tfidf.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/files/projects_config.dat" />
+        <option value="$PROJECT_DIR$/experiment/main_worker.py" />
+        <option value="$PROJECT_DIR$/experiment/projects_multiprocessing.py" />
         <option value="$PROJECT_DIR$/experiment/main.py" />
       </list>
     </option>
@@ -221,7 +227,39 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="files" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SPLTrac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spltrac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="experiment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SPLTrac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spltrac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="experiment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="results" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -802,13 +840,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2279587" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2279587" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32776934" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32473445" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25493172" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25493172" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32776934" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32776934" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -902,53 +939,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/experiment/results/script_template_performanceavg.R">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="40" lean-forward="false" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/files/projects_backup.dat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="23" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="54" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/preprocessor_projects/cherokee-1.2.103/traceability_oracle.dat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/preprocessor_projects/berkeley_db-5.3.21/traceability_oracle.dat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1101">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product_line_projects/MinePump_Java/traceability_oracle.dat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/preprocessor_projects/sqlite-3.19.3/traceability_oracle.dat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8125">
-          <caret line="11" column="56" lean-forward="false" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/preprocessor_projects/linux-4.12/traceability_oracle.dat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1295,11 +1285,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/experiment/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/projects_config.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="30" lean-forward="false" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="398">
-            <caret line="37" column="18" lean-forward="false" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
+          <first_editor relative-caret-position="338">
+            <caret line="46" column="18" lean-forward="false" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1311,19 +1317,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/files/projects_config.dat">
+    <entry file="file://$PROJECT_DIR$/experiment/results/2017-07-26_11h59m_fmeasure_script.R">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiment/results/2017-07-26_11h59m_output.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiment/results/2017-07-26_12h01m_output.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiment/results/2017-07-16_21h32m_variances_script.R">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/experiment/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="30" column="43" lean-forward="false" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
-          <folding />
+        <state relative-caret-position="378">
+          <caret line="37" column="16" lean-forward="true" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+          <folding>
+            <element signature="e#24#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiment/projects_multiprocessing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="41" column="36" lean-forward="false" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
+          <folding>
+            <element signature="e#24#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
