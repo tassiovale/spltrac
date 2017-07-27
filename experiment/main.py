@@ -31,12 +31,7 @@ for line in config_file:
     path = projects_base_path.replace('\n', '')  # it removes the newline character ('\n') from the path
     project = path + project
 
-    job = multiprocessing.Process(target=experiment.projects_multiprocessing.execute_processes, args=(project, language, variability_impl_technology, loc, evaluation_results,))
-    jobs.append(job)
-    job.start()
-
-for job in jobs:
-    job.join()
+    experiment.projects_multiprocessing.execute_processes(project, language, variability_impl_technology, loc, evaluation_results)
 
 # consolidating results
 print('Step 5: consolidating project results...')
