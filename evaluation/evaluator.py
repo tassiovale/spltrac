@@ -25,7 +25,7 @@ class EvaluationResults:
     recall, precision, F-measure and performance. 
     """
 
-    def __init__(self, ):
+    def __init__(self):
         self.project_results = {}
 
     def add_project_input_data(self, project, variability_impl_technology, language, loc, true_traces):

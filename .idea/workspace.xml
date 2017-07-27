@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="beb1f368-61e7-4ea0-b5cc-680ebde3c137" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/evaluation/evaluator.py" afterPath="$PROJECT_DIR$/evaluation/evaluator.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiment/main.py" afterPath="$PROJECT_DIR$/experiment/main.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiment/projects_multiprocessing.py" afterPath="$PROJECT_DIR$/experiment/projects_multiprocessing.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/files/projects_config.dat" afterPath="$PROJECT_DIR$/files/projects_config.dat" />
     </list>
     <ignored path="SPLTraceabilityPlayground.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/experiment/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="33" column="130" lean-forward="false" selection-start-line="33" selection-start-column="130" selection-end-line="33" selection-end-column="130" />
+            <state relative-caret-position="584">
+              <caret line="40" column="10" lean-forward="false" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
               <folding>
                 <element signature="e#24#34#0" expanded="true" />
               </folding>
@@ -47,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="projects_multiprocessing.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="projects_multiprocessing.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/experiment/projects_multiprocessing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="93" lean-forward="false" selection-start-line="19" selection-start-column="93" selection-end-line="19" selection-end-column="93" />
+            <state relative-caret-position="1149">
+              <caret line="107" column="0" lean-forward="true" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
               <folding>
                 <element signature="e#24#35#0" expanded="true" />
               </folding>
@@ -72,8 +72,8 @@
       <file leaf-file-name="evaluator.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/evaluation/evaluator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="53" column="22" lean-forward="true" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
+            <state relative-caret-position="99">
+              <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -165,7 +165,6 @@
         <option value="$PROJECT_DIR$/files/ifdef_test.txt" />
         <option value="$PROJECT_DIR$/experiment/results/2017-07-16_21h32m_output.csv" />
         <option value="$PROJECT_DIR$/evaluation/metrics.py" />
-        <option value="$PROJECT_DIR$/evaluation/evaluator.py" />
         <option value="$PROJECT_DIR$/evaluation/oracle.py" />
         <option value="$PROJECT_DIR$/features_extraction/cide_true_traces_extractor.py" />
         <option value="$PROJECT_DIR$/features_extraction/cppstats_extractor.py" />
@@ -182,8 +181,9 @@
         <option value="$PROJECT_DIR$/experiment/main_worker.py" />
         <option value="$PROJECT_DIR$/files/projects_test.dat" />
         <option value="$PROJECT_DIR$/files/projects_config.dat" />
-        <option value="$PROJECT_DIR$/experiment/projects_multiprocessing.py" />
+        <option value="$PROJECT_DIR$/evaluation/evaluator.py" />
         <option value="$PROJECT_DIR$/experiment/main.py" />
+        <option value="$PROJECT_DIR$/experiment/projects_multiprocessing.py" />
       </list>
     </option>
   </component>
@@ -1035,13 +1035,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/preprocessor_projects/linux-4.12/thesaurus.dat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/files/projects.dat" />
     <entry file="file://$PROJECT_DIR$/experiment/results_v1.2/2017-05-06_18h42m_output.csv" />
     <entry file="file://$PROJECT_DIR$/preprocessor_projects/berkeley_db-5.3.21/thesaurus.dat">
@@ -1253,14 +1246,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/evaluation/evaluator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="53" column="22" lean-forward="true" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/evaluation/metrics.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-856">
@@ -1293,22 +1278,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/experiment/projects_multiprocessing.py">
+    <entry file="file://$PROJECT_DIR$/evaluation/evaluator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="93" lean-forward="false" selection-start-line="19" selection-start-column="93" selection-end-line="19" selection-end-column="93" />
-          <folding>
-            <element signature="e#24#35#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="99">
+          <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiment/results/2017-07-27_09h08m_output.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/experiment/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="33" column="130" lean-forward="false" selection-start-line="33" selection-start-column="130" selection-end-line="33" selection-end-column="130" />
+        <state relative-caret-position="584">
+          <caret line="40" column="10" lean-forward="false" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
           <folding>
             <element signature="e#24#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiment/projects_multiprocessing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1149">
+          <caret line="107" column="0" lean-forward="true" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#35#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -4,8 +4,8 @@ import os.path
 
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
-import multiprocessing
-import experiment.projects_multiprocessing
+import threading
+from experiment.projects_multiprocessing import ProjectAnalysisThread
 from evaluation.evaluator import EvaluationResults
 
 """SPLTrac: SPL Traceability Experimental Suite
@@ -24,14 +24,21 @@ config_file = open(projects_config_path, 'r')
 projects_base_path = config_file.readline()
 
 evaluation_results = EvaluationResults()
-jobs = []
+threads = []
 
 for line in config_file:
     (project, language, variability_impl_technology, loc) = line.split()
     path = projects_base_path.replace('\n', '')  # it removes the newline character ('\n') from the path
     project = path + project
 
-    experiment.projects_multiprocessing.execute_processes(project, language, variability_impl_technology, loc, evaluation_results)
+    # experiment.projects_multiprocessing.execute_processes(project, language, variability_impl_technology, loc, evaluation_results)
+
+    thread = ProjectAnalysisThread(project, language, variability_impl_technology, loc, evaluation_results,)
+    threads.append(thread)
+    thread.start()
+
+for thread in threads:
+    thread.join()
 
 # consolidating results
 print('Step 5: consolidating project results...')
