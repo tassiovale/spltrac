@@ -4,8 +4,7 @@ import os.path
 
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
-import threading
-from experiment.projects_multiprocessing import ProjectAnalysisThread
+from experiment.projects_multithreading import ProjectAnalysisThread
 from evaluation.evaluator import EvaluationResults
 
 """SPLTrac: SPL Traceability Experimental Suite
