@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="beb1f368-61e7-4ea0-b5cc-680ebde3c137" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/experiment/results_v1.2/cluster/spl/2017-07-31_11h53m_variances_script.txt" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results/2017-07-31_11h53m_fmeasure_script.R" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results/2017-07-31_11h53m_performanceavg_script.R" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results/2017-07-31_11h53m_precision_script.R" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results/2017-07-31_11h53m_precisionrecall_script.R" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results/2017-07-31_11h53m_recall_script.R" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results/2017-07-31_11h53m_variances_script.R" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results_v1.2/macbook/consolidated/.Rapp.history" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results_v1.2/macbook/spl/2017-07-27_11h21m_fmeasure_chart.eps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results_v1.2/macbook/spl/2017-07-27_11h21m_output.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results_v1.2/macbook/spl/2017-07-27_11h21m_performanceavg_chart.eps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results_v1.2/macbook/spl/2017-07-27_11h21m_precision_chart.eps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results_v1.2/macbook/spl/2017-07-27_11h21m_precisionrecall_chart.eps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results_v1.2/macbook/spl/2017-07-27_11h21m_recall_chart.eps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results_v1.2/macbook/spl/2017-07-27_11h21m_variances_script.txt" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/experiment/results/2017-07-31_11h53m_output.csv" afterPath="$PROJECT_DIR$/experiment/results_v1.2/cluster/spl/2017-07-31_11h53m_output.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/files/projects_config.dat" afterPath="$PROJECT_DIR$/files/projects_config.dat" />
     </list>
     <ignored path="SPLTraceabilityPlayground.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,31 +34,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017-07-31_11h53m_output.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/experiment/results_v1.2/cluster/spl/2017-07-31_11h53m_output.csv">
+      <file leaf-file-name="projects_test.dat" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/files/projects_test.dat">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017-07-31_11h53m_variances_script.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/experiment/results_v1.2/cluster/spl/2017-07-31_11h53m_variances_script.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3270">
-              <caret line="218" column="87" lean-forward="false" selection-start-line="218" selection-start-column="87" selection-end-line="218" selection-end-column="87" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="projects_config.dat" pinned="false" current-in-tab="false">
+      <file leaf-file-name="projects_config.dat" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/files/projects_config.dat">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="25" lean-forward="true" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+            <state relative-caret-position="15">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="0" selection-start-column="9" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -174,7 +148,6 @@
         <option value="$PROJECT_DIR$/information_retrieval_methods/algebraic/latent_semantic_indexing.py" />
         <option value="$PROJECT_DIR$/experiment/projects_multithreading.py" />
         <option value="$PROJECT_DIR$/files/projects_preprocessor.dat" />
-        <option value="$PROJECT_DIR$/files/projects_config.dat" />
         <option value="$PROJECT_DIR$/files/projects_test.dat" />
         <option value="$PROJECT_DIR$/experiment/main.py" />
         <option value="$PROJECT_DIR$/files/projects_spl.dat" />
@@ -185,6 +158,7 @@
         <option value="$PROJECT_DIR$/experiment/results/2017-07-31_11h53m_recall_script.R" />
         <option value="$PROJECT_DIR$/experiment/results/2017-07-31_11h53m_variances_script.R" />
         <option value="$PROJECT_DIR$/experiment/results/2017-07-31_11h53m_variances_script.txt" />
+        <option value="$PROJECT_DIR$/files/projects_config.dat" />
       </list>
     </option>
   </component>
@@ -1011,12 +985,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32406673" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32776934" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32473445" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25493172" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25493172" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32776934" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32776934" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1299,16 +1274,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/experiment/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="28" column="40" lean-forward="false" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
-          <folding>
-            <element signature="e#24#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/files/projects_spl.dat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -1325,26 +1290,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/files/projects_config.dat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="25" lean-forward="true" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/experiment/results/2017-07-31_11h53m_fmeasure_script.R">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="71" lean-forward="false" selection-start-line="4" selection-start-column="71" selection-end-line="4" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/experiment/results_v1.2/cluster/spl/2017-07-31_11h53m_output.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1389,6 +1338,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/experiment/results_v1.2/cluster/spl/2017-07-31_11h53m_variances_script.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3270">
+          <caret line="218" column="87" lean-forward="false" selection-start-line="218" selection-start-column="87" selection-end-line="218" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiment/results_v1.2/cluster/spl/2017-07-31_11h53m_output.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiment/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="28" column="40" lean-forward="false" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+          <folding>
+            <element signature="e#24#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/files/projects_test.dat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1397,10 +1372,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/experiment/results_v1.2/cluster/spl/2017-07-31_11h53m_variances_script.txt">
+    <entry file="file://$PROJECT_DIR$/files/projects_config.dat">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3270">
-          <caret line="218" column="87" lean-forward="false" selection-start-line="218" selection-start-column="87" selection-end-line="218" selection-end-column="87" />
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="0" selection-start-column="9" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
