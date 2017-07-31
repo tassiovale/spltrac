@@ -15,14 +15,10 @@ Contact: tassio.vale@ufrb.edu.br
 """
 
 # START READING THE PROJECTS METADATA
-projects_config_path = '../files/projects_spl.dat'
-with open('../files/projects_config.dat', 'r') as projects_config_file:
-    projects_config_path = projects_config_file.readline()
-    projects_config_path.rstrip('\n')
+projects_config_path = open('../files/projects_config.dat', 'r').read()
 
 config_file = open(projects_config_path, 'r')
 projects_base_path = config_file.readline()
-projects_base_path.rstrip('\n')
 
 evaluation_results = EvaluationResults()
 threads = []
