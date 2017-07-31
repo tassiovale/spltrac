@@ -16,6 +16,7 @@ Contact: tassio.vale@ufrb.edu.br
 
 # START READING THE PROJECTS METADATA
 projects_config_path = open('../files/projects_config.dat', 'r').read()
+projects_config_path = projects_config_path.rstrip('\n')
 
 config_file = open(projects_config_path, 'r')
 projects_base_path = config_file.readline()
