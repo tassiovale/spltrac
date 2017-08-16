@@ -28,12 +28,13 @@ class EvaluationResults:
     def __init__(self):
         self.project_results = {}
 
-    def add_project_input_data(self, project, variability_impl_technology, language, loc, true_traces):
+    def add_project_input_data(self, project, variability_impl_technology, language, loc, number_of_files, true_traces):
         """It includes the project information to the project results dictionary."""
         project_result = ProjectResults()
         project_result.variability_impl_technology = variability_impl_technology
         project_result.language = language
         project_result.loc = loc
+        project_result.number_of_files = number_of_files
         project_result.true_traces = true_traces
         # print('True traces: ' + str(true_traces))
         project_result.method_results = {}
@@ -51,10 +52,10 @@ class EvaluationResults:
         output_file_str = date_time_str + '_output.csv'
         with open('results/' + output_file_str, 'w') as csv_file:
             output_data_writer = csv.writer(csv_file, quoting=csv.QUOTE_MINIMAL)
-            output_data_writer.writerow(['project', 'language', 'loc', 'features', 'variability_impl_technology', 'method', 'recall', 'precision', 'fmeasure', 'performance'])
+            output_data_writer.writerow(['project', 'language', 'files', 'loc', 'features', 'variability_impl_technology', 'method', 'recall', 'precision', 'fmeasure', 'performance'])
             for (project, project_result) in self.project_results.items():
                 for (method, method_result) in project_result.method_results.items():
-                    output_data_writer.writerow([project.split('/')[-1], project_result.language, project_result.loc, len(project_result.true_traces.keys()), project_result.variability_impl_technology, method, method_result.recall, method_result.precision, method_result.f_measure, method_result.performance])
+                    output_data_writer.writerow([project.split('/')[-1], project_result.language, project_result.number_of_files, project_result.loc, len(project_result.true_traces.keys()), project_result.variability_impl_technology, method, method_result.recall, method_result.precision, method_result.f_measure, method_result.performance])
 
             self.write_r_file(output_file_str, date_time_str, 'precisionrecall')
             self.write_r_file(output_file_str, date_time_str, 'performanceavg')

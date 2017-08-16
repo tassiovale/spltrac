@@ -51,7 +51,12 @@ class ProjectAnalysisThread(threading.Thread):
         project_oracle = TraceabilityOracle(self.project)
         true_traces = project_oracle.extract_true_traces()
         self.evaluation_results.add_project_input_data(
-            self.project, self.variability_impl_technology, self.language, self.loc, true_traces
+            self.project,
+            self.variability_impl_technology,
+            self.language,
+            self.loc,
+            pre_processor.get_num_files(),
+            true_traces
         )
 
         # Algebraic - classic vector model
@@ -78,15 +83,15 @@ class ProjectAnalysisThread(threading.Thread):
         bm25_thread.start()
 
         # Algebraic - classic vector model
-        print('Step 4.5: running latent semantic index algorithm...')
-        lsi_thread = LSIThread(features_dictionary, pre_processor, self.project, self.evaluation_results)
-        lsi_thread.start()
+        # print('Step 4.5: running latent semantic index algorithm...')
+        # lsi_thread = LSIThread(features_dictionary, pre_processor, self.project, self.evaluation_results)
+        # lsi_thread.start()
 
         classic_vector_thread.join()
         neural_network_thread.join()
         extended_boolean_thread.join()
         bm25_thread.join()
-        lsi_thread.join()
+        # lsi_thread.join()
 
         # print('classic_vector ' + str(classic_vector_traces))
         # print('neural_network ' + str(neural_network_traces))
