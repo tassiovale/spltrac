@@ -44,3 +44,22 @@ print(result)
 print("Latent semantic indexing < BM25")
 result = t.test(data_lsi$precision,data_bm25$precision, paired=TRUE, alt="less")
 print(result)
+
+cat("\n\n\n")
+print("Student's t test - RECALL")
+
+print("Latent semantic indexing < Classic vector model")
+result = t.test(data_lsi$recall,data_classic_vector$recall, paired=TRUE, alt="less")
+print(result)
+
+print("Latent semantic indexing < Neural networks")
+result = t.test(data_lsi$recall,data_neural_network$recall, paired=TRUE, alt="less")
+print(result)
+
+print("Latent semantic indexing < Extended boolean")
+result = t.test(data_lsi$recall,data_extended_boolean$recall, paired=TRUE, alt="less")
+print(result)
+
+print("Latent semantic indexing < BM25")
+result = t.test(data_lsi$recall,data_bm25$recall, paired=TRUE, alt="less")
+print(result)
