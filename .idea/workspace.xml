@@ -2,46 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="beb1f368-61e7-4ea0-b5cc-680ebde3c137" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/tassiovale.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/experiment/results_v1.2/data-consolidated/pair-comparison.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/experiment/results_v1.2/data-consolidated/variances.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/experiment/results_v1.2/data-preprocessor/pair-comparison.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/experiment/results_v1.2/data-preprocessor/variances.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/experiment/results_v1.2/data-spl/with-lsi/pair-comparison.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/experiment/results_v1.2/data-spl/with-lsi/variances.txt" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results/2017-08-11_10h56m_fmeasure_script.R" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results/2017-08-11_10h56m_performanceavg_script.R" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results/2017-08-11_10h56m_precision_script.R" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results/2017-08-11_10h56m_precisionrecall_script.R" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results/2017-08-11_10h56m_recall_script.R" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results/2017-08-11_10h56m_variances_script.R" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results_v1.2/data-consolidated/2017-07-26_13h56m_variances_script.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results_v1.2/data-preprocessor/2017-07-16_21h32m_variances_script.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results_v1.2/data-spl/with-lsi/2017-08-10_14h25m_fmeasure_chart.eps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results_v1.2/data-spl/with-lsi/2017-08-10_14h25m_performanceavg_chart.eps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results_v1.2/data-spl/with-lsi/2017-08-10_14h25m_precision_chart.eps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results_v1.2/data-spl/with-lsi/2017-08-10_14h25m_precisionrecall_chart.eps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results_v1.2/data-spl/with-lsi/2017-08-10_14h25m_recall_chart.eps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results_v1.2/data-spl/with-lsi/2017-08-10_14h25m_variances_script.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results_v1.2/data-spl/without-lsi/2017-08-07_22h10m_fmeasure_chart.eps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results_v1.2/data-spl/without-lsi/2017-08-07_22h10m_performanceavg_chart.eps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results_v1.2/data-spl/without-lsi/2017-08-07_22h10m_precision_chart.eps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results_v1.2/data-spl/without-lsi/2017-08-07_22h10m_precisionrecall_chart.eps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results_v1.2/data-spl/without-lsi/2017-08-07_22h10m_recall_chart.eps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/experiment/results_v1.2/data-spl/without-lsi/2017-08-07_22h10m_variances_script.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/files/projects_test.dat" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/experiment/results/2017-08-11_10h56m_output.csv" afterPath="$PROJECT_DIR$/experiment/results_v1.2/data-preprocessor/data-preprocessor.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/experiment/results/script_scatter_plot_correlation_script.R" afterPath="$PROJECT_DIR$/experiment/results/script_scatter_plot_correlation.R" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/experiment/results/script_wilcoxon_tStudent_script.R" afterPath="$PROJECT_DIR$/experiment/results/script_wilcoxon_tStudent.R" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/experiment/results_v1.2/data-consolidated/2017-08-11_10h56m_output.csv" afterPath="$PROJECT_DIR$/experiment/results_v1.2/data-consolidated/data-consolidated.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/experiment/results_v1.2/data-spl/with-lsi/2017-08-10_14h25m_output.csv" afterPath="$PROJECT_DIR$/experiment/results_v1.2/data-spl/with-lsi/data-spl-withLSI.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/experiment/results_v1.2/data-spl/without-lsi/2017-08-07_22h10m_output.csv" afterPath="$PROJECT_DIR$/experiment/results_v1.2/data-spl/without-lsi/data-spl-withoutLSI.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/SPLTrac.iml" afterPath="$PROJECT_DIR$/.idea/SPLTrac.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/files/projects_config.dat" afterPath="$PROJECT_DIR$/files/projects_config.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/files/projects_preprocessor.dat" afterPath="$PROJECT_DIR$/files/projects_preprocessor.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/files/projects_spl.dat" afterPath="$PROJECT_DIR$/files/projects_spl.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="SPLTraceabilityPlayground.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -59,7 +20,21 @@
     <favorites_list name="SPLTraceabilityPlayground" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="405">
+                <caret line="27" column="105" lean-forward="false" selection-start-line="27" selection-start-column="105" selection-end-line="27" selection-end-column="105" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -141,7 +116,6 @@
         <option value="$PROJECT_DIR$/features_extraction/extractor.py" />
         <option value="$PROJECT_DIR$/information_retrieval_methods/ifdef_removal.py" />
         <option value="$PROJECT_DIR$/information_retrieval_methods/tfidf.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/experiment/main_worker.py" />
         <option value="$PROJECT_DIR$/information_retrieval_methods/algebraic/classic_vector.py" />
         <option value="$PROJECT_DIR$/information_retrieval_methods/algebraic/neural_networks.py" />
@@ -185,6 +159,7 @@
         <option value="$PROJECT_DIR$/experiment/results_v1.2/data-spl/with-lsi/2017-07-16_21h32m_variances_script2.txt" />
         <option value="$PROJECT_DIR$/experiment/results_v1.2/data-preprocessor/pair-comparison.txt" />
         <option value="$PROJECT_DIR$/experiment/results_v1.2/data-consolidated/pair-comparison.txt" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -215,62 +190,6 @@
             <path>
               <item name="SPLTrac" type="b2602c69:ProjectViewProjectNode" />
               <item name="spltrac" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SPLTrac" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spltrac" type="462c0819:PsiDirectoryNode" />
-              <item name="experiment" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SPLTrac" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spltrac" type="462c0819:PsiDirectoryNode" />
-              <item name="experiment" type="462c0819:PsiDirectoryNode" />
-              <item name="results" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SPLTrac" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spltrac" type="462c0819:PsiDirectoryNode" />
-              <item name="experiment" type="462c0819:PsiDirectoryNode" />
-              <item name="results_v1.2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SPLTrac" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spltrac" type="462c0819:PsiDirectoryNode" />
-              <item name="experiment" type="462c0819:PsiDirectoryNode" />
-              <item name="results_v1.2" type="462c0819:PsiDirectoryNode" />
-              <item name="data-consolidated" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SPLTrac" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spltrac" type="462c0819:PsiDirectoryNode" />
-              <item name="experiment" type="462c0819:PsiDirectoryNode" />
-              <item name="results_v1.2" type="462c0819:PsiDirectoryNode" />
-              <item name="data-preprocessor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SPLTrac" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spltrac" type="462c0819:PsiDirectoryNode" />
-              <item name="experiment" type="462c0819:PsiDirectoryNode" />
-              <item name="results_v1.2" type="462c0819:PsiDirectoryNode" />
-              <item name="data-spl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SPLTrac" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spltrac" type="462c0819:PsiDirectoryNode" />
-              <item name="experiment" type="462c0819:PsiDirectoryNode" />
-              <item name="results_v1.2" type="462c0819:PsiDirectoryNode" />
-              <item name="data-spl" type="462c0819:PsiDirectoryNode" />
-              <item name="with-lsi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SPLTrac" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spltrac" type="462c0819:PsiDirectoryNode" />
-              <item name="files" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SPLTrac" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spltrac" type="462c0819:PsiDirectoryNode" />
-              <item name="information_retrieval_methods" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -842,8 +761,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1276" height="777" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26580226" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26580226" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -943,7 +863,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/experiment/results/2017-08-11_21h43m_fmeasure_script.R" />
     <entry file="file://$PROJECT_DIR$/experiment/results/2017-08-11_21h43m_output.csv" />
     <entry file="file://$PROJECT_DIR$/experiment/results/2017-08-11_21h53m_output.csv" />
     <entry file="file://$PROJECT_DIR$/experiment/results/2017-08-11_22h14m_output.csv" />
@@ -1211,6 +1130,17 @@
         <state relative-caret-position="367">
           <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="405">
+            <caret line="27" column="105" lean-forward="false" selection-start-line="27" selection-start-column="105" selection-end-line="27" selection-end-column="105" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
