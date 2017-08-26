@@ -16,6 +16,39 @@ The sample has NOT a normal distribution!
 data:  data$fmeasure by data$method
 Kruskal-Wallis chi-squared = 22.983, df = 4, p-value = 0.0001276
 
+2) Wilcoxon test
+
+LSI < Classic vector model
+
+Wilcoxon rank sum test
+
+data:  datalsi$fmeasure and datacv$fmeasure
+W = 64, p-value = 5.961e-05
+alternative hypothesis: true location shift is less than 0
+
+LSI < Extended boolean
+
+Wilcoxon rank sum test
+
+data:  datalsi$fmeasure and dataeb$fmeasure
+W = 68, p-value = 0.0001003
+alternative hypothesis: true location shift is less than 0
+
+LSI < Neural networks
+
+	Wilcoxon rank sum test
+
+data:  datalsi$fmeasure and datann$fmeasure
+W = 63, p-value = 5.213e-05
+alternative hypothesis: true location shift is less than 0
+
+LSI < BM25
+
+Wilcoxon rank sum test
+
+data:  datalsi$fmeasure and databm25$fmeasure
+W = 52, p-value = 1.069e-05
+alternative hypothesis: true location shift is less than 0
 
 
 
@@ -73,6 +106,62 @@ Latent semantic indexing-Extended boolean     -0.30296304 -0.47360840 -0.1323176
 Neural networks-Extended boolean              -0.05825441 -0.22889977  0.11239095 0.8767008
 Neural networks-Latent semantic indexing       0.24470863  0.07406327  0.41535398 0.0012130
 
+4) Student’s t test
+
+LSI < Classic vector model
+
+Welch Two Sample t-test
+
+data:  datalsi$precision and datacv$precision
+t = -4.3139, df = 31.298, p-value = 7.461e-05
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+       -Inf -0.1413379
+sample estimates:
+mean of x mean of y 
+0.1897231 0.4225383
+
+
+LSI < Extended boolean
+
+Welch Two Sample t-test
+
+data:  datalsi$precision and dataeb$precision
+t = -5.6306, df = 31.375, p-value = 1.692e-06
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+       -Inf -0.2117662
+sample estimates:
+mean of x mean of y 
+0.1897231 0.4926861
+
+
+LSI < Neural networks
+
+Welch Two Sample t-test
+
+data:  datalsi$precision and datann$precision
+t = -4.4877, df = 31.035, p-value = 4.626e-05
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+       -Inf -0.1522563
+sample estimates:
+mean of x mean of y 
+0.1897231 0.4344317
+
+
+LSI < BM25
+
+Welch Two Sample t-test
+
+data:  datalsi$precision and databm25$precision
+t = -4.7169, df = 31.007, p-value = 2.412e-05
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+       -Inf -0.1649332
+sample estimates:
+mean of x mean of y 
+0.1897231 0.4472112  
 
 
 
@@ -129,6 +218,50 @@ Neural networks-Classic vector model          -0.05775766 -0.198828784  0.083313
 Latent semantic indexing-Extended boolean      0.25984662  0.118775490  0.40091775 0.0000154
 Neural networks-Extended boolean               0.13642655 -0.004644574  0.27749768 0.0630526
 Neural networks-Latent semantic indexing      -0.12342006 -0.264491193  0.01765106 0.1155230
+
+
+4) t Student’s test
+
+Extended boolean < Classic vector model
+
+Welch Two Sample t-test
+
+data:  dataeb$recall and datacv$recall
+t = -3.2212, df = 27.89, p-value = 0.001619
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+       -Inf -0.0916193
+sample estimates:
+mean of x mean of y 
+0.6581069 0.8522911
+
+
+Extended boolean < LSI
+
+Welch Two Sample t-test
+
+data:  dataeb$recall and datalsi$recall
+t = -4.3147, df = 27.811, p-value = 9.097e-05
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+       -Inf -0.1573742
+sample estimates:
+mean of x mean of y 
+0.6581069 0.9179535
+
+
+Extended boolean < BM25
+
+Welch Two Sample t-test
+
+data:  dataeb$recall and databm25$recall
+t = -3.6597, df = 28.354, p-value = 0.0005119
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+      -Inf -0.118817
+sample estimates:
+mean of x mean of y 
+0.6581069 0.8800389
 
 
 

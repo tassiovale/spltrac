@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+import csv
+
 """SPLTrac: SPL Traceability Experimental Suite
 
 Author: Tassio Vale
@@ -12,8 +14,10 @@ class ProjectMethodMetricsResult:
     (F1 measure - harmonic mean) and performance metrics for a given project.
     """
 
-    def __init__(self, true_traces, method_traces, performance):
+    def __init__(self, project, true_traces, method_name, method_traces, performance):
+        self.project = project
         self.true_traces = true_traces
+        self.method_name = method_name
         self.method_traces = method_traces
         self.performance = performance
 
@@ -52,6 +56,18 @@ class ProjectMethodMetricsResult:
                     self.recall_per_feature[feature] = 0
                 acum_recall += self.recall_per_feature[feature]
 
+                with open('results/output_per_feature.csv', 'a') as features_traces_file:
+                    output_data_writer = csv.writer(features_traces_file, quoting=csv.QUOTE_MINIMAL)
+                    output_data_writer.writerow(
+                        [
+                            self.project.split('/')[-1] + '-' + feature,
+                            self.method_name,
+                            len(method_documents_tuple),
+                            len(self.true_traces[feature]),
+                            self.precision_per_feature[feature],
+                            self.recall_per_feature[feature]
+                        ]
+                    )
                 # print('\nFeature query: ' + feature)
                 # print('Correct traces: ' + str(intersection_set))
                 # print('Not traced documents: ' + str(not_traced_documents_set))

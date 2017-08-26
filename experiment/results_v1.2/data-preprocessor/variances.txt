@@ -46,6 +46,66 @@ Extended boolean-Classic vector model  0.36106821  0.275029078  0.447107346 0.00
 Neural networks-Classic vector model   0.17133063  0.085291494  0.257369762 0.0000080
 Neural networks-Extended boolean      -0.18973758 -0.275776718 -0.103698450 0.0000008
 
+4) Student’s t test
+
+Extended boolean > all others
+
+Welch Two Sample t-test
+
+data:  dataeb$fmeasure and datacv$fmeasure
+t = 10.259, df = 37.605, p-value = 9.435e-13
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 0.3017125       Inf
+sample estimates:
+mean of x mean of y
+0.5517594 0.1906912
+
+Welch Two Sample t-test
+
+data:  dataeb$fmeasure and datann$fmeasure
+t = 5.5244, df = 36.384, p-value = 1.455e-06
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 0.1317687       Inf
+sample estimates:
+mean of x mean of y
+0.5517594 0.3620218
+
+Welch Two Sample t-test
+
+data:  dataeb$fmeasure and databm25$fmeasure
+t = 7.9542, df = 38.33, p-value = 6.157e-10
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 0.2245823       Inf
+sample estimates:
+mean of x mean of y
+0.5517594 0.2667880
+
+Neural networks > Classic vector model AND Neural networks > BM25
+
+Welch Two Sample t-test
+
+data:  datann$fmeasure and datacv$fmeasure
+t = 5.8189, df = 39.814, p-value = 4.314e-07
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 0.1217459       Inf
+sample estimates:
+mean of x mean of y
+0.3620218 0.1906912
+
+Welch Two Sample t-test
+
+data:  datann$fmeasure and databm25$fmeasure
+t = 3.154, df = 39.487, p-value = 0.001537
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 0.04437569        Inf
+sample estimates:
+mean of x mean of y
+0.3620218 0.2667880
 
 
 
@@ -98,6 +158,66 @@ Extended boolean-Classic vector model  0.31416480  0.2399800  0.38834959 0.00000
 Neural networks-Classic vector model   0.13642659  0.0622418  0.21061137 0.0000385
 Neural networks-Extended boolean      -0.17773821 -0.2519230 -0.10355343 0.0000001
 
+4) Student’s t test
+
+Extended boolean > all others
+
+Welch Two Sample t-test
+
+data:  dataeb$precision and datacv$precision
+t = 9.762, df = 31.052, p-value = 2.79e-11
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 0.2596018       Inf
+sample estimates:
+mean of x mean of y
+0.4360488 0.1218840
+
+Welch Two Sample t-test
+
+data:  dataeb$precision and datann$precision
+t = 5.3263, df = 33.773, p-value = 3.299e-06
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 0.1213014       Inf
+sample estimates:
+mean of x mean of y
+0.4360488 0.2583106
+
+Welch Two Sample t-test
+
+data:  dataeb$precision and databm25$precision
+t = 8.5909, df = 31.26, p-value = 4.928e-10
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 0.2225078       Inf
+sample estimates:
+mean of x mean of y
+0.4360488 0.1588455
+
+Neural networks > Classic vector model AND Neural networks > BM25
+
+Welch Two Sample t-test
+
+data:  datann$precision and datacv$precision
+t = 5.7776, df = 39.235, p-value = 5.17e-07
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 0.09664758        Inf
+sample estimates:
+mean of x mean of y
+0.2583106 0.1218840
+
+Welch Two Sample t-test
+
+data:  datann$precision and databm25$precision
+t = 4.1918, df = 39.35, p-value = 7.592e-05
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 0.05949452        Inf
+sample estimates:
+mean of x mean of y
+0.2583106 0.1588455
 
 
 
@@ -150,6 +270,79 @@ Extended boolean-Classic vector model  0.2713002  0.18098827  0.36161223 0.00000
 Neural networks-Classic vector model   0.1265290  0.03621705  0.21684101 0.0023696
 Neural networks-Extended boolean      -0.1447712 -0.23508320 -0.05445924 0.0003858
 
+4) Student’s t test
+
+BM25 > all others
+
+Welch Two Sample t-test
+
+data:  databm25$recall and datacv$recall
+t = 13.373, df = 20.451, p-value = 7.097e-12
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 0.3986769       Inf
+sample estimates:
+mean of x mean of y
+0.9703453 0.5127098
+
+Welch Two Sample t-test
+
+data:  databm25$recall and dataeb$recall
+t = 7.2764, df = 20.812, p-value = 1.92e-07
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 0.1422519       Inf
+sample estimates:
+mean of x mean of y
+0.9703453 0.7840101
+
+Welch Two Sample t-test
+
+data:  databm25$recall and datann$recall
+t = 13.885, df = 20.939, p-value = 2.47e-12
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 0.2900678       Inf
+sample estimates:
+mean of x mean of y
+0.9703453 0.6392389
+
+Extended boolean > Classic vector AND Extended boolean > Neural networks
+
+Welch Two Sample t-test
+
+data:  dataeb$recall and datacv$recall
+t = 6.3933, df = 36.972, p-value = 9.261e-08
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 0.1997065       Inf
+sample estimates:
+mean of x mean of y
+0.7840101 0.5127098
+
+Welch Two Sample t-test
+
+data:  dataeb$recall and datann$recall
+t = 4.1821, df = 39.79, p-value = 7.705e-05
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 0.08647441        Inf
+sample estimates:
+mean of x mean of y
+0.7840101 0.6392389
+
+Neural networks > classic vector
+
+Welch Two Sample t-test
+
+data:  datann$recall and datacv$recall
+t = 3.0566, df = 35.6, p-value = 0.002115
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 0.05661964        Inf
+sample estimates:
+mean of x mean of y
+0.6392389 0.5127098
 
 
 

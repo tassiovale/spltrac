@@ -1,0 +1,1494 @@
+projectandfeature,methodname,totaltraces,truetraces,precision,recall
+Pynche-text,Classic vector model,9,1,0.1111111111111111,1.0
+FAME_DBMS-testing,BM25,6,2,0.3333333333333333,1.0
+Pynche-colorlist,Classic vector model,11,1,0.09090909090909091,1.0
+Pynche-chip,BM25,3,1,0.3333333333333333,1.0
+Pynche-typein,BM25,2,1,0.5,1.0
+FAME_DBMS-win,BM25,4,2,0.5,1.0
+FAME_DBMS-win,Classic vector model,4,2,0.5,1.0
+Pynche-loadpalette,Classic vector model,1,1,1.0,1.0
+FAME_DBMS-nutos,BM25,5,2,0.4,1.0
+Pynche-loadpalette,BM25,1,1,1.0,1.0
+FAME_DBMS-nutos,Classic vector model,5,2,0.4,1.0
+Pynche-about,Classic vector model,3,1,0.3333333333333333,1.0
+FAME_DBMS-write,BM25,9,1,0.1111111111111111,1.0
+Pynche-details,BM25,3,1,0.3333333333333333,1.0
+Pynche-about,BM25,3,1,0.3333333333333333,1.0
+FAME_DBMS-write,Classic vector model,7,1,0.0,0.0
+Pynche-help,Classic vector model,2,1,0.5,1.0
+Pynche-help,BM25,2,1,0.5,1.0
+Pynche-strip,BM25,4,1,0.25,1.0
+FAME_DBMS-testing,Classic vector model,6,2,0.3333333333333333,1.0
+Pynche-blue,Classic vector model,9,3,0.3333333333333333,1.0
+Pynche-green,Classic vector model,9,3,0.3333333333333333,1.0
+FAME_DBMS-win,Extended boolean,3,2,0.6666666666666666,1.0
+FAME_DBMS-nutos,Extended boolean,2,2,0.0,0.0
+FAME_DBMS-write,Extended boolean,1,1,0.0,0.0
+Pynche-chip,Classic vector model,3,1,0.3333333333333333,1.0
+Pynche-details,Classic vector model,3,1,0.3333333333333333,1.0
+Pynche-typein,Classic vector model,2,1,0.5,1.0
+FAME_DBMS-win,Neural networks,4,2,0.5,1.0
+Pynche-red,Classic vector model,9,3,0.3333333333333333,1.0
+FAME_DBMS-nutos,Neural networks,5,2,0.4,1.0
+FAME_DBMS-write,Neural networks,8,1,0.125,1.0
+Pynche-strip,Classic vector model,4,1,0.25,1.0
+FAME_DBMS-testing,Neural networks,5,2,0.4,1.0
+Pynche-chip,Extended boolean,3,1,0.3333333333333333,1.0
+MinePump_C-stopcommand,Classic vector model,3,2,0.6666666666666666,1.0
+MinePump_C-stopcommand,BM25,3,2,0.6666666666666666,1.0
+MinePump_C-highwatersensor,Classic vector model,3,3,1.0,1.0
+Pynche-details,Extended boolean,3,1,0.3333333333333333,1.0
+MinePump_C-lowwatersensor,Classic vector model,3,3,1.0,1.0
+Pynche-text,Neural networks,9,1,0.1111111111111111,1.0
+MinePump_C-methanealarm,Classic vector model,3,1,0.3333333333333333,1.0
+Pynche-typein,Extended boolean,2,1,0.5,1.0
+MinePump_C-startcommand,Classic vector model,3,2,0.6666666666666666,1.0
+Pynche-colorlist,Neural networks,11,1,0.09090909090909091,1.0
+MinePump_C-stopcommand,Neural networks,3,2,0.6666666666666666,1.0
+MinePump_C-highwatersensor,BM25,3,3,1.0,1.0
+MinePump_C-stopcommand,Extended boolean,3,2,0.6666666666666666,1.0
+MinePump_C-highwatersensor,Neural networks,3,3,1.0,1.0
+Pynche-loadpalette,Extended boolean,1,1,1.0,1.0
+Pynche-loadpalette,Neural networks,1,1,1.0,1.0
+MinePump_C-lowwatersensor,BM25,3,3,1.0,1.0
+Pynche-about,Extended boolean,3,1,0.3333333333333333,1.0
+MinePump_C-methanealarm,BM25,3,1,0.3333333333333333,1.0
+Pynche-about,Neural networks,3,1,0.3333333333333333,1.0
+MinePump_C-highwatersensor,Extended boolean,3,3,1.0,1.0
+MinePump_C-startcommand,BM25,3,2,0.6666666666666666,1.0
+MinePump_C-lowwatersensor,Extended boolean,3,3,1.0,1.0
+MinePump_C-highwatersensor,Latent semantic indexing,6,3,0.5,1.0
+MinePump_C-lowwatersensor,Latent semantic indexing,8,3,0.375,1.0
+MinePump_C-methanealarm,Extended boolean,3,1,0.3333333333333333,1.0
+Pynche-help,Extended boolean,2,1,0.5,1.0
+Pynche-help,Neural networks,2,1,0.5,1.0
+MinePump_C-methanealarm,Latent semantic indexing,14,1,0.07142857142857142,1.0
+Pynche-blue,Neural networks,9,3,0.3333333333333333,1.0
+Pynche-strip,Extended boolean,4,1,0.25,1.0
+MinePump_C-lowwatersensor,Neural networks,3,3,1.0,1.0
+Pynche-green,Neural networks,9,3,0.3333333333333333,1.0
+MinePump_C-startcommand,Latent semantic indexing,9,2,0.2222222222222222,1.0
+MinePump_C-startcommand,Extended boolean,3,2,0.6666666666666666,1.0
+MinePump_C-methanealarm,Neural networks,3,1,0.3333333333333333,1.0
+MinePump_C-startcommand,Neural networks,3,2,0.6666666666666666,1.0
+Pynche-chip,Neural networks,3,1,0.3333333333333333,1.0
+MinePump_C-stopcommand,Latent semantic indexing,11,2,0.18181818181818182,1.0
+MinePump_C-methanequery,Latent semantic indexing,8,1,0.0,0.0
+Pynche-details,Neural networks,3,1,0.3333333333333333,1.0
+Pynche-typein,Neural networks,2,1,0.5,1.0
+Pynche-red,Neural networks,9,3,0.3333333333333333,1.0
+Pynche-strip,Neural networks,4,1,0.25,1.0
+Elevator_C-empty,Classic vector model,3,1,0.3333333333333333,1.0
+Elevator_C-weight,Classic vector model,6,2,0.3333333333333333,1.0
+Elevator_C-empty,BM25,3,1,0.3333333333333333,1.0
+Elevator_C-weight,BM25,6,2,0.3333333333333333,1.0
+Elevator_C-overloaded,Classic vector model,3,2,0.3333333333333333,0.5
+Elevator_C-executivefloor,Classic vector model,2,2,1.0,1.0
+Elevator_C-empty,Neural networks,3,1,0.3333333333333333,1.0
+Elevator_C-weight,Neural networks,6,2,0.3333333333333333,1.0
+Elevator_C-overloaded,Neural networks,3,2,0.3333333333333333,0.5
+Elevator_C-executivefloor,Neural networks,2,2,1.0,1.0
+Elevator_C-empty,Extended boolean,3,1,0.3333333333333333,1.0
+Elevator_C-overloaded,BM25,3,2,0.3333333333333333,0.5
+Elevator_C-executivefloor,BM25,2,2,1.0,1.0
+Elevator_C-weight,Extended boolean,2,2,0.0,0.0
+Elevator_C-overloaded,Extended boolean,3,2,0.3333333333333333,0.5
+Elevator_C-executivefloor,Extended boolean,2,2,1.0,1.0
+FAME_DBMS-win,Latent semantic indexing,11,2,0.18181818181818182,1.0
+Elevator_C-empty,Latent semantic indexing,5,1,0.2,1.0
+FAME_DBMS-nutos,Latent semantic indexing,11,2,0.18181818181818182,1.0
+Elevator_C-weight,Latent semantic indexing,12,2,0.16666666666666666,1.0
+Elevator_C-overloaded,Latent semantic indexing,8,2,0.25,1.0
+FAME_DBMS-write,Latent semantic indexing,11,1,0.09090909090909091,1.0
+Elevator_C-executivefloor,Latent semantic indexing,12,2,0.16666666666666666,1.0
+FAME_DBMS-testing,Latent semantic indexing,11,2,0.18181818181818182,1.0
+Elevator_Java-empty,Classic vector model,4,2,0.25,0.5
+Elevator_Java-overloaded,Classic vector model,6,1,0.16666666666666666,1.0
+Elevator_Java-twothirdsfull,Classic vector model,1,1,0.0,0.0
+EmailSystem_C-encrypt,Classic vector model,6,3,0.3333333333333333,0.6666666666666666
+Elevator_Java-weight,Classic vector model,6,3,0.5,1.0
+Elevator_Java-empty,BM25,4,2,0.25,0.5
+Elevator_Java-overloaded,BM25,6,1,0.16666666666666666,1.0
+Elevator_Java-twothirdsfull,BM25,1,1,0.0,0.0
+Elevator_Java-weight,BM25,7,3,0.42857142857142855,1.0
+EmailSystem_C-verify,Classic vector model,7,4,0.5714285714285714,1.0
+Elevator_Java-executivefloor,BM25,2,2,1.0,1.0
+EmailSystem_C-decrypt,Classic vector model,2,1,0.5,1.0
+EmailSystem_C-encrypt,BM25,6,3,0.3333333333333333,0.6666666666666666
+Elevator_Java-empty,Neural networks,4,2,0.25,0.5
+Elevator_Java-overloaded,Neural networks,6,1,0.16666666666666666,1.0
+EmailSystem_C-forward,Classic vector model,7,4,0.5714285714285714,1.0
+EmailSystem_C-verify,BM25,7,4,0.5714285714285714,1.0
+Elevator_Java-executivefloor,Classic vector model,2,2,1.0,1.0
+Elevator_Java-empty,Extended boolean,4,2,0.25,0.5
+EmailSystem_C-sign,Classic vector model,8,3,0.375,1.0
+EmailSystem_C-addressbook,Classic vector model,7,4,0.5714285714285714,1.0
+EmailSystem_C-keys,Classic vector model,13,4,0.3076923076923077,1.0
+EmailSystem_C-autoresponder,Classic vector model,7,4,0.5714285714285714,1.0
+EmailSystem_C-decrypt,BM25,2,1,0.5,1.0
+EmailSystem_C-forward,BM25,7,4,0.5714285714285714,1.0
+EmailSystem_C-sign,BM25,8,3,0.375,1.0
+EmailSystem_C-addressbook,BM25,7,4,0.5714285714285714,1.0
+EmailSystem_C-keys,BM25,15,4,0.26666666666666666,1.0
+EmailSystem_C-autoresponder,BM25,7,4,0.5714285714285714,1.0
+Elevator_Java-overloaded,Extended boolean,2,1,0.0,0.0
+Elevator_Java-twothirdsfull,Neural networks,1,1,0.0,0.0
+EmailSystem_C-encrypt,Extended boolean,4,3,0.25,0.3333333333333333
+Elevator_Java-weight,Neural networks,7,3,0.42857142857142855,1.0
+Elevator_Java-twothirdsfull,Extended boolean,1,1,0.0,0.0
+Elevator_Java-executivefloor,Extended boolean,2,2,1.0,1.0
+EmailSystem_C-verify,Extended boolean,7,4,0.5714285714285714,1.0
+Elevator_Java-executivefloor,Neural networks,2,2,1.0,1.0
+EmailSystem_C-encrypt,Neural networks,6,3,0.3333333333333333,0.6666666666666666
+EmailSystem_C-decrypt,Extended boolean,2,1,0.5,1.0
+EmailSystem_C-verify,Neural networks,7,4,0.5714285714285714,1.0
+EmailSystem_C-forward,Extended boolean,2,4,1.0,0.5
+EmailSystem_C-sign,Extended boolean,1,3,0.0,0.0
+EmailSystem_C-decrypt,Neural networks,2,1,0.5,1.0
+EmailSystem_C-addressbook,Extended boolean,7,4,0.5714285714285714,1.0
+Elevator_Java-empty,Latent semantic indexing,6,2,0.3333333333333333,1.0
+EmailSystem_C-keys,Extended boolean,1,4,0.0,0.0
+EmailSystem_C-forward,Neural networks,7,4,0.5714285714285714,1.0
+EmailSystem_C-autoresponder,Extended boolean,5,4,0.4,0.5
+Elevator_Java-overloaded,Latent semantic indexing,11,1,0.09090909090909091,1.0
+EmailSystem_C-sign,Neural networks,8,3,0.375,1.0
+EmailSystem_C-addressbook,Neural networks,7,4,0.5714285714285714,1.0
+Elevator_Java-twothirdsfull,Latent semantic indexing,1,1,0.0,0.0
+Elevator_Java-weight,Latent semantic indexing,12,3,0.25,1.0
+EmailSystem_C-keys,Neural networks,5,4,0.0,0.0
+Elevator_Java-executivefloor,Latent semantic indexing,15,2,0.13333333333333333,1.0
+EmailSystem_C-autoresponder,Neural networks,7,4,0.5714285714285714,1.0
+Pynche-text,Latent semantic indexing,11,1,0.09090909090909091,1.0
+Pynche-colorlist,Latent semantic indexing,9,1,0.0,0.0
+Pynche-loadpalette,Latent semantic indexing,10,1,0.1,1.0
+EmailSystem_C-encrypt,Latent semantic indexing,6,3,0.3333333333333333,0.6666666666666666
+Pynche-help,Latent semantic indexing,10,1,0.1,1.0
+EmailSystem_C-verify,Latent semantic indexing,10,4,0.4,1.0
+EmailSystem_C-decrypt,Latent semantic indexing,10,1,0.1,1.0
+Pynche-blue,Latent semantic indexing,9,3,0.3333333333333333,1.0
+Pynche-green,Latent semantic indexing,11,3,0.2727272727272727,1.0
+EmailSystem_C-forward,Latent semantic indexing,16,4,0.25,1.0
+Pynche-chip,Latent semantic indexing,11,1,0.09090909090909091,1.0
+EmailSystem_C-sign,Latent semantic indexing,19,3,0.15789473684210525,1.0
+Pynche-details,Latent semantic indexing,11,1,0.09090909090909091,1.0
+EmailSystem_C-addressbook,Latent semantic indexing,23,4,0.17391304347826086,1.0
+Pynche-typein,Latent semantic indexing,9,1,0.1111111111111111,1.0
+Pynche-red,Latent semantic indexing,11,3,0.2727272727272727,1.0
+EmailSystem_C-keys,Latent semantic indexing,27,4,0.14814814814814814,1.0
+EmailSystem_C-autoresponder,Latent semantic indexing,31,4,0.12903225806451613,1.0
+Pynche-about,Latent semantic indexing,11,1,0.09090909090909091,1.0
+Pynche-strip,Latent semantic indexing,11,1,0.09090909090909091,1.0
+NetBot-logging,Classic vector model,3,1,0.3333333333333333,1.0
+NetBot-encryption,Classic vector model,4,2,0.5,1.0
+NetBot-keylogging,Classic vector model,2,2,1.0,1.0
+NetBot-logging,Neural networks,3,1,0.3333333333333333,1.0
+NetBot-pcinfos,Classic vector model,22,5,0.09090909090909091,0.4
+NetBot-encryption,Neural networks,4,2,0.5,1.0
+NetBot-keylogging,Neural networks,2,2,1.0,1.0
+NetBot-pcinfos,Neural networks,3,5,1.0,0.6
+NetBot-logging,BM25,3,1,0.3333333333333333,1.0
+NetBot-encryption,BM25,4,2,0.5,1.0
+NetBot-keylogging,BM25,2,2,1.0,1.0
+NetBot-pcinfos,BM25,5,5,1.0,1.0
+NetBot-logging,Extended boolean,3,1,0.3333333333333333,1.0
+NetBot-encryption,Extended boolean,4,2,0.5,1.0
+NetBot-keylogging,Extended boolean,2,2,1.0,1.0
+NetBot-logging,Latent semantic indexing,3,1,0.3333333333333333,1.0
+NetBot-pcinfos,Extended boolean,1,5,1.0,0.2
+NetBot-encryption,Latent semantic indexing,7,2,0.2857142857142857,1.0
+NetBot-keylogging,Latent semantic indexing,7,2,0.2857142857142857,1.0
+MinePump_Java-highwatersensor,Classic vector model,4,2,0.5,1.0
+MinePump_Java-lowwatersensor,Classic vector model,3,2,0.3333333333333333,0.5
+NetBot-pcinfos,Latent semantic indexing,25,5,0.2,1.0
+MinePump_Java-highwatersensor,BM25,4,2,0.5,1.0
+MinePump_Java-methanealarm,Classic vector model,4,1,0.25,1.0
+MinePump_Java-startcommand,Classic vector model,6,1,0.16666666666666666,1.0
+MinePump_Java-lowwatersensor,BM25,3,2,0.3333333333333333,0.5
+MinePump_Java-stopcommand,Classic vector model,5,1,0.2,1.0
+MinePump_Java-methanealarm,BM25,4,1,0.25,1.0
+MinePump_Java-methanequery,Classic vector model,1,1,0.0,0.0
+MinePump_Java-stopcommand,Extended boolean,1,1,0.0,0.0
+MinePump_Java-highwatersensor,Extended boolean,4,2,0.5,1.0
+MinePump_Java-highwatersensor,Neural networks,4,2,0.5,1.0
+MinePump_Java-startcommand,BM25,7,1,0.14285714285714285,1.0
+MinePump_Java-lowwatersensor,Neural networks,3,2,0.3333333333333333,0.5
+MinePump_Java-lowwatersensor,Extended boolean,3,2,0.3333333333333333,0.5
+MinePump_Java-stopcommand,BM25,5,1,0.2,1.0
+MinePump_Java-methanealarm,Neural networks,4,1,0.25,1.0
+MinePump_Java-methanealarm,Extended boolean,4,1,0.25,1.0
+MinePump_Java-methanequery,BM25,1,1,0.0,0.0
+MinePump_Java-startcommand,Neural networks,7,1,0.14285714285714285,1.0
+MinePump_Java-stopcommand,Neural networks,5,1,0.2,1.0
+MinePump_Java-methanequery,Neural networks,1,1,0.0,0.0
+MinePump_Java-methanequery,Extended boolean,1,1,0.0,0.0
+BattleOfTanks-p2_rot_cash_register,Classic vector model,1,1,1.0,1.0
+MinePump_Java-highwatersensor,Latent semantic indexing,6,2,0.3333333333333333,1.0
+BattleOfTanks-old,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-red_p1,Classic vector model,1,1,1.0,1.0
+MinePump_Java-lowwatersensor,Latent semantic indexing,10,2,0.2,1.0
+BattleOfTanks-p2_rot_cash_register,BM25,1,1,1.0,1.0
+BattleOfTanks-p1_mov_siren2,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-blue_tier2_p1,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-spiral,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-p1_mov_bleep1,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-old,BM25,1,1,1.0,1.0
+BattleOfTanks-flower,Classic vector model,1,1,1.0,1.0
+MinePump_Java-methanealarm,Latent semantic indexing,17,1,0.058823529411764705,1.0
+BattleOfTanks-p1_mov_drip,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-p2_mov_gorord,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-p1_rot_horn,Classic vector model,1,1,1.0,1.0
+MinePump_Java-startcommand,Latent semantic indexing,13,1,0.07692307692307693,1.0
+BattleOfTanks-fire,Classic vector model,2,1,0.5,1.0
+MinePump_Java-stopcommand,Latent semantic indexing,14,1,0.07142857142857142,1.0
+BattleOfTanks-red_p1,BM25,1,1,1.0,1.0
+BattleOfTanks-red_tier1_p2,Classic vector model,1,1,1.0,1.0
+MinePump_Java-methanequery,Latent semantic indexing,6,1,0.0,0.0
+BattleOfTanks-ov_paper,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-p1_mov_siren2,BM25,1,1,1.0,1.0
+BattleOfTanks-nr4,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-blue_tier2_p1,BM25,1,1,1.0,1.0
+BattleOfTanks-spiral,BM25,1,1,1.0,1.0
+BattleOfTanks-nr3,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-p2_mov_buzzer,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-green,Classic vector model,2,1,0.5,1.0
+BattleOfTanks-p1_mov_bleep1,BM25,1,1,1.0,1.0
+BattleOfTanks-p2_mov_lasertrill,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-flower,BM25,1,1,1.0,1.0
+BattleOfTanks-p2_rot_beep2,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-p1_mov_drip,BM25,1,1,1.0,1.0
+BattleOfTanks-glass,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-p2_mov_gorord,BM25,1,1,1.0,1.0
+BattleOfTanks-aa31,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-p1_rot_horn,BM25,1,1,1.0,1.0
+BattleOfTanks-p2_mov_beep1,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-fire,BM25,2,1,0.5,1.0
+BattleOfTanks-p1_rot_yes,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-ring,Classic vector model,8,1,0.125,1.0
+BattleOfTanks-red_tier1_p2,BM25,1,1,1.0,1.0
+BattleOfTanks-red_tier1_p1,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-copy,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-ov_paper,BM25,1,1,1.0,1.0
+Email_JML-encrypt,Classic vector model,5,2,0.4,1.0
+BattleOfTanks-star_oval,Classic vector model,1,1,1.0,1.0
+Email_JML-verify,Classic vector model,5,2,0.4,1.0
+BattleOfTanks-octagonal,Classic vector model,1,1,1.0,1.0
+Email_JML-encrypt,BM25,5,2,0.4,1.0
+BattleOfTanks-nr7,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-nr4,BM25,1,1,1.0,1.0
+BattleOfTanks-p2_rot_yes,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-p2_mov_horn,Classic vector model,1,1,1.0,1.0
+Email_JML-decrypt,Classic vector model,2,1,0.5,1.0
+BattleOfTanks-nr3,BM25,1,1,1.0,1.0
+BattleOfTanks-green_tier2_p1,Classic vector model,1,1,1.0,1.0
+Email_JML-forward,Classic vector model,3,1,0.3333333333333333,1.0
+Email_JML-verify,BM25,5,2,0.4,1.0
+BattleOfTanks-p2_mov_buzzer,BM25,1,1,1.0,1.0
+BattleOfTanks-blue_flower,Classic vector model,1,1,1.0,1.0
+Email_JML-decrypt,BM25,2,1,0.5,1.0
+BattleOfTanks-green,BM25,2,1,0.5,1.0
+BattleOfTanks-p1_rot_siren_1,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-p2_mov_lasertrill,BM25,1,1,1.0,1.0
+BattleOfTanks-p2_rot_beep2,BM25,1,1,1.0,1.0
+BattleOfTanks-p2_mov_cork,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-p1_rot_beep2,Classic vector model,1,1,1.0,1.0
+Email_JML-sign,Classic vector model,6,2,0.3333333333333333,1.0
+BattleOfTanks-glass,BM25,1,1,1.0,1.0
+BattleOfTanks-p2_rot_laser_trill,Classic vector model,1,1,1.0,1.0
+Email_JML-addressbook,Classic vector model,4,1,0.0,0.0
+BattleOfTanks-aa31,BM25,1,1,1.0,1.0
+BattleOfTanks-mushroom,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-p2_mov_beep1,BM25,1,1,1.0,1.0
+Email_JML-forward,BM25,3,1,0.3333333333333333,1.0
+BattleOfTanks-p1_rot_yes,BM25,1,1,1.0,1.0
+BattleOfTanks-blue_white_green,Classic vector model,1,1,1.0,1.0
+Email_JML-keys,Classic vector model,7,1,0.14285714285714285,1.0
+BattleOfTanks-red_tier1_p1,BM25,1,1,1.0,1.0
+Email_JML-sign,BM25,6,2,0.3333333333333333,1.0
+Email_JML-autoresponder,Classic vector model,2,1,0.5,1.0
+Email_JML-addressbook,BM25,4,1,0.0,0.0
+BattleOfTanks-blue_tier2_p2,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-copy,BM25,1,1,1.0,1.0
+Email_JML-keys,BM25,9,1,0.1111111111111111,1.0
+Email_JML-autoresponder,BM25,2,1,0.5,1.0
+BattleOfTanks-star_oval,BM25,1,1,1.0,1.0
+BattleOfTanks-p2_rot_police_siren,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-octagonal,BM25,1,1,1.0,1.0
+BattleOfTanks-limba,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-nr7,BM25,1,1,1.0,1.0
+BattleOfTanks-p2_rot_yes,BM25,1,1,1.0,1.0
+BattleOfTanks-p1_mov_yes,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-univ,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-red_p2,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-p2_rot_bleep1,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-mov_0,Classic vector model,2,2,1.0,1.0
+BattleOfTanks-p1_mov_beep1,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-p1_rot_cork,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-blue_white,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-p2_rot_cork,Classic vector model,1,1,1.0,1.0
+Email_JML-verify,Extended boolean,5,2,0.4,1.0
+BattleOfTanks-p2_mov_horn,BM25,1,1,1.0,1.0
+BattleOfTanks-p2_rot_siren_1,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-green_tier2_p1,BM25,1,1,1.0,1.0
+BattleOfTanks-yellow_tier1_p1,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-portal,Classic vector model,1,1,1.0,1.0
+Email_JML-encrypt,Neural networks,5,2,0.4,1.0
+BattleOfTanks-blue_flower,BM25,1,1,1.0,1.0
+BattleOfTanks-black_p2,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-star_oval_small,Classic vector model,1,1,1.0,1.0
+Email_JML-addressbook,Extended boolean,3,1,0.0,0.0
+BattleOfTanks-p1_rot_siren_1,BM25,1,1,1.0,1.0
+Email_JML-verify,Neural networks,5,2,0.4,1.0
+Email_JML-decrypt,Neural networks,2,1,0.5,1.0
+BattleOfTanks-p1_rot_siren_2,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-p2_mov_cork,BM25,1,1,1.0,1.0
+Email_JML-decrypt,Extended boolean,2,1,0.5,1.0
+BattleOfTanks-mov_1,Classic vector model,2,2,1.0,1.0
+BattleOfTanks-p1_rot_beep2,BM25,1,1,1.0,1.0
+Email_JML-forward,Neural networks,3,1,0.3333333333333333,1.0
+BattleOfTanks-p2_rot_laser_trill,BM25,1,1,1.0,1.0
+BattleOfTanks-mushroom,BM25,1,1,1.0,1.0
+BattleOfTanks-blue_white_green,BM25,1,1,1.0,1.0
+BattleOfTanks-blue_tier2_p2,BM25,1,1,1.0,1.0
+BattleOfTanks-p2_rot_police_siren,BM25,1,1,1.0,1.0
+BattleOfTanks-limba,BM25,1,1,1.0,1.0
+Email_JML-sign,Neural networks,6,2,0.3333333333333333,1.0
+Email_JML-addressbook,Neural networks,4,1,0.0,0.0
+BattleOfTanks-p1_mov_yes,BM25,1,1,1.0,1.0
+BattleOfTanks-univ,BM25,1,1,1.0,1.0
+BattleOfTanks-paper,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-p1_mov_siren_1,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-red_p2,BM25,1,1,1.0,1.0
+BattleOfTanks-p2_rot_bleep1,BM25,1,1,1.0,1.0
+BattleOfTanks-mov_0,BM25,2,2,1.0,1.0
+BattleOfTanks-p1_mov_beep3,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-p1_mov_beep1,BM25,1,1,1.0,1.0
+BattleOfTanks-p1_rot_cork,BM25,1,1,1.0,1.0
+Email_JML-keys,Neural networks,5,1,0.2,1.0
+BattleOfTanks-blue_white,BM25,1,1,1.0,1.0
+Email_JML-forward,Extended boolean,3,1,0.3333333333333333,1.0
+BattleOfTanks-p2_rot_cork,BM25,1,1,1.0,1.0
+BattleOfTanks-p2_rot_siren_1,BM25,1,1,1.0,1.0
+BattleOfTanks-p1_rot_game_win,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-yellow_tier1_p1,BM25,1,1,1.0,1.0
+BattleOfTanks-p2_mov_beep2,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-nino,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-portal,BM25,1,1,1.0,1.0
+Email_JML-autoresponder,Neural networks,2,1,0.5,1.0
+BattleOfTanks-black_p2,BM25,1,1,1.0,1.0
+BattleOfTanks-star_oval_small,BM25,1,1,1.0,1.0
+BattleOfTanks-p1_rot_gorod,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-p1_rot_siren_2,BM25,1,1,1.0,1.0
+BattleOfTanks-p2_rot_horn,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-mov_1,BM25,2,2,1.0,1.0
+Email_JML-autoresponder,Extended boolean,2,1,0.5,1.0
+BattleOfTanks-star_ring,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-circle,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-paper,BM25,1,1,1.0,1.0
+BattleOfTanks-p1_mov_siren_1,BM25,1,1,1.0,1.0
+BattleOfTanks-p2_rot_beep3,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-p1_mov_beep3,BM25,1,1,1.0,1.0
+BattleOfTanks-p1_rot_game_win,BM25,1,1,1.0,1.0
+BattleOfTanks-p2_mov_beep2,BM25,1,1,1.0,1.0
+BattleOfTanks-nino,BM25,1,1,1.0,1.0
+BattleOfTanks-p1_mov_police_siren,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-p1_rot_gorod,BM25,1,1,1.0,1.0
+BattleOfTanks-sponge,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-p2_rot_horn,BM25,1,1,1.0,1.0
+BattleOfTanks-p2_mov_bleep1,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-star_ring,BM25,1,1,1.0,1.0
+BattleOfTanks-circle,BM25,1,1,1.0,1.0
+BattleOfTanks-p1_rot_buzzer,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-p1_mov_beep2,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-p2_rot_beep3,BM25,1,1,1.0,1.0
+Email_JML-encrypt,Latent semantic indexing,5,2,0.4,1.0
+BattleOfTanks-purple_white,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-p1_mov_police_siren,BM25,1,1,1.0,1.0
+BattleOfTanks-sponge,BM25,1,1,1.0,1.0
+BattleOfTanks-rectangle,Classic vector model,4,1,0.25,1.0
+BattleOfTanks-p2_mov_bleep1,BM25,1,1,1.0,1.0
+EmailSystem_Java-encrypt,Classic vector model,9,7,0.6666666666666666,0.8571428571428571
+BattleOfTanks-p1_rot_buzzer,BM25,1,1,1.0,1.0
+BattleOfTanks-p1_mov_beep2,BM25,1,1,1.0,1.0
+EmailSystem_Java-verify,Classic vector model,9,6,0.5555555555555556,0.8333333333333334
+Email_JML-verify,Latent semantic indexing,8,2,0.25,1.0
+Email_JML-decrypt,Latent semantic indexing,8,1,0.125,1.0
+BattleOfTanks-p2_rot_beep1,Classic vector model,1,1,1.0,1.0
+Email_JML-forward,Latent semantic indexing,9,1,0.1111111111111111,1.0
+EmailSystem_Java-encrypt,BM25,9,7,0.6666666666666666,0.8571428571428571
+BattleOfTanks-p1_mov_cash_register,Classic vector model,1,1,1.0,1.0
+Email_JML-sign,Latent semantic indexing,10,2,0.2,1.0
+BattleOfTanks-purple_white,BM25,1,1,1.0,1.0
+BattleOfTanks-rectangle,BM25,3,1,0.0,0.0
+BattleOfTanks-p2_rot_beep1,BM25,1,1,1.0,1.0
+BattleOfTanks-p1_mov_cash_register,BM25,1,1,1.0,1.0
+Email_JML-addressbook,Latent semantic indexing,12,1,0.0,0.0
+BattleOfTanks-mov_2,BM25,2,2,1.0,1.0
+BattleOfTanks-mov_2,Classic vector model,2,2,1.0,1.0
+BattleOfTanks-mov_4,BM25,2,2,1.0,1.0
+BattleOfTanks-p1_rot_beep1,BM25,1,1,1.0,1.0
+Email_JML-keys,Latent semantic indexing,13,1,0.07692307692307693,1.0
+BattleOfTanks-mov_4,Classic vector model,2,2,1.0,1.0
+BattleOfTanks-p1_rot_beep1,Classic vector model,1,1,1.0,1.0
+EmailSystem_Java-verify,BM25,9,6,0.5555555555555556,0.8333333333333334
+EmailSystem_Java-decrypt,Classic vector model,5,1,0.2,1.0
+BattleOfTanks-p1_rot_beep3,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-p1_rot_beep3,BM25,1,1,1.0,1.0
+Email_JML-autoresponder,Latent semantic indexing,14,1,0.07142857142857142,1.0
+BattleOfTanks-p1_mov_horn,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-p1_mov_horn,BM25,1,1,1.0,1.0
+EmailSystem_Java-decrypt,BM25,5,1,0.2,1.0
+BattleOfTanks-black_p1,Classic vector model,1,1,1.0,1.0
+EmailSystem_Java-encrypt,Neural networks,9,7,0.6666666666666666,0.8571428571428571
+BattleOfTanks-black_p1,BM25,1,1,1.0,1.0
+EmailSystem_Java-forward,Classic vector model,7,2,0.2857142857142857,1.0
+BattleOfTanks-p1_mov_gorod,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-tar,Classic vector model,3,1,0.3333333333333333,1.0
+BattleOfTanks-hinderniss_set,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-water_2,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-p2_rot_siren_2,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-p1_mov_gorod,BM25,1,1,1.0,1.0
+BattleOfTanks-tar,BM25,3,1,0.3333333333333333,1.0
+EmailSystem_Java-sign,Classic vector model,10,6,0.5,0.8333333333333334
+BattleOfTanks-p1_rot_bleep1,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-nr2,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-p1_mov_lasertrill,Classic vector model,1,1,1.0,1.0
+EmailSystem_Java-addressbook,Classic vector model,6,2,0.3333333333333333,1.0
+BattleOfTanks-hinderniss_set,BM25,1,1,1.0,1.0
+EmailSystem_Java-forward,BM25,7,2,0.2857142857142857,1.0
+BattleOfTanks-p1_mov_cork,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-water_2,BM25,1,1,1.0,1.0
+EmailSystem_Java-verify,Extended boolean,3,6,1.0,0.5
+EmailSystem_Java-sign,BM25,10,6,0.5,0.8333333333333334
+EmailSystem_Java-keys,Classic vector model,10,2,0.1,0.5
+EmailSystem_Java-verify,Neural networks,9,6,0.5555555555555556,0.8333333333333334
+BattleOfTanks-p2_rot_siren_2,BM25,1,1,1.0,1.0
+EmailSystem_Java-decrypt,Neural networks,5,1,0.2,1.0
+BattleOfTanks-p1_rot_bleep1,BM25,1,1,1.0,1.0
+BattleOfTanks-nr2,BM25,1,1,1.0,1.0
+BattleOfTanks-p1_mov_lasertrill,BM25,1,1,1.0,1.0
+BattleOfTanks-p1_mov_cork,BM25,1,1,1.0,1.0
+BattleOfTanks-yellow_tier1_p2,BM25,1,1,1.0,1.0
+BattleOfTanks-p1_rot_laser_trill,BM25,1,1,1.0,1.0
+EmailSystem_Java-autoresponder,Classic vector model,7,4,0.42857142857142855,0.75
+BattleOfTanks-oval,BM25,1,1,1.0,1.0
+EmailSystem_Java-addressbook,BM25,6,2,0.3333333333333333,1.0
+EmailSystem_Java-forward,Neural networks,7,2,0.2857142857142857,1.0
+BattleOfTanks-light_bulb_round,BM25,1,1,1.0,1.0
+BattleOfTanks-green_tier2_p2,BM25,1,1,1.0,1.0
+BattleOfTanks-yellow_tier1_p2,Classic vector model,1,1,1.0,1.0
+EmailSystem_Java-keys,BM25,18,2,0.1111111111111111,1.0
+EmailSystem_Java-sign,Neural networks,10,6,0.5,0.8333333333333334
+BattleOfTanks-p1_rot_laser_trill,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-nr1,BM25,1,1,1.0,1.0
+BattleOfTanks-mov_3,BM25,2,2,1.0,1.0
+BattleOfTanks-ring_oval,BM25,1,1,1.0,1.0
+BattleOfTanks-p2_rot_drip,BM25,1,1,1.0,1.0
+BattleOfTanks-p2_mov_game_win,BM25,1,1,1.0,1.0
+BattleOfTanks-pumpkin_pie,BM25,1,1,1.0,1.0
+EmailSystem_Java-addressbook,Neural networks,6,2,0.3333333333333333,1.0
+EmailSystem_Java-keys,Neural networks,4,2,0.0,0.0
+BattleOfTanks-oval,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-p2_rot_buzzer,BM25,1,1,1.0,1.0
+BattleOfTanks-light_bulb_round,Classic vector model,1,1,1.0,1.0
+EmailSystem_Java-autoresponder,Neural networks,6,4,0.3333333333333333,0.5
+BattleOfTanks-p1_mov_buzzer,BM25,1,1,1.0,1.0
+BattleOfTanks-nr6,BM25,1,1,1.0,1.0
+EmailSystem_Java-decrypt,Extended boolean,5,1,0.2,1.0
+BattleOfTanks-green_tier2_p2,Classic vector model,1,1,1.0,1.0
+EmailSystem_Java-autoresponder,BM25,7,4,0.42857142857142855,0.75
+BattleOfTanks-nr1,Classic vector model,1,1,1.0,1.0
+EmailSystem_Java-forward,Extended boolean,2,2,0.5,0.5
+BattleOfTanks-mov_3,Classic vector model,2,2,1.0,1.0
+BattleOfTanks-p1_rot_cash_register,BM25,1,1,1.0,1.0
+BattleOfTanks-nr5,BM25,1,1,1.0,1.0
+EmailSystem_Java-sign,Extended boolean,2,6,0.0,0.0
+BattleOfTanks-ring_oval,Classic vector model,1,1,1.0,1.0
+EmailSystem_Java-addressbook,Extended boolean,5,2,0.4,1.0
+BattleOfTanks-p1_rot_police_siren,BM25,1,1,1.0,1.0
+BattleOfTanks-p2_rot_drip,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-p2_mov_police_siren,BM25,1,1,1.0,1.0
+BattleOfTanks-nr8,BM25,1,1,1.0,1.0
+BattleOfTanks-p2_mov_game_win,Classic vector model,1,1,1.0,1.0
+EmailSystem_Java-autoresponder,Extended boolean,2,4,0.5,0.25
+BattleOfTanks-ring_oval_small,BM25,1,1,1.0,1.0
+BattleOfTanks-pumpkin_pie,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-p2_rot_buzzer,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-p2_mov_yes,BM25,1,1,1.0,1.0
+BattleOfTanks-p1_mov_buzzer,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-p1_rot_drip,BM25,1,1,1.0,1.0
+BankAccountv2-transaction,Classic vector model,4,4,1.0,1.0
+BattleOfTanks-nr6,Classic vector model,1,1,1.0,1.0
+BankAccountv2-overdraft,Classic vector model,6,3,0.5,1.0
+BattleOfTanks-p1_rot_cash_register,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-lava,BM25,1,1,1.0,1.0
+BankAccountv2-bankaccount,Classic vector model,8,5,0.25,0.4
+BattleOfTanks-nr5,Classic vector model,1,1,1.0,1.0
+BankAccountv2-transaction,BM25,4,4,1.0,1.0
+BankAccountv2-overdraft,BM25,6,3,0.5,1.0
+BattleOfTanks-p1_rot_police_siren,Classic vector model,1,1,1.0,1.0
+BankAccountv2-lock,Classic vector model,4,2,0.5,1.0
+BattleOfTanks-sounds,BM25,1,1,0.0,0.0
+BattleOfTanks-p2_mov_police_siren,Classic vector model,1,1,1.0,1.0
+BankAccountv2-bankaccount,BM25,14,5,0.21428571428571427,0.6
+BattleOfTanks-nr8,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-cow,BM25,1,1,1.0,1.0
+BankAccountv2-lock,BM25,4,2,0.5,1.0
+BattleOfTanks-ring_2,BM25,1,1,1.0,1.0
+BattleOfTanks-heart,BM25,1,1,1.0,1.0
+BankAccountv2-dailylimit,Classic vector model,5,5,1.0,1.0
+BattleOfTanks-ring_oval_small,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-p2_mov_beep3,BM25,1,1,1.0,1.0
+BankAccountv2-interest,Classic vector model,8,5,0.625,1.0
+BattleOfTanks-p2_mov_yes,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-p2_mov_siren_2,BM25,1,1,1.0,1.0
+BankAccountv2-dailylimit,BM25,5,5,1.0,1.0
+BankAccountv2-interestestimation,Classic vector model,7,3,0.14285714285714285,0.3333333333333333
+BattleOfTanks-p1_rot_drip,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-lava,Classic vector model,1,1,1.0,1.0
+BankAccountv2-creditworthiness,Classic vector model,5,3,0.6,1.0
+BattleOfTanks-sounds,Classic vector model,1,1,0.0,0.0
+BankAccountv2-interest,BM25,8,5,0.625,1.0
+BattleOfTanks-p2_rot_gorod,BM25,1,1,1.0,1.0
+BattleOfTanks-cow,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-water,BM25,1,1,1.0,1.0
+BankAccountv2-transaction,Extended boolean,3,4,1.0,0.75
+BankAccountv2-interestestimation,BM25,8,3,0.25,0.6666666666666666
+BankAccountv2-creditworthiness,BM25,5,3,0.6,1.0
+BattleOfTanks-p2_mov_cah_register,BM25,1,1,1.0,1.0
+BattleOfTanks-ring_2,Classic vector model,1,1,1.0,1.0
+BankAccountv2-transaction,Neural networks,4,4,1.0,1.0
+BattleOfTanks-p2_rot_game_win,BM25,1,1,1.0,1.0
+BankAccountv2-overdraft,Extended boolean,5,3,0.4,0.6666666666666666
+BankAccountv2-overdraft,Neural networks,6,3,0.5,1.0
+BattleOfTanks-heart,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-p2_mov_beep3,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-p2_mov_siren_2,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-p2_rot_gorod,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-water,Classic vector model,1,1,1.0,1.0
+BankAccountv2-lock,Extended boolean,4,2,0.5,1.0
+BankAccountv2-creditworthiness,Extended boolean,1,3,1.0,0.3333333333333333
+BattleOfTanks-p2_mov_cah_register,Classic vector model,1,1,1.0,1.0
+BankAccountv2-dailylimit,Extended boolean,5,5,1.0,1.0
+BankAccountv2-lock,Neural networks,2,2,0.0,0.0
+BattleOfTanks-light_bulb,BM25,1,1,1.0,1.0
+BattleOfTanks-p2_mov_siren_1,BM25,1,1,1.0,1.0
+Chat_HyperJ-encryption,Classic vector model,5,3,0.6,1.0
+BattleOfTanks-p2_rot_game_win,Classic vector model,1,1,1.0,1.0
+Chat_HyperJ-encryption,BM25,5,3,0.6,1.0
+Chat_HyperJ-ui,Classic vector model,12,2,0.16666666666666666,1.0
+BankAccountv2-transaction,Latent semantic indexing,4,4,1.0,1.0
+BankAccountv2-dailylimit,Neural networks,5,5,1.0,1.0
+Prop4J-equals,Classic vector model,14,1,0.07142857142857142,1.0
+BattleOfTanks-p1_mov_game_win,BM25,1,1,1.0,1.0
+Chat_HyperJ-history,Classic vector model,23,2,0.08695652173913043,1.0
+Chat_HyperJ-ui,BM25,12,2,0.16666666666666666,1.0
+BattleOfTanks-light_bulb,Classic vector model,1,1,1.0,1.0
+BattleOfTanks-p2_mov_siren_1,Classic vector model,1,1,1.0,1.0
+Prop4J-equals,BM25,5,1,0.2,1.0
+BankAccountv2-overdraft,Latent semantic indexing,10,3,0.3,1.0
+BankAccountv2-interest,Neural networks,8,5,0.625,1.0
+Prop4J-atmost,Classic vector model,8,1,0.125,1.0
+Prop4J-atmost,BM25,8,1,0.125,1.0
+BattleOfTanks-p2_mov_drip,BM25,1,1,1.0,1.0
+Prop4J-atleast,Classic vector model,14,1,0.07142857142857142,1.0
+Prop4J-atleast,BM25,6,1,0.16666666666666666,1.0
+Prop4J-to_cnf,BM25,8,1,0.125,1.0
+BattleOfTanks-p1_mov_game_win,Classic vector model,1,1,1.0,1.0
+BankAccountv2-bankaccount,Latent semantic indexing,17,5,0.17647058823529413,0.6
+Chat_HyperJ-history,BM25,13,2,0.15384615384615385,1.0
+BankAccountv2-interestestimation,Neural networks,8,3,0.25,0.6666666666666666
+BankAccountv2-creditworthiness,Neural networks,5,3,0.6,1.0
+BankAccountv2-lock,Latent semantic indexing,19,2,0.10526315789473684,1.0
+Chat_HyperJ-encryption,Neural networks,5,3,0.6,1.0
+BankAccountv2-dailylimit,Latent semantic indexing,24,5,0.20833333333333334,1.0
+Prop4J-satsolver,BM25,2,1,0.5,1.0
+BattleOfTanks-p2_mov_drip,Classic vector model,1,1,1.0,1.0
+Chat_HyperJ-ui,Neural networks,12,2,0.16666666666666666,1.0
+EmailSystem_Java-encrypt,Latent semantic indexing,13,7,0.46153846153846156,0.8571428571428571
+Prop4J-negation,BM25,11,1,0.0,0.0
+Prop4J-to_cnf,Classic vector model,8,1,0.125,1.0
+BankAccountv2-interest,Latent semantic indexing,27,5,0.18518518518518517,1.0
+Chat_HyperJ-encryption,Extended boolean,5,3,0.6,1.0
+Prop4J-implies,BM25,6,1,0.16666666666666666,1.0
+Chat_HyperJ-history,Neural networks,23,2,0.08695652173913043,1.0
+Prop4J-tests,BM25,1,1,1.0,1.0
+EmailSystem_Java-verify,Latent semantic indexing,19,6,0.2631578947368421,0.8333333333333334
+Chat_HyperJ-history,Extended boolean,2,2,0.5,0.5
+Prop4J-and,Classic vector model,17,1,0.058823529411764705,1.0
+Prop4J-satsolver,Classic vector model,2,1,0.5,1.0
+BankAccountv2-interestestimation,Latent semantic indexing,27,3,0.07407407407407407,0.6666666666666666
+Prop4J-operators,BM25,12,2,0.16666666666666666,1.0
+Prop4J-negation,Classic vector model,14,1,0.0,0.0
+Prop4J-implies,Classic vector model,6,1,0.16666666666666666,1.0
+Prop4J-choose,BM25,8,1,0.125,1.0
+EmailSystem_Java-decrypt,Latent semantic indexing,19,1,0.05263157894736842,1.0
+EmailSystem_Java-forward,Latent semantic indexing,23,2,0.08695652173913043,1.0
+BankAccountv2-creditworthiness,Latent semantic indexing,28,3,0.10714285714285714,1.0
+Prop4J-tests,Classic vector model,1,1,1.0,1.0
+Prop4J-operators,Classic vector model,11,2,0.18181818181818182,1.0
+EmailSystem_Java-sign,Latent semantic indexing,24,6,0.20833333333333334,0.8333333333333334
+Prop4J-choose,Classic vector model,8,1,0.125,1.0
+EmailSystem_Java-addressbook,Latent semantic indexing,27,2,0.07407407407407407,1.0
+Prop4J-equals,Neural networks,14,1,0.07142857142857142,1.0
+EmailSystem_Java-keys,Latent semantic indexing,29,2,0.06896551724137931,1.0
+Prop4J-atmost,Neural networks,8,1,0.125,1.0
+Prop4J-tests,Neural networks,1,1,1.0,1.0
+EmailSystem_Java-autoresponder,Latent semantic indexing,33,4,0.09090909090909091,0.75
+Prop4J-to_cnf,Neural networks,8,1,0.125,1.0
+Prop4J-and,Neural networks,17,1,0.058823529411764705,1.0
+Prop4J-implies,Extended boolean,6,1,0.16666666666666666,1.0
+Prop4J-satsolver,Neural networks,2,1,0.5,1.0
+Prop4J-negation,Neural networks,14,1,0.0,0.0
+Prop4J-implies,Neural networks,6,1,0.16666666666666666,1.0
+Prop4J-operators,Neural networks,11,2,0.18181818181818182,1.0
+Prop4J-tests,Extended boolean,1,1,1.0,1.0
+Prop4J-choose,Neural networks,8,1,0.125,1.0
+Chat_HyperJ-encryption,Latent semantic indexing,34,3,0.08823529411764706,1.0
+Prop4J-operators,Extended boolean,1,2,0.0,0.0
+Chat_HyperJ-ui,Latent semantic indexing,34,2,0.058823529411764705,1.0
+Prop4J-satsolver,Extended boolean,2,1,0.5,1.0
+Chat_HyperJ-history,Latent semantic indexing,36,2,0.05555555555555555,1.0
+DesktopSearcher-single_directory,BM25,36,4,0.08333333333333333,0.75
+DesktopSearcher-gui,Classic vector model,10,3,0.0,0.0
+DesktopSearcher-windows,BM25,1,1,0.0,0.0
+DesktopSearcher-tree_view,BM25,8,4,0.25,0.5
+DesktopSearcher-query_history,BM25,6,2,0.3333333333333333,1.0
+Mobile_Media-x_smsorcapturephoto,BM25,17,3,0.11764705882352941,0.6666666666666666
+DesktopSearcher-html,BM25,5,2,0.4,1.0
+Mobile_Media-includefavourites,BM25,5,2,0.4,1.0
+DesktopSearcher-txt,BM25,5,2,0.2,0.5
+DesktopSearcher-user_interface,BM25,37,2,0.05405405405405406,1.0
+DesktopSearcher-windows,Classic vector model,54,1,0.018518518518518517,1.0
+Mobile_Media-x_copyphotoorsms,BM25,3,2,0.0,0.0
+DesktopSearcher-index_history,BM25,4,4,1.0,1.0
+DesktopSearcher-multi_directory,BM25,36,4,0.08333333333333333,0.75
+DesktopSearcher-tree_view,Classic vector model,8,4,0.25,0.5
+DesktopSearcher-query_history,Classic vector model,6,2,0.3333333333333333,1.0
+DesktopSearcher-normal_view,BM25,4,4,0.25,0.25
+DesktopSearcher-html,Classic vector model,5,2,0.4,1.0
+DesktopSearcher-linux,Classic vector model,54,1,0.018518518518518517,1.0
+Mobile_Media-x_smsorcapturephoto,Classic vector model,18,3,0.1111111111111111,0.6666666666666666
+DesktopSearcher-txt,Classic vector model,5,2,0.2,0.5
+Mobile_Media-includephotoalbum,BM25,28,11,0.2857142857142857,0.7272727272727273
+BattleOfTanks-p2_rot_cash_register,Neural networks,1,1,1.0,1.0
+Mobile_Media-includesorting,BM25,3,5,1.0,0.6
+DesktopSearcher-gui,BM25,10,3,0.0,0.0
+BattleOfTanks-old,Neural networks,1,1,1.0,1.0
+BattleOfTanks-red_p1,Neural networks,1,1,1.0,1.0
+DesktopSearcher-user_interface,Classic vector model,41,2,0.04878048780487805,1.0
+Mobile_Media-capturevideo,BM25,19,4,0.21052631578947367,1.0
+DesktopSearcher-latex,BM25,2,2,1.0,1.0
+BattleOfTanks-p1_mov_siren2,Neural networks,1,1,1.0,1.0
+Mobile_Media-includefavourites,Classic vector model,5,2,0.4,1.0
+Mobile_Media-includemmapi,BM25,2,11,0.5,0.09090909090909091
+DesktopSearcher-index_history,Classic vector model,4,4,1.0,1.0
+Mobile_Media-x_notsimulateplayvideo,BM25,26,1,0.038461538461538464,1.0
+BattleOfTanks-blue_tier2_p1,Neural networks,1,1,1.0,1.0
+BattleOfTanks-spiral,Neural networks,1,1,1.0,1.0
+Mobile_Media-includesmsfeature,BM25,13,4,0.3076923076923077,1.0
+BattleOfTanks-p1_mov_bleep1,Neural networks,1,1,1.0,1.0
+Mobile_Media-x_copyphotoorsms,Classic vector model,3,2,0.0,0.0
+DesktopSearcher-multi_directory,Classic vector model,34,4,0.058823529411764705,0.5
+BattleOfTanks-flower,Neural networks,1,1,1.0,1.0
+DesktopSearcher-commandline,BM25,2,3,1.0,0.6666666666666666
+DesktopSearcher-normal_view,Classic vector model,4,4,0.25,0.25
+Mobile_Media-includephotoalbum,Classic vector model,31,11,0.2903225806451613,0.8181818181818182
+Mobile_Media-includesorting,Classic vector model,3,5,1.0,0.6
+Mobile_Media-x_musicandvideo,BM25,22,1,0.045454545454545456,1.0
+DesktopSearcher-single_directory,Classic vector model,33,4,0.06060606060606061,0.5
+Mobile_Media-x_capturephotoorvideo,BM25,6,2,0.3333333333333333,1.0
+DesktopSearcher-latex,Classic vector model,2,2,1.0,1.0
+Mobile_Media-capturephoto,BM25,26,4,0.15384615384615385,1.0
+Mobile_Media-x_smsorcapturephotoorcapturevideo,BM25,17,1,0.058823529411764705,1.0
+Mobile_Media-x_musicorvideo,BM25,22,1,0.045454545454545456,1.0
+BattleOfTanks-p1_mov_drip,Neural networks,1,1,1.0,1.0
+BattleOfTanks-p2_mov_gorord,Neural networks,1,1,1.0,1.0
+Mobile_Media-x_photoalbumandvideoormusic,BM25,22,1,0.045454545454545456,1.0
+DesktopSearcher-commandline,Classic vector model,2,3,1.0,0.6666666666666666
+Mobile_Media-capturevideo,Classic vector model,19,4,0.21052631578947367,1.0
+Mobile_Media-includemmapi,Classic vector model,2,11,0.5,0.09090909090909091
+BattleOfTanks-p1_rot_horn,Neural networks,1,1,1.0,1.0
+Mobile_Media-includecopyphoto,BM25,3,8,1.0,0.375
+Mobile_Media-includevideo,BM25,18,12,0.6111111111111112,0.9166666666666666
+Mobile_Media-x_notsimulateplayvideo,Classic vector model,26,1,0.038461538461538464,1.0
+BattleOfTanks-fire,Neural networks,2,1,0.5,1.0
+Mobile_Media-includesmsfeature,Classic vector model,14,4,0.2857142857142857,1.0
+Mobile_Media-x_photoalbumormusicorvideo,BM25,37,1,0.02702702702702703,1.0
+BattleOfTanks-red_tier1_p2,Neural networks,1,1,1.0,1.0
+Mobile_Media-simulateplayvideo,BM25,26,1,0.038461538461538464,1.0
+Mobile_Media-x_musicandvideo,Classic vector model,22,1,0.045454545454545456,1.0
+BattleOfTanks-ov_paper,Neural networks,1,1,1.0,1.0
+Prop4J-equals,Latent semantic indexing,14,1,0.07142857142857142,1.0
+Mobile_Media-x_capturephotoorvideo,Classic vector model,6,2,0.3333333333333333,1.0
+BattleOfTanks-nr4,Neural networks,1,1,1.0,1.0
+Prop4J-atleast,Latent semantic indexing,19,1,0.05263157894736842,1.0
+Mobile_Media-capturephoto,Classic vector model,31,4,0.06451612903225806,0.5
+BattleOfTanks-nr3,Neural networks,1,1,1.0,1.0
+BattleOfTanks-p2_rot_cash_register,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-p2_mov_buzzer,Neural networks,1,1,1.0,1.0
+BattleOfTanks-old,Extended boolean,1,1,1.0,1.0
+Prop4J-satsolver,Latent semantic indexing,19,1,0.05263157894736842,1.0
+Mobile_Media-x_smsorcapturephotoorcapturevideo,Classic vector model,18,1,0.05555555555555555,1.0
+Prop4J-node_writer,Latent semantic indexing,19,2,0.0,0.0
+BattleOfTanks-green,Neural networks,2,1,0.5,1.0
+BattleOfTanks-p2_mov_lasertrill,Neural networks,1,1,1.0,1.0
+BattleOfTanks-p2_rot_beep2,Neural networks,1,1,1.0,1.0
+Mobile_Media-x_musicorvideo,Classic vector model,22,1,0.045454545454545456,1.0
+BattleOfTanks-red_p1,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-glass,Neural networks,1,1,1.0,1.0
+Mobile_Media-x_photoalbumandvideoormusic,Classic vector model,21,1,0.0,0.0
+Prop4J-negation,Latent semantic indexing,19,1,0.0,0.0
+BattleOfTanks-aa31,Neural networks,1,1,1.0,1.0
+BattleOfTanks-p2_mov_beep1,Neural networks,1,1,1.0,1.0
+BattleOfTanks-p1_rot_yes,Neural networks,1,1,1.0,1.0
+Mobile_Media-includecopyphoto,Classic vector model,3,8,1.0,0.375
+BattleOfTanks-ring,Neural networks,8,1,0.125,1.0
+Mobile_Media-includevideo,Classic vector model,17,12,0.5882352941176471,0.8333333333333334
+Prop4J-atmost,Latent semantic indexing,19,1,0.05263157894736842,1.0
+BattleOfTanks-p1_mov_siren2,Extended boolean,1,1,1.0,1.0
+Prop4J-node_reader,Latent semantic indexing,19,1,0.0,0.0
+BattleOfTanks-red_tier1_p1,Neural networks,1,1,1.0,1.0
+BattleOfTanks-blue_tier2_p1,Extended boolean,1,1,1.0,1.0
+Prop4J-to_cnf,Latent semantic indexing,20,1,0.05,1.0
+BattleOfTanks-spiral,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-copy,Neural networks,1,1,1.0,1.0
+Mobile_Media-x_photoalbumormusicorvideo,Classic vector model,38,1,0.0,0.0
+BattleOfTanks-p1_mov_bleep1,Extended boolean,1,1,1.0,1.0
+Prop4J-and,Latent semantic indexing,22,1,0.045454545454545456,1.0
+Prop4J-tests,Latent semantic indexing,22,1,0.045454545454545456,1.0
+Prop4J-or,Latent semantic indexing,22,1,0.045454545454545456,1.0
+Prop4J-implies,Latent semantic indexing,22,1,0.045454545454545456,1.0
+Prop4J-operators,Latent semantic indexing,22,2,0.09090909090909091,1.0
+Prop4J-choose,Latent semantic indexing,22,1,0.045454545454545456,1.0
+BattleOfTanks-star_oval,Neural networks,1,1,1.0,1.0
+BattleOfTanks-octagonal,Neural networks,1,1,1.0,1.0
+BattleOfTanks-nr7,Neural networks,1,1,1.0,1.0
+BattleOfTanks-p2_rot_yes,Neural networks,1,1,1.0,1.0
+BattleOfTanks-flower,Extended boolean,1,1,1.0,1.0
+Mobile_Media-simulateplayvideo,Classic vector model,26,1,0.038461538461538464,1.0
+BattleOfTanks-p1_mov_drip,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-p2_mov_gorord,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-p1_rot_horn,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-fire,Extended boolean,2,1,0.5,1.0
+BattleOfTanks-red_tier1_p2,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-ov_paper,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-nr4,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-nr3,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-p2_mov_buzzer,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-green,Extended boolean,2,1,0.5,1.0
+BattleOfTanks-p2_mov_lasertrill,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-p2_rot_beep2,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-glass,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-aa31,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-p2_mov_beep1,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-p1_rot_yes,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-red_tier1_p1,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-copy,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-star_oval,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-octagonal,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-nr7,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-p2_rot_yes,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-p2_mov_horn,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-green_tier2_p1,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-blue_flower,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-p1_rot_siren_1,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-p2_mov_cork,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-p1_rot_beep2,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-p2_rot_laser_trill,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-mushroom,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-blue_white_green,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-blue_tier2_p2,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-p2_rot_police_siren,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-limba,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-p1_mov_yes,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-univ,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-red_p2,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-p2_rot_bleep1,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-mov_0,Extended boolean,2,2,1.0,1.0
+BattleOfTanks-p1_mov_beep1,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-p1_rot_cork,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-blue_white,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-p2_rot_cork,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-p2_rot_siren_1,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-yellow_tier1_p1,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-portal,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-black_p2,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-star_oval_small,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-p1_rot_siren_2,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-mov_1,Extended boolean,2,2,1.0,1.0
+BattleOfTanks-p2_mov_horn,Neural networks,1,1,1.0,1.0
+BattleOfTanks-paper,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-p1_mov_siren_1,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-p1_mov_beep3,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-p1_rot_game_win,Extended boolean,1,1,1.0,1.0
+DesktopSearcher-gui,Neural networks,10,3,0.0,0.0
+BattleOfTanks-p2_mov_beep2,Extended boolean,1,1,1.0,1.0
+DesktopSearcher-windows,Neural networks,1,1,0.0,0.0
+BattleOfTanks-green_tier2_p1,Neural networks,1,1,1.0,1.0
+DesktopSearcher-tree_view,Neural networks,8,4,0.25,0.5
+DesktopSearcher-query_history,Neural networks,6,2,0.3333333333333333,1.0
+BattleOfTanks-blue_flower,Neural networks,1,1,1.0,1.0
+BattleOfTanks-nino,Extended boolean,1,1,1.0,1.0
+DesktopSearcher-html,Neural networks,5,2,0.4,1.0
+DesktopSearcher-linux,Neural networks,54,1,0.018518518518518517,1.0
+BattleOfTanks-p1_rot_gorod,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-p1_rot_siren_1,Neural networks,1,1,1.0,1.0
+BattleOfTanks-p2_rot_horn,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-star_ring,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-circle,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-p2_mov_cork,Neural networks,1,1,1.0,1.0
+DesktopSearcher-txt,Neural networks,5,2,0.2,0.5
+DesktopSearcher-windows,Extended boolean,1,1,0.0,0.0
+BattleOfTanks-p1_rot_beep2,Neural networks,1,1,1.0,1.0
+BattleOfTanks-p2_rot_beep3,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-p1_mov_police_siren,Extended boolean,1,1,1.0,1.0
+DesktopSearcher-user_interface,Neural networks,6,2,0.16666666666666666,0.5
+BattleOfTanks-p2_rot_laser_trill,Neural networks,1,1,1.0,1.0
+DesktopSearcher-single_directory,Extended boolean,1,4,0.0,0.0
+BattleOfTanks-mushroom,Neural networks,1,1,1.0,1.0
+BattleOfTanks-sponge,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-p2_mov_bleep1,Extended boolean,1,1,1.0,1.0
+DesktopSearcher-index_history,Neural networks,4,4,1.0,1.0
+BattleOfTanks-blue_white_green,Neural networks,1,1,1.0,1.0
+DesktopSearcher-query_history,Extended boolean,6,2,0.3333333333333333,1.0
+DesktopSearcher-multi_directory,Neural networks,10,4,0.1,0.25
+DesktopSearcher-normal_view,Neural networks,4,4,0.25,0.25
+BattleOfTanks-p1_rot_buzzer,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-blue_tier2_p2,Neural networks,1,1,1.0,1.0
+DesktopSearcher-html,Extended boolean,5,2,0.4,1.0
+BattleOfTanks-p2_rot_police_siren,Neural networks,1,1,1.0,1.0
+BattleOfTanks-limba,Neural networks,1,1,1.0,1.0
+BattleOfTanks-p1_mov_yes,Neural networks,1,1,1.0,1.0
+BattleOfTanks-p1_mov_beep2,Extended boolean,1,1,1.0,1.0
+DesktopSearcher-txt,Extended boolean,5,2,0.2,0.5
+DesktopSearcher-single_directory,Neural networks,7,4,0.14285714285714285,0.25
+BattleOfTanks-univ,Neural networks,1,1,1.0,1.0
+DesktopSearcher-user_interface,Extended boolean,6,2,0.16666666666666666,0.5
+DesktopSearcher-latex,Neural networks,2,2,1.0,1.0
+DesktopSearcher-commandline,Neural networks,2,3,1.0,0.6666666666666666
+BattleOfTanks-red_p2,Neural networks,1,1,1.0,1.0
+DesktopSearcher-index_history,Extended boolean,4,4,1.0,1.0
+BattleOfTanks-purple_white,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-p2_rot_bleep1,Neural networks,1,1,1.0,1.0
+DesktopSearcher-tree_view,Extended boolean,2,4,0.0,0.0
+BattleOfTanks-rectangle,Extended boolean,4,1,0.25,1.0
+BattleOfTanks-mov_0,Neural networks,2,2,1.0,1.0
+DesktopSearcher-normal_view,Extended boolean,4,4,0.25,0.25
+DesktopSearcher-gui,Extended boolean,10,3,0.0,0.0
+BattleOfTanks-p2_rot_beep1,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-p1_mov_cash_register,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-p1_mov_beep1,Neural networks,1,1,1.0,1.0
+BattleOfTanks-p1_rot_cork,Neural networks,1,1,1.0,1.0
+BattleOfTanks-blue_white,Neural networks,1,1,1.0,1.0
+BattleOfTanks-p2_rot_cork,Neural networks,1,1,1.0,1.0
+BattleOfTanks-p2_rot_siren_1,Neural networks,1,1,1.0,1.0
+BattleOfTanks-mov_2,Extended boolean,2,2,1.0,1.0
+DesktopSearcher-latex,Extended boolean,2,2,1.0,1.0
+BattleOfTanks-mov_4,Extended boolean,2,2,1.0,1.0
+BattleOfTanks-yellow_tier1_p1,Neural networks,1,1,1.0,1.0
+BattleOfTanks-p1_rot_beep1,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-p1_rot_beep3,Extended boolean,1,1,1.0,1.0
+DesktopSearcher-commandline,Extended boolean,2,3,1.0,0.6666666666666666
+BattleOfTanks-portal,Neural networks,1,1,1.0,1.0
+BattleOfTanks-black_p2,Neural networks,1,1,1.0,1.0
+BattleOfTanks-p1_mov_horn,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-star_oval_small,Neural networks,1,1,1.0,1.0
+BattleOfTanks-p1_rot_siren_2,Neural networks,1,1,1.0,1.0
+BattleOfTanks-black_p1,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-p1_mov_gorod,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-mov_1,Neural networks,2,2,1.0,1.0
+BattleOfTanks-tar,Extended boolean,3,1,0.3333333333333333,1.0
+BattleOfTanks-hinderniss_set,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-water_2,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-paper,Neural networks,1,1,1.0,1.0
+BattleOfTanks-p2_rot_siren_2,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-p1_rot_bleep1,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-nr2,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-p1_mov_lasertrill,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-p1_mov_cork,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-p1_mov_siren_1,Neural networks,1,1,1.0,1.0
+BattleOfTanks-yellow_tier1_p2,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-p1_mov_beep3,Neural networks,1,1,1.0,1.0
+BattleOfTanks-p1_rot_laser_trill,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-oval,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-light_bulb_round,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-green_tier2_p2,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-p1_rot_game_win,Neural networks,1,1,1.0,1.0
+BattleOfTanks-nr1,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-p2_mov_beep2,Neural networks,1,1,1.0,1.0
+BattleOfTanks-nino,Neural networks,1,1,1.0,1.0
+BattleOfTanks-p1_rot_gorod,Neural networks,1,1,1.0,1.0
+BattleOfTanks-mov_3,Extended boolean,2,2,1.0,1.0
+BattleOfTanks-ring_oval,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-p2_rot_horn,Neural networks,1,1,1.0,1.0
+BattleOfTanks-star_ring,Neural networks,1,1,1.0,1.0
+BattleOfTanks-p2_rot_drip,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-circle,Neural networks,1,1,1.0,1.0
+BattleOfTanks-p2_mov_game_win,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-p2_rot_beep3,Neural networks,1,1,1.0,1.0
+BattleOfTanks-pumpkin_pie,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-p1_mov_police_siren,Neural networks,1,1,1.0,1.0
+BattleOfTanks-p2_rot_buzzer,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-p1_mov_buzzer,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-sponge,Neural networks,1,1,1.0,1.0
+BattleOfTanks-nr6,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-p1_rot_cash_register,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-p2_mov_bleep1,Neural networks,1,1,1.0,1.0
+BattleOfTanks-nr5,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-p1_rot_buzzer,Neural networks,1,1,1.0,1.0
+BattleOfTanks-p1_rot_police_siren,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-p1_mov_beep2,Neural networks,1,1,1.0,1.0
+BattleOfTanks-purple_white,Neural networks,1,1,1.0,1.0
+BattleOfTanks-rectangle,Neural networks,4,1,0.25,1.0
+BattleOfTanks-p2_rot_beep1,Neural networks,1,1,1.0,1.0
+BattleOfTanks-p1_mov_cash_register,Neural networks,1,1,1.0,1.0
+BattleOfTanks-mov_2,Neural networks,2,2,1.0,1.0
+BattleOfTanks-mov_4,Neural networks,2,2,1.0,1.0
+BattleOfTanks-p1_rot_beep1,Neural networks,1,1,1.0,1.0
+BattleOfTanks-p1_rot_beep3,Neural networks,1,1,1.0,1.0
+BattleOfTanks-p1_mov_horn,Neural networks,1,1,1.0,1.0
+BattleOfTanks-black_p1,Neural networks,1,1,1.0,1.0
+BattleOfTanks-p1_mov_gorod,Neural networks,1,1,1.0,1.0
+BattleOfTanks-tar,Neural networks,3,1,0.3333333333333333,1.0
+BattleOfTanks-hinderniss_set,Neural networks,1,1,1.0,1.0
+BattleOfTanks-water_2,Neural networks,1,1,1.0,1.0
+BattleOfTanks-p2_rot_siren_2,Neural networks,1,1,1.0,1.0
+BattleOfTanks-p1_rot_bleep1,Neural networks,1,1,1.0,1.0
+BattleOfTanks-nr2,Neural networks,1,1,1.0,1.0
+BattleOfTanks-p1_mov_lasertrill,Neural networks,1,1,1.0,1.0
+BattleOfTanks-p1_mov_cork,Neural networks,1,1,1.0,1.0
+BattleOfTanks-yellow_tier1_p2,Neural networks,1,1,1.0,1.0
+BattleOfTanks-p1_rot_laser_trill,Neural networks,1,1,1.0,1.0
+BattleOfTanks-oval,Neural networks,1,1,1.0,1.0
+BattleOfTanks-light_bulb_round,Neural networks,1,1,1.0,1.0
+BattleOfTanks-green_tier2_p2,Neural networks,1,1,1.0,1.0
+BattleOfTanks-nr1,Neural networks,1,1,1.0,1.0
+BattleOfTanks-mov_3,Neural networks,2,2,1.0,1.0
+BattleOfTanks-ring_oval,Neural networks,1,1,1.0,1.0
+BattleOfTanks-p2_rot_drip,Neural networks,1,1,1.0,1.0
+BattleOfTanks-p2_mov_game_win,Neural networks,1,1,1.0,1.0
+BattleOfTanks-pumpkin_pie,Neural networks,1,1,1.0,1.0
+BattleOfTanks-p2_rot_buzzer,Neural networks,1,1,1.0,1.0
+BattleOfTanks-p1_mov_buzzer,Neural networks,1,1,1.0,1.0
+BattleOfTanks-nr6,Neural networks,1,1,1.0,1.0
+BattleOfTanks-p1_rot_cash_register,Neural networks,1,1,1.0,1.0
+BattleOfTanks-nr5,Neural networks,1,1,1.0,1.0
+BattleOfTanks-p1_rot_police_siren,Neural networks,1,1,1.0,1.0
+BattleOfTanks-p2_mov_police_siren,Neural networks,1,1,1.0,1.0
+BattleOfTanks-nr8,Neural networks,1,1,1.0,1.0
+BattleOfTanks-ring_oval_small,Neural networks,1,1,1.0,1.0
+BattleOfTanks-p2_mov_yes,Neural networks,1,1,1.0,1.0
+BattleOfTanks-p1_rot_drip,Neural networks,1,1,1.0,1.0
+BattleOfTanks-lava,Neural networks,1,1,1.0,1.0
+BattleOfTanks-sounds,Neural networks,1,1,0.0,0.0
+BattleOfTanks-cow,Neural networks,1,1,1.0,1.0
+BattleOfTanks-ring_2,Neural networks,1,1,1.0,1.0
+BattleOfTanks-heart,Neural networks,1,1,1.0,1.0
+BattleOfTanks-p2_mov_beep3,Neural networks,1,1,1.0,1.0
+BattleOfTanks-p2_mov_siren_2,Neural networks,1,1,1.0,1.0
+BattleOfTanks-p2_rot_gorod,Neural networks,1,1,1.0,1.0
+BattleOfTanks-water,Neural networks,1,1,1.0,1.0
+BattleOfTanks-p2_mov_cah_register,Neural networks,1,1,1.0,1.0
+BattleOfTanks-p2_rot_game_win,Neural networks,1,1,1.0,1.0
+BattleOfTanks-light_bulb,Neural networks,1,1,1.0,1.0
+BattleOfTanks-p2_mov_siren_1,Neural networks,1,1,1.0,1.0
+BattleOfTanks-p1_mov_game_win,Neural networks,1,1,1.0,1.0
+BattleOfTanks-p2_mov_drip,Neural networks,1,1,1.0,1.0
+BattleOfTanks-p2_mov_police_siren,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-nr8,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-ring_oval_small,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-p2_mov_yes,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-p1_rot_drip,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-lava,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-sounds,Extended boolean,1,1,0.0,0.0
+BattleOfTanks-cow,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-ring_2,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-heart,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-p2_mov_beep3,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-p2_mov_siren_2,Extended boolean,1,1,1.0,1.0
+Mobile_Media-x_smsorcapturephoto,Neural networks,16,3,0.0625,0.3333333333333333
+BattleOfTanks-p2_rot_gorod,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-water,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-p2_mov_cah_register,Extended boolean,1,1,1.0,1.0
+Mobile_Media-includefavourites,Neural networks,5,2,0.4,1.0
+Mobile_Media-x_smsorcapturephoto,Extended boolean,1,3,0.0,0.0
+Mobile_Media-x_copyphotoorsms,Neural networks,3,2,0.0,0.0
+BattleOfTanks-p2_rot_game_win,Extended boolean,1,1,1.0,1.0
+Mobile_Media-x_smsorcapturephotoorcapturevideo,Extended boolean,1,1,1.0,1.0
+Mobile_Media-includephotoalbum,Neural networks,1,11,0.0,0.0
+BattleOfTanks-light_bulb,Extended boolean,1,1,1.0,1.0
+BattleOfTanks-p2_mov_siren_1,Extended boolean,1,1,1.0,1.0
+Mobile_Media-includesorting,Neural networks,3,5,1.0,0.6
+BattleOfTanks-p1_mov_game_win,Extended boolean,1,1,1.0,1.0
+Mobile_Media-capturevideo,Neural networks,19,4,0.21052631578947367,1.0
+BattleOfTanks-p2_mov_drip,Extended boolean,1,1,1.0,1.0
+Mobile_Media-includemmapi,Neural networks,2,11,0.5,0.09090909090909091
+Mobile_Media-x_notsimulateplayvideo,Neural networks,17,1,0.0,0.0
+Mobile_Media-x_copyphotoorsms,Extended boolean,3,2,0.0,0.0
+Mobile_Media-includesmsfeature,Neural networks,14,4,0.2857142857142857,1.0
+Mobile_Media-x_capturephotoorvideo,Extended boolean,1,2,0.0,0.0
+Mobile_Media-x_musicandvideo,Neural networks,18,1,0.05555555555555555,1.0
+Mobile_Media-capturephoto,Extended boolean,1,4,0.0,0.0
+Mobile_Media-x_capturephotoorvideo,Neural networks,6,2,0.3333333333333333,1.0
+Mobile_Media-includesorting,Extended boolean,3,5,1.0,0.6
+Mobile_Media-x_photoalbumandvideoormusic,Extended boolean,1,1,0.0,0.0
+Mobile_Media-capturevideo,Extended boolean,1,4,0.0,0.0
+Mobile_Media-includemmapi,Extended boolean,2,11,0.5,0.09090909090909091
+Mobile_Media-includecopyphoto,Extended boolean,3,8,1.0,0.375
+Mobile_Media-includefavourites,Extended boolean,5,2,0.4,1.0
+Mobile_Media-includevideo,Extended boolean,1,12,0.0,0.0
+Mobile_Media-capturephoto,Neural networks,1,4,0.0,0.0
+Mobile_Media-x_smsorcapturephotoorcapturevideo,Neural networks,16,1,0.0625,1.0
+Mobile_Media-x_musicorvideo,Neural networks,18,1,0.0,0.0
+Mobile_Media-x_photoalbumandvideoormusic,Neural networks,17,1,0.058823529411764705,1.0
+Mobile_Media-includecopyphoto,Neural networks,3,8,1.0,0.375
+Mobile_Media-includevideo,Neural networks,18,12,0.6111111111111112,0.9166666666666666
+Mobile_Media-x_photoalbumormusicorvideo,Neural networks,5,1,0.0,0.0
+Mobile_Media-simulateplayvideo,Neural networks,17,1,0.0,0.0
+DesktopSearcher-gui,Latent semantic indexing,69,3,0.043478260869565216,1.0
+DesktopSearcher-windows,Latent semantic indexing,54,1,0.018518518518518517,1.0
+DesktopSearcher-tree_view,Latent semantic indexing,54,4,0.07407407407407407,1.0
+DesktopSearcher-query_history,Latent semantic indexing,57,2,0.03508771929824561,1.0
+DesktopSearcher-html,Latent semantic indexing,58,2,0.034482758620689655,1.0
+DesktopSearcher-linux,Latent semantic indexing,69,1,0.014492753623188406,1.0
+DesktopSearcher-txt,Latent semantic indexing,61,2,0.01639344262295082,0.5
+DesktopSearcher-user_interface,Latent semantic indexing,69,2,0.028985507246376812,1.0
+DesktopSearcher-index_history,Latent semantic indexing,69,4,0.057971014492753624,1.0
+DesktopSearcher-multi_directory,Latent semantic indexing,57,4,0.05263157894736842,0.75
+DesktopSearcher-normal_view,Latent semantic indexing,69,4,0.057971014492753624,1.0
+DesktopSearcher-single_directory,Latent semantic indexing,69,4,0.043478260869565216,0.75
+DesktopSearcher-latex,Latent semantic indexing,70,2,0.02857142857142857,1.0
+DesktopSearcher-commandline,Latent semantic indexing,70,3,0.04285714285714286,1.0
+Prevayler-snapshot,BM25,19,7,0.3684210526315789,1.0
+Prevayler-replication,BM25,31,30,0.967741935483871,1.0
+Prevayler-gzip,BM25,4,4,1.0,1.0
+Prevayler-monitor,BM25,12,8,0.6666666666666666,1.0
+Prevayler-censor,BM25,6,5,0.8333333333333334,1.0
+Prevayler-snapshot,Classic vector model,19,7,0.3684210526315789,1.0
+Prevayler-replication,Classic vector model,31,30,0.967741935483871,1.0
+Prevayler-gzip,Classic vector model,4,4,1.0,1.0
+Prevayler-monitor,Classic vector model,12,8,0.6666666666666666,1.0
+Prevayler-censor,Classic vector model,6,5,0.8333333333333334,1.0
+Prevayler-snapshot,Extended boolean,19,7,0.3684210526315789,1.0
+Prevayler-replication,Extended boolean,4,30,0.75,0.1
+Prevayler-gzip,Extended boolean,4,4,1.0,1.0
+Prevayler-monitor,Extended boolean,12,8,0.6666666666666666,1.0
+Prevayler-censor,Extended boolean,6,5,0.8333333333333334,1.0
+Prevayler-snapshot,Neural networks,19,7,0.3684210526315789,1.0
+Prevayler-replication,Neural networks,28,30,0.9642857142857143,0.9
+Prevayler-gzip,Neural networks,4,4,1.0,1.0
+Prevayler-monitor,Neural networks,12,8,0.6666666666666666,1.0
+Prevayler-censor,Neural networks,6,5,0.8333333333333334,1.0
+Graph_Product_Line-directedonlyvertices,Classic vector model,52,2,0.038461538461538464,1.0
+Graph_Product_Line-weightedwithneighbors,Classic vector model,46,4,0.08695652173913043,1.0
+Graph_Product_Line-directedonlyvertices,BM25,23,2,0.08695652173913043,1.0
+Graph_Product_Line-weightedwithneighbors,BM25,45,4,0.08888888888888889,1.0
+Graph_Product_Line-weightedwithedges,Classic vector model,32,2,0.0625,1.0
+Graph_Product_Line-weightedonlyvertices,Classic vector model,44,3,0.06818181818181818,1.0
+Graph_Product_Line-directedwithedges,Classic vector model,27,4,0.1111111111111111,0.75
+Graph_Product_Line-number,Classic vector model,10,3,0.3,1.0
+Graph_Product_Line-weighted,Classic vector model,9,1,0.0,0.0
+Graph_Product_Line-bfs,Classic vector model,3,4,0.0,0.0
+Graph_Product_Line-testprog,Classic vector model,4,1,0.25,1.0
+Graph_Product_Line-stronglyconnected,Classic vector model,11,4,0.2727272727272727,0.75
+Graph_Product_Line-undirectedwithedges,Classic vector model,27,4,0.1111111111111111,0.75
+Graph_Product_Line-connected,Classic vector model,10,3,0.1,0.3333333333333333
+Graph_Product_Line-transpose,Classic vector model,3,1,0.3333333333333333,1.0
+Graph_Product_Line-dfs,Classic vector model,2,3,0.0,0.0
+Graph_Product_Line-mstprim,Classic vector model,2,2,0.5,0.5
+Graph_Product_Line-mstkruskal,Classic vector model,1,2,1.0,0.5
+Graph_Product_Line-directedwithneighbors,Classic vector model,37,3,0.08108108108108109,1.0
+Graph_Product_Line-undirectedonlyvertices,Classic vector model,52,2,0.038461538461538464,1.0
+Graph_Product_Line-directed,Classic vector model,11,1,0.0,0.0
+Graph_Product_Line-cycle,Classic vector model,3,3,1.0,1.0
+Graph_Product_Line-undirected,Classic vector model,3,1,0.0,0.0
+Graph_Product_Line-undirectedwithneighbors,Classic vector model,37,3,0.08108108108108109,1.0
+Graph_Product_Line-weightedwithedges,BM25,38,2,0.05263157894736842,1.0
+Graph_Product_Line-weightedonlyvertices,BM25,40,3,0.025,0.3333333333333333
+Graph_Product_Line-directedwithedges,BM25,35,4,0.11428571428571428,1.0
+Graph_Product_Line-number,BM25,10,3,0.3,1.0
+Graph_Product_Line-weighted,BM25,9,1,0.0,0.0
+Graph_Product_Line-bfs,BM25,3,4,0.0,0.0
+Graph_Product_Line-testprog,BM25,4,1,0.25,1.0
+Graph_Product_Line-stronglyconnected,BM25,11,4,0.2727272727272727,0.75
+Graph_Product_Line-undirectedwithedges,BM25,35,4,0.11428571428571428,1.0
+Graph_Product_Line-connected,BM25,10,3,0.1,0.3333333333333333
+Graph_Product_Line-transpose,BM25,3,1,0.3333333333333333,1.0
+Graph_Product_Line-dfs,BM25,2,3,0.0,0.0
+Graph_Product_Line-mstprim,BM25,2,2,0.5,0.5
+Graph_Product_Line-mstkruskal,BM25,1,2,1.0,0.5
+Graph_Product_Line-directedwithneighbors,BM25,32,3,0.09375,1.0
+Graph_Product_Line-undirectedonlyvertices,BM25,23,2,0.08695652173913043,1.0
+Graph_Product_Line-directed,BM25,11,1,0.0,0.0
+Graph_Product_Line-cycle,BM25,3,3,1.0,1.0
+Graph_Product_Line-undirected,BM25,3,1,0.0,0.0
+Graph_Product_Line-undirectedwithneighbors,BM25,32,3,0.09375,1.0
+Graph_Product_Line-connected,Neural networks,10,3,0.1,0.3333333333333333
+Graph_Product_Line-weightedwithneighbors,Neural networks,27,4,0.14814814814814814,1.0
+Graph_Product_Line-weightedwithedges,Neural networks,2,2,0.0,0.0
+Graph_Product_Line-undirected,Neural networks,3,1,0.0,0.0
+Graph_Product_Line-undirectedwithneighbors,Neural networks,37,3,0.08108108108108109,1.0
+Graph_Product_Line-weightedonlyvertices,Neural networks,11,3,0.09090909090909091,0.3333333333333333
+Graph_Product_Line-transpose,Neural networks,3,1,0.3333333333333333,1.0
+Graph_Product_Line-cycle,Neural networks,3,3,1.0,1.0
+Graph_Product_Line-dfs,Neural networks,2,3,0.0,0.0
+Graph_Product_Line-number,Neural networks,10,3,0.3,1.0
+Graph_Product_Line-stronglyconnected,Neural networks,10,4,0.2,0.5
+Graph_Product_Line-connected,Extended boolean,10,3,0.1,0.3333333333333333
+Graph_Product_Line-mstkruskal,Neural networks,1,2,1.0,0.5
+Graph_Product_Line-weighted,Neural networks,9,1,0.0,0.0
+Graph_Product_Line-bfs,Neural networks,3,4,0.0,0.0
+Graph_Product_Line-testprog,Neural networks,4,1,0.25,1.0
+Graph_Product_Line-directed,Neural networks,11,1,0.0,0.0
+Graph_Product_Line-directedwithedges,Neural networks,4,4,0.25,0.25
+Graph_Product_Line-directedwithneighbors,Neural networks,37,3,0.08108108108108109,1.0
+Graph_Product_Line-mstprim,Neural networks,2,2,0.5,0.5
+Graph_Product_Line-undirectedwithedges,Neural networks,4,4,0.25,0.25
+Graph_Product_Line-transpose,Extended boolean,3,1,0.3333333333333333,1.0
+Graph_Product_Line-dfs,Extended boolean,2,3,0.0,0.0
+Graph_Product_Line-testprog,Extended boolean,4,1,0.25,1.0
+Graph_Product_Line-mstprim,Extended boolean,2,2,0.5,0.5
+Graph_Product_Line-mstkruskal,Extended boolean,1,2,1.0,0.5
+Graph_Product_Line-weighted,Extended boolean,9,1,0.0,0.0
+Graph_Product_Line-bfs,Extended boolean,3,4,0.0,0.0
+Graph_Product_Line-number,Extended boolean,10,3,0.3,1.0
+Graph_Product_Line-directed,Extended boolean,11,1,0.0,0.0
+Graph_Product_Line-cycle,Extended boolean,3,3,1.0,1.0
+Graph_Product_Line-undirected,Extended boolean,3,1,0.0,0.0
+Graph_Product_Line-stronglyconnected,Extended boolean,3,4,1.0,0.75
+Prevayler-snapshot,Latent semantic indexing,48,7,0.14583333333333334,1.0
+Prevayler-replication,Latent semantic indexing,31,30,0.967741935483871,1.0
+Prevayler-gzip,Latent semantic indexing,54,4,0.07407407407407407,1.0
+Prevayler-monitor,Latent semantic indexing,62,8,0.12903225806451613,1.0
+Prevayler-censor,Latent semantic indexing,64,5,0.078125,1.0
+BattleOfTanks-p2_rot_cash_register,Latent semantic indexing,1,1,1.0,1.0
+BattleOfTanks-old,Latent semantic indexing,3,1,0.3333333333333333,1.0
+BattleOfTanks-red_p1,Latent semantic indexing,3,1,0.3333333333333333,1.0
+BattleOfTanks-p1_mov_siren2,Latent semantic indexing,3,1,0.3333333333333333,1.0
+BattleOfTanks-blue_tier2_p1,Latent semantic indexing,3,1,0.3333333333333333,1.0
+BattleOfTanks-p1_mov_bleep1,Latent semantic indexing,3,1,0.3333333333333333,1.0
+BattleOfTanks-spiral,Latent semantic indexing,3,1,0.3333333333333333,1.0
+BattleOfTanks-black_p1,Latent semantic indexing,3,1,0.3333333333333333,1.0
+BattleOfTanks-p1_mov_drip,Latent semantic indexing,3,1,0.3333333333333333,1.0
+BattleOfTanks-p2_mov_gorord,Latent semantic indexing,3,1,0.3333333333333333,1.0
+BattleOfTanks-p1_rot_horn,Latent semantic indexing,3,1,0.3333333333333333,1.0
+BattleOfTanks-fire,Latent semantic indexing,8,1,0.125,1.0
+BattleOfTanks-red_tier1_p2,Latent semantic indexing,4,1,0.25,1.0
+BattleOfTanks-ov_paper,Latent semantic indexing,3,1,0.3333333333333333,1.0
+BattleOfTanks-nr4,Latent semantic indexing,8,1,0.125,1.0
+BattleOfTanks-nr3,Latent semantic indexing,4,1,0.25,1.0
+BattleOfTanks-p2_mov_buzzer,Latent semantic indexing,3,1,0.3333333333333333,1.0
+BattleOfTanks-green,Latent semantic indexing,4,1,0.25,1.0
+BattleOfTanks-p2_mov_lasertrill,Latent semantic indexing,4,1,0.25,1.0
+BattleOfTanks-p2_rot_beep2,Latent semantic indexing,4,1,0.25,1.0
+BattleOfTanks-glass,Latent semantic indexing,5,1,0.2,1.0
+BattleOfTanks-aa31,Latent semantic indexing,4,1,0.25,1.0
+BattleOfTanks-p2_mov_beep1,Latent semantic indexing,4,1,0.25,1.0
+BattleOfTanks-p1_rot_yes,Latent semantic indexing,4,1,0.25,1.0
+BattleOfTanks-ring,Latent semantic indexing,6,1,0.16666666666666666,1.0
+BattleOfTanks-red_tier1_p1,Latent semantic indexing,5,1,0.2,1.0
+BattleOfTanks-copy,Latent semantic indexing,3,1,0.3333333333333333,1.0
+BattleOfTanks-star_oval,Latent semantic indexing,3,1,0.3333333333333333,1.0
+BattleOfTanks-octagonal,Latent semantic indexing,5,1,0.2,1.0
+BattleOfTanks-nr7,Latent semantic indexing,5,1,0.2,1.0
+BattleOfTanks-p2_rot_yes,Latent semantic indexing,5,1,0.2,1.0
+BattleOfTanks-p2_mov_horn,Latent semantic indexing,8,1,0.125,1.0
+BattleOfTanks-green_tier2_p1,Latent semantic indexing,5,1,0.2,1.0
+BattleOfTanks-blue_flower,Latent semantic indexing,5,1,0.2,1.0
+BattleOfTanks-p1_rot_siren_1,Latent semantic indexing,5,1,0.2,1.0
+BattleOfTanks-p2_mov_cork,Latent semantic indexing,5,1,0.2,1.0
+BattleOfTanks-p1_rot_beep2,Latent semantic indexing,5,1,0.2,1.0
+BattleOfTanks-p2_rot_laser_trill,Latent semantic indexing,5,1,0.2,1.0
+BattleOfTanks-mushroom,Latent semantic indexing,5,1,0.2,1.0
+BattleOfTanks-flower,Latent semantic indexing,5,1,0.2,1.0
+BattleOfTanks-blue_tier2_p2,Latent semantic indexing,4,1,0.25,1.0
+BattleOfTanks-p2_rot_police_siren,Latent semantic indexing,5,1,0.2,1.0
+BattleOfTanks-limba,Latent semantic indexing,5,1,0.2,1.0
+BattleOfTanks-p1_mov_yes,Latent semantic indexing,5,1,0.2,1.0
+BattleOfTanks-univ,Latent semantic indexing,5,1,0.2,1.0
+BattleOfTanks-red_p2,Latent semantic indexing,5,1,0.2,1.0
+Mobile_Media-x_smsorcapturephoto,Latent semantic indexing,20,3,0.1,0.6666666666666666
+Mobile_Media-x_copyphotoorsms,Latent semantic indexing,20,2,0.1,1.0
+BattleOfTanks-p2_rot_bleep1,Latent semantic indexing,5,1,0.2,1.0
+Graph_Product_Line-directedonlyvertices,Latent semantic indexing,35,2,0.05714285714285714,1.0
+Graph_Product_Line-weightedwithneighbors,Latent semantic indexing,53,4,0.07547169811320754,1.0
+Mobile_Media-includesorting,Latent semantic indexing,21,5,0.19047619047619047,0.8
+BattleOfTanks-mov_0,Latent semantic indexing,5,2,0.4,1.0
+BattleOfTanks-p1_mov_beep1,Latent semantic indexing,5,1,0.2,1.0
+Graph_Product_Line-weightedwithedges,Latent semantic indexing,53,2,0.03773584905660377,1.0
+Graph_Product_Line-weightedonlyvertices,Latent semantic indexing,53,3,0.05660377358490566,1.0
+Graph_Product_Line-withedges,Latent semantic indexing,53,1,0.0,0.0
+BattleOfTanks-p1_rot_cork,Latent semantic indexing,5,1,0.2,1.0
+Mobile_Media-x_notmisc,Latent semantic indexing,21,1,0.047619047619047616,1.0
+Mobile_Media-capturevideo,Latent semantic indexing,30,4,0.13333333333333333,1.0
+Graph_Product_Line-cycle,Latent semantic indexing,60,3,0.05,1.0
+Graph_Product_Line-unweighted,Latent semantic indexing,53,1,0.0,0.0
+BattleOfTanks-blue_white,Latent semantic indexing,5,1,0.2,1.0
+Mobile_Media-includemmapi,Latent semantic indexing,30,11,0.26666666666666666,0.7272727272727273
+Mobile_Media-x_notsimulateplayvideo,Latent semantic indexing,34,1,0.029411764705882353,1.0
+Graph_Product_Line-number,Latent semantic indexing,58,3,0.05172413793103448,1.0
+BattleOfTanks-p2_rot_cork,Latent semantic indexing,4,1,0.25,1.0
+BattleOfTanks-p2_rot_siren_1,Latent semantic indexing,3,1,0.3333333333333333,1.0
+BattleOfTanks-yellow_tier1_p1,Latent semantic indexing,4,1,0.25,1.0
+BattleOfTanks-portal,Latent semantic indexing,4,1,0.25,1.0
+Mobile_Media-x_capturephotoorvideo,Latent semantic indexing,34,2,0.058823529411764705,1.0
+Graph_Product_Line-weighted,Latent semantic indexing,53,1,0.0,0.0
+BattleOfTanks-black_p2,Latent semantic indexing,3,1,0.3333333333333333,1.0
+Graph_Product_Line-bfs,Latent semantic indexing,53,4,0.0,0.0
+Mobile_Media-x_smsorcapturephotoorcapturevideo,Latent semantic indexing,34,1,0.029411764705882353,1.0
+BattleOfTanks-star_oval_small,Latent semantic indexing,4,1,0.25,1.0
+Graph_Product_Line-testprog,Latent semantic indexing,53,1,0.018867924528301886,1.0
+Mobile_Media-includecopyphoto,Latent semantic indexing,34,8,0.23529411764705882,1.0
+BattleOfTanks-p1_rot_siren_2,Latent semantic indexing,3,1,0.3333333333333333,1.0
+BattleOfTanks-mov_1,Latent semantic indexing,3,2,0.6666666666666666,1.0
+Mobile_Media-includevideo,Latent semantic indexing,34,12,0.3235294117647059,0.9166666666666666
+Graph_Product_Line-stronglyconnected,Latent semantic indexing,59,4,0.05084745762711865,0.75
+Mobile_Media-x_notprivacy,Latent semantic indexing,36,3,0.08333333333333333,1.0
+Mobile_Media-includefavourites,Latent semantic indexing,36,2,0.05555555555555555,1.0
+Graph_Product_Line-undirectedwithedges,Latent semantic indexing,58,4,0.06896551724137931,1.0
+BattleOfTanks-paper,Latent semantic indexing,3,1,0.3333333333333333,1.0
+BattleOfTanks-p1_mov_siren_1,Latent semantic indexing,3,1,0.3333333333333333,1.0
+Graph_Product_Line-connected,Latent semantic indexing,59,3,0.05084745762711865,1.0
+Mobile_Media-includesmsfeature,Latent semantic indexing,34,4,0.11764705882352941,1.0
+Graph_Product_Line-transpose,Latent semantic indexing,59,1,0.01694915254237288,1.0
+Graph_Product_Line-dfs,Latent semantic indexing,59,3,0.05084745762711865,1.0
+Graph_Product_Line-mstprim,Latent semantic indexing,58,2,0.017241379310344827,0.5
+BattleOfTanks-p1_mov_beep3,Latent semantic indexing,3,1,0.3333333333333333,1.0
+BattleOfTanks-default,Latent semantic indexing,3,1,0.3333333333333333,1.0
+Mobile_Media-includeprivacy,Latent semantic indexing,36,7,0.16666666666666666,0.8571428571428571
+Mobile_Media-x_musicandvideo,Latent semantic indexing,36,1,0.027777777777777776,1.0
+BattleOfTanks-p1_rot_game_win,Latent semantic indexing,8,1,0.125,1.0
+Mobile_Media-x_misc,Latent semantic indexing,36,3,0.05555555555555555,0.6666666666666666
+BattleOfTanks-p2_mov_beep2,Latent semantic indexing,3,1,0.3333333333333333,1.0
+BattleOfTanks-nino,Latent semantic indexing,3,1,0.3333333333333333,1.0
+Graph_Product_Line-mstkruskal,Latent semantic indexing,59,2,0.01694915254237288,0.5
+Graph_Product_Line-directedwithneighbors,Latent semantic indexing,59,3,0.05084745762711865,1.0
+Mobile_Media-capturephoto,Latent semantic indexing,43,4,0.09302325581395349,1.0
+Mobile_Media-x_musicorvideo,Latent semantic indexing,43,1,0.023255813953488372,1.0
+Mobile_Media-x_photoalbumandvideoormusic,Latent semantic indexing,36,1,0.027777777777777776,1.0
+Mobile_Media-includephotoalbum,Latent semantic indexing,43,11,0.2558139534883721,1.0
+Mobile_Media-x_photoalbumormusicorvideo,Latent semantic indexing,43,1,0.023255813953488372,1.0
+BattleOfTanks-p1_rot_gorod,Latent semantic indexing,3,1,0.3333333333333333,1.0
+Graph_Product_Line-undirectedonlyvertices,Latent semantic indexing,59,2,0.03389830508474576,1.0
+Mobile_Media-simulateplayvideo,Latent semantic indexing,43,1,0.023255813953488372,1.0
+Graph_Product_Line-directed,Latent semantic indexing,59,1,0.0,0.0
+Graph_Product_Line-directedwithedges,Latent semantic indexing,53,4,0.07547169811320754,1.0
+Graph_Product_Line-undirected,Latent semantic indexing,60,1,0.0,0.0
+Graph_Product_Line-onlyvertices,Latent semantic indexing,60,1,0.0,0.0
+BattleOfTanks-p2_rot_horn,Latent semantic indexing,3,1,0.3333333333333333,1.0
+BattleOfTanks-star_ring,Latent semantic indexing,3,1,0.3333333333333333,1.0
+BattleOfTanks-circle,Latent semantic indexing,5,1,0.2,1.0
+BattleOfTanks-p2_rot_beep3,Latent semantic indexing,3,1,0.3333333333333333,1.0
+BattleOfTanks-p1_mov_police_siren,Latent semantic indexing,8,1,0.125,1.0
+Graph_Product_Line-undirectedwithneighbors,Latent semantic indexing,60,3,0.05,1.0
+BattleOfTanks-sponge,Latent semantic indexing,3,1,0.3333333333333333,1.0
+BattleOfTanks-p2_mov_bleep1,Latent semantic indexing,3,1,0.3333333333333333,1.0
+Graph_Product_Line-withneighbors,Latent semantic indexing,60,1,0.0,0.0
+BattleOfTanks-p1_rot_buzzer,Latent semantic indexing,3,1,0.3333333333333333,1.0
+BattleOfTanks-p1_mov_beep2,Latent semantic indexing,5,1,0.2,1.0
+BattleOfTanks-purple_white,Latent semantic indexing,3,1,0.3333333333333333,1.0
+BattleOfTanks-rectangle,Latent semantic indexing,8,1,0.125,1.0
+BattleOfTanks-p2_rot_beep1,Latent semantic indexing,1,1,1.0,1.0
+BattleOfTanks-p1_mov_cash_register,Latent semantic indexing,3,1,0.3333333333333333,1.0
+BattleOfTanks-mov_2,Latent semantic indexing,3,2,0.6666666666666666,1.0
+BattleOfTanks-mov_4,Latent semantic indexing,4,2,0.5,1.0
+BattleOfTanks-p1_rot_beep1,Latent semantic indexing,3,1,0.3333333333333333,1.0
+BattleOfTanks-p1_rot_beep3,Latent semantic indexing,3,1,0.3333333333333333,1.0
+BattleOfTanks-p1_mov_horn,Latent semantic indexing,3,1,0.3333333333333333,1.0
+BattleOfTanks-blue_white_green,Latent semantic indexing,3,1,0.3333333333333333,1.0
+BattleOfTanks-p1_mov_gorod,Latent semantic indexing,3,1,0.3333333333333333,1.0
+BattleOfTanks-tar,Latent semantic indexing,4,1,0.25,1.0
+BattleOfTanks-hinderniss_set,Latent semantic indexing,4,1,0.25,1.0
+BattleOfTanks-water_2,Latent semantic indexing,4,1,0.25,1.0
+BattleOfTanks-p2_rot_siren_2,Latent semantic indexing,3,1,0.3333333333333333,1.0
+BattleOfTanks-p1_rot_bleep1,Latent semantic indexing,3,1,0.3333333333333333,1.0
+BattleOfTanks-nr2,Latent semantic indexing,4,1,0.25,1.0
+BattleOfTanks-p1_mov_lasertrill,Latent semantic indexing,4,1,0.25,1.0
+BattleOfTanks-p1_mov_cork,Latent semantic indexing,8,1,0.125,1.0
+BattleOfTanks-yellow_tier1_p2,Latent semantic indexing,4,1,0.25,1.0
+BattleOfTanks-p1_rot_laser_trill,Latent semantic indexing,8,1,0.125,1.0
+BattleOfTanks-oval,Latent semantic indexing,4,1,0.25,1.0
+BattleOfTanks-light_bulb_round,Latent semantic indexing,8,1,0.125,1.0
+BattleOfTanks-green_tier2_p2,Latent semantic indexing,6,1,0.16666666666666666,1.0
+BattleOfTanks-nr1,Latent semantic indexing,6,1,0.16666666666666666,1.0
+BattleOfTanks-mov_3,Latent semantic indexing,4,2,0.5,1.0
+BattleOfTanks-ring_oval,Latent semantic indexing,7,1,0.14285714285714285,1.0
+BattleOfTanks-p2_rot_drip,Latent semantic indexing,3,1,0.3333333333333333,1.0
+BattleOfTanks-p2_mov_game_win,Latent semantic indexing,8,1,0.125,1.0
+BattleOfTanks-pumpkin_pie,Latent semantic indexing,6,1,0.16666666666666666,1.0
+BattleOfTanks-p2_rot_buzzer,Latent semantic indexing,8,1,0.125,1.0
+BattleOfTanks-p1_mov_buzzer,Latent semantic indexing,8,1,0.125,1.0
+BattleOfTanks-nr6,Latent semantic indexing,8,1,0.125,1.0
+BattleOfTanks-p1_rot_cash_register,Latent semantic indexing,8,1,0.125,1.0
+BattleOfTanks-nr5,Latent semantic indexing,8,1,0.125,1.0
+BattleOfTanks-p1_rot_police_siren,Latent semantic indexing,8,1,0.125,1.0
+BattleOfTanks-p2_mov_police_siren,Latent semantic indexing,8,1,0.125,1.0
+BattleOfTanks-nr8,Latent semantic indexing,8,1,0.125,1.0
+BattleOfTanks-ring_oval_small,Latent semantic indexing,8,1,0.125,1.0
+BattleOfTanks-p2_mov_yes,Latent semantic indexing,8,1,0.125,1.0
+BattleOfTanks-p1_rot_drip,Latent semantic indexing,8,1,0.125,1.0
+BattleOfTanks-lava,Latent semantic indexing,8,1,0.125,1.0
+BattleOfTanks-sounds,Latent semantic indexing,5,1,0.0,0.0
+BattleOfTanks-cow,Latent semantic indexing,8,1,0.125,1.0
+BattleOfTanks-ring_2,Latent semantic indexing,8,1,0.125,1.0
+BattleOfTanks-heart,Latent semantic indexing,3,1,0.3333333333333333,1.0
+BattleOfTanks-p2_mov_beep3,Latent semantic indexing,8,1,0.125,1.0
+BattleOfTanks-p2_mov_siren_2,Latent semantic indexing,3,1,0.3333333333333333,1.0
+BattleOfTanks-p2_rot_gorod,Latent semantic indexing,3,1,0.3333333333333333,1.0
+BattleOfTanks-water,Latent semantic indexing,8,1,0.125,1.0
+BattleOfTanks-p2_mov_cah_register,Latent semantic indexing,8,1,0.125,1.0
+Mobile_RSS_Reader-djsr75,BM25,18,11,0.6111111111111112,1.0
+BattleOfTanks-p2_rot_game_win,Latent semantic indexing,8,1,0.125,1.0
+BattleOfTanks-light_bulb,Latent semantic indexing,8,1,0.125,1.0
+BattleOfTanks-p2_mov_siren_1,Latent semantic indexing,8,1,0.125,1.0
+Mobile_RSS_Reader-dcompatibility2,BM25,2,2,1.0,1.0
+Mobile_RSS_Reader-djsr75,Classic vector model,18,11,0.6111111111111112,1.0
+BattleOfTanks-p1_mov_game_win,Latent semantic indexing,8,1,0.125,1.0
+Mobile_RSS_Reader-nocompatibility,BM25,2,1,0.5,1.0
+Mobile_RSS_Reader-dcompatibility2,Classic vector model,2,2,1.0,1.0
+BattleOfTanks-p2_mov_drip,Latent semantic indexing,8,1,0.125,1.0
+Mobile_RSS_Reader-nocompatibility,Classic vector model,2,1,0.5,1.0
+Mobile_RSS_Reader-notdmidp20,BM25,22,6,0.13636363636363635,0.5
+Mobile_RSS_Reader-dtest,BM25,49,18,0.2857142857142857,0.7777777777777778
+Mobile_RSS_Reader-notdlogging,BM25,59,2,0.01694915254237288,0.5
+Mobile_RSS_Reader-notdmidp20,Classic vector model,23,6,0.17391304347826086,0.6666666666666666
+Mobile_RSS_Reader-compatnot23,BM25,2,1,0.5,1.0
+Mobile_RSS_Reader-dmidp20,BM25,23,25,0.7391304347826086,0.68
+Mobile_RSS_Reader-dtest,Classic vector model,43,18,0.37209302325581395,0.8888888888888888
+Mobile_RSS_Reader-ditunes,BM25,27,12,0.4444444444444444,1.0
+Mobile_RSS_Reader-notdtest,BM25,10,2,0.0,0.0
+Mobile_RSS_Reader-notdtestui,BM25,10,2,0.1,0.5
+Mobile_RSS_Reader-somecompatibility,BM25,12,1,0.08333333333333333,1.0
+Mobile_RSS_Reader-notdlogging,Classic vector model,24,2,0.0,0.0
+Mobile_RSS_Reader-compatnot23,Classic vector model,2,1,0.5,1.0
+Mobile_RSS_Reader-dcompatibility1,BM25,1,1,0.0,0.0
+Mobile_RSS_Reader-dmidp20,Classic vector model,23,25,0.7391304347826086,0.68
+Mobile_RSS_Reader-notdcompatibility2,BM25,2,1,0.5,1.0
+Mobile_RSS_Reader-ditunes,Classic vector model,24,12,0.375,0.75
+Mobile_RSS_Reader-dtestui,BM25,18,18,0.9444444444444444,0.9444444444444444
+Mobile_RSS_Reader-notdtest,Classic vector model,10,2,0.0,0.0
+Mobile_RSS_Reader-notdtestui,Classic vector model,10,2,0.1,0.5
+Mobile_RSS_Reader-somecompatibility,Classic vector model,12,1,0.08333333333333333,1.0
+Mobile_RSS_Reader-dcompatibility1,Classic vector model,1,1,0.0,0.0
+Mobile_RSS_Reader-notdcompatibility2,Classic vector model,2,1,0.5,1.0
+Mobile_RSS_Reader-dtestui,Classic vector model,19,18,0.9473684210526315,1.0
+Mobile_RSS_Reader-dlogging,Classic vector model,69,65,0.7246376811594203,0.7692307692307693
+Mobile_RSS_Reader-notdcompatibility1,Classic vector model,1,1,1.0,1.0
+Mobile_RSS_Reader-notdjsr75,Classic vector model,18,1,0.05555555555555555,1.0
+Mobile_RSS_Reader-notditunes,Classic vector model,3,4,0.3333333333333333,0.25
+Mobile_RSS_Reader-dcompatibility3,Classic vector model,2,2,1.0,1.0
+Mobile_RSS_Reader-dlogging,BM25,16,65,0.9375,0.23076923076923078
+Mobile_RSS_Reader-notdcompatibility1,BM25,1,1,1.0,1.0
+Mobile_RSS_Reader-notdjsr75,BM25,17,1,0.058823529411764705,1.0
+Mobile_RSS_Reader-notditunes,BM25,3,4,0.3333333333333333,0.25
+Mobile_RSS_Reader-dcompatibility3,BM25,2,2,1.0,1.0
+Mobile_RSS_Reader-dtestui,Extended boolean,9,18,1.0,0.5
+Mobile_RSS_Reader-dcompatibility1,Extended boolean,1,1,0.0,0.0
+Mobile_RSS_Reader-dcompatibility2,Extended boolean,2,2,1.0,1.0
+Mobile_RSS_Reader-dcompatibility3,Extended boolean,2,2,1.0,1.0
+Mobile_RSS_Reader-compatnot23,Extended boolean,2,1,0.5,1.0
+Mobile_RSS_Reader-nocompatibility,Extended boolean,2,1,0.5,1.0
+Mobile_RSS_Reader-notdcompatibility1,Extended boolean,1,1,1.0,1.0
+Mobile_RSS_Reader-notditunes,Extended boolean,3,4,0.3333333333333333,0.25
+Mobile_RSS_Reader-notdcompatibility2,Extended boolean,2,1,0.5,1.0
+Lampiro-compression,Classic vector model,12,5,0.4166666666666667,1.0
+Lampiro-bludeno,Classic vector model,108,1,0.009259259259259259,1.0
+Lampiro-timing,Classic vector model,49,6,0.12244897959183673,1.0
+Lampiro-x_nottiming,Classic vector model,49,1,0.02040816326530612,1.0
+Mobile_RSS_Reader-notdtestui,Neural networks,10,2,0.1,0.5
+Lampiro-x_notui,Classic vector model,96,6,0.0625,1.0
+Lampiro-x_nottls,Classic vector model,9,2,0.2222222222222222,1.0
+Lampiro-not_plain_socket,Classic vector model,23,1,0.043478260869565216,1.0
+Lampiro-x_not_bludeno,Classic vector model,108,1,0.009259259259259259,1.0
+Lampiro-screensaver,Classic vector model,3,2,0.6666666666666666,1.0
+Lampiro-tls,Classic vector model,9,5,0.5555555555555556,1.0
+Lampiro-x_notcompression,Classic vector model,12,2,0.16666666666666666,1.0
+Lampiro-ui,Classic vector model,96,8,0.08333333333333333,1.0
+Lampiro-motorola,Classic vector model,1,1,0.0,0.0
+Mobile_RSS_Reader-dcompatibility2,Neural networks,2,2,1.0,1.0
+Mobile_RSS_Reader-somecompatibility,Neural networks,12,1,0.08333333333333333,1.0
+Mobile_RSS_Reader-notdjsr75,Neural networks,18,1,0.05555555555555555,1.0
+Mobile_RSS_Reader-nocompatibility,Neural networks,2,1,0.5,1.0
+Mobile_RSS_Reader-notditunes,Neural networks,3,4,0.3333333333333333,0.25
+Mobile_RSS_Reader-dtestui,Neural networks,19,18,0.9473684210526315,1.0
+Mobile_RSS_Reader-dcompatibility1,Neural networks,1,1,0.0,0.0
+Mobile_RSS_Reader-notdcompatibility1,Neural networks,1,1,1.0,1.0
+Mobile_RSS_Reader-notdcompatibility2,Neural networks,2,1,0.5,1.0
+Mobile_RSS_Reader-notdtest,Neural networks,10,2,0.0,0.0
+Mobile_RSS_Reader-compatnot23,Neural networks,2,1,0.5,1.0
+Mobile_RSS_Reader-dmidp20,Neural networks,23,25,0.7391304347826086,0.68
+Mobile_RSS_Reader-ditunes,Neural networks,27,12,0.4444444444444444,1.0
+Mobile_RSS_Reader-notdmidp20,Neural networks,23,6,0.17391304347826086,0.6666666666666666
+Mobile_RSS_Reader-dcompatibility3,Neural networks,2,2,1.0,1.0
+Lampiro-compression,BM25,12,5,0.4166666666666667,1.0
+Lampiro-timing,BM25,49,6,0.12244897959183673,1.0
+Lampiro-x_nottiming,BM25,49,1,0.02040816326530612,1.0
+Lampiro-x_notui,BM25,80,6,0.075,1.0
+Lampiro-x_nottls,BM25,9,2,0.2222222222222222,1.0
+Lampiro-not_plain_socket,BM25,23,1,0.043478260869565216,1.0
+Lampiro-screensaver,BM25,3,2,0.6666666666666666,1.0
+Lampiro-tls,BM25,9,5,0.5555555555555556,1.0
+Lampiro-motorola,BM25,1,1,0.0,0.0
+Lampiro-ui,BM25,80,8,0.1,1.0
+Lampiro-x_notcompression,BM25,12,2,0.16666666666666666,1.0
+Mobile_RSS_Reader-djsr75,Latent semantic indexing,19,11,0.5789473684210527,1.0
+Mobile_RSS_Reader-dcldcv11,Latent semantic indexing,94,6,0.06382978723404255,1.0
+Mobile_RSS_Reader-nocompatibility,Latent semantic indexing,2,1,0.5,1.0
+Mobile_RSS_Reader-djsr238,Latent semantic indexing,47,1,0.02127659574468085,1.0
+Mobile_RSS_Reader-dtest,Latent semantic indexing,65,18,0.26153846153846155,0.9444444444444444
+Mobile_RSS_Reader-notdlogging,Latent semantic indexing,91,2,0.02197802197802198,1.0
+Mobile_RSS_Reader-notdtest,Latent semantic indexing,94,2,0.02127659574468085,1.0
+Mobile_RSS_Reader-compatnot23,Latent semantic indexing,91,1,0.01098901098901099,1.0
+Mobile_RSS_Reader-dmidp10,Latent semantic indexing,91,3,0.03296703296703297,1.0
+Mobile_RSS_Reader-dmidp20,Latent semantic indexing,94,25,0.26595744680851063,1.0
+Mobile_RSS_Reader-ditunes,Latent semantic indexing,94,12,0.1276595744680851,1.0
+Mobile_RSS_Reader-notdmidp20,Latent semantic indexing,94,6,0.06382978723404255,1.0
+Mobile_RSS_Reader-dsmallmem,Latent semantic indexing,19,1,0.05263157894736842,1.0
+Mobile_RSS_Reader-notdtestui,Latent semantic indexing,94,2,0.02127659574468085,1.0
+Mobile_RSS_Reader-dcompatibility2,Latent semantic indexing,19,2,0.10526315789473684,1.0
+Mobile_RSS_Reader-notdcldcv11,Latent semantic indexing,94,5,0.05319148936170213,1.0
+Mobile_RSS_Reader-somecompatibility,Latent semantic indexing,94,1,0.010638297872340425,1.0
+Mobile_RSS_Reader-dcompatibility3,Latent semantic indexing,94,2,0.02127659574468085,1.0
+Mobile_RSS_Reader-dlogging,Latent semantic indexing,94,65,0.6914893617021277,1.0
+Mobile_RSS_Reader-notdcompatibility2,Latent semantic indexing,94,1,0.010638297872340425,1.0
+Mobile_RSS_Reader-dtestui,Latent semantic indexing,94,18,0.19148936170212766,1.0
+Mobile_RSS_Reader-dcompatibility1,Latent semantic indexing,94,1,0.010638297872340425,1.0
+Mobile_RSS_Reader-notdmidp10,Latent semantic indexing,94,1,0.010638297872340425,1.0
+Mobile_RSS_Reader-notdcompatibility1,Latent semantic indexing,94,1,0.010638297872340425,1.0
+Mobile_RSS_Reader-notdjsr75,Latent semantic indexing,94,1,0.010638297872340425,1.0
+Mobile_RSS_Reader-notditunes,Latent semantic indexing,94,4,0.0425531914893617,1.0
+Mobile_RSS_Reader-notdsmallmem,Latent semantic indexing,94,6,0.06382978723404255,1.0
+Lampiro-compression,Neural networks,11,5,0.45454545454545453,1.0
+Lampiro-timing,Neural networks,49,6,0.12244897959183673,1.0
+Lampiro-x_nottiming,Neural networks,49,1,0.02040816326530612,1.0
+Lampiro-x_notui,Neural networks,96,6,0.0625,1.0
+Lampiro-x_nottls,Neural networks,9,2,0.2222222222222222,1.0
+Lampiro-not_plain_socket,Neural networks,21,1,0.0,0.0
+Lampiro-screensaver,Neural networks,3,2,0.6666666666666666,1.0
+Lampiro-tls,Neural networks,9,5,0.5555555555555556,1.0
+Lampiro-motorola,Neural networks,1,1,0.0,0.0
+Lampiro-ui,Neural networks,96,8,0.08333333333333333,1.0
+Lampiro-x_notcompression,Neural networks,11,2,0.18181818181818182,1.0
+Lampiro-compression,Extended boolean,1,5,1.0,0.2
+Lampiro-screensaver,Extended boolean,3,2,0.6666666666666666,1.0
+Lampiro-tls,Extended boolean,9,5,0.5555555555555556,1.0
+Lampiro-x_notcompression,Extended boolean,1,2,1.0,0.5
+Lampiro-x_nottls,Extended boolean,9,2,0.2222222222222222,1.0
+Lampiro-motorola,Extended boolean,1,1,0.0,0.0
+Lampiro-compression,Latent semantic indexing,13,5,0.38461538461538464,1.0
+Lampiro-bludeno,Latent semantic indexing,106,1,0.009433962264150943,1.0
+Lampiro-x_nottls,Latent semantic indexing,100,2,0.02,1.0
+Lampiro-not_plain_socket,Latent semantic indexing,111,1,0.009009009009009009,1.0
+Lampiro-tls,Latent semantic indexing,111,5,0.04504504504504504,1.0
+Lampiro-glider,Latent semantic indexing,111,1,0.009009009009009009,1.0
+Lampiro-motorola,Latent semantic indexing,111,1,0.009009009009009009,1.0
+Lampiro-timing,Latent semantic indexing,122,6,0.04918032786885246,1.0
+Lampiro-x_nottiming,Latent semantic indexing,122,1,0.00819672131147541,1.0
+Lampiro-x_notui,Latent semantic indexing,135,6,0.044444444444444446,1.0
+Lampiro-send_debug1,Latent semantic indexing,135,2,0.014814814814814815,1.0
+Lampiro-x_not_bludeno,Latent semantic indexing,135,1,0.007407407407407408,1.0
+Lampiro-screensaver,Latent semantic indexing,135,2,0.014814814814814815,1.0
+Lampiro-x_notbxmpp,Latent semantic indexing,135,1,0.007407407407407408,1.0
+Lampiro-x_notcompression,Latent semantic indexing,135,2,0.014814814814814815,1.0
+Lampiro-x_notglider,Latent semantic indexing,135,4,0.02962962962962963,1.0
+Lampiro-ui,Latent semantic indexing,135,8,0.05925925925925926,1.0

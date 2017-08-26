@@ -28,6 +28,13 @@ class EvaluationResults:
     def __init__(self):
         self.project_results = {}
 
+        # Preparing file which stores results per feature
+        with open('results/output_per_feature.csv', 'a') as features_traces_file:
+            output_data_writer = csv.writer(features_traces_file, quoting=csv.QUOTE_MINIMAL)
+            output_data_writer.writerow(
+                ['projectandfeature', 'methodname', 'totaltraces', 'truetraces', 'precision', 'recall']
+            )
+
     def add_project_input_data(self, project, variability_impl_technology, language, loc, number_of_files, true_traces):
         """It includes the project information to the project results dictionary."""
         project_result = ProjectResults()
@@ -43,7 +50,7 @@ class EvaluationResults:
     def add_method_results(self, project, method_name, method_traces, performance):
         """It adds the results of a specific IR variability_impl_technology to a given project."""
         # print('\nMethod traces - ' + method_name + ': ' + str(method_traces))
-        method_result = ProjectMethodMetricsResult(self.project_results[project].true_traces, method_traces, performance)
+        method_result = ProjectMethodMetricsResult(project, self.project_results[project].true_traces, method_name, method_traces, performance)
         self.project_results[project].method_results[method_name] = method_result
 
     def export_results(self):

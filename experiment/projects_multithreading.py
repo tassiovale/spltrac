@@ -83,7 +83,7 @@ class ProjectAnalysisThread(threading.Thread):
         bm25_thread.start()
 
         # Algebraic - classic vector model
-        # print('Step 4.5: running latent semantic index algorithm...')
+        # print('Step 4.4: running latent semantic index algorithm...')
         # lsi_thread = LSIThread(features_dictionary, pre_processor, self.project, self.evaluation_results)
         # lsi_thread.start()
 
