@@ -25,7 +25,7 @@ This module measures the IR methods according to their [precision, recall, F-mea
 * `files`: configuration files to support the IR methods and the standard procedures of the SPLTrac suite;
 * `information_retrieval_methods`: this package has the implemented IR algorithms (classic vector, latent semantic indexing, neural networks, extended boolean, and BM25); and
 * `product_line_projects`: source code for the SPL projects from [SPL2Go](http://spl2go.cs.ovgu.de/).
-* `preprocessor_projects`: source code for variant-rich projects from [Freecode.com](http://freecode.com/).
+* `preprocessor_projects`: source code for highly-configurable system projects from [Freecode.com](http://freecode.com/).
 
 ## How to use
 
