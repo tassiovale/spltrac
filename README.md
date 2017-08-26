@@ -54,4 +54,4 @@ This project was developed using [PyCharm Community Edition 2017.1.2](https://ww
 
 ### Run statistical scripts
 
-Download and install the R tool ([https://www.r-project.org/](https://www.r-project.org/)) to run all generated scripts in the `experiment/results` folder. More information about running R scripts can be found at [http://www.cookbook-r.com/Data_input_and_output/Running_a_script/](http://www.cookbook-r.com/Data_input_and_output/Running_a_script/). Existing results are available at the `experiment/results_v1.1` folder.
+Download and install the R tool ([https://www.r-project.org/](https://www.r-project.org/)) to run all generated scripts in the `experiment/results` folder. More information about running R scripts can be found at [http://www.cookbook-r.com/Data_input_and_output/Running_a_script/](http://www.cookbook-r.com/Data_input_and_output/Running_a_script/). Existing results are available at the `experiment/results_v1.2` folder.
