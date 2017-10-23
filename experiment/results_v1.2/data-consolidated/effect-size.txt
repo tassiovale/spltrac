@@ -1,0 +1,332 @@
+======= PRECISION =======
+
+General
+Hedges's g
+
+g estimate: 0.8013516 (large)
+95 percent confidence interval:
+      inf       sup 
+0.4979212 1.1047820 
+           Length Class   Mode     
+method     1      -none-  character
+name       1      -none-  character
+estimate   1      -none-  numeric  
+conf.int   2      -none-  numeric  
+conf.level 1      -none-  numeric  
+magnitude  1      ordered numeric  
+
+
+Classic vector
+Hedges's g
+
+g estimate: 1.92993 (large)
+95 percent confidence interval:
+     inf      sup 
+1.164932 2.694928 
+           Length Class   Mode     
+method     1      -none-  character
+name       1      -none-  character
+estimate   1      -none-  numeric  
+conf.int   2      -none-  numeric  
+conf.level 1      -none-  numeric  
+magnitude  1      ordered numeric  
+
+
+Extended boolean
+Hedges's g
+
+g estimate: 0.3252711 (small)
+95 percent confidence interval:
+       inf        sup 
+-0.3108621  0.9614044 
+           Length Class   Mode     
+method     1      -none-  character
+name       1      -none-  character
+estimate   1      -none-  numeric  
+conf.int   2      -none-  numeric  
+conf.level 1      -none-  numeric  
+magnitude  1      ordered numeric  
+
+
+Neural networks
+Hedges's g
+
+g estimate: 1.097384 (large)
+95 percent confidence interval:
+      inf       sup 
+0.4195408 1.7752269 
+           Length Class   Mode     
+method     1      -none-  character
+name       1      -none-  character
+estimate   1      -none-  numeric  
+conf.int   2      -none-  numeric  
+conf.level 1      -none-  numeric  
+magnitude  1      ordered numeric  
+
+
+BM25
+Hedges's g
+
+g estimate: 1.823337 (large)
+95 percent confidence interval:
+     inf      sup 
+1.071499 2.575176 
+           Length Class   Mode     
+method     1      -none-  character
+name       1      -none-  character
+estimate   1      -none-  numeric  
+conf.int   2      -none-  numeric  
+conf.level 1      -none-  numeric  
+magnitude  1      ordered numeric  
+
+
+
+
+======= RECALL =======
+
+General
+Hedges's g
+
+g estimate: 0.4879535 (small)
+95 percent confidence interval:
+      inf       sup 
+0.1916506 0.7842564 
+           Length Class   Mode     
+method     1      -none-  character
+name       1      -none-  character
+estimate   1      -none-  numeric  
+conf.int   2      -none-  numeric  
+conf.level 1      -none-  numeric  
+magnitude  1      ordered numeric  
+
+
+Classic vector
+Hedges's g
+
+g estimate: 2.383739 (large)
+95 percent confidence interval:
+     inf      sup 
+1.557366 3.210113 
+           Length Class   Mode     
+method     1      -none-  character
+name       1      -none-  character
+estimate   1      -none-  numeric  
+conf.int   2      -none-  numeric  
+conf.level 1      -none-  numeric  
+magnitude  1      ordered numeric  
+
+
+Extended boolean
+Hedges's g
+
+g estimate: -0.6572711 (medium)
+95 percent confidence interval:
+         inf          sup 
+-1.306070820 -0.008471443 
+           Length Class   Mode     
+method     1      -none-  character
+name       1      -none-  character
+estimate   1      -none-  numeric  
+conf.int   2      -none-  numeric  
+conf.level 1      -none-  numeric  
+magnitude  1      ordered numeric  
+
+
+Neural networks
+Hedges's g
+
+g estimate: 1.110099 (large)
+95 percent confidence interval:
+      inf       sup 
+0.4312233 1.7889738 
+           Length Class   Mode     
+method     1      -none-  character
+name       1      -none-  character
+estimate   1      -none-  numeric  
+conf.int   2      -none-  numeric  
+conf.level 1      -none-  numeric  
+magnitude  1      ordered numeric  
+
+
+BM25
+Hedges's g
+
+g estimate: -1.015389 (large)
+95 percent confidence interval:
+       inf        sup 
+-1.6868259 -0.3439517 
+           Length Class   Mode     
+method     1      -none-  character
+name       1      -none-  character
+estimate   1      -none-  numeric  
+conf.int   2      -none-  numeric  
+conf.level 1      -none-  numeric  
+magnitude  1      ordered numeric  
+
+
+
+
+======= F-MEASURE =======
+
+General
+Hedges's g
+
+g estimate: 0.8212759 (large)
+95 percent confidence interval:
+      inf       sup 
+0.5172825 1.1252694 
+           Length Class   Mode     
+method     1      -none-  character
+name       1      -none-  character
+estimate   1      -none-  numeric  
+conf.int   2      -none-  numeric  
+conf.level 1      -none-  numeric  
+magnitude  1      ordered numeric  
+
+
+Classic vector
+Hedges's g
+
+g estimate: 2.332885 (large)
+95 percent confidence interval:
+     inf      sup 
+1.513784 3.151985 
+           Length Class   Mode     
+method     1      -none-  character
+name       1      -none-  character
+estimate   1      -none-  numeric  
+conf.int   2      -none-  numeric  
+conf.level 1      -none-  numeric  
+magnitude  1      ordered numeric  
+
+
+Extended boolean
+Hedges's g
+
+g estimate: 0.01753412 (negligible)
+95 percent confidence interval:
+       inf        sup 
+-0.6144485  0.6495168 
+           Length Class   Mode     
+method     1      -none-  character
+name       1      -none-  character
+estimate   1      -none-  numeric  
+conf.int   2      -none-  numeric  
+conf.level 1      -none-  numeric  
+magnitude  1      ordered numeric  
+
+
+Neural networks
+Hedges's g
+
+g estimate: 1.20357 (large)
+95 percent confidence interval:
+      inf       sup 
+0.5167934 1.8903460 
+           Length Class   Mode     
+method     1      -none-  character
+name       1      -none-  character
+estimate   1      -none-  numeric  
+conf.int   2      -none-  numeric  
+conf.level 1      -none-  numeric  
+magnitude  1      ordered numeric  
+
+
+BM25
+Hedges's g
+
+g estimate: 1.980755 (large)
+95 percent confidence interval:
+     inf      sup 
+1.209302 2.752207 
+           Length Class   Mode     
+method     1      -none-  character
+name       1      -none-  character
+estimate   1      -none-  numeric  
+conf.int   2      -none-  numeric  
+conf.level 1      -none-  numeric  
+magnitude  1      ordered numeric  
+
+
+
+
+======= TIME BEHAVIOR =======
+
+General
+Hedges's g
+
+g estimate: -1.131725 (large)
+95 percent confidence interval:
+       inf        sup 
+-1.4460909 -0.8173585 
+           Length Class   Mode     
+method     1      -none-  character
+name       1      -none-  character
+estimate   1      -none-  numeric  
+conf.int   2      -none-  numeric  
+conf.level 1      -none-  numeric  
+magnitude  1      ordered numeric  
+
+
+Classic vector
+Hedges's g
+
+g estimate: -1.089197 (large)
+95 percent confidence interval:
+       inf        sup 
+-1.7663804 -0.4120126 
+           Length Class   Mode     
+method     1      -none-  character
+name       1      -none-  character
+estimate   1      -none-  numeric  
+conf.int   2      -none-  numeric  
+conf.level 1      -none-  numeric  
+magnitude  1      ordered numeric  
+
+
+Extended boolean
+Hedges's g
+
+g estimate: -1.069822 (large)
+95 percent confidence interval:
+      inf       sup 
+-1.745463 -0.394181 
+           Length Class   Mode     
+method     1      -none-  character
+name       1      -none-  character
+estimate   1      -none-  numeric  
+conf.int   2      -none-  numeric  
+conf.level 1      -none-  numeric  
+magnitude  1      ordered numeric  
+
+
+Neural networks
+Hedges's g
+
+g estimate: -1.067014 (large)
+95 percent confidence interval:
+       inf        sup 
+-1.7424333 -0.3915942 
+           Length Class   Mode     
+method     1      -none-  character
+name       1      -none-  character
+estimate   1      -none-  numeric  
+conf.int   2      -none-  numeric  
+conf.level 1      -none-  numeric  
+magnitude  1      ordered numeric  
+
+
+BM25
+Hedges's g
+
+g estimate: -1.088271 (large)
+95 percent confidence interval:
+      inf       sup 
+-1.765380 -0.411161 
+           Length Class   Mode     
+method     1      -none-  character
+name       1      -none-  character
+estimate   1      -none-  numeric  
+conf.int   2      -none-  numeric  
+conf.level 1      -none-  numeric  
+magnitude  1      ordered numeric

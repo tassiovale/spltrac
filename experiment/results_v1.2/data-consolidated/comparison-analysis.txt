@@ -15,29 +15,35 @@ mean of x mean of y
 
 Classic vector model preprocessor < Classic vector model SPL
 
-Welch Two Sample t-test
+Wilcoxon rank sum test
 
-data:  datapcv$fmeasure and datascv$fmeasure
-t = -7.5064, df = 28.4, p-value = 1.622e-08
-alternative hypothesis: true difference in means is less than 0
-95 percent confidence interval:
-       -Inf -0.2743224
-sample estimates:
-mean of x mean of y
-0.1906912 0.5453490
+data:  data_classic_vector1$fmeasure and data_classic_vector2$fmeasure
+W = 411, p-value = 3.604e-10
+alternative hypothesis: true location shift is greater than 0
 
 Neural networks preprocessor < Neural networks SPL
 
-Welch Two Sample t-test
+Wilcoxon rank sum test
 
-data:  datapnn$fmeasure and datasnn$fmeasure
-t = -3.8676, df = 27.125, p-value = 0.0003119
-alternative hypothesis: true difference in means is less than 0
-95 percent confidence interval:
-       -Inf -0.1019393
-sample estimates:
-mean of x mean of y
-0.3620218 0.5441627
+data:  data_neural_network1$fmeasure and data_neural_network2$fmeasure
+W = 337, p-value = 0.0003202
+alternative hypothesis: true location shift is greater than 0
+
+Extended boolean preprocessor < Extended boolean SPL
+
+Wilcoxon rank sum test
+
+data:  data_extended_boolean1$fmeasure and data_extended_boolean2$fmeasure
+W = 210, p-value = 0.5051
+alternative hypothesis: true location shift is greater than 0
+
+BM25 preprocessor < BM25 SPL
+
+Wilcoxon rank sum test
+
+data:  data_bm251$fmeasure and data_bm252$fmeasure
+W = 396, p-value = 2.719e-08
+alternative hypothesis: true location shift is greater than 0
 
 
 
